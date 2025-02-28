@@ -20,8 +20,8 @@ A chatbot designed to answer "how-to" questions related to Customer Data Platfor
 
 1. Clone the repository:
 ```
-git clone https://github.com/yourusername/cdp-support-agent.git
-cd cdp-support-agent
+git clone https://github.com/prtmsh/cdp-chatbot.git
+cd cdp-chatbot
 ```
 
 2. Create a virtual environment:
