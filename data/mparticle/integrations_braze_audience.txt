@@ -1,0 +1,120 @@
+DOCSDOCSHomeGuidesDevelopersIntegrationsChangelogSign UpDocumentationDevelopersAPI ReferencesPlatform APIPlatform API OverviewAccountsAppsAudiencesCalculated AttributesData PointsFeedsField TransformationsServicesUsersWorkspacesData Subject Request APIData Subject Request API Version 1 and 2Data Subject Request API Version 3Warehouse Sync APIWarehouse Sync API OverviewWarehouse Sync API TutorialWarehouse Sync API ReferenceData MappingWarehouse Sync SQL ReferenceWarehouse Sync Troubleshooting GuideComposeIDWarehouse Sync API v2 MigrationCalculated Attributes Seeding APIBulk Profile Deletion API ReferenceCustom Access Roles APIData Planning APIGroup Identity API ReferencePixel ServiceProfile APIEvents APImParticle JSON Schema ReferenceIDSyncClient SDKsAMPAMP SDKAndroidInitializationConfigurationNetwork Security ConfigurationEvent TrackingUser AttributesIDSyncScreen EventsCommerce EventsLocation TrackingMediaKitsApplication State and Session ManagementData Privacy ControlsError TrackingOpt OutPush NotificationsWebView IntegrationLoggerPreventing Blocked HTTP Traffic with CNAMELinting Data PlansTroubleshooting the Android SDKAPI ReferenceUpgrade to Version 5CordovaCordova PluginIdentityDirect Url RoutingDirect URL Routing FAQWebAndroidiOSFlutterGetting StartedUsageAPI ReferenceiOSInitializationConfigurationEvent TrackingUser AttributesIDSyncScreen TrackingCommerce EventsLocation TrackingMediaKitsApplication State and Session ManagementData Privacy ControlsError TrackingOpt OutPush NotificationsWebview IntegrationUpload FrequencyApp ExtensionsPreventing Blocked HTTP Traffic with CNAMELinting Data PlansTroubleshooting iOS SDKSocial NetworksiOS 14 GuideiOS 15 FAQiOS 16 FAQiOS 17 FAQiOS 18 FAQAPI ReferenceUpgrade to Version 7RokuGetting StartedIdentityMediaReact NativeGetting StartedIdentityUnityUpload FrequencyGetting StartedOpt OutInitialize the SDKEvent TrackingCommerce TrackingError TrackingScreen TrackingIdentityLocation TrackingSession ManagementXboxGetting StartedIdentityWebInitializationConfigurationContent Security PolicyEvent TrackingUser AttributesIDSyncPage View TrackingCommerce EventsLocation TrackingMediaKitsApplication State and Session ManagementData Privacy ControlsError TrackingOpt OutCustom LoggerPersistenceNative Web ViewsSelf-HostingMultiple InstancesWeb SDK via Google Tag ManagerPreventing Blocked HTTP Traffic with CNAMEFacebook Instant ArticlesTroubleshooting the Web SDKBrowser CompatibilityLinting Data PlansAPI ReferenceUpgrade to Version 2 of the SDKXamarinGetting StartedIdentityWebAlexaMedia SDKsAndroidiOSWebToolsmParticle Command Line InterfaceLinting ToolsSmartypeServer SDKsNode SDKGo SDKPython SDKRuby SDKJava SDKQuickstartAndroidOverviewStep 1. Create an inputStep 2. Verify your inputStep 3. Set up your outputStep 4. Create a connectionStep 5. Verify your connectionStep 6. Track eventsStep 7. Track user dataStep 8. Create a data planStep 9. Test your local appHTTP Quick StartStep 1. Create an inputStep 2. Create an outputStep 3. Verify outputiOS Quick StartOverviewStep 1. Create an inputStep 2. Verify your inputStep 3. Set up your outputStep 4. Create a connectionStep 5. Verify your connectionStep 6. Track eventsStep 7. Track user dataStep 8. Create a data planJava Quick StartStep 1. Create an inputStep 2. Create an outputStep 3. Verify outputNode Quick StartStep 1. Create an inputStep 2. Create an outputStep 3. Verify outputPython Quick StartStep 1. Create an inputStep 2. Create an outputStep 3. Verify outputWebOverviewStep 1. Create an inputStep 2. Verify your inputStep 3. Set up your outputStep 4. Create a connectionStep 5. Verify your connectionStep 6. Track eventsStep 7. Track user dataStep 8. Create a data planGuidesPartnersIntroductionOutbound IntegrationsOutbound IntegrationsFirehose Java SDKInbound IntegrationsKit IntegrationsOverviewAndroid Kit IntegrationJavaScript Kit IntegrationiOS Kit IntegrationCompose IDData Hosting LocationsGlossaryMigrate from Segment to mParticleMigrate from Segment to mParticleMigrate from Segment to Client-side mParticleMigrate from Segment to Server-side mParticleSegment-to-mParticle Migration ReferenceRules Developer GuideAPI Credential ManagementThe Developer's Guided Journey to mParticleGuidesGetting StartedCreate an InputStart capturing dataConnect an Event OutputCreate an AudienceConnect an Audience OutputTransform and Enhance Your DataPersonalizationIntroductionProfilesAudiencesAudiences OverviewCreate an AudienceConnect an AudienceManage AudiencesReal-time Audiences (Legacy)Standard Audiences (Legacy)Calculated AttributesCalculated Attributes OverviewUsing Calculated AttributesCreate with AI AssistanceCalculated Attributes ReferencePredictive AudiencesPredictive Audiences OverviewUsing Predictive AudiencesJourneysJourneys OverviewManage JourneysDownload an audience from a journeyAudience A/B testing from a journeyJourneys 2.0Predictive AttributesWhat are predictive attributes?Predict Future BehaviorCreate Future PredictionUse Future Predictions in CampaignsAssess and Troubleshoot PredictionsNext Best ActionNext Best Action OverviewCreate a Next Best Action (NBA)View and Manage NBAsActivate Next Best Actions in CampaignsPlatform GuideBillingUsage and Billing ReportThe New mParticle ExperienceThe new mParticle ExperienceThe Overview MapObservabilityObservability OverviewObservability User GuideObservability Troubleshooting ExamplesObservability Span GlossaryIntroductionData RetentionConnectionsActivityLive StreamData FilterRulesTiered EventsmParticle Users and RolesAnalytics Free TrialTroubleshooting mParticleUsage metering for value-based pricing (VBP)AnalyticsIntroductionSetupSync and Activate Analytics User Segments in mParticleUser Segment ActivationWelcome Page AnnouncementsSettingsProject SettingsRoles and TeammatesOrganization SettingsGlobal Project FiltersPortfolio AnalyticsAnalytics Data ManagerAnalytics Data Manager OverviewEventsEvent PropertiesUser PropertiesRevenue MappingExport DataUTM GuideQuery BuilderData DictionaryQuery Builder OverviewModify Filters With And/Or ClausesQuery-time SamplingQuery NotesFilter Where ClausesEvent vs. User PropertiesGroup By ClausesAnnotationsCross-tool CompatibilityApply All for Filter Where ClausesDate Range and Time Settings OverviewUser Attributes at Event TimeUnderstanding the Screen View EventAnalysesAnalyses IntroductionSegmentation: BasicsGetting StartedVisualization OptionsFor ClausesDate Range and Time SettingsCalculatorNumerical SettingsSegmentation: AdvancedAssisted AnalysisProperties ExplorerFrequency in SegmentationTrends in SegmentationDid [not] Perform ClausesCumulative vs. Non-Cumulative Analysis in SegmentationTotal Count of vs. Users Who PerformedSave Your Segmentation AnalysisExport Results in SegmentationExplore Users from SegmentationFunnels: BasicsGetting Started with FunnelsGroup By SettingsConversion WindowTracking PropertiesDate Range and Time SettingsVisualization OptionsInterpreting a Funnel AnalysisFunnels: AdvancedGroup ByFiltersConversion over TimeConversion OrderTrendsFunnel DirectionMulti-path FunnelsAnalyze as Cohort from FunnelSave a Funnel AnalysisExplore Users from a FunnelExport Results from a FunnelCohortsGetting Started with CohortsAnalysis ModesSave a Cohort AnalysisExport ResultsExplore UsersSaved AnalysesManage Analyses in DashboardsJourneysGetting StartedEvent MenuVisualizationEnding EventSave a Journey AnalysisUsersGetting StartedUser Activity TimelinesTime SettingsExport ResultsSave A User AnalysisDashboardsDashboards––Getting StartedManage DashboardsDashboard FiltersOrganize DashboardsScheduled ReportsFavoritesTime and Interval Settings in DashboardsQuery Notes in DashboardsUser AliasingAnalytics ResourcesThe Demo EnvironmentKeyboard ShortcutsTutorialsAnalytics for MarketersAnalytics for Product ManagersCompare Conversion Across Acquisition SourcesAnalyze Product Feature UsageIdentify Points of User FrictionTime-based Subscription AnalysisDashboard Tips and TricksUnderstand Product StickinessOptimize User Flow with A/B TestingUser SegmentsAPIsUser Segments Export APIDashboard Filter APIIDSyncIDSync OverviewUse Cases for IDSyncComponents of IDSyncStore and Organize User DataIdentify UsersDefault IDSync ConfigurationProfile Conversion StrategyProfile Link StrategyProfile Isolation StrategyBest Match StrategyAliasingData MasterGroup IdentityOverviewCreate and Manage Group DefinitionsIntroductionCatalogLive StreamData PlansData PlansBlocked Data Backfill GuideWarehouse SyncData Privacy ControlsData Subject RequestsDefault Service LimitsFeedsCross-Account Audience SharingApproved Sub-ProcessorsImport Data with CSV FilesImport Data with CSV FilesCSV File ReferenceGlossaryVideo IndexAnalytics (Deprecated)Identity ProvidersSingle Sign-On (SSO)Setup ExamplesSettingsDebug ConsoleData Warehouse Delay AlertingIntroductionDeveloper DocsIntroductionIntegrationsIntroductionRudderstackGoogle Tag ManagerSegmentData Warehouses and Data LakesAdvanced Data Warehouse SettingsAWS Kinesis (Snowplow)AWS Redshift (Define Your Own Schema)AWS S3 Integration (Define Your Own Schema)AWS S3 (Snowplow Schema)BigQuery (Snowplow Schema)BigQuery Firebase SchemaBigQuery (Define Your Own Schema)GCP BigQuery ExportSnowflake (Snowplow Schema)Snowplow Schema OverviewSnowflake (Define Your Own Schema)APIsREST APIDashboard Filter API (Deprecated)User Segments Export API (Deprecated)SDKsSDKs IntroductionReact NativeiOSAndroidJavaJavaScriptPythonObject APIDeveloper BasicsAliasingIntegrations24iEventAarkiAudienceAbakusEventAdChemixEventABTastyAudienceActableFeedAdikteevAudienceEventAdjustFeedEventAdobe Marketing CloudCookie SyncPlatform SDK EventsServer-to-Server EventsAdobe Audience ManagerAudienceAdobe Campaign ManagerAudienceAdobe TargetAudienceAgilOneEventAdMediaAudienceAirshipAudienceEventFeedAdPredictiveFeedAlgoliaEventAlgoLiftEventFeedAloomaEventAmazon KinesisEventAmazon AdvertisingAudienceAmazon RedshiftData WarehouseAmazon S3EventAmazon Kinesis FirehoseAudienceEventAmazon SNSEventAmazon SQSEventAmobeeAudienceAmplitudeEventForwarding Data Subject RequestsAmpushAudienceEventAnalyticsAudienceEventForwarding Data Subject RequestsAnodotEventAntavoFeedApptentiveEventAppsFlyerEventForwarding Data Subject RequestsFeedApptimizeEventApteligentEventAttentiveEventFeedMicrosoft Azure Blob StorageEventAttractorEventBatchAudienceEventBideaseAudienceBing AdsEventBluecoreEventBluedotFeedBlueshiftEventFeedForwarding Data Subject RequestsBranchEventForwarding Data Subject RequestsFeedBranch S2S EventEventBrazeAudienceFeedForwarding Data Subject RequestsEventBugsnagEventButtonAudienceEventCadentAudienceCensusFeedciValueEventFeedCleverTapAudienceEventFeedcomScoreEventConversantEventCordialAudienceFeedCortexEventFeedForwarding Data Subject RequestsCrossing MindsEventCriteoAudienceEventCustom FeedCustom FeedCustomerGluEventFeedCustomer.ioAudienceEventFeedDatabricksData WarehouseDidomiEventDatadogEventDynamic YieldEventAudienceDynalystAudienceEdge226AudienceEmarsysAudienceEpsilonEventEverflowAudienceFacebook Offline ConversionsEventFacebookAudienceEventFiksuAudienceEventGoogle Analytics for FirebaseEventFlurryEventFlybitsEventForeSeeEventFormationEventFeedFoursquareFeedAudienceFreeWheel Data SuiteAudienceGoogle Ad ManagerAudienceGoogle AdsAudienceEventGoogle AnalyticsEventGoogle Analytics 4EventGoogle Cloud StorageAudienceEventGoogle BigQueryAudienceData WarehouseGoogle Enhanced ConversionsEventGoogle Marketing PlatformCookie SyncAudienceEventGoogle Marketing Platform Offline ConversionsEventGoogle Pub/SubEventGoogle Tag ManagerEventHeapEventHerowFeedHightouchFeedHyperlocologyEventIbottaEventImpactEventInMobiAudienceEventIndicativeAudienceEventInMarketAudienceIntercomEventInsiderEventAudienceFeedInspectletEventiPostAudienceFeedIterableAudienceFeedEventironSourceAudienceJamppAudienceEventKafkaEventKayzenAudienceEventKissmetricsEventKlaviyoEventAudienceKubitEventKochavaEventForwarding Data Subject RequestsFeedLaunchDarklyFeedLeanplumEventFeedAudienceLifeStreetAudienceLiftoffEventAudienceLiveLikeEventLiverampAudienceLocalyticsEventmAdme TechnologiesEventMadHiveAudienceMailchimpFeedAudienceEventMauticEventAudienceMarigoldAudienceMediaMathAudienceMediasmartAudienceMicrosoft Azure Event HubsEventMintegralAudienceMixpanelAudienceEventForwarding Data Subject RequestsMolocoAudienceEventMoEngageAudienceEventFeedMonetateEventMovable InkEventMovable Ink - V2EventmyTargetAudienceEventNami MLFeedMultipliedEventNanigansEventNarrativeAudienceEventFeedNCR AlohaEventNeuraEventOneTrustEventOptimizelyAudienceEventOracle BlueKaiEventOracle ResponsysAudienceEventPaytronixFeedPersona.lyAudiencePieEyeInbound Data Subject RequestsPersonify XPEventPilgrimEventFeedPlarinEventPinterestAudienceEventPostieAudienceEventPunchhAudienceEventFeedAppLovinAudienceEventPrimerEventQuantcastEventPushwooshEventAudienceRadarEventFeedRedditAudienceEventRegalEventRemergeAudienceEventRetina AIEventFeedReveal MobileEventRevenueCatFeedRoktAudienceEventRTB HouseAudienceEventSalesforce EmailAudienceFeedEventSailthruAudienceEventSalesforce Mobile PushEventSamba TVAudienceEventScalarrEventSessionMEventFeedSendGridAudienceFeedShareThisAudienceFeedShopifyCustom PixelFeedSignalEventSingularFeedEventSimpleReachEventSingular-DEPRECATEDEventSkyhookEventSmadexAudienceSlackEventSmarterHQEventSnapchatAudienceEventSnapchat ConversionsEventSnowplowEventSplitEventFeedSplunk MINTEventSnowflakeData WarehouseSprigEventAudienceStartAppAudienceStatsigFeedEventStormlyAudienceEventTalon.OneAudienceEventFeedLoyalty FeedSwrveEventFeedTapadAudienceTapjoyAudienceTaplyticsEventTapticaAudienceTeakAudienceThe Trade DeskAudienceCookie SyncEventTicketureFeedTikTok EventAudienceAudience (Deprecated)EventAudience MigrationTreasure DataAudienceEventTUNEEventTriton DigitalAudienceValidEventTwitterAudienceEventVkontakteAudienceVoucherifyAudienceEventVungleAudienceWebhookEventWebtrendsEventWhite Label LoyaltyEventWootricEventXandrCookie SyncAudienceYahoo (formerly Verizon Media)AudienceCookie SyncYotpoFeedYouAppiAudienceZendeskEventFeedQuadratic LabsEventZ2A DigitalEventAudienceQualtricsEventAudienceBraze is a comprehensive customer engagement platform that powers relevant experiences between consumers and brands they love. Braze helps brands foster human connection through interactive conversations across channels.
+mParticle audiences correspond to Braze’s Segments feature and can be used to target engagement campaigns in Braze.
+Prerequisites
+In order to activate our Braze integration, you’re going to need the API key for each app that you’d like to set up, which can be found by logging into your Braze account and navigating to your app’s settings. You will also need to create an App Group REST API Key in the Developer Console.
+Braze Instance
+Braze maintains several instances. As part of the Configuration Settings, you need to specify which one your data should be forwarded to.
+You can tell your Braze Instance from the URL of your Braze Dashboard.
+Instance
+Dashboard URL
+US 01 Cluster
+https://dashboard-01.braze.com
+US 02 Cluster
+https://dashboard-02.braze.com
+US 03 Cluster
+https://dashboard-03.braze.com
+US 04 Cluster
+https://dashboard-04.braze.com
+US 05 Cluster
+https://dashboard-05.braze.com
+US 06 Cluster
+https://dashboard-06.braze.com
+US 08 Cluster
+https://dashboard-08.braze.com
+EU 01 Cluster
+https://dashboard-01.braze.eu
+EU 02 Cluster
+https://dashboard-02.braze.eu
+Check with your Braze account manager if you are unsure which Braze instance you are using.
+There is also the ability to specify a Custom instance, which allows you to specify separate endpoints for REST, SDK and Javascript.
+Important: Your Custom Endpoint settings should be your URL's Authority. For example: sdk.iad-01.braze.com, not https://sdk.iad-01.braze.com.
+Using https:// or a trailing / in your endpoint address will cause errors.
+User Identity Mapping
+mParticle will attempt to match users in Braze based on IDFAs, Android Device IDs, and a customizable External User ID field, which uniquely identifies a user in Braze. You can set which Identity Type to use as the External User ID in the Configuration Settings. Your External User ID should be a unique, permanent identifier — usually Customer ID or Email. If you are also using the Event integration, make sure you set the same External User ID across both integrations.
+Forwarding Audiences
+The Braze API does not allow mParticle to directly create and maintain membership of segments in Braze, so the Audience integration works by setting attributes on a user, which you can then use to define a corresponding segment in Braze. Like mParticle, Braze populates it’s Segment Manager based on the actual data points received, so you need to create audiences in mParticle and connect them to Braze first. Then, provided your audience is not empty, the segment membership attributes should become available in the Braze Segment Manager within a few minutes.
+mParticle offers seven ways to set segment membership attributes, controlled by the Send Segments As Configuration Setting. The drop-down has the following options:
+Single String Attribute (default)
+Single Array Attribute
+One Attribute Per Segment
+Both Single Array Attribute and Single String Attribute
+Both Single Array Attribute and One Attribute Per Segment
+Both Single String Attribute and One Attribute Per Segment
+Single Array Attribute, Single String Attribute, and One Attribute Per Segment
+These options will be explained in further detail below.
+Sample Audience Membership
+Note that Audience IDs can be found in the main Audience list view.
+For example, note the Audience IDs for these three audiences:
+13053
+13052
+13051
+Single String Attribute
+Warning: Braze string attributes have a max length of 255 characters. If your users' audience memberships are being truncated, choose one of the options involving `Single Array Attribute` instead.
+This is the default behavior.
+mParticle creates a single custom attribute in Braze for each user, called SegmentMembership. The value of this attribute is a comma-separated string of mParticle audience IDs that match the user.
+Using the above examples, a user who is a member of Test Audience 1, Test Audience 2, and Test Audience 3 will show the attribute SegmentMembership with a value of "'13053','13052', '13051'" in Braze.
+See the Sample Braze Profile for an example.
+To target members of Test Audience 1, for example, you need to create a matching segment in Braze using the mParticle Audience ID,
+with the filter SegmentMembership — matches regex — 13051. It’s important to choose the matches regex option, and not equals, or users with membership in more than one audience will not be matched.
+Warning: Do not select `Single Attribute` for multiple configurations using the same credentials and cluster. Each configuration will send its own set of audience IDs to the same profile in Braze which will cause them to overwrite each other. If you need to use multiple configurations, please use the `Single Attribute` for at most one configuration and use `One Attribute Per Segment` for others.
+Single Array Attribute
+Warning: Braze array attributes have a max length of 25. If any of your users are members of >25 audiences, membership info will be truncated by Braze. To work around this, contact your Braze representative to increase your max array length threshold.
+mParticle creates a single custom array attribute in Braze for each user, called SegmentMembershipArray. The value of this attribute is an array of mParticle audience IDs that match the user.
+Using the above examples, a user who is a member of Test Audience 1, Test Audience 2, and Test Audience 3 will show the attribute SegmentMembershipArray with a value of ["13053","13052", "13051"] in Braze. Note, however, that Braze parses array attributes to make them more readable.
+See the Sample Braze Profile for an example.
+To target members of Test Audience 1, for example, you need to create a matching segment in Braze with the filter SegmentMembershipArray — includes value — 13051
+One Attribute Per Segment
+mParticle creates a custom attribute in Braze for each audience that a user belongs to, based on the External Name of the audience.
+Using the above examples, a user who is a member of audience Test Audience 1 will show the attribute In Test Audience 1 is true in Braze.
+To target members of Test Audience 1, for example, you need to create a matching segment in Braze with the filter In Test Audience 1 — equals — true.
+Both Single Array Attribute and Single String Attribute
+mParticle will send attributes as described by both Single Array Attribute and Single String Attribute.
+Both Single Array Attribute and One Attribute Per Segment
+mParticle will send attributes as described by both Single Array Attribute and One Attribute Per Segment.
+Both Single String Attribute and One Attribute Per Segment
+mParticle will send attributes as described by both Single String Attribute and One Attribute Per Segment.
+Single Array Attribute, Single String Attribute, and One Attribute Per Segment
+mParticle will send attributes as described by Single Array Attribute, Single String Attribute and One Attribute Per Segment.
+Sample Braze Profile
+Here is a sample Braze profile with all options enabled.
+Deactivating and Deleting Connections
+Since mParticle does not directly maintain segments in Braze, it will not delete segments when the corresponding mParticle audience connection is deleted or deactivated. When this happens, mParticle will not update the audience user attributes in Braze to remove the audience from each user.
+Deleting an Audience
+Deleting an audience does not remove the custom attributes in Braze.
+Configuration Settings
+Setting Name
+Data Type
+Default Value
+Description
+API Key
+string
+Your app’s API Key can be found in your Braze dashboard.
+API Key Operating System
+enum
+Unselected
+Select which operating system your Braze API key corresponds to. This selection will limit the types of push tokens that will be forwarded on an audience update.
+Send Segments As
+enum
+Single String Attribute
+The method of sending audiences to Braze. Audience membership can be uploaded as a custom attribute containing comma-separated audience IDs, a custom array attribute containing audience IDs, and / or one attribute per audience with a boolean value to indicate membership. Warning: If multiple configurations use the same credentials and cluster, options involving single attributes may cause values to be overwritten on Braze’s end.
+App Group REST API Key
+string
+The App Group REST API Key can be found in the developer console section of the Braze dashboard.
+External Identity Type
+enum
+Customer ID
+The mParticle User Identity type to forward as an External ID to Braze.
+Email Identity Type
+enum
+Email
+The mParticle User Identity Type to forward as the Email to Braze.
+Braze Instance
+enum
+US 03 Cluster
+Specify which cluster your Braze data will be forwarded to. Please ensure you are contractually authorized to use the EU cluster if you select that option. If you choose ‘Custom’, you will need to provide separate endpoints for your SDK, Server, and Web data.
+Forward Push Tokens
+bool
+True
+If enabled, mParticle will forward user Push Tokens to Braze.
+Last Updated: February 27, 2025DOCSLast Updated:
+2/27/2025, 7:45:31 PMCDPmParticle DocsHomeGuidesDevelopersIntegrationsAnalyticsAnalytics DocsOverviewGetting StartedDevelopersExpert TrainingPredictive AICortex DocsOverviewGetting StartedDevelopersUsing CortexLearn MoreBlogPodcastResourcesCommunityChange logGet in TouchHelp CenterDemoBecome a Partner© 2025 mParticle, Inc. All rights reserved.mParticle.comPrivacy PolicyCookie PolicyDo Not Sell or Share My Personal Data

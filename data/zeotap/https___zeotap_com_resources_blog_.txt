@@ -1,0 +1,130 @@
+Blogs Archives | Zeotap
+Solutions
+Zeotap CDP Solutions
+Acquisition & GrowthCustomer Experience and PersonalisationLoyalty & RetentionPredictive Insights and
+Customer AnalyticsData Collection and Privacy
+Industries
+RetailTelcoMediaRetail MediaFinancial ServicesSports & EntertainmentAutomotive
+Platform
+Zeotap CDP Modules
+OverviewIntegrateUnifySegmentOrchestrateAnalyseProtect
+Zeotap CDP Features
+OverviewCustomer 360 ViewPredictive AudiencesOmnichannel JourneyConsent OrchestrationPrivacy & GDPRIntegrations
+Get started
+Subscription PlansDeployment Options
+Partners
+Our PartnersGoogle Cloud PartnershipZeotap Partner Network
+Resources
+AllBlogCase studiesVideosWhitepapersCDP SupportDeveloper Documentation
+Company
+About UsPrivacy and SecurityWhy Zeotap CDPWhy Zeotap DataCareers at ZeotapNewsEventsContact us
+LoginGet A Demo
+close_03
+Hit enter to search or click X to close
+Login
+Get a Demo
+Zeotap Blog
+Your hub for the latest on customer intelligence, data insights and more
+Elevating Personalisation with Zeotap CDP’s Interact SDK: Enabling Real-Time Customer Engagement
+December 3, 2024
+Delivering personalised experiences is essential for building customer loyalty and driving meaningful engagement. At Zeotap, we understand the challenges many businesses face with traditional server-side personalisation tools, including latency issues and limited adaptability. Recognising these hurdles, we developed Interact SDK—a cutting-edge client-side solution designed to empower personalisation tools with real-time, seamless
+Read More ▸
+All Categories
+Opinion  (79)
+Uncategorized  (7)
+Zeotap CDP  (75)
+Zeotap Data  (7)
+Zeotap ID+  (3)
+Elevating Personalisation with Zeotap CDP’s Interact SDK: Enabling Real-Time Customer Engagement
+December 3, 2024
+Delivering personalised experiences is essential for building customer loyalty and driving meaningful engagement. At Zeotap,
+Read More ▸
+Boosting Match Rates and Engagement with Zeotap CDP
+November 22, 2024
+In an era where customer data is dispersed and fragmented, achieving high audience match rates
+Read More ▸
+Maximising Retail ROAS and Reach with Zeotap CDP
+November 22, 2024
+In today’s competitive retail landscape, brands are under immense pressure to drive efficient, targeted campaigns
+Read More ▸
+AI Compliance: Navigating the Future of Responsible AI at Zeotap
+September 20, 2024
+As Artificial Intelligence (AI) rapidly transforms industries, businesses are increasingly leveraging its power to enhance
+Read More ▸
+Zeotap Redefines Journey Creation: Leveraging Non-Customer Entity Data in Real Time
+September 20, 2024
+Businesses need seamless access to both customer and non-customer data to meet the evolving demands
+Read More ▸
+Best-of-Breed vs Best-of-Suite CDPs: Which is Right for Your Business?
+August 27, 2024
+Customer Data Platforms (CDPs) consolidate and manage customer data from various sources, enabling companies to gain
+Read More ▸
+7 Ways to Get Business Value from a CDP
+August 26, 2024
+In today’s competitive landscape, leveraging technology effectively is crucial for business success. A Customer Data Platform
+Read More ▸
+7 Key Customer Data Platform (CDP) Trends in 2024
+August 6, 2024
+In the digital age, the ability to effectively manage and utilise customer data is crucial
+Read More ▸
+What Is A Customer Data Platform (CDP)? A Complete Guide
+July 30, 2024
+Today’s customer journeys are more complex than ever. The majority of shoppers follow a zig-zagging path
+Read More ▸
+Page1
+Page2
+Page3
+Page4
+Page5
+Sign up for our newsletter
+Be the first to get access to our marketing resources and keep up to date with the latest CDP best practices, privacy standards, marketing, and customer data.
+Industry recognitions
+Trusted by
+What our customers say
+"Based on my experience, I can honestly say Zeotap’s platform is without equal. Brands can happily jettison a complex and
+inefficient patchwork of point solutions in favour of their unified stack for all data-related activities."
+Kay SchwabedalChief Digital Officer, Virgin Media O2
+"Zeotap has always set the bar when it comes to quality and security. It is part of their DNA."
+Steffen Roehnformer CIO, Deutsche Telekom
+"Being the data centre for the entire EMEA region, we have found Zeotap to be the right partner to improve our customer data intelligence and the service we provide to our clients."
+Jordi UrbeaChief Revenue Officer, Ogilvy
+"Zeotap is a strategic partner of Google Cloud in EMEA, driving
+additional value and improved experience for our customers with
+GCP. We realise that leveraging first-party data to drive digital
+transformation and omni-channel personalisation is top of mind for
+retailers - while also ensuring the best-possible privacy and
+security. We believe Zeotap - with its roots in Germany - is an
+expert and reliable partner to help navigate the first-party data
+opportunity."
+Adaire Martin-FoxPresident of Google Cloud International and Head of Google Ireland
+Get a demo
+Step into a new era of marketing possibilities, unleashing the full potential of your customer data. Experience the power of Zeotap CDP.
+GET A DEMO
+Follow us
+Facebook-f
+Twitter
+Linkedin-in
+Sign up for our newsletter
+Be the first to get access to our marketing resources and keep up to date with the latest CDP best practices, privacy standards, marketing, and customer data.
+Get a demo
+Step into a new era of marketing possibilities, unleashing the full potential of your customer data. Experience the power of Zeotap CDP.
+GET A DEMO
+Follow us
+Facebook-f
+Twitter
+Linkedin-in
+©2024 Zeotap All Rights Reserved
+Website Privacy Policy
+Product and Service Privacy Policy
+Vulnerability Disclosure Policy
+Information Security Policy Statement
+Legal Notice
+Legal Hub
+Zeotap Whistleblowing Channel
+Website Privacy Policy
+Product and Service Privacy Policy
+Vulnerability Disclosure Policy
+Information Security Policy Statement
+Legal Notice
+Legal Hub
+Zeotap Whistleblowing Channel

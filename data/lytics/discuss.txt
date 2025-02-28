@@ -1,0 +1,13 @@
+Community
+Jump to ContentHomeDocumentationAPI ReferenceProduct UpdatesCommunityv2.0v2.1v3.0Log InCommunityLog Inv3.0HomeDocumentationAPI ReferenceProduct UpdatesCommunitySearchCommunityAsk a Question 0 1What are the best practices for deploying the Lytics Javascript tag with respect to cookie compliance regulations?How can I ensure that users have consented to cookies when loading the Lytics Javascript tag? Can I do this with tools like OneTrust or Google Tag Manager?Posted by Nick Brooks 1 day ago
+0 1ANSWEREDIntegration with Salesforce Commerce CloudIs there a direct Lytics integration with Salesforce Commerce Cloud?Posted by Sean McMahon about 1 month ago
+1 1ANSWEREDCookie sync to activate anonymous audiencesCan Lytics do cookie sync to activate anonymous audiences?Posted by Sean McMahon about 1 month ago
+0 1ANSWEREDIntegration with PowerBI?Do you have a direct integration with PowerBI?Posted by Sean McMahon about 1 month ago
+0 2ANSWEREDHow to manage multiple environmentsDoes Lytics have logically separated environments within an instance so that you can share some data source, but keep other separate for different brands, regions, or b2b vs b2c
+(basically like salesforce data cloud's data spaces)?Posted by Sean McMahon about 1 month ago
+1 1ANSWEREDDoes Lytics provide OOTB probabilistic matchingDoes Lytics provide OOTB probabilistic matchingPosted by Sean McMahon about 1 month ago
+0 1ANSWEREDDoes Lytics have any features for support dev ops
+and promoting from lower to higher environments (dev/stage/prod)Does Lytics have any features for support dev ops and promoting from lower to higher environments (dev/stage/prod)Posted by Sean McMahon about 1 month ago
+0 0JS event or function when campaign loadsIs there a way for me to know that the campaign has loaded on my site? Is there any hook to tie into?Posted by yair gelb about 2 months ago
+0 0how to post json data by using this API callwhat are the changes of API call https://api.lytics.io/collect/json/stream?dryrun=false and how to post json data by using this API call?Posted by Sandya 3 months ago
+0 2ANSWEREDDoes Lytics support PDPA compliance?Hi Team,Posted by Raghavendra kumar 3 months ago FAQsRecentUnansweredaudiencesbest practicescompetitivecompliancecssdata exportdata sciencedeploymentdeveloperdeveloper tierexperiencesflickerga4graphical databaseinternationalizationloginmergeoppersonalization enginepersonalization sdkprivacyprivate instanceregion controlrollupschemasdksecurity1 of 16

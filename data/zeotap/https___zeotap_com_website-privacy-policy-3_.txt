@@ -1,0 +1,191 @@
+Privacy Policy | Zeotap
+Solutions
+Zeotap CDP Solutions
+Acquisition & GrowthCustomer Experience and PersonalisationLoyalty & RetentionPredictive Insights and
+Customer AnalyticsData Collection and Privacy
+Industries
+RetailTelcoMediaRetail MediaFinancial ServicesSports & EntertainmentAutomotive
+Platform
+Zeotap CDP Modules
+OverviewIntegrateUnifySegmentOrchestrateAnalyseProtect
+Zeotap CDP Features
+OverviewCustomer 360 ViewPredictive AudiencesOmnichannel JourneyConsent OrchestrationPrivacy & GDPRIntegrations
+Get started
+Subscription PlansDeployment Options
+Partners
+Our PartnersGoogle Cloud PartnershipZeotap Partner Network
+Resources
+AllBlogCase studiesVideosWhitepapersCDP SupportDeveloper Documentation
+Company
+About UsPrivacy and SecurityWhy Zeotap CDPWhy Zeotap DataCareers at ZeotapNewsEventsContact us
+LoginGet A Demo
+close_03
+Hit enter to search or click X to close
+Login
+Get a Demo
+ZEOTAP.COM WEBSITE PRIVACY POLICY
+zeotap GmbH (“Zeotap,” “us,” “we,” or “our”) is a company that offers the next-generation Customer Data Platform. It empowers brands to unify, enhance and activate customer data in a cookieless future, all while putting consumer privacy and compliance front-and-centre. For more information about Zeotap’s privacy practices related to our services, please read the Product and Services Privacy Policy.
+Zeotap is committed to protecting the privacy of our customers and visitors to our website zeotap.com (“Site”). This Privacy Policy (“Policy”) covers how we collect, use, retain, disclose, and transfer your information that may be collected directly from you on the Site and/or  that we collect via acquisition from third-party providers. You may submit information via our contact forms, “Request a Demo” (or similar) online form or if you register for an event, download any content, subscribe to our newsletter or apply for a job position. Some information may also be gathered as you navigate the Site. Whether or not the information we receive is considered personal data depends among other factors on the definition that applies in your physical location. For example, in some locations, your IP address may be deemed to be personal data, while in others it is not. The purpose of this Policy is to explain how your data is used.
+By law, we are required to provide you with information regarding how and on what legal basis we use and disclose your personal data, your privacy rights specific to your personal data, and how you can reach us in case you have any concerns regarding this Policy or the way we are handling your data.
+This Policy may change from time to time, so please check back periodically to ensure that you are aware of any changes in our processing of your personal data.
+Your personal data, Our legal basis and purposes to process your data
+Your interaction with us
+Data we collect via this interaction
+Legal basis to process your data
+Our purposes to process your data
+You visit our website
+IP address
+Date of visit
+System information
+Marketing choices
+Email address
+Consent (art. 6.1.a GDPR)
+We may personalise your user’s experience on our website
+We may send you personalised advertising about our own products and/or services on third party platforms that you visit.
+You visite our website
+Name
+Email address
+Phone number
+Legitimate interest (art. 6.1.f GDPR)
+We may improve our existing products and/or services
+We may use your data within the context of testing our new products and/or services
+We may use you’re your data within the context of internal trainings for our teams
+We may use your data to monitor our systems and to defend them against attacks
+You sign up for our event(s)
+Name
+Title
+Email
+Phone number
+Contract (art. 6.1.b GDPR)
+We send you the details of the event (e.g date and location, requirements to participate, agenda of the event etc)
+You participate our sweepstakes and contests
+Name
+Title
+Email address
+Phone number
+Contract (art. 6.1.b GDPR)
+We collect and share your data with the relevant internal teams responsible for the organization and management of the sweepstakes
+We reach out to you with the results of such sweepstakes (e.g prize won).
+You write us an email
+Name
+Email address
+Legitimate interest (art. 6.1.f GDPR)
+We collect and share your data with the internal teams responsible for answering your request
+You fill in our contact form(s)
+Name
+Email address
+Phone number
+Job title
+Company name
+Consent (art. 6.1.a GDPR)
+We collect and share your data with the relevant internal teams responsible for answering your request
+You apply to our job offer(s)
+Name
+Email address
+Phone number
+Link to Linkeding profile
+Home location
+Content of your CV
+Processing the job application (art. 6.1.b GDPR)
+We collect and share your data with the internal teams responsible for the job offer to which you applied.
+We analyse your CV and/or cover letter or any others documents shared with our teams, and may reach out to you within the context of this job offer and in accordance with our recruitment process.
+You subscribe to our newsletter(s)
+Email address
+Consent (art. 6.1.a GDPR)
+We send you news and relevant information about our products and/or services
+You download any content (e.g white papers) available on our website
+Name
+Email address
+Company name
+Consent (art. 6.1.a GDPR)
+We send you a copy of the documents that you have requested
+You request a demo of our products/services
+Name
+Email address
+Phone number
+Job title
+Company name
+Country
+Consent (art. 6.1.a GDPR)
+We reach out to you in order to organise a meeting and introduce ourselves and our products/services
+We retain this information as long as necessary for our above-mentioned business purposes.
+Cookies and other tracking technologies
+When you visit the Site, we use cookies. A cookie is a small text file that a website saves on your computer or mobile device when you visit the site. It allows the website to remember your activities and preferences (such as login, language, font size, and other display preferences). The personal data (as described below) acquired through non-essential cookies used on our Site are processed based on your consent collected via our Consent Management Platform available on every page of our Site. Such consent can be withdrawn at any time via our Consent Management Platform (please find more information below, in the section “HOW TO EXERCISE YOUR RIGHTS”).
+Cookies may be either “persistent” cookies or “session” cookies: a persistent cookie will be stored by a web browser and will remain valid until it reaches its expiry date, or it is deleted by the user before the expiry date; a session cookie, instead, will expire at the end of the user session, when the web browser is closed.
+On our Site we use the following cookies:
+Essential cookies
+USERCENTRICS
+This website uses Usercentrics Consent Management Platform, a service offered by Usercentrics GmbH. In the context of order processing, we transmit personal data (consent data) to Usercentrics GmbH, Sendlingerstr. 7, 80331 Munich, as a processor. Consent data means the following data: Date and time of the visit or consent / refusal, device information. The processing of the data is carried out for the purpose of compliance with legal obligations (obligation to provide evidence pursuant to Art. 7 (1) GDPR) and the associated documentation of consents and thus on the basis of Art. 6 (1) lit. c) GDPR. Local storage is used to store the data.
+The consent data is stored for 3 years. The data is stored in the European Union. For more information about the collected data and contact options, please visit https://usercentrics.com/privacy-policy/.
+Functional cookies
+GOOGLE ANALYTICS
+This website uses Google Analytics, a service offered by Google Ireland Limited, Gordon House, Barrow Street, Dublin 4, Ireland. Google places third-party cookies on your device that are used to analyze the use of our website. We use the information for the site analytics reports and to improve the Site. The cookies collect information in an anonymous form, including the number of visitors, sessions, and campaign data.For more information, please visit www.google.com/policies/privacy/partners/.
+If you wish to enable or disable Google Analytics, please use our Usercentrics Consent Management Platform available on the Site (please find more information below, in the section “HOW TO EXERCISE YOUR RIGHTS”).
+RUMvision This website utilize RUMvision as an analytical tool on our website to track user experience related to page speed and web performance. This data is collected anonymously through a small snippet of JavaScript code, allowing us to optimize and enhance your browsing experience.It’s important to note that RUMvision does not collect any personal data such as IP addresses, names, email addresses, or other identifying metrics. However, it may collect information such as device memory, browser, internet speed, and data indicating whether a user is a first-time or returning visitor, or clicking through our site.This data is collected through LocalStorage and SessionStorage in your browser and is not shared or combined with other parties.As a tool located in the Netherlands (EU), RUMvision is fully GDPR compliant, and we take your data and privacy seriously. We ensure that your information is protected and that your privacy is always respected.For more information, please visit rumvisio.com/statement/privacy-policy/ If you wish to enable or disable RUMvision, please use our Usercentrics Consent Management Platform available on this website (please find more information in the section “HOW TO EXERCISE YOUR RIGHTS”).
+Marketing cookies
+DEALFRONTThis website uses Dealfront, a service offered by Liidio Oy, as part of ECHOBOT GROUP GmbH to analyze visitor behavior. Dealfront places a third-party cookie on your device for the usage of a website visitor tracking software.The personal data that is collected by or through the use of this cookie is: IP address.       The purpose of this processing activity is to help us understand which businesses (B2B) are visiting our website, by enriching IPs with associated information such as the company name or industry code as provided by Dealfront. Dealfront  has the following information and may use it in its service: Email address, Employer, Job titles and Public social media handles, links and profile photos. For more information, please visit https://www.dealfront.com/privacy-notice/    If you wish to enable or disable the Dealfront  cookie please use our Usercentrics Consent Management Platform available on the Site (please find more information below, in the section “HOW TO EXERCISE YOUR RIGHTS”).HUBSPOTThis website uses Hubspot (Hubspot, Hubspot Essential, Hubspot Forms), a service offered by HubSpot, Inc., 25 First Street, 2nd Floor, Cambridge, MA 02141, United States of America. Hubspot places third-party cookies on your device to enable its services related to marketing, content management, web analytics, search engine optimization and creating online forms. In particular, when you visit our website, HubSpot may drop cookies on your device to:Track Website Usage: HubSpot cookies track your browsing behavior on our website, including pages visited, time spent on each page, and interactions with website elements. This information helps us understand how visitors engage with our content and improve the user experience.Personalize Content: HubSpot cookies enable us to personalize content and offers based on your interests and browsing history. This allows us to provide relevant and targeted marketing messages to enhance your experience on our website.Facilitate Marketing Campaigns: HubSpot cookies are used to measure the effectiveness of our marketing campaigns, including email marketing, advertising, and social media efforts. This helps us optimize our marketing strategies and allocate resources efficiently.Provide Analytics: HubSpot provides us with analytics and insights into website traffic, visitor demographics, and other key metrics. This data helps us make informed decisions about our marketing efforts and website performance.The personal data that is collected by or through the use of this cookie are: aggregated usage; Browser type; Device identifiers; Device model; Device operating system; Domain name; Files viewed; Frequency of use of mobile application; Geographic location; Internet service provider; IP address; Length of page visit; Mobile application information; OS version; Performance data; Referrer URL; Time of access or retrieval; Where the application was downloaded from; Clickstream data; Events occurring within application; Navigational information; Pages viewed; Subscription Service credentials; Click path; Date and time of visit; User agent data; Company name; Email address; Transaction information; HTML pages; Information from third party sources; Mobile application performance data; Payment information; Usage data; Telephone number; Session duration; Device type; Pages visited; Where the application was downloaded from; Frequency of use of mobile application; Domain name; Contact information. For more information, please visit www.hubspot.com/privacy-policy.If you wish to enable or disable the Hubspot cookies please use our Consent Management Platform available on the Site (please find more information below, in the section “HOW TO EXERCISE YOUR RIGHTS”).Additionally, you can control and/or delete cookies as you wish – for details, see aboutcookies.org. You can delete all cookies that are already on your computer and you can set most browsers to prevent them from being placed. If you do this, however, you may have to manually adjust some preferences every time you visit a site and some services and functionalities may not work. If you disable your web browser’s ability to accept cookies, you will be able to browse the Site, but will not be able to access or take advantage of all the features and services on the Site.LINKEDIN This website uses the LinkedIn Insight Tag, a service offered by LinkedIn Ireland Unlimited Company, Wilton Plaza, Wilton Place, Dublin 2, Ireland. LinkedIn places a third-party cookie on your device for its tracking and retargeting service. The cookie is used for (i) Analytics; (ii) Retargeting and (iii) Marketing. The personal data collected through this cookie is (i) referrer URL; (ii) IP Address; (iii) Device information; (iv) Browser information and Timestamp. For more information, please visit www.linkedin.com/legal/privacy-policy.If you wish to enable or disable LinkedIn Insight Tag please use our Consent Management Platform available on the Site (please find more information below, in the section “HOW TO EXERCISE YOUR RIGHTS”).SALESLOFTThis website uses Live Website Tracking, a service offered by Salesloft Inc., a Delaware corporation, having its principal place of business at 1180 West Peachtree St NW Suite 2400, Atlanta, GA 30309.Salesloft places third-party cookies on your device to track your activity and interactions with our web pages in real time. Links sent in emails and clicked will trigger the view tracking of our web pages.The personal data that is collected by or through the use of this cookie are:  URLs/webpages visited and time spent on each URL/webpageFor more information, please visit https://www.salesloft.com/platform-privacy-notice/If you wish to enable or disable the Salesloft cookies please use our Consent Management Platform available on the Site (please find more information below, in the section “HOW TO EXERCISE YOUR RIGHTS”).Additionally, you can control and/or delete cookies as you wish – for details, see aboutcookies.org. You can delete all cookies that are already on your computer and you can set most browsers to prevent them from being placed. If you do this, however, you may have to manually adjust some preferences every time you visit a site and some services and functionalities may not work. If you disable your web browser’s ability to accept cookies, you will be able to browse the Site, but will not be able to access or take advantage of all the features and services on the SiteZEOTAP GmbHWith your consent, Zeotap may place cookies on your device for its tracking and retargeting purposes. The cookies are used for (i) Analytics; (ii) Retargeting and (iii) Marketing purposes as detailed above in the table. The personal data collected through the cookies are : (i) website event attributes, (ii) user ids (name, email address, phone number), (iii) consent preferences.List of cookies dropped by Zeotap only with your consent:zc: Cookie dropped against .zeotap.com domain. Purpose: User identification, event tracking and profile unification. Expiry: 365 dayszi:  Cookie dropped against .zeotap.com domain. Purpose: User Identification. Expiry: 365 daysIf you wish to enable or disable Zeotap pixels please use our Consent Management Platform available on the Site (please find more information below, in the section “HOW TO EXERCISE YOUR RIGHTS”).
+How we share your personal data
+We may disclose your personal data in the following cases:
+SERVICE PROVIDERS
+We may disclose your personal data to third-party vendors who help us operate the Site. These third parties are obligated to comply with applicable data protection laws and applicable regulations.
+DISCLOSURE REQUIRED BY LAW
+We will disclose your information in response to a valid legal process, for example, in response to a court order, a subpoena, or other legal requests for information, and/or to comply with applicable legal and regulatory reporting requirements. We also may disclose your information where we believe it is necessary to investigate, prevent, or take action regarding illegal activities, suspected fraud, situations involving potential threats to the physical safety of any person, or to verify or enforce compliance with the policies governing our products and/or services and with applicable laws, or as otherwise required or permitted by law or consistent with legal requirements. We are required to disclose personal data in response to lawful requests by public authorities, including to meet national security or law enforcement requirements.
+BUSINESS TRANSITIONS
+In addition, we may transfer your information to an entity or individual that acquires, buys, or merges with us, or our affiliates. In these cases, we will require the acquiring company to carry on the material terms of this privacy statement, including the requests for account deletion.
+WHEN WE TRANSFER YOUR DATA INTERNATIONALLY
+When we share personal data with the recipients described above, such sharing may constitute a transfer to a third country outside of the European Economic Area, for which the European Commission has not determined an adequate level of protection for your personal data. By law, we are required to ensure that the level of protection guaranteed for your personal data by the European and UK laws is not undermined by such transfer. We enter the EU Standard Contractual Clauses with respective data recipients, which you can access upon request.
+Protection of your personal data
+We have implemented appropriate physical, technical, and organizational safeguards to protect any personal data from theft, other loss, misuse, and any unauthorized access, copying, collection, use, disclosure, alteration, or destruction. We follow generally accepted standards to protect the personal data throughout the entire use cycle starting from the initial transfer till deletion. In addition, we limit internal access to your personal data to our employees, agents, contractors, and other third parties who have a legitimate business need to know. They will only process your personal data on our instructions, and they are subject to a duty of confidentiality.
+We have put in place procedures to deal with any suspected personal data breach and will notify you and any applicable supervisory authority of a breach where we are legally required to do so.
+Your rights with respect to your personal data (including opt-out options)
+Your personal data belongs to you. You have the following rights with respect to your personal data:
+right to request confirmation as to whether or not we process any of your data, and, where that is the case, right of access to your data;
+right to request rectification of inaccurate personal data;
+right to request erasure of your personal data;
+right to restrict processing of your personal data if certain conditions are met, e.g., if you believe the personal data we hold about you is not accurate;
+right to object to us processing your personal data;
+withdraw your consent with effect for the future;
+right to data portability, which only applies, however, if you provided us your personal data directly.
+How to exercise your rights
+You may submit your requests to opt-out from the processing or exercise your other rights with respect to your personal data by contacting us, for example by completing this form.
+You may opt out of marketing-related emails by clicking on a link at the bottom of each such email. You may continue to receive service-related and other non-marketing emails.
+You can also opt out of our Site cookies at any time. Simply click on the blue icon of our permanent Consent Management Platform available on the bottom of every page on the Site.
+Apart from the rights described above, you have the right to lodge a complaint with a supervisory data protection authority.
+Contact
+If you have any questions or suggestions about this Policy and our privacy practices, please contact us here or through the below channels:
+By email: [email protected]
+By post to Zeotap: zeotap GmbH, Privacy Team, c/o WeWork, Stresemannstraße 123, 10963 Berlin, Germany
+By post to our representative in the UK: zeotap UK Limited, 167-169 Great Portland Street, 5th Floor, London W1W 5PF, United Kingdom
+By post to our external DPO: ePrivacy GmbH, Prof. Dr. Christoph Bauer, Große Bleichen 21, 20354 Hamburg, Germany
+This Policy was last modified in March 2024.
+Get a demo
+Step into a new era of marketing possibilities, unleashing the full potential of your customer data. Experience the power of Zeotap CDP.
+GET A DEMO
+Follow us
+Facebook-f
+Twitter
+Linkedin-in
+Sign up for our newsletter
+Be the first to get access to our marketing resources and keep up to date with the latest CDP best practices, privacy standards, marketing, and customer data.
+Get a demo
+Step into a new era of marketing possibilities, unleashing the full potential of your customer data. Experience the power of Zeotap CDP.
+GET A DEMO
+Follow us
+Facebook-f
+Twitter
+Linkedin-in
+©2024 Zeotap All Rights Reserved
+Website Privacy Policy
+Product and Service Privacy Policy
+Vulnerability Disclosure Policy
+Information Security Policy Statement
+Legal Notice
+Legal Hub
+Zeotap Whistleblowing Channel
+Website Privacy Policy
+Product and Service Privacy Policy
+Vulnerability Disclosure Policy
+Information Security Policy Statement
+Legal Notice
+Legal Hub
+Zeotap Whistleblowing Channel

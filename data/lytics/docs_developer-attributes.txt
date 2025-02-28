@@ -1,0 +1,278 @@
+Default Attributes
+Jump to ContentHomeDocumentationAPI ReferenceProduct UpdatesCommunityv2.0v2.1v3.0Log InDocumentationLog Inv3.0HomeDocumentationAPI ReferenceProduct UpdatesCommunityDefault AttributesSearchQuick StartDeveloper Quickstart1. Install the Lytics Tag2. Content Setup3. Surface Personalized MessageBuilding ProfilesDefault AttributesDefault SegmentsGuides & InspirationLead CaptureContent RecommendationsAccount ManagementWhat is Vault?Accessing AccountsMonitoring Metrics and AlertsJob AlertsMonitoring Audit LogsExporting Audit Logs or Alert JobsMonitoring MetricsUsage MetricsManaging UsersSingle Sign-OnAccount SettingsAccount DetailsJavaScript Tag ConfigPersonalization APIContent ServicesSecurityAI & Modeling ControlsSchema ControlsData PoliciesPlatform LimitsPrivacy and Data ProtectionImpact of Browser Tracking ChangesComplianceAuthorizationsAccess TokensKey ConceptsIdentity ResolutionConsent & PrivacyComplying with the Digital Markets Act (DMA)Client & Server Side CookiesContent AffinityContent CurationTopic TaxonomyArchitectureIntegration PatternsJob ProcessingLytics Platform Data Flow and AccessCDI and CDP Implementation StrategyLytics Zero Copy with Cloud ConnectPipeline & ProfilesData PipelineJobs (Data Sources and Exports)Data StreamsStream Routing APITemplatesCreating Templates Using the UICreating Templates using Lytics APIUsing the Jsonnet LibraryTemplate ExamplesSchema ManagementFields & MappingsAdvanced Mapping FunctionsMeta FieldsQueries & LQLIdentity Key RanksSchema VersionsPlanning & TroubleshootingLytics Profile SchemaSchema CopilotIdentityMerge StatisticsIdentity ExplorerIdentity RulesWarehouse AccessWhat is Cloud Connect?Connecting WarehousesData Models & QueriesActivating Data ModelsCloud Connect Troubleshooting and FAQsAudiences & ActivationUser ProfilesUnderstanding Profile HealthFinding a UserAudiencesAudience GroupsPrebuilt AudiencesReportsWhat are Reports?ComponentsManaging ReportsDashboard ReportContentTopics & AffinitiesTopicsAffinitiesUsing Topics & AffinitiesClassificationEnrichmentRecommendationsDocumentsContent CollectionsCreating Content CollectionsViewing, Using & Managing CollectionsInterest EnginesDefault Interest EngineCustom Interest EnginesCollaborative FiltersLookalike Models & AudiencesGetting StartedBuilding Lookalike ModelsEvaluating Lookalike ModelsCreating Lookalike AudiencesImproving Lookalike ModelsActivationDestinationsGoalsExperiencesBehavioral ScoresTutorialsLeveraging User ProfilesAccessing Profiles Client SideAccessing Profiles Server SideWorking with Anonymous ProfilesGet Started with Lytics SegmentsInline Content RecommendationsData Collection & OnboardingWorking with Custom DataWorking with Web DataCollect Mobile Data with Firebase + GTMData ManagementProfile Stitching Best PracticesMigrating from Queries to Conductor SchemaLQL & Data Import BasicsUse CasesAcquire New Customers with LyticsBest Practices for Personalizing Your Ad or Search Landing PageCapture More Information from Qualified LeadsContent Modularization in Email with Lytics AudiencesCustomize your Web Experiences with Branded ImagesDeliver Targeted ContentDrive Email Capture & Engagement with ContentDrive Mobile App Downloads With LyticsEngage Qualified Users with Targeted AdsEnhance Personalized Messaging with User Profile FieldsGrow Your Email Marketing ListImport an Audience from your Data WarehouseImprove Ad Campaign Metrics with Predictive TargetingIncrease Conversions with Lytics and Facebook LookalikeKeep Visitors Engaged with Content Recommendation ExperiencesLeverage Lookalike Models and Predictive AudiencesLookalike Models: Conserve marketing spend on engaged usersLookalike Models: Convert anonymous users to known usersLookalike Models: Convert single purchasers to multi-purchasersLookalike Models: Determine which subscribers are likely to churnMobile Messaging with Lytics Webhooks and Serverless FunctionsOptimize Remarketing SpendPersonalize the Messaging of your Website Based on AudiencePopulate Your Website With One-to-One Content RecommendationsPromote Relevant Content to Users based on their InterestsReach the Right People Using LyticsRetain Existing Customers With LyticsPersonalize your Iterable emails With Lytics content recommendationsBuild a Custom Personalized Experience With Video ContentUnlock Additional Web Personalization Features with Lytics API OverridesHow to Use GTM Tags to Modify Lytics Pathfora Widget BehaviorStyle your Lytics Web Experiences to Fit Your Brand GuidelinesSDKs & ToolsWebJavaScriptOn-site PersonalizationSubresource Integrity (SRI)MobileiOSReact NativeAndroidChrome ExtensionIntegrationsLytics Integration OptionsAcousticAdobeAdRollAirshipAmplitudeAmazon AdsAmazon KinesisAmazon PinpointAmazon RedshiftAmazon S3Amazon SQSAnsiraBigCommerceBlueKaiBlueshiftBrazeBrevoCampaign MonitorCheetah DigitalClearbitContentfulCordialCriteoCustomer.ioDatabricksDotdigitalDriftEpiserverFullContactGIGYAGoogle OptimizeGoogle Ad Manager (DFP)Google AdsGoogle BigQueryGoogle Cloud Pub/SubGoogle Cloud StorageGoogle DriveGoogle Marketing: Analytics, DV360, CM360Google Cloud OperationsGoogle Tag ManagerHubSpotiContactInsiderIterableJebbitKlaviyoLeadsquaredLinkedInLiveRampLocalyticsLookerLotameLytics File ServiceLytics MonitoringMailchimpMailgunMandrillMappMapp: BlueHornetMarketoMaropostMediaMathMetaMicrosoftMicrosoft AzureMicrosoft TeamsMixpanelNetSuiteNew RelicOmedaOneSignalOneTrustOracle Marketing Cloud: EloquaPinterestPostUpRadarRedditResponsysRetention ScienceSailthruSalesforceSalesforce DMP (Krux)Salesforce Marketing CloudSalesforce PardotSegment.comSelligentSendGridShopifySitecoreSlackSnapchatSnowflakeSparkPostSurveyMonkeySwrveTaboolaTealiumTikTokThe Trade DeskUnified ID 2.0VersiumWebhooksWebhook TemplatesWistiaX AdsYahoo AdsZapierZendeskZuoraContentstackPartnersPartner TypesLytics CommunicationLegacyInsightsImporting External ExperiencesIDP-initiated SSO (legacy)Web PersonalizationIntroductionDrive Traffic CampaignCollect Leads CampaignPresent a Message CampaignRecommend Content CampaignCampaign ReportingCampaign ManagementBuilding Audiences with Campaign DataDefault Attributes Suggest EditsLytics offers a wide range of pre-packaged user attributes, including automatically generated and customizable ones. Additionally, Lytics employs predictive modeling and machine learning algorithms to provide insights and scores, allowing users to gain a deeper understanding of their audience. The guide below provides an overview of all available attributes and examples to enhance your profiling efforts.
+👍If you haven't already reviewed our documentation on collecting events via our JavaScript SDK, we highly recommend doing so first. This will give you a better understanding of how data collection works at a high level before delving into the specifics of what can be collected.
+Available Attributes
+The following attributes are all available out of the box with no customization necessary in all Lytics pricing tiers. Do note that any attributes flagged as Computed can not be edited directly but are computed based on various factors, including other non-computed attributes.
+📘For a more comprehensive example of how any of the following attributes can be collected and used for your visitors click the name of the identifier to access the code examples below.
+Identifiers
+Default attributes that are used to stitch profiles together. For instance, if you pass an email along with the _uid, all events that have only been associated with either identifier will be merged into a single comprehensive profile.
+NameSlugDescriptionComputedExampleLytics ID_idA unique ID that represents the materialized profile in Lytics.Yes4fafb5b3-b199-58f2-a68b-4b266b363dd1Current Lytics Cookie_uidThe current cookie id for the user.No50b772f5-a0be-42f2-8828-84b8db5d5a23All Lytics Cookies_uidsAll cookies that are associated with the user.No["50b772f5-a0be-42f2-8828-84b8db5d5a23"]EmailemailThe email address of the user.No[email protected]Unique User IDuuidA UUID for the user.No4fafb5b3-b199-58f2-a68b-4b266b363dd1
+Details
+Details encompass all default attributes related to user demographics and general information, including name, phone number, status, etc. It serves as a catch-all for attributes not specifically tied to interactions or behaviors.
+NameSlugDescriptionComputedExampleNamenameThe full name of the user.NoJohn DoeFirst Namefirst_nameThe first name of the user.NoJohnLast Namelast_nameThe last name of the user.NoDoeTitletitleThe title of the user.NoPresidentPhonephoneThe phone number of the user.No555-555-5555CellcellThe cell phone number of the user.No555-555-5555OriginoriginThe origin of the user.Noloyalty_2022LanguagelanguageThe language of the user.Noen-usAgeageThe age of the user.No25CompaniescompaniesThe companies the user is associated with.No["Lytics", "Pantheon"]GendergenderThe gender of the user.NoMStatusstatusThe status of the user.NoactiveUser Attributesuser_attributesA map of custom attributes associated with the user.No{"role": "member", "bonus": "active"}TimezonetimezoneThe timezone of the user.No-7CitycityThe city of the user.NoDenverCountrycountryThe country of the user.NoUSStatestateThe state of the user.NoCO
+Meta
+Meta encompasses all system-level information that provides insights into the health and breadth of the profile. This includes data such as creation date, last update timestamp, source information, and other metadata associated with the profile's management and maintenance. Metadata offers a behind-the-scenes view of the profile's overall status and administration.
+NameSlugDescriptionComputedExampleCreated_createdThe date the user was created.Yes2023-12-12T21:09:11.625960142ZLast Scored_last_scoredThe date the user was last scored.Yes2024-02-28T02:45:51.377423153ZModified_modifiedThe date the user was last modified.Yes2024-02-28T02:45:51.377423473ZNumber of Aliases_num_aliasesThe number of aliases for the user.Yes1Number of Days_num_daysThe number of days the profile has existed.Yes38Number of Events_num_eventsThe number of events the user has been associated with.Yes2425Number of Streams_num_streamsThe number of streams the user has been associated with.Yes2Stream Names_streamnamesThe names of the streams the user has been associated with.Yes["default", "ios"]User is Botis_botWhether the user has been flagged as a bot or not.Yesf
+Behavior
+Behavioral attributes typically cannot be directly managed but represent a set of insights derived from a user's behavior over time. These insights are invaluable when personalizing experiences based on changes in behavior or behaviors indicative of high likelihood. For instance, you might want to present a premium offer to users exhibiting higher momentum than usual. Behavioral attributes enable targeted and timely interventions tailored to user actions and patterns.
+NameSlugDescriptionComputedExampleConsistencyscore_consistencyScore representing how consistent their activity patterns are.Yes99Frequencyscore_frequencyA score representing how frequently the user is active.Yes63Intensityscore_intensityA score representing how intense the user's activity is.Yes94Maturityscore_maturityA score representing how mature the user's activity is.Yes34Momentumscore_momentumA score representing how much momentum the user currently has.Yes54Propensityscore_propensityA score representing how likely the user is to engage again.Yes1Quantityscore_quantityA score representing how much activity the user has.Yes99Recencyscore_recencyA score representing how recent the user's activity is.Yes99Volatilityscore_volatilityA score representing the degree of variability in behavior.Yes99
+Interests
+Interests entail understanding the topics a user is interested in based on their interactions, cross-referenced by deep programmatic analysis of their online activities. This allows for tailored content recommendations and targeted messaging aligned with the user's preferences and engagement history.
+NameSlugDescriptionComputedExampleLytics Contentlytics_contentA map of topic-level interests for the user.Yes{"Baking": 0.26418695138978837}
+Intelligence
+Attributes classified as intelligence encompass diverse, highly valuable information to facilitate relevant and high-value personalized experiences. Within this category, you'll discover real-time segment membership, values crucial for split testing and experimentation, and direct correlation to our real-time machine learning modeling. These attributes empower dynamic and data-driven decision-making, enhancing the efficacy of personalized marketing strategies.
+NameSlugDescriptionComputedExampleSegment Membership_segmentsThe segments the user is associated with.Yes["all", "anonymous_profiles", "smt_power"]Split_splitA random value that is evenly distributed across users.Yes74Split 2_split2A random secondary value that is evenly distributed across users.Yes58Needs Messageneeds_messageStream-specific score that represents the relative distance between now and the next predicted event.Yes{"default": 0.05758899316182292}Next Eventnext_eventStream-specific prediction for the next expected event.Yes{"default": "2024-03-01T03:00:00Z"}Lookalike Model Predictionssegment_predictionScores from Lytics Lookalike and SegmentML models.Yes{"likely_to_churn": 0.26418695138978837}Lookalike Model Percentilessegment_prediction_percentilePercentiles from Lytics Lookalike and SegmentML models.Yes{"likely_to_churn": 0.26418695138978837}
+Activity
+Activity encompasses the user's engagement across different channels and campaigns, including clicks and conversions. It provides valuable insights into recent interactions, aiding campaign optimization and channel effectiveness assessment.
+General
+NameSlugDescriptionComputedExampleFirst Seenevent_first_seenThe first time the user was seen for a specific event.No{"click": "2023-12-12T21:09:11.625Z"}Last Seenevent_last_seenThe last time the user was seen for a specific event.No{"click": "2024-02-28T02:45:49.776Z"}ChannelschannelsThe channels the user has been active on.No["web", "email"]DevicesdevicesThe devices the user has been active on.No{"desktop": 123}HourlyhourlyThe number of events per hour for the user.Yes{"0": 17, "1": 69, "2": 262, "3": 97}Hour of WeekhourofweekThe number of events per hour of the week for the user.Yes{"3": 2, "4": 2, "5": 1, "11": 3}Last Activelast_active_tsThe last time the user was active.No2024-02-28T02:45:50.784ZLast Channel Activitieslast_channel_activitiesThe last time the user was active on a specific channel.No{"web": "2024-02-28T02:45:50.784Z"}
+Web
+NameSlugDescriptionComputedExampleDomainsdomainsThe domains the user has been active on.No["umami.lytics.com"]First Visit Timestampfirstvisit_tsThe first time the user visited the site.No2023-12-12T21:09:11.625ZLast Visit Timestamplastvisit_tsThe last time the user visited the site.No2024-02-28T02:45:50.784ZPageview CountpageviewctThe number of pageviews the user has had.Yes234Referring DomainrefdomainThe referring domain for the user.No["umami.lytics.com"]User Agentuser_agentThe user agent for the user.YesChromeVisit CountvisitctThe number of visits the user has had.Yes145Visit Cityvisit_cityThe city the user visited from.YesDenverVisit Countryvisit_countryThe country the user visited from.YesUSVisit Regionvisit_regionThe region the user visited from.YesCOForm Dataform_dataThe form data the user has submitted.No{"first_name": "John"}Forms Submittedforms_submittedThe forms the user has submitted.No["newsletter", "contact"]UTM Campaign Lastutm_campaign_lastThe last UTM campaign referred from.NoholidayUTM Campaignsutm_campaignsThe UTM campaigns the user has interacted with.No["holiday", "summer"]UTM Content Lastutm_content_lastThe last UTM content referred from.Norecipe-1UTM Contentsutm_contentsThe UTM contents the user has interacted with.No["recipe-1", "recipe-2"]UTM Medium Lastutm_medium_lastThe last UTM medium referred from.NoarticleUTM Mediumsutm_mediumsThe UTM mediums the user has interacted with.No["article", "recipe"]UTM Source Lastutm_source_lastThe last UTM source referred from.Nogoogle_adsUTM Sourcesutm_sourcesThe UTM sources the user has interacted with.No["google_ads", "meta_ads"]UTM Term Lastutm_term_lastThe last UTM term referred from.NoexampleUTM Termsutm_termsThe UTM terms the user has interacted with.No["example"]
+Campaign
+NameSlugDescriptionComputedExampleHoverly_hoverThe number of times the user hovered over a specific campaign.No{"content-rec-modal": 5}Impressionsly_impressionsThe number of times the user saw a specific campaign.No{"content-rec-modal": 1}Closesly_closesThe number of times the user closed a specific campaign.No{"content-rec-modal": 10}Conversionsly_conversionsThe number of times the user converted on a specific campaign.No{"content-rec-modal": 2}Milestonesly_milestonesThe number of times the user reached a milestone on a campaign.No{"engaged-donation-page": 1}Goalsly_goalsThe number of times the user reached a goal on a campaign.No{"made-donation": 1}
+Examples
+Identifiers
+Lytics ID (_id)
+This is an automatically generated canonical ID managed by Lytics. It refers to the materialized profile and cannot be customized or overridden.
+Current Lytics Cookie (_uid) and All Lytics Cookies (_uids)
+_uid represents the Lytics anonymous 1st party cookie. This value is automatically captured with every jstag.send() call from the JavaScript tag. The only way to customize this value is to explicitly set the value of _uid, which we do not recommend.
+JavaScriptjstag.setid("somecustomvalue");
+jstag.send();
+Email (email)
+JavaScriptjstag.send({
+email:"[email protected]"
+});
+Unique User ID (uuid)
+JavaScriptjstag.send({
+uuid:"someuniqueuserid"
+});
+Details
+First Name (first_name)
+JavaScriptjstag.send({
+first_name:"John",
+});
+Last Name (last_name)
+JavaScriptjstag.send({
+last_name:"Doe",
+});
+Title (title)
+JavaScriptjstag.send({
+title:"President",
+});
+Phone (phone)
+JavaScriptjstag.send({
+phone:"555-555-5555",
+});
+Cell (cell)
+JavaScriptjstag.send({
+cell:"555-555-5555",
+});
+Origin (origin)
+JavaScriptjstag.send({
+origin:"loyalty_2022",
+});
+Language (language)
+By default, the Lytics JavaScript SDK will collect language information based on the browser, but this can be overridden.
+JavaScriptjstag.send({
+_ul:"en-us",
+});
+Age (age)
+JavaScriptjstag.send({
+age:25,
+});
+Companies (companies)
+JavaScriptjstag.send({
+companies:["Lytics", "Pantheon"],
+});
+Gender (gender)
+JavaScriptjstag.send({
+gender: "N/A",
+})
+Meta
+Created (_created)
+Lytics automatically generate this and represents the oldest event associated with the user.
+Modified (_modified)
+This is automatically generated by Lytics and represents the last time the user was modified.
+Last Scored (_last_scored)
+This is automatically generated by Lytics and represents the last time the users scores were updated.
+Number of Aliases (_num_aliases)
+This is automatically generated by Lytics and represents the number of aliases associated with the user.
+Number of Days (_num_days)
+This is automatically generated by Lytics and represents the number of days the user has existed.
+Number of Events (_num_events)
+This is automatically generated by Lytics and represents the number of events associated with the user.
+Number of Streams (_num_streams)
+This is automatically generated by Lytics and represents the number of streams associated with the user.
+Stream Names (_streamnames)
+This is automatically generated by Lytics and represents the names of the streams associated with the user.
+User is Bot (is_bot)
+This is automatically generated by Lytics and represents whether the user has been flagged as a bot or not.
+Behavior
+The following attributes are all computed in real-time as the profile evolves. Each of the behavioral attributes are surfaced as a score between 0 and 100. These scores represent an aggregate summary of the user's behavior across various dimensions: Consistency, Frequency, Intensity, Maturity, Momentum, Propensity, Quantity, Recency, and Volatility.
+Interests
+Lytics Content (lytics_content)
+The interest attributes are computed in real-time and represent the user's interest in various topics. These topics are generated as a result of the analysis done by the Lytics Interest Engine and then associated with the user based upon their interaction with content on your site.
+Intelligence
+Segment Membership (_segments)
+This attribute displays an array of all segments the user is currently a member of. It updates in real-time based on various audience definitions. Lytics offers a range of useful segments out of the box, requiring no additional setup. For detailed information on these audiences, refer to our Developer Tier > Audiences documentation.
+Split & Split2 (_split & _split2)
+These attributes are automatically generated by Lytics and represent a random value evenly distributed across users. They are useful for split testing and experimentation.
+Needs Message (needs_message)
+This attribute is computed in real-time and represents the relative distance between now and the next predicted event. It is stream specific and is useful for understanding when a user is likely to engage again.
+Next Event (next_event)
+This attribute is computed in real-time and represents the next expected event. It is stream specific and is useful for understanding when a user is likely to engage again.
+Lookalike Model Predictions & Lookalike Model Percentiles (segment_prediction & segment_prediction_percentile)
+This attribute is computed in real-time and represents the scores resulting from Lytics Lookalike and SegmentML models. Out-of-the-box, Lytics offers a range of useful models, requiring no additional setup. For detailed information on these models, refer to our Developer Tier > Models documentation.
+Activity
+General
+First Seen & Last Seen (event_first_seen & event_last_seen)
+Both of these attributes are automatically populated based upon the _e value in the jstag.send payload. By default Lytics will collect a pv event for each page view and this will automatically populate the first_seen and last_seen attributes. Below is an example of collecting a custom event that would populate these attributes as well.
+JavaScriptjstag.send({
+_e:"custom_event"
+});```
+Channels (channels) [needs update]
+JavaScriptjstag.send({
+_channel:"web",
+});
+Devices (devices)
+JavaScriptjstag.send({
+_device:"desktop",
+});
+Hourly (hourly)
+This attribute is automatically populated with a count of events per hour for the user.
+Hour of Week (hourofweek)
+This attribute is automatically populated with a count of events per hour of the week for the user.
+Last Active Timestamp (last_active_ts)
+This attribute is automatically populated with the last time an event was received in any stream for the user.
+Last Channel Activities (last_channel_activities) [needs update]
+JavaScriptjstag.send({
+_channel:"web",
+});
+Web
+Domains (domains)
+This attribute is automatically populated with the domains the user has been active on.
+First Visit Timestamp (firstvisit_ts)
+This attribute is automatically populated with the first time the user visited the site and sends data to the default stream.
+Last Visit Timestamp (lastvisit_ts)
+This attribute is automatically populated with the last time the user visited the site and sends data to the default stream.
+Pageview Count (pageviewct)
+This attribute is automatically populated with the number of _pv events recieved for the user.
+JavaScriptjstag.send({
+_e:"pv"
+});
+Referring Domain (refdomain)
+This attribute is automatically populated with the referring domain for the user.
+JavaScriptjstag.send({
+_ref:"umami.lytics.com",
+});
+User Agent (user_agent)
+This attribute is automatically populated based on the user agent of the browser. This attribute must be turned on in your Lytics account to be collected.
+Visit Count (visitct)
+This attribute is automatically populated with the number of visits the user has had based on presence of the _sesstart key in an event.
+JavaScriptjstag.send({
+_sesstart:1
+});
+Visit City (visit_city)
+This attribute is automatically populated with the city the user visited from based upon GeoIP.
+Visit Country (visit_country)
+This attribute is automatically populated with the country the user visited from based upon GeoIP.
+Visit Region (visit_region)
+This attribute is automatically populated with the region the user visited from based upon GeoIP.
+Form Data (form_data)
+Form data is a wildcard attribute that allows you to pass a number of key value pairs that all get stored under the form_data attribute. This is useful for capturing form submissions.
+JavaScriptjstag.send({
+formdata_fn:"John",
+formdata_ln:"Doe",
+formdata_someotherkey:"somevalue"
+});
+Forms Submitted (forms_submitted)
+JavaScriptjstag.send({
+form_name:"newsletter"
+});
+UTM Campaign Last (utm_campaign_last)
+JavaScriptjstag.send({
+utm_campaign:"holiday"
+});
+UTM Campaigns (utm_campaigns)
+JavaScriptjstag.send({
+utm_campaign:"holiday"
+});
+UTM Content Last (utm_content_last)
+JavaScriptjstag.send({
+utm_content:"recipe-1"
+});
+UTM Contents (utm_contents)
+JavaScriptjstag.send({
+utm_content:"recipe-1"
+});
+UTM Medium Last (utm_medium_last)
+JavaScriptjstag.send({
+utm_medium:"article"
+});
+UTM Mediums (utm_mediums)
+JavaScriptjstag.send({
+utm_medium:"article"
+});
+UTM Source Last (utm_source_last)
+JavaScriptjstag.send({
+utm_source:"google_ads"
+});
+UTM Sources (utm_sources)
+JavaScriptjstag.send({
+utm_source:"google_ads"
+});
+UTM Term Last (utm_term_last)
+JavaScriptjstag.send({
+utm_term:"example"
+});
+UTM Terms (utm_terms)
+JavaScriptjstag.send({
+utm_term:"example"
+});
+Campaign
+Hover (ly_hover) [needs update]
+JavaScriptjstag.send({
+pf_widget_id: "content-rec-modal",
+pf-widget-event: "hover"
+});
+Impressions (ly_impressions) [needs update]
+JavaScriptjstag.send({
+pf_widget_id: "content-rec-modal",
+pf-widget-event: "show"
+});
+Closes (ly_closes) [needs update]
+JavaScriptjstag.send({
+pf_widget_id: "content-rec-modal",
+pf-widget-event: "close"
+});
+Conversions (ly_conversions) [needs update]
+JavaScriptjstag.send({
+pf_widget_id: "content-rec-modal",
+pf-widget-event: "conversion"
+});
+Milestones (ly_milestones) [needs update]
+JavaScriptjstag.send({
+pf_widget_id: "engaged-donation-page",
+pf-widget-event: "milestone"
+});
+Goals (ly_goals) [needs update]
+JavaScriptjstag.send({
+pf_widget_id: "made-donation",
+pf-widget-event: "goal"
+});
+Updated 12 months ago What’s NextDefault SegmentsTable of Contents
+Available Attributes
+Identifiers
+Details
+Meta
+Behavior
+Interests
+Intelligence
+Activity
+Examples
+Identifiers
+Details
+Meta
+Behavior
+Activity
+Campaign

@@ -1,0 +1,197 @@
+POLÍTICA DE PRIVACIDAD DE LOS PRODUCTOS Y SERVICIOS DE ZEOTAP | Zeotap
+Solutions
+Zeotap CDP Solutions
+Acquisition & GrowthCustomer Experience and PersonalisationLoyalty & RetentionPredictive Insights and
+Customer AnalyticsData Collection and Privacy
+Industries
+RetailTelcoMediaRetail MediaFinancial ServicesSports & EntertainmentAutomotive
+Platform
+Zeotap CDP Modules
+OverviewIntegrateUnifySegmentOrchestrateAnalyseProtect
+Zeotap CDP Features
+OverviewCustomer 360 ViewPredictive AudiencesOmnichannel JourneyConsent OrchestrationPrivacy & GDPRIntegrations
+Get started
+Subscription PlansDeployment Options
+Partners
+Our PartnersGoogle Cloud PartnershipZeotap Partner Network
+Resources
+AllBlogCase studiesVideosWhitepapersCDP SupportDeveloper Documentation
+Company
+About UsPrivacy and SecurityWhy Zeotap CDPWhy Zeotap DataCareers at ZeotapNewsEventsContact us
+LoginGet A Demo
+close_03
+Hit enter to search or click X to close
+Login
+Get a Demo
+POLÍTICA DE PRIVACIDAD DE LOS PRODUCTOS Y SERVICIOS DE ZEOTAP
+Mas información sobre nuestros socios y con quién compartimos los datos de los usuarios está disponible aquí.
+zeotap GmbH (“Zeotap”, “nosotros” o “nuestro/a”) es una empresa que ofrece la Plataforma de Datos de Clientes de nueva generación. Permite a las marcas unificar, mejorar y activar los datos de los clientes en un futuro sin cookies, al tiempo que pone la privacidad del consumidor y el cumplimiento de la normativa en primer plano. Nuestros servicios utilizan exclusivamente la tecnología patentada de Zeotap o utilizan su tecnología patentada en combinación con datos de clientes (“Datos de Usuarios”) recibidos de terceros (“Socios de Datos”), incluidos, entre otros, la unificación de datos de clientes, la extensión de identidades, la incorporación de datos, el cotejo de datos, el conocimiento de datos, la creación de audiencias personalizadas, el análisis/modelado, la segmentación de audiencias en publicidad web y móvil, y la transferencia de datos a sistemas de activación (incluidos los socios del ecosistema de marketing) (“Servicios”). Se resalta que, tal y como se ha mencionado anteriormente, nuestros Servicios constan de dos líneas: (i) productos de software (“Productos de Software”), en cuyo marco utilizamos exclusivamente la tecnología propiedad de Zeotap para procesar y organizar los datos de los clientes compartidos por nuestros Clientes (tal y como se definen más adelante), y (ii) productos de datos (“Productos de Datos”), en cuyo marco utilizamos los Datos de los usuarios solos o en combinación con los datos de los clientes compartidos por nuestros Clientes. Puede obtener más información sobre nuestros Servicios en nuestro sitio web.
+Nuestros Socios de Datos son operadores de redes móviles, proveedores de aplicaciones móviles, medios de comunicación, proveedores de plataformas tecnológicas, propietarios de medios de comunicación (“Editores”), marcas, agencias y otros que tienen acceso a determinados Datos de Usuario que desean monetizar mediante el uso de nuestros Servicios.
+Nuestros clientes (“Clientes”) son empresas, incluidas marcas y agencias (“Anunciantes”), Editores y otras empresas que envían publicidad digital dirigida a los consumidores. Al utilizar nuestros Servicios, nuestros Clientes pueden dirigirse a un público concreto y adaptar los anuncios a los intereses y preferencias probables de dicha audiencia.
+Trabajamos para garantizar que nuestros Servicios respeten los derechos de privacidad de los usuarios. Para lograr este objetivo, nos adherimos a los principios de privacidad por diseño y privacidad por defecto en todo el proceso de diseño, construcción y prestación de nuestros Servicios.
+Por ley, estamos obligados a proporcionarle información sobre:
+cómo y sobre qué base legal utilizamos y divulgamos sus datos personales;
+cómo nos ocupamos de sus derechos de privacidad específicos de sus datos personales;
+cómo puede ponerse en contacto con nosotros en caso de que tenga alguna duda sobre esta política de privacidad (“Política”) o sobre la forma en que tratamos sus datos personales.
+Los términos de esta Política se aplican a todos los Datos de Usuarios en la medida en que contengan sus datos personales, tal como se definen en las leyes y reglamentos aplicables.
+Esta Política no se aplica a los datos personales recogidos por nuestro sitio web zeotap.com. Para acceder a la política de privacidad de nuestro sitio web, haga clic aquí.
+Esta Política tampoco se aplica a la información recopilada por nuestros Socios de Datos, Clientes u otros terceros que puedan proporcionarnos datos personales, ya que sus prácticas de tratamiento de datos personales están cubiertas por sus propias políticas de privacidad.
+Esta Política puede cambiar de vez en cuando, por lo que le sugerimos que la consulte periódicamente para asegurarse de que esté al corriente de cualquier cambio en nuestro tratamiento de sus datos personales.
+Categorías de datos que recibimos y utilizamos
+Como parte de los Productos de Datos, recibimos las siguientes categorías de Datos de Usuario de nuestros Socios de Datos:
+identificadores de dispositivos de publicidad móvil, como el Identificador para Anunciantes de Apple (IDFA) y el Identificador de Publicidad de Google Android (“Ad IDs”);
+ID de cookies;
+direcciones de correo electrónico con hashing y números de teléfono con hashing;
+información demográfica como edad, sexo, ciudad/región, ingresos, idioma y datos del contrato de telefonía móvil como prepago/postpago (“Datos Demográficos”);
+datos de uso de aplicaciones móviles sobre aplicaciones instaladas o a las que se ha accedido en el dispositivo de un usuario y eventos de aplicaciones y datos de navegación, como URL de navegación (localizadores uniformes de recursos) (“Datos de uso y navegación de aplicaciones”);
+datos de compra, como el interés y la intención de comprar determinados productos o servicios;
+datos de geolocalización.
+No recibimos ninguna “categoría especial de datos personales” (es decir, información sobre su raza, origen étnico, creencias religiosas o filosóficas, orientación sexual, vida sexual, opiniones políticas, salud, afiliación sindical o datos genéticos/biométricos) ni, a nuestro conocimiento, ningún dato personal sobre jóvenes menores de 16 años.
+Nuestros Socios de Datos pueden recopilar datos directamente de los usuarios (tanto en línea como fuera de línea) o recibir datos de terceros.
+Pedimos a nuestros Socios de Datos que proporcionen a los usuarios toda la información necesaria sobre el uso de sus datos personales y que les permitan ejercer sus derechos de acuerdo con las leyes y normativas aplicables.
+También podemos utilizar cookies, píxeles y herramientas similares para recopilar nosotros mismos los identificadores de anuncios (ad IDs) o identificadores de cookies de los usuarios. Estas herramientas también recopilan y nos envían automáticamente información como URL de referencia, cadena de agente de usuario y direcciones IP. Esta información es una parte normal de la información del archivo de registro que se intercambia rutinariamente como parte de la comunicación entre sistemas operativos.
+Cuando obtenemos diferentes Datos de Usuario pertenecientes al mismo dispositivo de múltiples Socios de Datos, agregamos dichos Datos de Usuario y los almacenamos contra el mismo Ad ID (identificador de publicidad, asociado con un dispositivo) o Cookie ID (una cadena de caracteres que los sitios web y servidores asocian con el navegador en el que se almacena la cookie). Zeotap también mantiene un inventario de ID independiente, que conecta los Datos de Usuario en un ID común (“zeoID”) y es un identificador interno seudónimo.
+Mejoramos los Datos de Usuario para crear segmentos de datos desidentificados y agregamos dichos segmentos en listas de segmentos o listas de ID de anuncios / ID de cookies basadas en las preferencias de nuestros Clientes. A continuación, compartimos dichas listas con nuestros Clientes para que puedan dirigirse de forma eficaz a los usuarios pertinentes.
+Nosotros no procesamos información que identifique directamente a una persona en particular, como un nombre, una dirección o un número de identificación oficial sin cifrar. Sin embargo, que los Datos de Usuario que recibimos se consideren o no datos personales o de identificación personal depende, entre otros factores, de la definición que se aplique en la ubicación física del usuario. Por ejemplo, en algunos lugares, la dirección IP de un usuario puede considerarse un dato personal, mientras que en otros no.
+Nosotros no interactuamos directamente con los usuarios o sus dispositivos, a menos que un usuario nos envíe una solicitud de eliminación, como se describe a continuación en “SUS DERECHOS CON RESPECTO A SUS DATOS PERSONALES (INCLUIDAS LAS OPCIONES DE OPCIÓN DE EXCLUSIÓN VOLUNTARIA)“
+Se destaca que, como parte de nuestros Productos de Software, podemos recibir varias categorías adicionales de Datos de Usuario de nuestros Clientes (incluidos datos directamente identificables).
+A. IDENTIFICADORES EN LÍNEA
+IDENTIFICADORES DE PUBLICIDAD
+Los ID de publicidad son identificadores anónimos, únicos y reajustables por el usuario para la publicidad. Los ID de anuncios identifican un dispositivo específico y se implementan tanto en IDFA como en Google Android Advertising ID.
+Obtenemos los identificadores de anuncios asociados a Datos de Usuarios desidentificados de nuestros Socios de Datos. Nuestros Clientes utilizan los identificadores de anuncios para identificar las solicitudes de publicidad y ofrecer anuncios relevantes.
+También podemos utilizar los identificadores de anuncios para establecer una relación entre diferentes atributos de Datos de Usuarios pertenecientes al mismo usuario. Por ejemplo, si obtenemos Datos de Usuarios que indican que un determinado usuario tiene entre 25 y 30 años, y más tarde nos enteramos por otro Socio de Datos de que el usuario del mismo dispositivo está interesado en un estilo de vida saludable, combinamos esta información con los mismos ID de Anuncio o ID de cookie.
+IDs DE COOKIES
+Una cookie HTTP (también llamada cookie web, cookie de Internet, cookie del navegador o simplemente cookie) es un pequeño fragmento de datos que se envía desde un sitio web y se almacena en el navegador web del usuario mientras éste navega.
+Nosotros instalamos cookies de terceros en nombre de Editores que proporcionan espacio para mostrar publicidad en sitios web.
+Podemos utilizar cookies para establecer una relación entre dispositivos o datos pertenecientes al mismo usuario. Si ya disponemos de información sobre el usuario de un dispositivo, podemos vincular la información almacenada en las cookies al identificador de anuncios del dispositivo. A esta actividad de vincular información la llamamos “mapeo”. Utilizamos esta información para facilitar la entrega de los anuncios dirigidos de nuestros Clientes.
+B. DATOS DE NAVEGACIÓN
+INFORMACIÓN DE ARCHIVOS DE REGISTRO
+En el curso de la actividad de mapeo descrita en el párrafo anterior, recibimos información como URL de referencia, cadena de agente de usuario y direcciones IP.
+Cuando se accede al sitio web en el que están instaladas las cookies de Zeotap, el archivo de registro que recibimos automáticamente incluye la URL de referencia, que es la dirección del sitio web del que usted procede. No utilizamos y descartamos las URL de referencia en un plazo razonable en cumplimiento de nuestro período de conservación de datos.
+Utilizamos las direcciones IP para obtener información como el país y el operador. Posteriormente, descartamos las direcciones IP dentro de un plazo razonable de conformidad con nuestro período de conservación de datos.
+Utilizamos la información de la cadena del agente de usuario contenida en el archivo de registro para determinar el sistema operativo y el modelo de su dispositivo. Posteriormente, descartamos la cadena de agente de usuario en un plazo razonable de acuerdo con nuestro período de retención de datos.
+C. IDENTIFICADORES FUERA DE LÍNEA
+DIRECCIONES DE CORREO ELECTRÓNICO Y NÚMEROS DE TELÉFONO CON HASH
+Algunos Socios de Datos o Clientes pueden proporcionar sus datos fuera de línea, como direcciones de correo electrónico con hashing y números de teléfono con hashing. Antes de compartirlos con Zeotap, exigimos que dichos datos se codifiquen mediante algoritmos de codificación seguros.
+Utilizamos correos electrónicos hashing o números de teléfono con hashing para establecer una relación entre los perfiles de usuario offline y online de un determinado usuario y enriquecer los perfiles de esos usuarios online. Por ejemplo, nuestro Cliente quiere realizar una campaña publicitaria en dispositivos móviles dirigida a usuarios de cuyas direcciones de correo electrónico con hashing y/o números de teléfono con hashing ya dispone el Cliente. Sin embargo, sin los respectivos identificadores de anuncios, el cliente no puede dirigirse a la audiencia deseada. Comparando las direcciones de correo electrónico con hash y los números de teléfono con hash proporcionados por el Cliente con los Datos de Usuario que tenemos de nuestros Socios de Datos, podemos emparejar las direcciones de correo electrónico con hashing o los números de teléfono con hashing con los identificadores de anuncio correspondientes al mismo usuario. Como resultado, tenemos una lista de identificadores de anuncios correspondiente a la lista de usuarios a los que el cliente desea dirigirse. Además, podemos enriquecer esas listas con datos de perfil adicionales, como los que se describen a continuación.
+Los correos electrónicos con hashing también servirían de base para la creación de ID+, nuestro identificador individual seudónimo tokenizado y específico de un usuario. Puede obtener más información sobre ID+ aquí.
+D. DATOS DEL PERFIL
+DATOS DEMOGRÁFICOS
+Podemos obtener Datos demográficos del usuario de nuestros Socios de Datos, tales como:
+datos demográficos del usuario (por ejemplo, edad o rango de edad y sexo);
+área geográfica general de la dirección del usuario y código postal;
+nivel de ingresos previsto o real;
+otra información demográfica recibida o recopilada por nuestros Socios de datos.
+Zeotap utiliza esta información para crear segmentos demográficos sobre los usuarios, por ejemplo, usuarios que son “hombres, de 30 a 34 años, que viven en Brooklyn”. Conectamos segmentos con ID de anuncios para que nuestros Clientes puedan llegar a su público objetivo en dispositivos móviles.
+DATOS DE USO DE APLICACIONES E INTERESES DE NAVEGACIÓN
+Podemos obtener datos de uso de aplicaciones y de navegación de nuestros socios de datos, como por ejemplo
+apps instaladas/con acceso en el dispositivo de un usuario;
+eventos de la aplicación, como compras o inicios de sesión;
+datos de navegación, como URL.
+Las URL son direcciones web, una cadena de caracteres específica que constituye una referencia a un recurso. La mayoría de los navegadores web muestran la URL de una página web encima de la página en una barra de direcciones.
+Transformamos el uso de la aplicación y los datos de navegación en segmentos agregados basados en intereses o intención de compra (como aficionados al deporte, aficionados a la salud y al fitness) que son de interés para nuestros Clientes.
+DATOS DE COMPRA
+Podemos obtener datos de compra de nuestros socios de datos, tales como:
+artículos que ha comprado en tiendas;
+artículos que haya comprado en línea;
+artículos que haya puesto en una cesta de la compra en línea.
+E. DATOS DE GEOLOCALIZACIÓN
+Podemos recibir datos de Socios de Datos sobre la ubicación física de un dispositivo específico, incluidas las coordenadas de latitud-longitud obtenidas mediante herramientas GPS, Wi-Fi o técnicas de triangulación de torres de telefonía móvil.
+Los datos de localización que recibimos de los Socios de Datos pueden ser datos de localización generalizados, no precisos, o podemos hacer que los datos de localización no sean precisos, con el fin de proporcionar datos de localización generalizados a nuestros Clientes. Nuestros Clientes pueden utilizar inferencias de esta información para enviar anuncios localizados o anuncios dirigidos. Nosotros no procesamos datos de localización precisos de la UE ni del Reino Unido.
+Base jurídica para el tratamiento de datos personales
+Nuestros Servicios permiten a nuestros Clientes, entre otras cosas, adaptar la publicidad que usted ve en su navegador de Internet o dispositivo móvil a sus intereses y preferencias. Como resultado, se reducirá el número de anuncios que no sean relevantes o de su interés. Para lograr este objetivo, necesitamos procesar sus datos personales y dichas operaciones de procesamiento están cubiertas por su consentimiento, lo que permite especialmente a nuestros Clientes utilizar segmentos de audiencia personalizados para mejorar y potenciar sus actividades de marketing y su alcance comercial.
+En el marco de los Productos de Datos, nuestros Socios de Datos que nos proporcionan Datos de Usuario recaban el consentimiento de los usuarios para procesar sus datos personales y compartirlos con nosotros de acuerdo con sus respectivas políticas de privacidad. El consentimiento recogido por nuestros Socios de Datos cumple con los requisitos legales aplicables y permite a Zeotap y a sus Clientes procesar actividades. Cualquier tratamiento de sus datos personales por parte de Zeotap está sujeto a sus derechos de elección y control, tal y como se explica a continuación.
+En el caso de los Productos de software, nuestros Clientes actúan como responsables del tratamiento de datos y son responsables de garantizar la existencia de una base jurídica adecuada.
+Tenga en cuenta que en los Productos de Datos, en caso de que combinemos los datos de nuestros Clientes con los Datos de Usuario, nuestros Clientes y nosotros actuamos como responsables conjuntos del tratamiento de datos. Con respecto al proceso conjunto, nosotros y nuestros Clientes determinamos conjuntamente los fines y medios del tratamiento de los Datos de Usuario. En un acuerdo sobre el control conjunto de conformidad con el artículo 26 del GDPR, nosotros y nuestros Clientes hemos determinado cómo se estructuran las respectivas tareas y responsabilidades en el procesamiento de datos personales y quién cumple qué obligaciones de protección de datos. En particular, se determinó cómo se puede garantizar un nivel adecuado de seguridad y sus derechos como interesado, cómo se pueden cumplir conjuntamente los deberes de información en virtud de las leyes aplicables y cómo se pueden supervisar los posibles incidentes de protección de datos. Esto incluye también garantizar el cumplimiento de las obligaciones de información y notificación.
+Con quién compartimos los datos del usuario
+Compartimos Datos de Usuario con las siguientes categorías de terceros para los siguientes fines:
+Anunciantes y Agencias: compartimos identificadores en línea, datos de navegación, identificadores fuera de línea, datos de perfil y geolocalización con fines de segmentación, análisis y medición;
+Editores y otras empresas que envían publicidad dirigida a consumidores móviles: compartimos identificadores en línea, datos de perfil y geolocalización con fines de segmentación, análisis, medición y conocimiento de la audiencia;
+Plataformas de datos de terceros, como plataformas de demanda (DSP en inglés), plataformas de gestión de datos (DMP en inglés), mercados publicitarios, redes publicitarias, etc. (“Plataforma de datos”): compartimos identificadores en línea y datos de perfil con fines de activación de datos, orientación, análisis y medición;
+Empresas de medición de anuncios: compartimos identificadores en línea, datos de navegación, identificadores fuera de línea, datos de perfil y geolocalización con fines de análisis y medición;
+Nuestro proveedor de alojamiento Google Cloud EMEA Limited (“Proveedores de Alojamiento”): compartimos identificadores en línea, datos de navegación, identificadores sin conexión, datos de perfil y geolocalización con fines de almacenamiento;
+Nuestras filiales: compartimos Identificadores en línea, datos de navegación, Identificadores fuera de línea, datos de perfil y Geolocalización con el fin de proporcionar asistencia técnica y ayudar a Zeotap a prestar los Servicios.
+Los anunciantes con los que trabajamos operan en los siguientes sectores: arte y entretenimiento, automoción, salud y forma física, comida y bebida, hobbies e intereses, hogar y jardín, noticias, finanzas y seguros, ciencia, mascotas, deportes, estilo y moda, tecnología e informática, turismo y viajes, inmobiliario, compras, salud y cuidado personal, Tecnologías de la Información y la Comunicación (TIC), energía, transporte. Entre las agencias de marketing con las que trabajamos se incluyen: Dentsu UK Limited y empresas afiliadas a Dentsu.
+Editoriales con las que trabajamos incluyen: MediaMond S.p.A., Triboo Media S.r.l., NetAddiction S.r.l., Edizioni Piemme S.p.A., Teads Italia S.r.l., Viralize S.r.l., AdKaora S.r.l., WebAds S.r.l., Instal S.r.l., Smartclip Italia S.r.l., MovingUp S.r.l., ZETA Gestion de Medios, WebAds Interactive SL, VLN Servicios Publicitarios Integrales S.L. (Sunmedia), Blue Media Comunicacion, S.L., RichAudience International SL, Smartclip Hispania SL, Teads S.A.
+Plataformas de datos con las que trabajamos incluyen: A.C. Nielsen Company Limited, adsquare GmbH, Xandr Inc., Inmobi Ltd., Maiden Marketing PTE Ltd. (d.b.a. POKKT), Widespace AB, Google Ireland Ltd., The Trade Desk Inc., Adform A/S, Adobe Systems Inc., TAPTAP Networks S.L., Teads Italia S.r.l., Teads S.A. (global), Smartclip Italia S.r.l., LiveRamp Inc., TabMo SAS (Hawk), Pocket Math Pte Ltd, Bidstalk Technologies Pte Ltd, Mediasmart Mobile S.L., AppLift GmbH, salesforce.com EMEA Limited, Yahoo AdTEch LLC, Meta Platforms Ireland Limited, Narrative I/O Inc., Adex GmbH, Smart Adserver, Lotame Solutions, Inc., Ventes Avenue Pvt Ltd, Neustar Inc., MediaMath, Inc., A.MOB SAS, Oracle, Amazon Europe Core SARL, Twitter International Company, Snap Group Limited, Taboola.com Ltd, Weborama SA, FreeWheel Media Inc, PubMatic Inc, Index Exchange Inc, Platform161 BV, Dynamic Yield GmbH, Permutive Limited, TikTok Technology Limited (Ireland), Braze Inc, Microsoft Corporation, Magnite, Inc., Eyeota Pte Ltd, Neodata Group s.r.l.
+También divulgaremos sus Datos de Usuarios en respuesta a procesos legales válidos, por ejemplo, en respuesta a una orden judicial, una citación u otra solicitud legal de información, y/o para cumplir con los requisitos legales y reglamentarios de información aplicables. También podemos revelar su información cuando creamos que es necesario investigar, prevenir o tomar medidas en relación con actividades ilegales, sospechas de fraude, situaciones que impliquen amenazas potenciales a la seguridad física de cualquier persona, o para verificar o hacer cumplir las políticas que rigen nuestros productos y/o servicios y las leyes aplicables, o según lo requiera o permita la ley o sea coherente con los requisitos legales. Estamos obligados a revelar datos personales en respuesta a solicitudes legales de autoridades públicas, incluyendo el cumplimiento de requisitos de seguridad nacional o de aplicación de la ley.
+Además, podemos transferir sus datos a una entidad o persona que nos adquiera, compre o se fusione con nosotros, o con nuestras filiales. En estos casos, exigiremos a la empresa adquirente que mantenga los términos materiales de esta Política, incluidas las solicitudes de eliminación de cuentas.
+Cuándo transferimos datos de usuario internacionalmente
+Cuando compartimos Datos de Usuarios con los destinatarios descritos anteriormente, dicho intercambio puede constituir una transferencia a un tercer país fuera del Espacio Económico Europeo, para el que la Comisión Europea no ha determinado un nivel adecuado de protección de sus datos personales. Por ley, estamos obligados a garantizar que el nivel de protección garantizado para sus datos personales por las leyes europeas y del Reino Unido no se vea menoscabado por dicha transferencia. Suscribimos las Cláusulas Contractuales estándar de la UE con los respectivos destinatarios de los Datos de Usuarios, a las que puede acceder previa solicitud. Tenga en cuenta que los Datos de Usuario se almacenan en las siguientes ubicaciones: Alemania, Bélgica e Inglaterra.
+Cómo protegemos los datos personales
+Hemos implementado las salvaguardas técnicas y organizativas adecuadas para proteger los datos personales que recibimos frente a robos, pérdidas y accesos no autorizados. Seguimos las normas generalmente aceptadas para proteger los datos personales de los usuarios durante todo el ciclo de uso, desde la transferencia inicial hasta su eliminación. Además, limitamos el acceso interno a sus datos personales a nuestros empleados, agentes, contratistas y otros terceros que tengan una necesidad comercial legítima de conocerlos. Sólo tratarán sus datos personales siguiendo nuestras instrucciones, y están sujetos a un deber de confidencialidad.
+Hemos establecido procedimientos para hacer frente a cualquier sospecha de violación de datos personales y le notificaremos a usted y a cualquier autoridad supervisora aplicable una violación cuando estemos legalmente obligados a hacerlo.
+Sus derechos con respecto a sus datos personales (incluidas las opciones de exclusión voluntaria)
+Sus datos personales le pertenecen. Usted tiene los siguientes derechos con respecto a sus datos personales:
+derecho a solicitar confirmación sobre si procesamos o no alguno de sus datos y, en tal caso, derecho de acceso a sus datos;
+derecho a solicitar la rectificación de los datos personales inexactos
+derecho a solicitar la supresión de sus datos personales;
+derecho a restringir el tratamiento de sus datos personales si se cumplen determinadas condiciones, por ejemplo, si cree que los datos personales que tenemos sobre usted no son exactos;
+derecho a oponerse al tratamiento de sus datos personales;
+retirar su consentimiento con efectos para el futuro;
+derecho a la portabilidad de los datos, que sólo se aplica, no obstante, si usted nos facilitó directamente sus datos personales.
+Cómo ejercer sus derechos
+Para oponerse al tratamiento de sus datos personales o ejercer otros derechos relacionados con los mismos, puede ponerse en contacto directamente con su operador de telefonía móvil o con otro socio de datos con el que haya compartido sus datos personales (consulte sus respectivas políticas de privacidad). Es responsabilidad del socio de datos en cuestión garantizar que se atienda plenamente su solicitud.
+Adicionalmente, puede ponerse en contacto con nosotros directamente. Los datos que almacenamos están codificados y se guardan en relación con (i) un identificador (ID) de anuncio o (ii) un identificador (ID) de cookie. Esto significa que necesitamos su ID de anuncio y/o ID de cookie para encontrar todos sus datos que están presentes en nuestro sistema.
+Alternativamente, podemos comprobar si el atributo de datos que nos envió en su solicitud (por ejemplo, un número de teléfono o una dirección de correo electrónico) está almacenado en nuestro sistema en un formato hash, sin embargo, si el número de teléfono con hashing o la dirección de correo electrónico con hashsing no están almacenados en nuestro sistema, y usted no nos proporcionó su ID de anuncio y/o ID de cookie, no podremos encontrar otros datos relacionados que todavía puedan estar almacenados en nuestro sistema.
+Por lo tanto, para poder procesar y responder a su solicitud de forma adecuada y completa, ponemos a su disposición los siguientes canales diferentes para ejercer sus derechos:
+Puede solicitar el acceso y/o la eliminación de sus datos almacenados contra un ID de cookie, a través de nuestro portal web.
+Puede solicitar el acceso y/o eliminación de sus datos almacenados contra un ID de anuncio, a través de nuestra App móvil propietaria (“App de Derechos de Protección de Datos”) que puede descargarse a través de Google Play y/o Apple Store.
+También puede enviar sus solicitudes rellenando este formulario.
+Aparte de todos los derechos anteriores, también puede presentar una reclamación ante una autoridad de control si considera que nosotros o nuestros Socios de Datos hemos vulnerado sus derechos.
+Además, siempre puede utilizar el siguiente mecanismo para darse de baja de la publicidad dirigida:
+Puede seleccionar “Limitar seguimiento de anuncios” en iOS o “Inhabilitar anuncios basados en intereses” en Google Android. En este caso, conservaremos sus Datos de Usuario hasta que nos solicite que los eliminemos, pero no los utilizaremos con fines de publicidad dirigida, y la actividad en su dispositivo móvil será efectivamente invisible para nosotros. Puede restablecer el identificador de publicidad seleccionando la opción “Restablecer identificador de publicidad” en Apple iOS o “Restablecer identificador de publicidad” en Google Android. Esto eliminará el identificador de anuncios actual de su dispositivo y lo sustituirá por un nuevo identificador de anuncios. Como resultado, ya no recibiremos ninguna solicitud de oferta que contenga el antiguo identificador de anuncio. Transcurrido cierto tiempo, eliminaremos los Id. de anuncio antiguos y los Datos de usuario relacionados. Sin embargo, es posible que tengamos acceso a su nuevo Id. de anuncio y lo comparemos con otros Datos de usuario que podamos recibir de nuestros Socios de datos a lo largo del tiempo.
+Puede borrar o bloquear nuestras cookies en la configuración de su navegador móvil. En este caso, conservaremos sus datos, pero no podremos utilizarlos para dirigirnos a su dispositivo cuando navegue por sitios web para móviles. Sin embargo, independientemente de la eliminación de las cookies, su dispositivo puede seguir siendo segmentado cuando utilice aplicaciones en función de su identificador (ID) de anuncios.
+También puede visitar la página web YourAdChoices.com | AppChoices y/o descargar la aplicación móvil AppChoices. Para obtener más información sobre la publicidad dirigida y las opciones de exclusión voluntaria, puede visitar, por ejemplo, la página web de Network Advertising Initiative’s en http://www.networkadvertising.org/choices y/o Your Online Choices.
+Tenga también en cuenta que el uso de las opciones anteriores no significa que vaya a bloquear la publicidad móvil, pero sí que los anuncios que reciba no estarán personalizados para usted.
+Su navegador puede ofrecerle la opción “No rastrear”, que le permite indicar a los operadores de sitios web y aplicaciones y servicios web (incluidos los servicios de publicidad basada en el comportamiento) que no desea que dichos operadores rastreen determinadas actividades en línea, a lo largo del tiempo y en diferentes sitios web. No recomendamos las señales “Do Not Track”.
+Información sobre la conservación de datos
+Sólo conservaremos sus datos personales durante el tiempo necesario para cumplir los fines para los que los recogimos.
+Nosotros conservamos los datos hasta que se produzcan los siguientes hechos
+solicitud de un socio de datos para eliminar determinados datos del usuario; o
+el usuario nos envía su Ad ID para la eliminación de los datos asociados; o
+expiración del período de retención definido por Zeotap con una eliminación de los perfiles no utilizados después de 3 meses.
+Tenga en cuenta que nuestras cookies tienen las siguientes duraciones de almacenamiento:
+zc: Cookie eliminada contra el dominio .zeotap.com. Finalidad: Identificación del usuario. Caducidad: 365 días
+zsc: Cookie eliminada contra el dominio .zeotap.com. Finalidad: Limitación de frecuencia para la sincronización de cookies. Caducidad: 1 día
+zi: Cookie eliminada contra el dominio del sitio como cookie de origen. Finalidad: Identificación de usuario. Caducidad: 365 días
+idp: Cookie eliminada contra el dominio del sitio como cookie de origen. Finalidad: Identificación de usuario. Caducidad: 365 días
+zuc: Cookie generada en el dominio .zeotap.com para almacenar el valor del consentimiento. Finalidad: identificación del usuario. Caducidad: 365 días
+Contacto
+Si tiene alguna pregunta o sugerencia sobre esta Política y nuestras prácticas de privacidad, póngase en contacto con nosotros aquí o a través de los canales que se indican a continuación:
+Por correo electrónico: [email protected]
+Por correo postal a Zeotap: zeotap GmbH, Privacy Team, c/o WeWork, Stresemannstraße 123, 10963 Berlin, Alemania
+Por correo postal a nuestro representante en el Reino Unido: zeotap UK Limited, 16 Great Queen Street, Covent Garden, London WC2B 5AH, Reino Unido
+Por correo postal a nuestro DPO externo: ePrivacy GmbH, Prof. Dr. Christoph Bauer, Burchardstrasse 14, 20095 Hamburgo, Alemania
+Esta Política fue modificada por última vez en diciembre de 2023
+Get a demo
+Step into a new era of marketing possibilities, unleashing the full potential of your customer data. Experience the power of Zeotap CDP.
+GET A DEMO
+Follow us
+Facebook-f
+Twitter
+Linkedin-in
+Sign up for our newsletter
+Be the first to get access to our marketing resources and keep up to date with the latest CDP best practices, privacy standards, marketing, and customer data.
+Get a demo
+Step into a new era of marketing possibilities, unleashing the full potential of your customer data. Experience the power of Zeotap CDP.
+GET A DEMO
+Follow us
+Facebook-f
+Twitter
+Linkedin-in
+©2024 Zeotap All Rights Reserved
+Website Privacy Policy
+Product and Service Privacy Policy
+Vulnerability Disclosure Policy
+Information Security Policy Statement
+Legal Notice
+Legal Hub
+Zeotap Whistleblowing Channel
+Website Privacy Policy
+Product and Service Privacy Policy
+Vulnerability Disclosure Policy
+Information Security Policy Statement
+Legal Notice
+Legal Hub
+Zeotap Whistleblowing Channel

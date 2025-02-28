@@ -1,0 +1,120 @@
+DOCSDOCSHomeGuidesDevelopersIntegrationsChangelogSign UpDocumentationDevelopersAPI ReferencesPlatform APIPlatform API OverviewAccountsAppsAudiencesCalculated AttributesData PointsFeedsField TransformationsServicesUsersWorkspacesData Subject Request APIData Subject Request API Version 1 and 2Data Subject Request API Version 3Warehouse Sync APIWarehouse Sync API OverviewWarehouse Sync API TutorialWarehouse Sync API ReferenceData MappingWarehouse Sync SQL ReferenceWarehouse Sync Troubleshooting GuideComposeIDWarehouse Sync API v2 MigrationCalculated Attributes Seeding APIBulk Profile Deletion API ReferenceCustom Access Roles APIData Planning APIGroup Identity API ReferencePixel ServiceProfile APIEvents APImParticle JSON Schema ReferenceIDSyncClient SDKsAMPAMP SDKAndroidInitializationConfigurationNetwork Security ConfigurationEvent TrackingUser AttributesIDSyncScreen EventsCommerce EventsLocation TrackingMediaKitsApplication State and Session ManagementData Privacy ControlsError TrackingOpt OutPush NotificationsWebView IntegrationLoggerPreventing Blocked HTTP Traffic with CNAMELinting Data PlansTroubleshooting the Android SDKAPI ReferenceUpgrade to Version 5CordovaCordova PluginIdentityDirect Url RoutingDirect URL Routing FAQWebAndroidiOSFlutterGetting StartedUsageAPI ReferenceiOSInitializationConfigurationEvent TrackingUser AttributesIDSyncScreen TrackingCommerce EventsLocation TrackingMediaKitsApplication State and Session ManagementData Privacy ControlsError TrackingOpt OutPush NotificationsWebview IntegrationUpload FrequencyApp ExtensionsPreventing Blocked HTTP Traffic with CNAMELinting Data PlansTroubleshooting iOS SDKSocial NetworksiOS 14 GuideiOS 15 FAQiOS 16 FAQiOS 17 FAQiOS 18 FAQAPI ReferenceUpgrade to Version 7RokuGetting StartedIdentityMediaReact NativeGetting StartedIdentityUnityUpload FrequencyGetting StartedOpt OutInitialize the SDKEvent TrackingCommerce TrackingError TrackingScreen TrackingIdentityLocation TrackingSession ManagementXboxGetting StartedIdentityWebInitializationConfigurationContent Security PolicyEvent TrackingUser AttributesIDSyncPage View TrackingCommerce EventsLocation TrackingMediaKitsApplication State and Session ManagementData Privacy ControlsError TrackingOpt OutCustom LoggerPersistenceNative Web ViewsSelf-HostingMultiple InstancesWeb SDK via Google Tag ManagerPreventing Blocked HTTP Traffic with CNAMEFacebook Instant ArticlesTroubleshooting the Web SDKBrowser CompatibilityLinting Data PlansAPI ReferenceUpgrade to Version 2 of the SDKXamarinGetting StartedIdentityWebAlexaMedia SDKsAndroidiOSWebToolsmParticle Command Line InterfaceLinting ToolsSmartypeServer SDKsNode SDKGo SDKPython SDKRuby SDKJava SDKQuickstartAndroidOverviewStep 1. Create an inputStep 2. Verify your inputStep 3. Set up your outputStep 4. Create a connectionStep 5. Verify your connectionStep 6. Track eventsStep 7. Track user dataStep 8. Create a data planStep 9. Test your local appHTTP Quick StartStep 1. Create an inputStep 2. Create an outputStep 3. Verify outputiOS Quick StartOverviewStep 1. Create an inputStep 2. Verify your inputStep 3. Set up your outputStep 4. Create a connectionStep 5. Verify your connectionStep 6. Track eventsStep 7. Track user dataStep 8. Create a data planJava Quick StartStep 1. Create an inputStep 2. Create an outputStep 3. Verify outputNode Quick StartStep 1. Create an inputStep 2. Create an outputStep 3. Verify outputPython Quick StartStep 1. Create an inputStep 2. Create an outputStep 3. Verify outputWebOverviewStep 1. Create an inputStep 2. Verify your inputStep 3. Set up your outputStep 4. Create a connectionStep 5. Verify your connectionStep 6. Track eventsStep 7. Track user dataStep 8. Create a data planGuidesPartnersIntroductionOutbound IntegrationsOutbound IntegrationsFirehose Java SDKInbound IntegrationsKit IntegrationsOverviewAndroid Kit IntegrationJavaScript Kit IntegrationiOS Kit IntegrationCompose IDData Hosting LocationsGlossaryMigrate from Segment to mParticleMigrate from Segment to mParticleMigrate from Segment to Client-side mParticleMigrate from Segment to Server-side mParticleSegment-to-mParticle Migration ReferenceRules Developer GuideAPI Credential ManagementThe Developer's Guided Journey to mParticleGuidesGetting StartedCreate an InputStart capturing dataConnect an Event OutputCreate an AudienceConnect an Audience OutputTransform and Enhance Your DataPersonalizationIntroductionProfilesAudiencesAudiences OverviewCreate an AudienceConnect an AudienceManage AudiencesReal-time Audiences (Legacy)Standard Audiences (Legacy)Calculated AttributesCalculated Attributes OverviewUsing Calculated AttributesCreate with AI AssistanceCalculated Attributes ReferencePredictive AudiencesPredictive Audiences OverviewUsing Predictive AudiencesJourneysJourneys OverviewManage JourneysDownload an audience from a journeyAudience A/B testing from a journeyJourneys 2.0Predictive AttributesWhat are predictive attributes?Predict Future BehaviorCreate Future PredictionUse Future Predictions in CampaignsAssess and Troubleshoot PredictionsNext Best ActionNext Best Action OverviewCreate a Next Best Action (NBA)View and Manage NBAsActivate Next Best Actions in CampaignsPlatform GuideBillingUsage and Billing ReportThe New mParticle ExperienceThe new mParticle ExperienceThe Overview MapObservabilityObservability OverviewObservability User GuideObservability Troubleshooting ExamplesObservability Span GlossaryIntroductionData RetentionConnectionsActivityLive StreamData FilterRulesTiered EventsmParticle Users and RolesAnalytics Free TrialTroubleshooting mParticleUsage metering for value-based pricing (VBP)AnalyticsIntroductionSetupSync and Activate Analytics User Segments in mParticleUser Segment ActivationWelcome Page AnnouncementsSettingsProject SettingsRoles and TeammatesOrganization SettingsGlobal Project FiltersPortfolio AnalyticsAnalytics Data ManagerAnalytics Data Manager OverviewEventsEvent PropertiesUser PropertiesRevenue MappingExport DataUTM GuideQuery BuilderData DictionaryQuery Builder OverviewModify Filters With And/Or ClausesQuery-time SamplingQuery NotesFilter Where ClausesEvent vs. User PropertiesGroup By ClausesAnnotationsCross-tool CompatibilityApply All for Filter Where ClausesDate Range and Time Settings OverviewUser Attributes at Event TimeUnderstanding the Screen View EventAnalysesAnalyses IntroductionSegmentation: BasicsGetting StartedVisualization OptionsFor ClausesDate Range and Time SettingsCalculatorNumerical SettingsSegmentation: AdvancedAssisted AnalysisProperties ExplorerFrequency in SegmentationTrends in SegmentationDid [not] Perform ClausesCumulative vs. Non-Cumulative Analysis in SegmentationTotal Count of vs. Users Who PerformedSave Your Segmentation AnalysisExport Results in SegmentationExplore Users from SegmentationFunnels: BasicsGetting Started with FunnelsGroup By SettingsConversion WindowTracking PropertiesDate Range and Time SettingsVisualization OptionsInterpreting a Funnel AnalysisFunnels: AdvancedGroup ByFiltersConversion over TimeConversion OrderTrendsFunnel DirectionMulti-path FunnelsAnalyze as Cohort from FunnelSave a Funnel AnalysisExplore Users from a FunnelExport Results from a FunnelCohortsGetting Started with CohortsAnalysis ModesSave a Cohort AnalysisExport ResultsExplore UsersSaved AnalysesManage Analyses in DashboardsJourneysGetting StartedEvent MenuVisualizationEnding EventSave a Journey AnalysisUsersGetting StartedUser Activity TimelinesTime SettingsExport ResultsSave A User AnalysisDashboardsDashboards––Getting StartedManage DashboardsDashboard FiltersOrganize DashboardsScheduled ReportsFavoritesTime and Interval Settings in DashboardsQuery Notes in DashboardsUser AliasingAnalytics ResourcesThe Demo EnvironmentKeyboard ShortcutsTutorialsAnalytics for MarketersAnalytics for Product ManagersCompare Conversion Across Acquisition SourcesAnalyze Product Feature UsageIdentify Points of User FrictionTime-based Subscription AnalysisDashboard Tips and TricksUnderstand Product StickinessOptimize User Flow with A/B TestingUser SegmentsAPIsUser Segments Export APIDashboard Filter APIIDSyncIDSync OverviewUse Cases for IDSyncComponents of IDSyncStore and Organize User DataIdentify UsersDefault IDSync ConfigurationProfile Conversion StrategyProfile Link StrategyProfile Isolation StrategyBest Match StrategyAliasingData MasterGroup IdentityOverviewCreate and Manage Group DefinitionsIntroductionCatalogLive StreamData PlansData PlansBlocked Data Backfill GuideWarehouse SyncData Privacy ControlsData Subject RequestsDefault Service LimitsFeedsCross-Account Audience SharingApproved Sub-ProcessorsImport Data with CSV FilesImport Data with CSV FilesCSV File ReferenceGlossaryVideo IndexAnalytics (Deprecated)Identity ProvidersSingle Sign-On (SSO)Setup ExamplesSettingsDebug ConsoleData Warehouse Delay AlertingIntroductionDeveloper DocsIntroductionIntegrationsIntroductionRudderstackGoogle Tag ManagerSegmentData Warehouses and Data LakesAdvanced Data Warehouse SettingsAWS Kinesis (Snowplow)AWS Redshift (Define Your Own Schema)AWS S3 Integration (Define Your Own Schema)AWS S3 (Snowplow Schema)BigQuery (Snowplow Schema)BigQuery Firebase SchemaBigQuery (Define Your Own Schema)GCP BigQuery ExportSnowflake (Snowplow Schema)Snowplow Schema OverviewSnowflake (Define Your Own Schema)APIsREST APIDashboard Filter API (Deprecated)User Segments Export API (Deprecated)SDKsSDKs IntroductionReact NativeiOSAndroidJavaJavaScriptPythonObject APIDeveloper BasicsAliasingNode SDKThis SDK is a helper library for the mParticle Events HTTP API, it exposes mParticle’s schema as simple models and provides an HTTP client interface. This SDK is stateless and will only send the data that you populate, whereas our mobile SDKs will automatically collect app and device information, session events, install events, and maintain persistence. Read this wiki for a general overview and examples, and contact our customer support team to make sure you’re feeding the platform with the right data to power your integrations.
+Model Overview
+Batch
+All data sent via the SDK must be encapsulated in a Batch object. Each Batch is associated with a single user. Batch objects must be associated with an environment (production or development) to properly silo your testing and production data.
+var batch = new mParticle.Batch(mParticle.Batch.Environment.development);
+User Identities
+Most use-cases require that data be associated with a user identity, for example:
+If you’re also sending data to mParticle via our mobile SDKs, set a customer ID both via the mobile SDKs and this SDK so that mParticle can correctly associate data with each user.
+Several marketing automation and audience integrations are powered by email.
+var user_identities = new mParticle.UserIdentities();
+user_identities.customerid = '123456'
+batch.user_identities = user_identities;
+Device Information
+The DeviceInformation object describes a mobile device that should be associated with this batch. Crucially, it exposes properties for device identities (Apple IDFA and Google Advertising ID) which are required for nearly all mParticle Audience integrations.
+var device_info = new mParticle.DeviceInformation();
+// set any IDs that you have for this user
+device_info.ios_advertising_id = '07d2ebaa-e956-407e-a1e6-f05f871bf4e2';
+device_info.android_advertising_id = 'a26f9736-c262-47ea-988b-0b0504cee874';
+batch.device_info = device_info;
+User Attributes
+The mParticle audience platform can be powered by only sending a combination of user attributes, used to describe segments of users, and device identities/user identities used to then target those users.
+// arbitrary example allowing you to create a segment of users trial users
+batch.user_attributes = {'Account type': 'trial', 'TrialEndDate':'2016-12-01'};
+Events
+Events are central to many of mParticle’s integrations; analytics integrations typically require events, and you can create mParticle Audiences based on the recency and frequency of different events. All events should be associated with a timestamp reflecting when they actually occurred, otherwise they will be assigned a timestamp when mParticle receives them.
+AppEvent
+App Events represent specific actions that a user has taken in your app. At minimum they require a name and a type, but can also be associate with a free-form dictionary of key/value pairs.
+var event = new mParticle.AppEvent(mParticle.AppEvent.CustomEventType.navigation,
+'Hello World');
+event.custom_attributes = { foo: 'bar' };
+batch.addEvent(event);
+CommerceEvent
+The CommerceEvent is central to mParticle’s eCommerce measurement. CommerceEvents can contain many data points but it’s important to understand that there are 3 core variations:
+Product-based: used to measure measured data points associated with one or more products
+Promotion-based: used to measure data points associated with internal promotions or campaigns
+Impression-based: used to measure interactions with impressions of products and product-listings
+// 1. Create the product and add any product attributes
+var product = new mParticle.Product();
+product.name = 'Example Product';
+product.id = 'sample-sku';
+product.price = 19.99;
+// Optional custom attributes for the product can be added as key/value string pairs within a customAttributes object
+product.customAttributes = {
+"on-sale": "true",
+"referbished": "false"
+};
+// 2. Summarize the purchase of the product in a ProductAction object, passing in the product object created in step 1
+var product_action = new mParticle.ProductAction('purchase');
+product_action.products = [product];
+product_action.tax_amount = 1.50;
+product_action.total_amount = 21.49;
+// 3. Log the purchase event using CommerceEvent
+var commerce_event = new mParticle.CommerceEvent();
+commerce_event.product_action = product_action;
+commerce_event.timestamp_unixtime_ms = 1484322995852; // Replace with time of transaction
+batch.addEvent(commerce_event);
+Session Events
+The SessionStartEvent and SessionEndEvent should be used to describe the details of user session such as its length, which is a common metric used in many mParticle integrations. Additonally, length, recency, and frequency of sessions are powerful data-points by which an mParticle audience can be defined.
+var session_start = new mParticle.SessionStartEvent();
+session_start.session_id = 12345678;
+session_start.timestamp_unixtime_ms = example_timestamp;
+session_end = new mParticle.SessionEndEvent();
+session_end.session_id = session_start.session_id; // it's mandatory that these match
+session_end.session_duration_ms = example_duration;
+session_end.timestamp_unixtime_ms = example_timestamp + example_duration;
+batch.events = [session_start, session_end];
+Consent State
+To conform to the ever growing global regulations on data privacy, mParticle supports Data Privacy Controls.
+This is initially configured in the dashboard and is attached via a batch’s consent_state.
+CCPA
+var ccpa_consent_state = new mParticle.CCPAConsentState();
+ccpa_consent_state.document = 'document_agreement.v3';
+ccpa_consent_state.consented = true;
+ccpa_consent_state.timestamp_unixtime_ms = Date.now();
+ccpa_consent_state.location = 'mparticle.test/signup';
+ccpa_consent_state.hardware_id = 'IDFA:a5d96n32-224a-3b11-1088-a202695bc710';
+var consent_state = new mParticle.ConsentState();
+consent_state.ccpa = { data_sale_opt_out: ccpa_consent_state };
+batch.consent_state = consent_state;
+GDPR
+var gdpr_consent_state = new mParticle.GDPRConsentState();
+gdpr_consent_state.document = 'document_agreement.v2';
+gdpr_consent_state.consented = true;
+gdpr_consent_state.timestamp_unixtime_ms = Date.now();
+gdpr_consent_state.location = 'dtmgbank.com/signup';
+gdpr_consent_state.hardware_id = 'IDFA:a5d934n0-232f-4afc-2e9a-3832d95zc702';
+var consent_state = new mParticle.ConsentState();
+consent_state.gdpr = { 'My Purpose': gdpr_consent_state };
+batch.consent_state = consent_state;
+In this example, 'My Purpose' should match the Consent Purpose defined in your GDPR Settings
+HTTP Client Usage
+The SDK provides an interface to the mParticle HTTP API by way of the EventsApi class.
+Configuration
+At minimum, the EventsApi must be initialized with a Configuration object, containing an mParticle key and secret. You can find your mParticle key and secret by navigating to the Apps section of the mParticle platform UI.
+You must associate your data with the correct key and secret. If your app is multi-platform, for example, be sure to send your Android data to your Android key/secret, and your iOS data to your iOS key/secret.
+var api = new mParticle.EventsApi(new mParticle.Configuration(
+'REPLACE WITH API KEY',
+'REPLACE WITH API SECRET'));
+Uploading Data
+The EventsAPI class exposes two interfaces:
+bulkUploadEvents - Accepts up to 100 Batch objects for up to 100 users.
+uploadEvents - Accepts a single Batch object for a single user
+var batch = new mParticle.Batch(mParticle.Batch.Environment.development);
+batch.user_identities = new mParticle.UserIdentities();
+batch.user_identities.customerid = '123456' // identify the user (required)
+batch.user_attributes = {'hair color': 'brown'}
+var event = new mParticle.AppEvent(mParticle.AppEvent.CustomEventType.navigation,
+'Hello World');
+batch.addEvent(event);
+var body = [batch]; // {[Batch]} Up to 100 Batch objects
+var callback = function(error, data, response) {
+if (error) {
+console.error(error);
+} else {
+console.log('API called successfully.');
+}
+};
+api.bulkUploadEvents(body, callback);
+// or upload a single batch
+// api.uploadEvents(batch, callback)Was this page helpful?YesNoLast Updated: February 27, 2025© 2025 mParticle, Inc. All rights reserved.mParticle.comPrivacy PolicyCookie PolicyDo Not Sell or Share My Personal Data

@@ -1,0 +1,864 @@
+DOCSDOCSHomeGuidesDevelopersIntegrationsChangelogSign UpDocumentationDevelopersAPI ReferencesPlatform APIPlatform API OverviewAccountsAppsAudiencesCalculated AttributesData PointsFeedsField TransformationsServicesUsersWorkspacesData Subject Request APIData Subject Request API Version 1 and 2Data Subject Request API Version 3Warehouse Sync APIWarehouse Sync API OverviewWarehouse Sync API TutorialWarehouse Sync API ReferenceData MappingWarehouse Sync SQL ReferenceWarehouse Sync Troubleshooting GuideComposeIDWarehouse Sync API v2 MigrationCalculated Attributes Seeding APIBulk Profile Deletion API ReferenceCustom Access Roles APIData Planning APIGroup Identity API ReferencePixel ServiceProfile APIEvents APImParticle JSON Schema ReferenceIDSyncClient SDKsAMPAMP SDKAndroidInitializationConfigurationNetwork Security ConfigurationEvent TrackingUser AttributesIDSyncScreen EventsCommerce EventsLocation TrackingMediaKitsApplication State and Session ManagementData Privacy ControlsError TrackingOpt OutPush NotificationsWebView IntegrationLoggerPreventing Blocked HTTP Traffic with CNAMELinting Data PlansTroubleshooting the Android SDKAPI ReferenceUpgrade to Version 5CordovaCordova PluginIdentityDirect Url RoutingDirect URL Routing FAQWebAndroidiOSFlutterGetting StartedUsageAPI ReferenceiOSInitializationConfigurationEvent TrackingUser AttributesIDSyncScreen TrackingCommerce EventsLocation TrackingMediaKitsApplication State and Session ManagementData Privacy ControlsError TrackingOpt OutPush NotificationsWebview IntegrationUpload FrequencyApp ExtensionsPreventing Blocked HTTP Traffic with CNAMELinting Data PlansTroubleshooting iOS SDKSocial NetworksiOS 14 GuideiOS 15 FAQiOS 16 FAQiOS 17 FAQiOS 18 FAQAPI ReferenceUpgrade to Version 7RokuGetting StartedIdentityMediaReact NativeGetting StartedIdentityUnityUpload FrequencyGetting StartedOpt OutInitialize the SDKEvent TrackingCommerce TrackingError TrackingScreen TrackingIdentityLocation TrackingSession ManagementXboxGetting StartedIdentityWebInitializationConfigurationContent Security PolicyEvent TrackingUser AttributesIDSyncPage View TrackingCommerce EventsLocation TrackingMediaKitsApplication State and Session ManagementData Privacy ControlsError TrackingOpt OutCustom LoggerPersistenceNative Web ViewsSelf-HostingMultiple InstancesWeb SDK via Google Tag ManagerPreventing Blocked HTTP Traffic with CNAMEFacebook Instant ArticlesTroubleshooting the Web SDKBrowser CompatibilityLinting Data PlansAPI ReferenceUpgrade to Version 2 of the SDKXamarinGetting StartedIdentityWebAlexaMedia SDKsAndroidiOSWebToolsmParticle Command Line InterfaceLinting ToolsSmartypeServer SDKsNode SDKGo SDKPython SDKRuby SDKJava SDKQuickstartAndroidOverviewStep 1. Create an inputStep 2. Verify your inputStep 3. Set up your outputStep 4. Create a connectionStep 5. Verify your connectionStep 6. Track eventsStep 7. Track user dataStep 8. Create a data planStep 9. Test your local appHTTP Quick StartStep 1. Create an inputStep 2. Create an outputStep 3. Verify outputiOS Quick StartOverviewStep 1. Create an inputStep 2. Verify your inputStep 3. Set up your outputStep 4. Create a connectionStep 5. Verify your connectionStep 6. Track eventsStep 7. Track user dataStep 8. Create a data planJava Quick StartStep 1. Create an inputStep 2. Create an outputStep 3. Verify outputNode Quick StartStep 1. Create an inputStep 2. Create an outputStep 3. Verify outputPython Quick StartStep 1. Create an inputStep 2. Create an outputStep 3. Verify outputWebOverviewStep 1. Create an inputStep 2. Verify your inputStep 3. Set up your outputStep 4. Create a connectionStep 5. Verify your connectionStep 6. Track eventsStep 7. Track user dataStep 8. Create a data planGuidesPartnersIntroductionOutbound IntegrationsOutbound IntegrationsFirehose Java SDKInbound IntegrationsKit IntegrationsOverviewAndroid Kit IntegrationJavaScript Kit IntegrationiOS Kit IntegrationCompose IDData Hosting LocationsGlossaryMigrate from Segment to mParticleMigrate from Segment to mParticleMigrate from Segment to Client-side mParticleMigrate from Segment to Server-side mParticleSegment-to-mParticle Migration ReferenceRules Developer GuideAPI Credential ManagementThe Developer's Guided Journey to mParticleGuidesGetting StartedCreate an InputStart capturing dataConnect an Event OutputCreate an AudienceConnect an Audience OutputTransform and Enhance Your DataPersonalizationIntroductionProfilesAudiencesAudiences OverviewCreate an AudienceConnect an AudienceManage AudiencesReal-time Audiences (Legacy)Standard Audiences (Legacy)Calculated AttributesCalculated Attributes OverviewUsing Calculated AttributesCreate with AI AssistanceCalculated Attributes ReferencePredictive AudiencesPredictive Audiences OverviewUsing Predictive AudiencesJourneysJourneys OverviewManage JourneysDownload an audience from a journeyAudience A/B testing from a journeyJourneys 2.0Predictive AttributesWhat are predictive attributes?Predict Future BehaviorCreate Future PredictionUse Future Predictions in CampaignsAssess and Troubleshoot PredictionsNext Best ActionNext Best Action OverviewCreate a Next Best Action (NBA)View and Manage NBAsActivate Next Best Actions in CampaignsPlatform GuideBillingUsage and Billing ReportThe New mParticle ExperienceThe new mParticle ExperienceThe Overview MapObservabilityObservability OverviewObservability User GuideObservability Troubleshooting ExamplesObservability Span GlossaryIntroductionData RetentionConnectionsActivityLive StreamData FilterRulesTiered EventsmParticle Users and RolesAnalytics Free TrialTroubleshooting mParticleUsage metering for value-based pricing (VBP)AnalyticsIntroductionSetupSync and Activate Analytics User Segments in mParticleUser Segment ActivationWelcome Page AnnouncementsSettingsProject SettingsRoles and TeammatesOrganization SettingsGlobal Project FiltersPortfolio AnalyticsAnalytics Data ManagerAnalytics Data Manager OverviewEventsEvent PropertiesUser PropertiesRevenue MappingExport DataUTM GuideQuery BuilderData DictionaryQuery Builder OverviewModify Filters With And/Or ClausesQuery-time SamplingQuery NotesFilter Where ClausesEvent vs. User PropertiesGroup By ClausesAnnotationsCross-tool CompatibilityApply All for Filter Where ClausesDate Range and Time Settings OverviewUser Attributes at Event TimeUnderstanding the Screen View EventAnalysesAnalyses IntroductionSegmentation: BasicsGetting StartedVisualization OptionsFor ClausesDate Range and Time SettingsCalculatorNumerical SettingsSegmentation: AdvancedAssisted AnalysisProperties ExplorerFrequency in SegmentationTrends in SegmentationDid [not] Perform ClausesCumulative vs. Non-Cumulative Analysis in SegmentationTotal Count of vs. Users Who PerformedSave Your Segmentation AnalysisExport Results in SegmentationExplore Users from SegmentationFunnels: BasicsGetting Started with FunnelsGroup By SettingsConversion WindowTracking PropertiesDate Range and Time SettingsVisualization OptionsInterpreting a Funnel AnalysisFunnels: AdvancedGroup ByFiltersConversion over TimeConversion OrderTrendsFunnel DirectionMulti-path FunnelsAnalyze as Cohort from FunnelSave a Funnel AnalysisExplore Users from a FunnelExport Results from a FunnelCohortsGetting Started with CohortsAnalysis ModesSave a Cohort AnalysisExport ResultsExplore UsersSaved AnalysesManage Analyses in DashboardsJourneysGetting StartedEvent MenuVisualizationEnding EventSave a Journey AnalysisUsersGetting StartedUser Activity TimelinesTime SettingsExport ResultsSave A User AnalysisDashboardsDashboards––Getting StartedManage DashboardsDashboard FiltersOrganize DashboardsScheduled ReportsFavoritesTime and Interval Settings in DashboardsQuery Notes in DashboardsUser AliasingAnalytics ResourcesThe Demo EnvironmentKeyboard ShortcutsTutorialsAnalytics for MarketersAnalytics for Product ManagersCompare Conversion Across Acquisition SourcesAnalyze Product Feature UsageIdentify Points of User FrictionTime-based Subscription AnalysisDashboard Tips and TricksUnderstand Product StickinessOptimize User Flow with A/B TestingUser SegmentsAPIsUser Segments Export APIDashboard Filter APIIDSyncIDSync OverviewUse Cases for IDSyncComponents of IDSyncStore and Organize User DataIdentify UsersDefault IDSync ConfigurationProfile Conversion StrategyProfile Link StrategyProfile Isolation StrategyBest Match StrategyAliasingData MasterGroup IdentityOverviewCreate and Manage Group DefinitionsIntroductionCatalogLive StreamData PlansData PlansBlocked Data Backfill GuideWarehouse SyncData Privacy ControlsData Subject RequestsDefault Service LimitsFeedsCross-Account Audience SharingApproved Sub-ProcessorsImport Data with CSV FilesImport Data with CSV FilesCSV File ReferenceGlossaryVideo IndexAnalytics (Deprecated)Identity ProvidersSingle Sign-On (SSO)Setup ExamplesSettingsDebug ConsoleData Warehouse Delay AlertingIntroductionDeveloper DocsIntroductionIntegrationsIntroductionRudderstackGoogle Tag ManagerSegmentData Warehouses and Data LakesAdvanced Data Warehouse SettingsAWS Kinesis (Snowplow)AWS Redshift (Define Your Own Schema)AWS S3 Integration (Define Your Own Schema)AWS S3 (Snowplow Schema)BigQuery (Snowplow Schema)BigQuery Firebase SchemaBigQuery (Define Your Own Schema)GCP BigQuery ExportSnowflake (Snowplow Schema)Snowplow Schema OverviewSnowflake (Define Your Own Schema)APIsREST APIDashboard Filter API (Deprecated)User Segments Export API (Deprecated)SDKsSDKs IntroductionReact NativeiOSAndroidJavaJavaScriptPythonObject APIDeveloper BasicsAliasingIntegrations24iEventAarkiAudienceAbakusEventAdChemixEventABTastyAudienceActableFeedAdikteevAudienceEventAdjustFeedEventAdobe Marketing CloudCookie SyncPlatform SDK EventsServer-to-Server EventsAdobe Audience ManagerAudienceAdobe Campaign ManagerAudienceAdobe TargetAudienceAgilOneEventAdMediaAudienceAirshipAudienceEventFeedAdPredictiveFeedAlgoliaEventAlgoLiftEventFeedAloomaEventAmazon KinesisEventAmazon AdvertisingAudienceAmazon RedshiftData WarehouseAmazon S3EventAmazon Kinesis FirehoseAudienceEventAmazon SNSEventAmazon SQSEventAmobeeAudienceAmplitudeEventForwarding Data Subject RequestsAmpushAudienceEventAnalyticsAudienceEventForwarding Data Subject RequestsAnodotEventAntavoFeedApptentiveEventAppsFlyerEventForwarding Data Subject RequestsFeedApptimizeEventApteligentEventAttentiveEventFeedMicrosoft Azure Blob StorageEventAttractorEventBatchAudienceEventBideaseAudienceBing AdsEventBluecoreEventBluedotFeedBlueshiftEventFeedForwarding Data Subject RequestsBranchEventForwarding Data Subject RequestsFeedBranch S2S EventEventBrazeAudienceFeedForwarding Data Subject RequestsEventBugsnagEventButtonAudienceEventCadentAudienceCensusFeedciValueEventFeedCleverTapAudienceEventFeedcomScoreEventConversantEventCordialAudienceFeedCortexEventFeedForwarding Data Subject RequestsCrossing MindsEventCriteoAudienceEventCustom FeedCustom FeedCustomerGluEventFeedCustomer.ioAudienceEventFeedDatabricksData WarehouseDidomiEventDatadogEventDynamic YieldEventAudienceDynalystAudienceEdge226AudienceEmarsysAudienceEpsilonEventEverflowAudienceFacebook Offline ConversionsEventFacebookAudienceEventFiksuAudienceEventGoogle Analytics for FirebaseEventFlurryEventFlybitsEventForeSeeEventFormationEventFeedFoursquareFeedAudienceFreeWheel Data SuiteAudienceGoogle Ad ManagerAudienceGoogle AdsAudienceEventGoogle AnalyticsEventGoogle Analytics 4EventGoogle Cloud StorageAudienceEventGoogle BigQueryAudienceData WarehouseGoogle Enhanced ConversionsEventGoogle Marketing PlatformCookie SyncAudienceEventGoogle Marketing Platform Offline ConversionsEventGoogle Pub/SubEventGoogle Tag ManagerEventHeapEventHerowFeedHightouchFeedHyperlocologyEventIbottaEventImpactEventInMobiAudienceEventIndicativeAudienceEventInMarketAudienceIntercomEventInsiderEventAudienceFeedInspectletEventiPostAudienceFeedIterableAudienceFeedEventironSourceAudienceJamppAudienceEventKafkaEventKayzenAudienceEventKissmetricsEventKlaviyoEventAudienceKubitEventKochavaEventForwarding Data Subject RequestsFeedLaunchDarklyFeedLeanplumEventFeedAudienceLifeStreetAudienceLiftoffEventAudienceLiveLikeEventLiverampAudienceLocalyticsEventmAdme TechnologiesEventMadHiveAudienceMailchimpFeedAudienceEventMauticEventAudienceMarigoldAudienceMediaMathAudienceMediasmartAudienceMicrosoft Azure Event HubsEventMintegralAudienceMixpanelAudienceEventForwarding Data Subject RequestsMolocoAudienceEventMoEngageAudienceEventFeedMonetateEventMovable InkEventMovable Ink - V2EventmyTargetAudienceEventNami MLFeedMultipliedEventNanigansEventNarrativeAudienceEventFeedNCR AlohaEventNeuraEventOneTrustEventOptimizelyAudienceEventOracle BlueKaiEventOracle ResponsysAudienceEventPaytronixFeedPersona.lyAudiencePieEyeInbound Data Subject RequestsPersonify XPEventPilgrimEventFeedPlarinEventPinterestAudienceEventPostieAudienceEventPunchhAudienceEventFeedAppLovinAudienceEventPrimerEventQuantcastEventPushwooshEventAudienceRadarEventFeedRedditAudienceEventRegalEventRemergeAudienceEventRetina AIEventFeedReveal MobileEventRevenueCatFeedRoktAudienceEventRTB HouseAudienceEventSalesforce EmailAudienceFeedEventSailthruAudienceEventSalesforce Mobile PushEventSamba TVAudienceEventScalarrEventSessionMEventFeedSendGridAudienceFeedShareThisAudienceFeedShopifyCustom PixelFeedSignalEventSingularFeedEventSimpleReachEventSingular-DEPRECATEDEventSkyhookEventSmadexAudienceSlackEventSmarterHQEventSnapchatAudienceEventSnapchat ConversionsEventSnowplowEventSplitEventFeedSplunk MINTEventSnowflakeData WarehouseSprigEventAudienceStartAppAudienceStatsigFeedEventStormlyAudienceEventTalon.OneAudienceEventFeedLoyalty FeedSwrveEventFeedTapadAudienceTapjoyAudienceTaplyticsEventTapticaAudienceTeakAudienceThe Trade DeskAudienceCookie SyncEventTicketureFeedTikTok EventAudienceAudience (Deprecated)EventAudience MigrationTreasure DataAudienceEventTUNEEventTriton DigitalAudienceValidEventTwitterAudienceEventVkontakteAudienceVoucherifyAudienceEventVungleAudienceWebhookEventWebtrendsEventWhite Label LoyaltyEventWootricEventXandrCookie SyncAudienceYahoo (formerly Verizon Media)AudienceCookie SyncYotpoFeedYouAppiAudienceZendeskEventFeedQuadratic LabsEventZ2A DigitalEventAudienceQualtricsEventEvent
+mParticle supports Braze Web SDK v5 as of 10/30/2024
+You can opt in to V5 of the Braze SDK by selecting the version in a connection setting in the mParticle UI.
+For more details about upgrading to V5 of the Braze web SDK, follow these instructions, whether you self-host or load mParticle via snippet/CDN..
+If you are using version 2 of the @mparticle/web-appboy-kit, you will need to transition to @mparticle/web-braze-kit per the instructions here before following the above instructions as well.
+Braze is a comprehensive customer engagement platform that powers relevant experiences between consumers and brands they love. Braze helps brands foster human connection through interactive conversations across channels.
+Braze offers a broad range of functionality via their solution and it is critically important that you work directly with your Braze representative to ensure that you are correctly planning and implementing their features.
+mParticle does not recommend enabling forwarding to Braze until you have completed the Braze planning process with your Braze team.
+Braze Documentation
+mParticle Braze Implementation Scenarios
+The mParticle SDK allows you to include the Braze kit which allows Braze interface components (images, layout files, etc.) and as a result supports many Braze features, including:
+App Analytics
+User Segmentation
+Push Notifications
+Email
+News Feed
+In-App Messaging
+Feedback
+Geolocation
+Features are supported by the mParticle SDK only after you install the mParticle Braze Kit (formerly Appboy), which then forwards data from your app to Braze.
+Features are supported in two ways:
+The kit itself provides functionality directly without you having to call the third-party SDK. For example, most partners have a method called or equivalent to logEvent.
+When someone calls mParticle.logEvent, our kits map to the partner SDK logEvent method, in this case, Braze.logEvent, and automatically sends it to Braze. You don’t have to call Braze.logEvent because mParticle does it for you after you call mParticle.logEvent.
+For some features, for example some Braze banners or modals, you must call Braze.bannerMethod() or Braze.modalMethod(). Our kit loads Braze so that you can call any Braze method you need, even if our kit does not call it for you.
+The mParticle S2S API allows you to send data server side (API reference). The S2S API supports iOS, Android and Web data. In this scenario, mParticle forwards data via Braze’s REST API which supports a limited set of features.
+For server-side data to be forwarded to Braze, it must include your selected External Identity Type. To relax this requirement, see the Disable External ID Constraint connection setting.
+The following event types can be forwarded to Braze via S2S:
+Commerce Event
+Custom Event
+Opt Out
+Push Message
+Push Message Registration
+Screen View
+Session Start / End
+Kit Integration
+The Braze solution offers features that involve Braze-proprietary user interaction components including Newsfeed, In-App Messaging, and Feedback.
+To use Braze with one of the mParticle mobile SDKs, please review the kit documentation for the Android SDK or the iOS SDK.
+You must directly call the Braze kit to use the Newsfeed, In-App Messaging, and Feedback features. Examples of directly calling a kit are provided for both Android and iOS.
+Braze v9 iOS SDK Upgrade Notes
+To comply with Apple’s iOS 17 privacy manifest it is required to update to Braze SDK version 9.0.0 or later which is included by the mParticle Braze Kit version 8.60 or later. Note that it is also required to update to at least version 8.24.0 of the mParticle SDK if you are not creating your own Braze instance and passing it to the mParticle Braze Kit in order for this functionality to work.
+There are also additional steps required to comply which are outlined in the Braze documentation here.
+If you are creating your own Braze instance and passing it to the mParticle Kit as described in the iOS App Launch Tracking section below, you can simply follow instructions in the above Braze documentation directly.
+If not, you will still need to follow the above Braze documentation, with the following exceptions:
+Set the trackingPropertyAllowList property on the mParticle Braze Kit before starting the mParticle SDK instead of setting it on the Braze instance directly.
+SwiftObjective-C
+// In this example, we're setting phone number and email as tracking data.
+// Replace the values in the allow list with the data you are tracking
+MPKitAppboy.setBrazeTrackingPropertyAllowList([.email, .dateOfBirth])
+// In this example, we're setting phone number and email as tracking data.
+// Replace the values in the allow list with the data you are tracking
+NSSet *allowList = [NSSet setWithArray:@[BRZTrackingProperty.phoneNumber, BRZTrackingProperty.email]];
+[MPKitAppboy setBrazeTrackingPropertyAllowList:allowList];
+In your ATTrackingManager request callback, call the corresponding method on the mParticle SDK instead of setting it on the Braze instance directly.
+SwiftObjective-C
+ATTrackingManager.requestTrackingAuthorization { status in
+let mpStatus = MPATTAuthorizationStatus(rawValue: status.rawValue) ?? .notDetermined
+let timestampMillis: NSNumber = (Date().timeIntervalSince1970 * 1000) as NSNumber
+MParticle.sharedInstance().setATTStatus(mpStatus, withATTStatusTimestampMillis: timestampMillis)
+}
+[ATTrackingManager requestTrackingAuthorizationWithCompletionHandler:^(ATTrackingManagerAuthorizationStatus status) {
+MPATTAuthorizationStatus mpStatus = (MPATTAuthorizationStatus)status;
+NSNumber *timestampMillis = @(NSDate.now.timeIntervalSince1970 * 1000);
+[MParticle.sharedInstance setATTStatus:mpStatus withATTStatusTimestampMillis:timestampMillis];
+}];
+Push Notifications
+Push notifications work differently for web and for mobile.
+Web
+mParticle integrates with Braze to allow web push notifications to further engage your visitors. We integrated Braze’s Soft Push Prompts, which allows you to ask your user if they’d like to stay in touch before the browser alerts them to allow notifications. This is done since the browser throttles how often you can prompt the user for push notifications, and if the user denies permission, you can never ask them again. See below for directions on how to implement push notifications, which customizes Braze’s implementation instructions to work with mParticle.
+Configure your site
+Create a service-worker.js file to your root directory. Inside your service-worker.js file, include
+self.importScripts('https://static.mparticle.com/sdk/js/braze/service-worker-3.5.0.js');
+mParticle hosts Braze’s service worker in order to prevent unpredictable versioning issues. Do not use Braze’s service-worker.js CDN.
+Configure Safari Push
+Generate a Safari Push Certificate following these “Registering with Apple” Instructions
+In the Braze dashboard, on the app settings page (where your API keys are located), select your Web app. Click “Configure Safari Push” and follow the instructions, uploading the push certificate you just generated.
+In your mParticle dashboard, open your Braze connection settings. Under Safari Website Push ID, type in your Website Push ID you used when generating your Safari Push Certificate (beginning with web) and click Save.
+Create a “Prime for Push” in-app messaging Campaign on the Braze dashboard. Note that this is an In-App Messaging Campaign, and not a Push Notification messaging campaign.
+Make it a “Modal” In-App Message. Give it whatever text and styling you wish to present to the user (“Can we stay in touch?”).
+Give the in-app message a Button 1 Text value of “OK” (or whatever affirmative text you wish), and set the On-Click Behavior to “Close Message.”
+Under the gear composer section, add a key-value pair. Give it a key of msg-id and a value of push-primer.
+You can create a prime-for-push custom event (or name it whatever you’d like) from the Braze dashboard. While still in the Braze dashboard, create a trigger action of whatever your custom event is (ie, prime-for-push). In the mParticle Braze connection settings, fill in the "Soft Push" Custom Event Name with your custom event name (ie. prime-for-push). When this field is filled, users will be sent the Soft Push Prompt on session load.
+Optionally, you can change the name and location of service-worker.js. The following example will clarify the steps:
+Let’s say that you want to rename your service-worker.js file to braze-push-worker.js and store it in inside a directory in your root folder called thirdParty/.
+In your mParticle dashboard, open your Braze connection settings. Under Push Notification Service Worker File Location, type in /thirdParty/braze-push-worker.js and click Save.
+Warning
+- Setting a value here limits the scope of push notifications on your site. For instance, in the above example, because the service worker file is located within the /thirdParty/ directory, asking for push notifications MAY ONLY BE CALLED from web pages that start with http://your-site-name.com/thirdParty/.
+Web Troubleshooting Tips
+Firefox - starting with version 72, Firefox requires user interaction before showing a full push permission dialogue box. See here for more details.
+Ensure that your OS-wide notifications for the browser you are testing are not disabled.
+If you have previously allowed or rejected push requests while testing, you will need to clear local storage/cookies as well as the browser’s notification preference for your development URL for optimal testing.
+Mobile
+As long as the Braze Kit is included in your app, mParticle will pass any Push Notifications from Braze to the kit for display. However, you will need to provide credentials in the Braze dashboard.
+See the main iOS and Android Push Notification documentation for more detail.
+iOS App Launch Tracking
+On iOS, when a user launches your app by tapping on a push notification, you may see these launches recorded in the mParticle dashboard but not in Braze. This happens due to a race condition between the Braze SDK initializing and the app handling the push notification.
+To work around this, you’ll need to create your own instance of Braze in your applicationDidFinishLaunching method of your app delegate and pass it to the Braze kit before initializing the mParticle SDK. You’ll also need to tell the kit not to process push notifications and instead handle them yourself. This ensures that Braze is initialized and ready to receive the push notifications immediately upon app launch.
+Note that by implementing your own instance of Braze, you will lose the ability to use the following Braze configuration options in the mParticle dashboard, as you’ll be passing those options to Braze yourself on app launch. Only implement this if you need push notification app launches reported to Braze:
+Braze API Key
+Braze Endpoint
+Braze SDK Request Policy
+Braze SDK Flush Interval
+Braze SDK Session Timeout
+Braze SDK Minimum Time Interval Between Triggers
+Braze SDK Disable Automatic Location Tracking
+All other Braze configuration options in the mParticle dashboard will continue to work as usual, and any of the above can be set in your app when you create the Braze instance by setting the relevant options on the Braze configuration object. See the example code for the didFinishLaunchingWithOptions method below.
+The following is mostly following the instructions from Braze’s “Manual push integration” documentation, with the addition of some mParticle specific code in the didFinishLaunchingWithOptions method.
+Please note that because we are following Braze’s “Manual push integration” instructions, you should not set the configuration option, configuration.push.automation = true, as described in Braze’s Automatic push integration documentation as it will cause conflicts.
+Make sure to import the Braze SDK and mParticle Braze kit in your app delegate file.
+SwiftObjective-C
+import BrazeKit
+import mParticle_Appboy
+@import BrazeKit;
+@import mParticle_Appboy;
+Create and configure a Braze instance immediately upon app launch and pass it to the Braze kit.
+SwiftObjective-C
+var braze: Braze? = nil
+func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
+// Register for remote notifications
+application.registerForRemoteNotifications()
+let center = UNUserNotificationCenter.current()
+center.setNotificationCategories(Braze.Notifications.categories)
+center.delegate = self
+// Request user authorization to send push notifications
+var options: UNAuthorizationOptions = [.alert, .sound, .badge]
+if #available(iOS 12.0, *) {
+options = UNAuthorizationOptions(rawValue: options.rawValue | UNAuthorizationOptions.provisional.rawValue)
+}
+center.requestAuthorization(options: options) { granted, error in
+print("Notification authorization, granted: \(granted), error: \(String(describing: error))")
+}
+// Create the Braze configuration object
+// API key and endpoint were previously configured in the mParticle dashboard
+let configuration = Braze.Configuration(apiKey: "[YOUR_BRAZE_API_KEY]", endpoint: "[YOUR_BRAZE_ENDPOINT]")
+configuration.api.addSDKMetadata([.mparticle])
+configuration.api.sdkFlavor = .mparticle
+// Default mParticle dashboard options
+configuration.location.automaticLocationCollection = true
+// Optionally set any additional configuration options you would like here
+// Create a Braze instance with your chosen configuration and store the reference
+let braze = Braze(configuration: configuration)
+self.braze = braze
+// Pass the instance to the mParticle Braze kit so it can be used for other Braze functionality
+MPKitAppboy.setBrazeInstance(braze)
+// Instruct the mParticle Braze kit to not handle push notifications, as they'll be handled in the app delegate
+MPKitAppboy.setShouldDisableNotificationHandling(true)
+// Place your existing application initialization code here
+}
+// In the app delegate class header
+//
+@interface AppDelegate () <UNUserNotificationCenterDelegate>
+@property (nonatomic, strong) Braze *braze;
+@end
+// In the app delegate class implementation
+//
+- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+// Register for remote notifications
+[application registerForRemoteNotifications];
+UNUserNotificationCenter *center = UNUserNotificationCenter.currentNotificationCenter;
+[center setNotificationCategories:BRZNotifications.categories];
+center.delegate = self;
+// Request user authorization to send push notifications
+UNAuthorizationOptions options = UNAuthorizationOptionAlert | UNAuthorizationOptionSound | UNAuthorizationOptionBadge;
+if (@available(iOS 12.0, *)) {
+options = options | UNAuthorizationOptionProvisional;
+}
+[center requestAuthorizationWithOptions:options completionHandler:^(BOOL granted, NSError *_Nullable error) {
+NSLog(@"Notification authorization, granted: %d, error: %@)", granted, error);
+}];
+// Create the Braze configuration object
+// API key and endpoint were previously configured in the mParticle dashboard
+BRZConfiguration *configuration = [[BRZConfiguration alloc] initWithApiKey:@"[YOUR_BRAZE_API_KEY]" endpoint:@"[YOUR_BRAZE_ENDPOINT]"];
+[configuration.api addSDKMetadata:@[BRZSDKMetadata.mparticle]];
+configuration.api.sdkFlavor = BRZSDKFlavorMparticle;
+// Default mParticle dashboard options
+configuration.location.automaticLocationCollection = YES;
+// Optionally set any additional configuration options you would like here
+// Create a Braze instance with your chosen configuration and store the reference
+self.braze = [[Braze alloc] initWithConfiguration:configuration];
+// Pass the instance to the mParticle Braze kit so it can be used for other Braze functionality
+[MPKitAppboy setBrazeInstance:self.braze];
+// Instruct the mParticle Braze kit to not handle push notifications, as they'll be handled in the app delegate
+[MPKitAppboy setShouldDisableNotificationHandling:YES];
+// Place your existing application initialization code here
+}
+Add the required push notification delegate methods
+SwiftObjective-C
+func application(_ application: UIApplication, didRegisterForRemoteNotificationsWithDeviceToken deviceToken: Data) {
+self.braze?.notifications.register(deviceToken: deviceToken)
+}
+func application(_ application: UIApplication, didReceiveRemoteNotification userInfo: [AnyHashable : Any], fetchCompletionHandler completionHandler: @escaping (UIBackgroundFetchResult) -> Void) {
+if let braze = self.braze, braze.notifications.handleBackgroundNotification(userInfo: userInfo, fetchCompletionHandler: completionHandler) {
+return
+}
+completionHandler(.noData)
+}
+//...//
+extension AppDelegate: UNUserNotificationCenterDelegate {
+func userNotificationCenter(_ center: UNUserNotificationCenter, didReceive response: UNNotificationResponse, withCompletionHandler completionHandler: @escaping () -> Void) {
+if let braze = self.braze, braze.notifications.handleUserNotification(response: response, withCompletionHandler: completionHandler) {
+return
+}
+completionHandler()
+}
+func userNotificationCenter(_ center: UNUserNotificationCenter, willPresent notification: UNNotification, withCompletionHandler completionHandler: @escaping (UNNotificationPresentationOptions) -> Void) {
+if #available(iOS 14, *) {
+completionHandler([.list, .banner])
+} else {
+completionHandler(.alert)
+}
+}
+}
+- (void)application:(UIApplication *)application didRegisterForRemoteNotificationsWithDeviceToken:(NSData *)deviceToken {
+[self.braze.notifications registerDeviceToken:deviceToken];
+}
+- (void)application:(UIApplication *)application didReceiveRemoteNotification:(NSDictionary *)userInfo fetchCompletionHandler:(void (^)(UIBackgroundFetchResult))completionHandler {
+BOOL processedByBraze = self.braze != nil && [self.braze.notifications handleBackgroundNotificationWithUserInfo:userInfo fetchCompletionHandler:completionHandler];
+if (processedByBraze) {
+return;
+}
+completionHandler(UIBackgroundFetchResultNoData);
+}
+//...//
+- (void)userNotificationCenter:(UNUserNotificationCenter *)center didReceiveNotificationResponse:(UNNotificationResponse *)response withCompletionHandler:(void (^)(void))completionHandler {
+BOOL processedByBraze = self.braze != nil && [self.braze.notifications handleUserNotificationWithResponse:response withCompletionHandler:completionHandler];
+if (processedByBraze) {
+return;
+}
+completionHandler();
+}
+- (void)userNotificationCenter:(UNUserNotificationCenter *)center willPresentNotification:(UNNotification *)notification withCompletionHandler:(void (^)(UNNotificationPresentationOptions))completionHandler {
+if (@available(iOS 14.0, *)) {
+completionHandler(UNNotificationPresentationOptionList | UNNotificationPresentationOptionBanner);
+} else {
+completionHandler(UNNotificationPresentationOptionAlert);
+}
+}
+Location Tracking
+The Braze kits for iOS and Android support Braze’s automatic location tracking features, provided that the appropriate app-level permissions are granted by the user.
+Android
+For Android push notifications you will need to provide your Server Key in your app settings page under Push Notification Settings.
+iOS
+For iOS push notifications you will need to upload your APNs Push SSL certificate to Braze. See the Braze documentation for more.
+Special Considerations for mParticle A/B Testing With Braze and the mParticle SDK
+mParticle supports the ability to conduct A/B testing with different integrations by sending a sample of users and their data to one integration and a different sample of users and their data to a different integration.
+If you are using the mParticle SDK for Braze deployment and calling Braze methods directly, when instrumenting with the mParticle SDK you must ensure that the Braze kit is active in the App before calling a Braze method.
+This is very important and ensures that you are not inadvertently calling Braze methods for apps/users that are not part of an Braze A/B sample.
+Roku
+mParticle supports the ability to forward server-side events for the Roku platform. Note that only data that includes your selected External Identity Type can be forwarded to Braze.
+Data Processing Notes
+mParticle will always forward events if sent via the mParticle SDK, provided you have included the Braze kit, but will only forward events sent via the mParticle S2S API if the following conditions apply:
+The App Group REST API Key setting is specified.
+Either your set External Identity Type, or a push token is specified.
+Braze has limits on the number of characters in a property key - they must be less than or equal to 255 characters, with no leading dollar signs. When forwarding via a client-side kit, mParticle will remove the dollar sign ($) when forwarding property keys for user attributes, custom, and e-commerce events. When forwarding server-to-server, mParticle will remove the dollar sign ($) from mParticle reserved attributes.
+Braze doesn't currently support timestamps before year 0 or after year 3000 in Time type custom attributes. Braze will ingest these values when they are sent by mParticle but the value will be stored as a String.
+Braze Instance
+Braze maintains several instances.
+As part of the Configuration Settings, you need to specify which one your data should be forwarded to.
+You can tell your Braze Instance from the URL of your Braze Dashboard.
+Instance
+Dashboard URL
+US 01 Cluster
+https://dashboard-01.braze.com
+US 02 Cluster
+https://dashboard-02.braze.com
+US 03 Cluster
+https://dashboard-03.braze.com
+US 04 Cluster
+https://dashboard-04.braze.com
+US 05 Cluster
+https://dashboard-05.braze.com
+US 06 Cluster
+https://dashboard-06.braze.com
+US 08 Cluster
+https://dashboard-08.braze.com
+EU 01 Cluster
+https://dashboard-01.braze.eu
+EU 02 Cluster
+https://dashboard-02.braze.eu
+Check with your Braze account manager if you are unsure which Braze instance you are using.
+There is also the ability to specify a Custom instance, which allows you to specify separate endpoints for REST, SDK and Javascript.
+Important: Your Custom Endpoint settings should be your URL's Authority. For example: sdk.iad-01.braze.com, not https://sdk.iad-01.braze.com.
+Using https:// or a trailing / in your endpoint address will cause errors.
+Prerequisites
+In order to activate the Braze integration, you will need your Braze App Identifier API key and your “App Group REST API Key” if using the S2S API.
+Sign into your Braze Account.
+Click on Developer Console in the left navigation, then API Settings, Identification, and choose the Identifier for the platform you’re building to.
+If you are sending data to mParticle via the S2S API, your “App Group REST API Key” value is required.
+Click on the Developer Console in the left navigation to get this value.
+Event Data Mapping
+Commerce Events
+Depending on the setting value for Bundle Commerce Event Data (see Connection Settings for more), Commerce Events may be expanded based on the number of products, promotions, or impressions, respectively. Ex:
+If false, a single incoming event with 2 unique products/promotions/impressions would result in at least 2 outgoing Braze events.
+In true, a single incoming event with 2 unique products/promotions/impressions would result in 1 outgoing event with a nested products[], promotions[] or impressions[] array, respectively.
+If you are using all three platforms, make sure you determine whether or not you want products in Braze to be identified by their SKU or by their product name. Because of prior implementations, iOS and Android send the SKU by default while Web sends the product name. Check out the [Connection Settings](#connection-settings) 'Replace SKU as Braze Product Name' and 'Map Product Name to Product ID' settings if you'd like to ensure matching data from all platforms.
+Product-based Commerce Events
+Purchase Events
+A purchase event is mapped and optionally-expanded to Braze purchase event(s) as described above.
+In addition to the Common Commerce Fields, the following information is also captured, if defined:
+Commerce Event Field
+Braze Expanded Purchase Event Field
+Braze Purchase Event Nested Product Field
+Data Type
+Required
+Description
+Example
+CurrencyCode
+currency
+currency
+string
+No
+Currency Code. If not specified, this will default to “USD”.
+USD
+ProductAction.Products[].Id
+product_id
+properties.products[].Id
+string
+No
+The ID associated with the given product.
+“123456”
+ProductAction.Products[].Price
+price
+properties.products[].Price
+double
+No
+The price associated with 1 unit of the given product.
+1.99
+ProductAction.Products[].Quantity
+quantity
+properties.products[].Quantity
+int
+No
+The quantity associated with the given product.
+2
+ProductAction.TotalAmount
+properties[“Total Amount”]
+properties[“Total Amount”]
+string
+No
+The total amount associated with the given transaction.
+25.00
+ProductAction.ShippingAmount
+properties[“Shipping Amount”]
+properties[“Shipping Amount”]
+string
+No
+The shipping amount associated with the given transaction.
+2.99
+ProductAction.TaxAmount
+properties[“Tax Amount”]
+properties[“Tax Amount”]
+string
+No
+The tax amount associated with the given transaction.
+1.37
+Other Product-based Commerce Events
+All other product-based commerce event types are mapped and optionally-expanded to Braze custom event(s) as described above. Note:
+If expansion is active and it’s a refund, an additional event representing the total is also generated.
+As such, all relevant product and transaction information is conveyed via the properties field.
+In addition to the Common Commerce Fields, the following information is also captured, if defined:
+Commerce Event Field
+Braze Expanded Custom Event Field
+Braze Custom Event Nested Product Field
+Data Type
+Required
+Description
+Example
+ProductAction.Products[].Id
+properties[“Id”]
+properties.products[].Id
+string
+No
+The ID associated with the given product.
+“123456”
+ProductAction.Products[].Price
+properties[“Price”]
+properties.products[].Price
+double
+No
+The price associated with 1 unit of the given product.
+1.99
+ProductAction.Products[].Quantity
+properties[“Quantity”]
+properties.products[].Quantity
+int
+No
+The quantity associated with the given product.
+2
+Common Product-based Commerce Fields
+All product-based commerce events, regardless of type, capture these common fields in the properties dictionary in the following way:
+Commerce Event Field
+Braze Expanded Event Field
+Braze Event Nested Product Field
+Data Type
+Required
+Description
+Example
+ProductAction.TransactionId
+properties[“Transaction Id”]
+properties[“Transaction Id”]
+string
+No
+The ID associated with the given transaction.
+“123456”
+ProductAction.Products[].Name
+properties[“Name”]
+properties.products[].Name
+string
+No
+The name associated with the given product.
+“MyProduct”
+ProductAction.Products[].Category
+properties[“Category”]
+properties.products[].Category
+string
+No
+The category associated with the given product.
+“Clothing”
+ProductAction.Products[].Brand
+properties[“Brand”]
+properties.products[].Brand
+string
+No
+The brand associated with the given product.
+“MyBrand”
+ProductAction.Products[].TotalProductAmount
+properties[“Total Product Amount”]
+properties.products[]["total product amount"]
+string
+No
+The total amount associated with the given product for the given transaction.
+“MyBrand”
+ProductAction.Products[].Attributes[“myProductAttribute”]
+properties[“myProductAttribute”]
+properties.products[].Attributes[“myProductAttribute”]
+string
+No
+A custom attribute associated with the given product.
+“myProductAttribute”
+Note: For web kit data, in order to forward the TransactionId, you must include the transactionAttributes as the fifth argument below. See our API docs for how to build transaction attributes.
+mParticle.eCommerce.logProductAction(
+mParticle.ProductActionType.AddToCart,
+[product1, product2],
+customAttributes,
+customFlags, //can also be `null`, but can't be blank
+transactionAttributes);
+Promotion-based Commerce Events
+When promotions are expanded, each promotion is converted to its own outgoing Braze event.
+Alternatively, if expansion isn’t toggled, promotions are included in a nested collection in a single outgoing Braze event.
+Commerce Event Field
+Braze Expanded Custom Event Field
+Braze Custom Event Nested Promotion Field
+Data Type
+Required
+Description
+Example
+PromotionAction.Promotions[].Id
+properties[“Id”]
+properties.promotions[].Id
+string
+No
+The ID associated with the given promotion.
+“123456”
+PromotionAction.Promotions[].Name
+properties[“Name”]
+properties.promotions[].Name
+string
+No
+The name associated with the given promotion.
+“promo1”
+PromotionAction.Promotions[].Creative
+properties[“Creative”]
+properties.promotions[].Creative
+string
+No
+The creative associated with the given promotion.
+“creative1”
+PromotionAction.Promotions[].Position
+properties[“Position”]
+properties.promotions[].Position
+string
+No
+The position associated with the given promotion.
+“position1”
+Impression-based Commerce Events
+When impressions are expanded, each product from each impression is converted to its own outgoing Braze event.
+Alternatively, if expansion isn’t toggled, impressions and their associated products are included in a nested collection in a single outgoing Braze event.
+Commerce Event Field
+Braze Expanded Custom Event Field
+Braze Custom Event Nested Impression Field
+Data Type
+Required
+ProductImpressions[].ProductImpressionList
+properties[“Product Impression List”]
+properties.impressions[]["product impression list"]
+string
+No
+ProductImpressions[].Products[].Id
+properties[“Id”]
+properties.impressions[].products[].Id
+string
+No
+ProductImpressions[].Products[].Name
+properties[“Name”]
+properties.impressions[].products[].Name
+string
+No
+ProductImpressions[].Products[].Category
+properties[“Category”]
+properties.impressions[].products[].Category
+string
+No
+ProductImpressions[].Products[].Brand
+properties[“Brand”]
+properties.impressions[].products[].Brand
+string
+No
+ProductImpressions[].Products[].Price
+properties[“Price”]
+properties.impressions[].products[].Price
+string
+No
+ProductImpressions[].Products[].Quantity
+properties[“Quantity”]
+properties.impressions[].products[].Quantity
+string
+No
+ProductImpressions[].Products[].TotalProductAmount
+properties[“Total Product Amount”]
+properties.impressions[].products[]["total product amount"]
+string
+No
+ProductImpressions[].Products[].Attributes[“myProductAttribute”]
+properties[“myProductAttribute”]
+properties.impressions[].products[].Attributes[“myProductAttribute”]
+string
+No
+Screen Views
+Your screen view events will be passed to Braze using the screen name that you passed to our logScreen SDK method, as the event name.
+If you are using automatic screen tracking in our Android SDK, the automatically-generated screen view events will be forwarded to Braze using the name of the associated Activity class.
+Session Start / End
+To send session start and end events for S2S to Braze, enable the Forward Session Events connection setting. After enabling this setting, session start and end events are forwarded to Braze as custom events with the names Session Start and Session End. When available, session IDs are also sent in the session_id property on all session starts and ends, screen view, and custom events.
+However, note that mParticle SDK kits do not support session events, which are never forwarded with a kit, whether or not Forward Session Events is enabled.
+When creating segmentation filters within Braze, make sure to use the custom event filters for session data rather than the session filters.
+Custom Events
+All custom events will be forwarded to Braze using the event name that you passed to your logEvent SDK method.
+All event attributes will be forwarded to Braze as Braze custom event properties using the attribute names you passed to your logEvent SDK method as well.
+Note: Braze documentation indicates that the following reserved keywords can’t be used as custom event properties:
+time
+event_name
+To learn more, visit the Braze documentation:
+Android and FireOS
+iOS (legacy)
+Swift
+User Attributes
+The table below describes how the mParticle integration maps user attributes to Braze’s profile attributes.
+mParticle Field
+Braze Profile Attribute
+Description
+User Identity of type CustomerId
+external_id
+User Attribute $FirstName
+first_name
+User Attribute $LastName
+last_name
+User Identity of type Email
+email
+Derived from User Attribute $Age)
+dob
+mParticle estimates the user’s date of birth by subtracting $Age from the current year, and using January 1st as the month and day.
+For example, if $Age is 10 and the current year is 2014, we’ll forward the user’s date of birth as 2004-01-01. If an exact birth date is desired, set a user attribute called dob with user’s birth date. When both $Age and dob user attributes are sent, one value may override the other when mParticle forwards data to Braze. So it is recommended that one of them is toggled Off in mParticle’s data filter for Braze.
+User Attribute $Country
+country
+User Attribute $City
+home_city
+User Attribute $Gender
+gender
+User Attribute $Mobile
+phone
+Derived from SDK opt-out status
+email_subscribe
+This is based on calling the OptOut (setOptOut in Android) SDK methods. It will be set to opted_in when called with a value of true and will be set to unsubscribed when called with a value of false. Email subscription statuses can also be updated server side by setting the user attribute email_subscribe with a value of subscribed, unsubscribed, or opted_in, which correspond to the Global Subscription States in Braze. This will not be set as a custom attribute in Braze, it’ll appear in Contact Settings.
+User Attribute push_subscribe
+push_subscribe
+Push subscription status can be updated server side by setting the user attribute push_subscribe with a value of subscribed, unsubscribed, or opted_in, which correspond to the Global Subscription States in Braze. This will not be set as a custom attribute in Braze, it’ll appear in Contact Settings.
+push_tokens
+Because Braze can only accept a single push token for each app/user pair, we will forward the most recently-registered push token to Braze per user and per app.
+User Identity of type Facebook
+facebook
+User Identity of type Twitter
+twitter
+Braze advises to coerce data types on user attributes shared with Braze before sending Production volume data. This ensures that the custom attributes received by Braze are of the expected data type. This can impact segment building and triggering campaigns.
+If incorrect data types are identified after data has been flowing, there can be extra work to true up the users with the legacy data type on those attributes.
+To give Braze’s type detection a better opportunity to evaluate data types properly, you can enable the following 2 Connection Settings: Enable API Custom Attribute Type Detection and Enable Kit Custom Attribute Type Detection.
+Enriched Attributes and Identities
+By default, mParticle forwards all available user attributes and user identities to Braze, including attributes added during profile enrichment. You can disable this behavior in the Connection Settings.
+Only data which is sent to Braze Server to Server can be enriched.
+Subscription Groups
+A User Attribute can be mapped to a Braze Subscription Group ID. Requests sent to mParticle containing the mapped User Attribute, with a valid true or false value, will determine if the user in the request should be subscribed (true) or unsubscribed (false) from the group. This allows for dynamic subscription management based on user attributes.
+To configure Subscription Group Mapping:
+Create the Subscription Group in Braze, if it doesn’t already exist.
+Map the desired User Attribute to the Subscription Group ID in the mParticle dashboard.
+Note that the User Attribute must be sent to mParticle at least once before it is available for mapping.
+Send the mapped User Attribute on your event batch to mParticle with a boolean value.
+true: User will be subscribed to the Braze Subscription Group.
+false: User will be unsubscribed from the Braze Subscription Group.
+Other non-boolean values will be ignored.
+Subscription Group Errors
+A misconfigured Subscription Group mapping can affect how your data is forwarded to Braze. If you notice your Subscription Groups are not being updated, check the following:
+Invalid Subscription Group ID: Ensure the mapped Subscription Group IDs are correct in your Connection Settings.
+Deleted Subscription Group: If a Subscription Group is deleted in Braze, you must update or remove the mapping in the mParticle dashboard.
+Invalid User Attribute: Ensure the mapped User Attribute is being sent to mParticle with a boolean value.
+Please note that Braze will only return an error in these cases when the Subscription Group attribute update is the only item in the request sent to Braze. If the request contains valid events and/or purchases, Braze will process these and skip the Subscription Group update. This also means that you will only see Subscription Group errors in the System Alerts page when the invalid Subscription Group update is the only item in the request.
+Consent
+To adhere to the EU user consent policy, Braze is enforcing the consent field to be populated for EU users.
+Braze uses the $google_ad_user_data and $google_ad_personalization custom attribute keys to receive consent status for Google’s EU User Consent Policy. The Boolean sent to these keys signify that a user has granted or denied consent to a marketer. As per their Collecting consent for EEA, UK, and Switzerland end users documentation, this value must be sent to Google as a Custom Attribute.
+User-specified Consent
+To configure user consent forwarding under this value, a mapping should be set-up leveraging mParticle’s notion of Consent Purposes. To learn more about handling user consent within mParticle’s platform, see the following docs: Data Privacy Controls.
+Once a Consent Purpose is set up, user consent information can be associated with it in subsequent Event Batches. The Consent Purpose data mapping can then be configured for downstream forwarding via the Consent Mapping connection setting.
+Configuration Settings
+Setting Name
+Data Type
+Default Value
+Description
+App Identifier API Key
+string
+Your app’s App Identifier API Key can be found in your Braze dashboard in Developer Console > API Settings > Identification > Identifier.
+This value is used for certain API calls to Braze (e.g. Push Token) and also used to initialize the Braze SDK via the client side kit
+External Identity Type
+enum
+Customer ID
+The mParticle User Identity Type to forward as an External ID to Braze.
+Email Identity Type
+enum
+Email
+The mParticle User Identity Type to forward as the Email to Braze.
+Braze Instance
+enum
+US 03 Cluster
+Specify which cluster your Braze data will be forwarded to. Please ensure you are contractually authorized to use the EU cluster if you select that option. If you choose ‘Custom’, you will need to provide separate endpoints for your SDK, Server, and Web data.
+Enable Event Stream Forwarding
+bool
+False
+If enabled, all events will be forwarded in real time. If not, all events will be forwarded in bulk. Real time forwarding has lower latency, but requires higher rate limits within Braze.
+Allow Phone Number Format Leading Plus
+bool
+False
+When enabled, mParticle will the allow phone number format to use a leading plus character to increase international country code support.
+Connection Settings
+Setting Name
+Data Type
+Default Value
+Platform
+Description
+App Group REST API Key
+string
+All
+The App Group REST API Key can be found in the developer console section of the Braze dashboard.
+This field is optional when sending in data via the SDK, but is required for using the S2S API.
+Braze SDK Session Timeout
+string
+All
+Braze SDK time interval for session time out in seconds.
+Push Enabled
+bool
+True
+iOS, tvOS, Android
+Forward GCM registration IDs to the Braze SDK and enable Braze push notifications.
+Forward Client-side Requests to Server-to-Server
+bool
+False
+iOS, tvOS, Android, FireTV, Web
+If enabled, Client-side requests will only be forwarded server-side and will not be sent as a client-side kit.
+Disable External ID Constraint
+bool
+False
+S2S API
+This allows relaxing the default External ID requirement for server-side forwarding. When unchecked, server-side data must include a value for the selected External Identity Type to be forwarded to Braze. If checked, it allows forwarding events to Braze even if the value is absent for the selected External Identity Type as long as there is a value for the selected Email Identity Type. Regardless of the setting, server-side data lacking both External ID and Email will not be forwarded, and the External ID is forwarded when available. Note: User profile creation and duplicate users are dependent on and handled by Braze.
+Event Attributes that add to array
+Custom Field
+iOS, tvOS, Android, Roku
+Select your mParticle event names and event attributes and enter the corresponding Braze custom attribute array name you want the event attribute ADDED to.
+Event Attributes that remove from array
+Custom Field
+iOS, tvOS, Android, Roku
+Select your mParticle event names and event attributes and enter the corresponding Braze custom attribute array name you want the event attribute REMOVED from.
+Event Attributes that set to custom attribute value
+Custom Field
+iOS, tvOS, Android, Roku
+Select your mParticle event names and event attributes and enter the corresponding Braze custom attribute you want the event attribute to map to. Note each time this event attribute is present, it will get sent to Braze and overwrite any previously sent value.
+Subscription Group Mappings
+Custom Field
+All
+Maps User Attributes to Braze Subscription Group IDs. Note: Attributes mapped for Subscription Groups won’t be sent to Braze as standard attributes.
+Braze SDK Flush Interval
+string
+iOS, tvOS
+Braze SDK data flush internal in seconds (iOS only). Refer to Braze sdk doc for “ABKFlushIntervalOptionKey”.
+Consent Mapping
+Custom Field
+iOS, tvOS, Android
+Select which mParticle Consent Purposes you would like to map to the Google EU Consents supported by Braze. View Braze’s Documentation to understand why this setting is necessary for EU customers. For more information on how to set consent state in mParticle, please view our iOS and Android documentation.
+Braze SDK Request Policy
+string
+iOS, tvOS
+Braze SDK request policy at app start time (iOS only). Refer to Braze sdk doc for “ABKRequestProcessingPolicyOptionKey”.
+Braze SDK Minimum Time Interval Between Triggers
+string
+iOS, tvOS
+Braze SDK minimum time interval in seconds between triggers (iOS only). Refer to Braze sdk doc for “ABKMinimumTriggerTimeIntervalKey”.
+User Tags Value
+enum
+“true”
+All but Web
+Select the value to be sent to Braze for user tags. The possible values are null or “true”. When “true”, it will be affected by the parameter Enable type detection. When “null” and set on a user attribute, the custom attribute (key and value) on the Braze user profile will be removed.
+Braze SDK Collect IDFA?
+bool
+False
+iOS, tvOS
+Informs the Braze Kit whether to collect IDFA.
+Braze SDK Disable Automatic Location Tracking
+bool
+False
+iOS, tvOS
+Informs the Braze Kit whether to disable automatic location tracking at app startup time
+Map Product Name to Product ID
+bool
+False
+iOS, tvOS, Android
+If enabled, the product name is mapped to the product ID field in Braze. By default, iOS/Android maps the mParticle SKU (also known as product ID) field to Braze’s product ID field.
+Include Enriched User Attributes
+bool
+True
+All
+If enabled, mParticle will forward enriched user attributes from the existing user profile. Only data which is sent to Braze Server to Server can be enriched.
+Include Enriched User Identities
+bool
+True
+All
+If enabled, mParticle will forward enriched user identities from the existing user profile. Only data which is sent to Braze Server to Server can be enriched.
+Skip Eventless Batches
+bool
+False
+All
+If enabled, batches containing no events will be skipped by the Braze forwarder.
+Send User Attribute Lists as Arrays
+bool
+False
+All
+If checked, mParticle will send each user attribute list server-side as an array, rather than a comma-separated string
+Forward Screen View Messages
+bool
+False
+All
+If enabled, all screen view messages will be forwarded to Braze as separate events. Not supported for S2S requests.
+Forward Session Events
+bool
+False
+All
+If enabled, S2S connections will forward session start and end events to Braze. Kits do not support forwarding session events. Session IDs will also be sent with events when populated.
+Soft Push Custom Event Name
+string
+Web
+The custom event name that shows up in your Braze dashboard when priming your user for push notifications. Braze recommends “prime-for-push”. When filled in, users will be sent a Braze In-App message on session load
+Push Notification Service Worker File Location
+string
+Web
+Optional - If the “service worker.js” file is not located in your root directory, then this field is the relative path, starting with ”/” and including the filename.js. Please view integration docs for more information
+Safari Website Push ID
+string
+Web
+The unique identifier for your Website Push ID, starting with the string “web”, from the Apple Developer website
+Automatically display new in-app messages
+bool
+True
+Web
+Automatically display new in-app messages when they come in from the server.
+Forward Page Name as Braze Event Name
+bool
+False
+Web
+If enabled, the Page Name that is sent to Braze is the first argument in mParticle.logPageView(“PageName”). Otherwise the path will be used. For S2S requests, enabling this setting will send the event name as-is. Otherwise Viewed will be added to the event name.
+Replace SKU as Braze Product Name
+bool
+False
+Web
+If enabled, the SKU replaces Product Name when sent to Braze. By default, Web sends Product Name to Braze. New customers should check this to be consistent with iOS/Android which sends SKU by default.
+Enable HTML within in-app messages
+bool
+False
+Web
+Enable HTML within in-app messages. This correlates to the enableHtmlInAppMessages setting of the Braze SDK.
+Do not Load FontAwesome
+bool
+False
+Web
+Disable loading of FontAwesome from the FontAwesome CDN. Note that if you do this, you are responsible for ensuring that FontAwesome is loaded - otherwise in-app messages may not render correctly.
+Enable API Custom Attribute Type Detection
+enum
+None
+S2S API
+Send custom attributes with parsed data types for User Attributes, Event Attributes, both, or neither.
+The following data types are evaluated, in this order, for a match to determine data type to include with the message to Braze: Boolean, Long (covers integer), Double (covers decimal), Date, String (if none else are true). This supports data point triggers in Braze that may require a specific data type. Data points can be automatically detected in Braze or forced. A list of the data types that Braze supports are here. The $Zip user attribute is exempt from type detection and will always be sent as a string.
+Enable Kit Custom Attribute Type Detection
+bool
+False
+All kits but Web
+By default, all kits (except for web) send custom attributes as strings unless they are special Braze reserved attributes. Checking this will force custom attributes to be sent as parsed data types where possible. Please note that Braze refers to these as Custom Attributes or Properties in the case of Events and Purchases. The $Zip user attribute is exempt from type detection and will always be sent as a string.
+Braze Web SDK Version
+string
+Version 3
+Web
+Users have the option to choose whether they want V3 or V4 of the Braze SDK. Due to significant changes that Braze has between V3 and V4, please first review our migration steps before opting in to V4.
+Bundle Commerce Event Data
+bool
+False
+All*
+If checked, mParticle will not expand incoming commerce events, and will instead forward all product, promotion, and impression information in nested attributes in a single event to Braze.
+*For web, this feature is only available if you opt into version 4 of the Braze Web SDK (see above config setting).
+Calculate Price for Server-to-Server Data
+bool
+False
+S2S API
+If enabled, the price for outgoing server-to-server purchase data will be calculated based on the sum of individual product cost (price*quantity). This setting is only applicable when Bundle Commerce Event Data is enabled.
+Braze Web Kit Critical Updates and Timelines
+Braze occasionally makes breaking changes to their SDK, so if you call Braze directly in your code, you will have to update your code to ensure your website performs as expected when updating versions of Braze.
+Opt In to Braze SDK Version 5
+We recommend you use version 5 of the Braze SDK.
+You only need to make code changes if you directly call the Braze SDK from your code. Otherwise, you can simply select Version 5 from the mParticle connection settings.
+If you are upgrading from V3, you should check the breaking changes from the Braze V4 Changelog as well as Braze V5 Changelog, in addition to the V4/5 migration guide to learn about the breaking changes.
+The most significant breaking changes are the replacement of the appboy class name with braze from V3 to V4, in addition to the removal and renaming of several APIs.
+If you are updating from V4 to V5, there are fewer changes, but you’d follow the same defensive code recommendations below.
+You can opt into the latest major version of the Braze Web SDK whether you implement mParticle’s Web SDK using npm or our snippet/CDN.
+Customers who self-host mParticle via npm - You should add @mparticle/web-braze-kit version 5.0.0 or greater in your package.json.
+You must also select Version 5 under Braze Web SDK Version
+in the Braze connection settings.
+Customers who load mParticle via snippet/CDN - You must
+select Version 5 under Braze Web SDK Version
+in the Braze connection settings.
+Note that the following is only one example, and demonstrates an upgrade from V3 to V5.
+Everywhere you manually call appboy (or other deprecated API) needs to be updated similar to the below. If you are using NPM, you can skip to step 4.
+Please be sure to test your site fully in development prior to releasing.
+Step 1: Legacy code sample. Find all the places where your code references the appboy.display namespace.
+Braze has removed all instances of the display namespace:
+window.appboy.display.destroyFeed();
+Step 2: Roll out code changes to be used before you opt in to using Version 4 of the Braze Web SDK so that it works under both versions:
+if (window.appboy) {
+window.appboy.display.destroyFeed();
+} else if (window.braze) {
+window.braze.destroyFeed();
+}
+Step 3: Whether you are using the snippet or self-hosting, you need to navigate to your Braze connection settings and select Version 5 from the Braze Web SDK Version drop down.
+Step 4: After you opt in, you can simplify your code. We recommend testing and waiting at least 24 hours between opting in and removing previous instances of appboy and doing thorough testing of your application in a development environment to ensure everything is working:
+window.braze.destroyFeed();
+Step 4: Push Notifications via service-worker.js
+If you use Push Notifications, we have updated the service-worker.js file.
+In our testing, Braze’s push notifications work as expected regardless of what version of the service-worker is used, but we recommend updating this file to ensure future compatibility.
+In your service-worker.js file, update the code to reference https://static.mparticle.com/sdk/js/braze/service-worker-5.5.0.js instead of https://static.mparticle.com/sdk/js/braze/service-worker-3.5.0.js.
+Your service-worker.js file should now contain:
+self.imports('https://static.mparticle.com/sdk/js/braze/service-worker-5.5.0.js')
+Transition from @mparticle/web-appboy-kit to @mparticle/web-braze-kit
+The legacy @mparticle/web-appboy-kit from NPM includes version 2 of the Braze Web SDK.
+As part of this update, we’ve created a new Braze web kit repo to replace our deprecated Appboy web kit repo.
+If you are still using @mparticle/web-appboy-kit, you will need to consider the breaking changes Braze made between V2 and V3 of the Braze SDK (found here) as well as the instructions above to get from V2 to V5 of the Braze SDK.Last Updated: February 27, 2025DOCSLast Updated:
+2/27/2025, 7:45:31 PMCDPmParticle DocsHomeGuidesDevelopersIntegrationsAnalyticsAnalytics DocsOverviewGetting StartedDevelopersExpert TrainingPredictive AICortex DocsOverviewGetting StartedDevelopersUsing CortexLearn MoreBlogPodcastResourcesCommunityChange logGet in TouchHelp CenterDemoBecome a Partner© 2025 mParticle, Inc. All rights reserved.mParticle.comPrivacy PolicyCookie PolicyDo Not Sell or Share My Personal Data

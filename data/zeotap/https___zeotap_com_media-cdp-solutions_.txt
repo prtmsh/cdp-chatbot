@@ -1,0 +1,102 @@
+Zeotap CDP Solutions for Media Industry
+Solutions
+Zeotap CDP Solutions
+Acquisition & GrowthCustomer Experience and PersonalisationLoyalty & RetentionPredictive Insights and
+Customer AnalyticsData Collection and Privacy
+Industries
+RetailTelcoMediaRetail MediaFinancial ServicesSports & EntertainmentAutomotive
+Platform
+Zeotap CDP Modules
+OverviewIntegrateUnifySegmentOrchestrateAnalyseProtect
+Zeotap CDP Features
+OverviewCustomer 360 ViewPredictive AudiencesOmnichannel JourneyConsent OrchestrationPrivacy & GDPRIntegrations
+Get started
+Subscription PlansDeployment Options
+Partners
+Our PartnersGoogle Cloud PartnershipZeotap Partner Network
+Resources
+AllBlogCase studiesVideosWhitepapersCDP SupportDeveloper Documentation
+Company
+About UsPrivacy and SecurityWhy Zeotap CDPWhy Zeotap DataCareers at ZeotapNewsEventsContact us
+LoginGet A Demo
+close_03
+Hit enter to search or click X to close
+Login
+Get a Demo
+Industries
+The Effective CDP for Media
+Empower Data-Driven Editorial Decision Making and Enhance Ad Targeting and Monetisation
+The challenges in the Media industry
+Marketers in the Media sector face challenges around acquisition campaign efficiency and preventing potential long-term subscribers from moving to competitors. Large customer bases, which tend to include millions of subscribers, can lead to significant budget wastage if existing customers are not correctly distinguished from prospects and excluded from acquisition campaigns. Furthermore, customers expect media brands to create seamless, contextual, and personalised experiences across every device, which cannot be achieved with legacy systems unable to collect and activate data from every channel. Therefore, having a unified, single view of each customer that includes online and offline IDs with consent choices baked in, is necessary to power accurate predictions of a customer’s likely future behaviour and prevent customer churn. A CDP is then pivotal to helping Media companies meet their business goals.
+Success stories and quotes
+"Based on my experience, I can honestly say Zeotap’s platform is without equal. Brands can happily jettison a complex and
+inefficient patchwork of point solutions in favour of their unified stack for all data-related activities."
+Kay SchwabedalChief Digital Officer, Virgin Media O2
+"Zeotap has always set the bar when it comes to quality and security. It is part of their DNA."
+Steffen Roehnformer CIO, Deutsche Telekom
+"Being the data centre for the entire EMEA region, we have found Zeotap to be the right partner to improve our customer data intelligence and the service we provide to our clients."
+Jordi UrbeaChief Revenue Officer, Ogilvy
+"Zeotap is a strategic partner of Google Cloud in EMEA, driving
+additional value and improved experience for our customers with
+GCP. We realise that leveraging first-party data to drive digital
+transformation and omni-channel personalisation is top of mind for
+retailers - while also ensuring the best-possible privacy and
+security. We believe Zeotap - with its roots in Germany - is an
+expert and reliable partner to help navigate the first-party data
+opportunity."
+Adaire Martin-FoxPresident of Google Cloud International and Head of Google Ireland
+USE CASE 1
+Audience suppression: Exclude media customers from acquisition campaigns
+Marketers in the media industry can take advantage of unified customer records to exclude customers from campaigns based on their previous purchases made across all channels. Excluding previous buyers will help to reduce waste, increase conversion rates, impact return on ad spend (ROAS), and avoid a poor customer experience. Plus, customers are not bombarded with irrelevant or duplicate messages. By excluding customers from promotions, marketers’ campaigns are more effective and efficient, increasing the lifetime value of removed customers, maximising the return on investment for each campaign and ensure that customers are receiving the most relevant messages.
+USE CASE 2
+Cross-sell and upsell campaigns for media brands
+Marketers in media industry can track visitor behaviour and IDs in real-time from downstream activation platforms. Apply rules to touch points across a customer journey that select the best product for the customer, based on profile data. This selection is sent to the advertising or marketing platform for delivery to the customer. For example, send promotions of the premium package to subscribers of the basic package based on historical data and prediction models. Marketers can monitor the customer’s behaviour and make new, adjusted selections to provide a more personalised experience to increase customer lifetime value or ARPU and sales.
+USE CASE 3
+Churn prevention in the media sector
+Marketers can use CDP data to create models that help prevent customer churn using customer profiles stored in Zeotap CDP. Marketers can proactively retain customers and influence loyalty when they better understand customer behaviour and preferences. By leveraging CDP data for media, marketers can create personalised experiences that will keep customers engaged and reduce churn risk, leading to a higher customer lifetime value in the media sector.
+Dive into our case study
+Learn how Virgin Media O2 saved £1M and brought in more customers in return by suppressing their existing customers from paid media, using Zeotap CDP
+Read More
+Why Zeotap CDP?
+IMMEDIATE VALUE4+4 FrameworkSpecialised in prioritising simple use cases that drive commercial outcomes in 8 weeks
+EASY DEPLOYMENT GCP NativeFrictionless deployment make existing tools and investment better with latency and
+cost advantages
+INTUITIVE INTERFACE Built for MarketersDesigned for hands-on marketers with no need for technical coding skills
+360 IDENTITYIncluding Cookieless IDPatented identity stitching strategies for discriminatory digital marketing use cases
+PRIVACY ABOVE ALL From Europe for EuropeConceived in Germany and developed for stringent European regulation
+TRUSTED PARTNERWe will be your trusted partner, not just a software vendor, that will make your CDP project successful.
+Industry recognitions
+Trusted by
+Schedule a demo
+It is simple to deliver amazing customer experiences without compromising user privacy. Complete the short form, and we’ll be in touch to schedule your demo.
+Get a demo
+Step into a new era of marketing possibilities, unleashing the full potential of your customer data. Experience the power of Zeotap CDP.
+GET A DEMO
+Follow us
+Facebook-f
+Twitter
+Linkedin-in
+Sign up for our newsletter
+Be the first to get access to our marketing resources and keep up to date with the latest CDP best practices, privacy standards, marketing, and customer data.
+Get a demo
+Step into a new era of marketing possibilities, unleashing the full potential of your customer data. Experience the power of Zeotap CDP.
+GET A DEMO
+Follow us
+Facebook-f
+Twitter
+Linkedin-in
+©2024 Zeotap All Rights Reserved
+Website Privacy Policy
+Product and Service Privacy Policy
+Vulnerability Disclosure Policy
+Information Security Policy Statement
+Legal Notice
+Legal Hub
+Zeotap Whistleblowing Channel
+Website Privacy Policy
+Product and Service Privacy Policy
+Vulnerability Disclosure Policy
+Information Security Policy Statement
+Legal Notice
+Legal Hub
+Zeotap Whistleblowing Channel

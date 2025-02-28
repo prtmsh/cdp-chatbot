@@ -1,0 +1,112 @@
+DOCSDOCSHomeGuidesDevelopersIntegrationsChangelogSign UpDocumentationDevelopersAPI ReferencesPlatform APIPlatform API OverviewAccountsAppsAudiencesCalculated AttributesData PointsFeedsField TransformationsServicesUsersWorkspacesData Subject Request APIData Subject Request API Version 1 and 2Data Subject Request API Version 3Warehouse Sync APIWarehouse Sync API OverviewWarehouse Sync API TutorialWarehouse Sync API ReferenceData MappingWarehouse Sync SQL ReferenceWarehouse Sync Troubleshooting GuideComposeIDWarehouse Sync API v2 MigrationCalculated Attributes Seeding APIBulk Profile Deletion API ReferenceCustom Access Roles APIData Planning APIGroup Identity API ReferencePixel ServiceProfile APIEvents APImParticle JSON Schema ReferenceIDSyncClient SDKsAMPAMP SDKAndroidInitializationConfigurationNetwork Security ConfigurationEvent TrackingUser AttributesIDSyncScreen EventsCommerce EventsLocation TrackingMediaKitsApplication State and Session ManagementData Privacy ControlsError TrackingOpt OutPush NotificationsWebView IntegrationLoggerPreventing Blocked HTTP Traffic with CNAMELinting Data PlansTroubleshooting the Android SDKAPI ReferenceUpgrade to Version 5CordovaCordova PluginIdentityDirect Url RoutingDirect URL Routing FAQWebAndroidiOSFlutterGetting StartedUsageAPI ReferenceiOSInitializationConfigurationEvent TrackingUser AttributesIDSyncScreen TrackingCommerce EventsLocation TrackingMediaKitsApplication State and Session ManagementData Privacy ControlsError TrackingOpt OutPush NotificationsWebview IntegrationUpload FrequencyApp ExtensionsPreventing Blocked HTTP Traffic with CNAMELinting Data PlansTroubleshooting iOS SDKSocial NetworksiOS 14 GuideiOS 15 FAQiOS 16 FAQiOS 17 FAQiOS 18 FAQAPI ReferenceUpgrade to Version 7RokuGetting StartedIdentityMediaReact NativeGetting StartedIdentityUnityUpload FrequencyGetting StartedOpt OutInitialize the SDKEvent TrackingCommerce TrackingError TrackingScreen TrackingIdentityLocation TrackingSession ManagementXboxGetting StartedIdentityWebInitializationConfigurationContent Security PolicyEvent TrackingUser AttributesIDSyncPage View TrackingCommerce EventsLocation TrackingMediaKitsApplication State and Session ManagementData Privacy ControlsError TrackingOpt OutCustom LoggerPersistenceNative Web ViewsSelf-HostingMultiple InstancesWeb SDK via Google Tag ManagerPreventing Blocked HTTP Traffic with CNAMEFacebook Instant ArticlesTroubleshooting the Web SDKBrowser CompatibilityLinting Data PlansAPI ReferenceUpgrade to Version 2 of the SDKXamarinGetting StartedIdentityWebAlexaMedia SDKsAndroidiOSWebToolsmParticle Command Line InterfaceLinting ToolsSmartypeServer SDKsNode SDKGo SDKPython SDKRuby SDKJava SDKQuickstartAndroidOverviewStep 1. Create an inputStep 2. Verify your inputStep 3. Set up your outputStep 4. Create a connectionStep 5. Verify your connectionStep 6. Track eventsStep 7. Track user dataStep 8. Create a data planStep 9. Test your local appHTTP Quick StartStep 1. Create an inputStep 2. Create an outputStep 3. Verify outputiOS Quick StartOverviewStep 1. Create an inputStep 2. Verify your inputStep 3. Set up your outputStep 4. Create a connectionStep 5. Verify your connectionStep 6. Track eventsStep 7. Track user dataStep 8. Create a data planJava Quick StartStep 1. Create an inputStep 2. Create an outputStep 3. Verify outputNode Quick StartStep 1. Create an inputStep 2. Create an outputStep 3. Verify outputPython Quick StartStep 1. Create an inputStep 2. Create an outputStep 3. Verify outputWebOverviewStep 1. Create an inputStep 2. Verify your inputStep 3. Set up your outputStep 4. Create a connectionStep 5. Verify your connectionStep 6. Track eventsStep 7. Track user dataStep 8. Create a data planGuidesPartnersIntroductionOutbound IntegrationsOutbound IntegrationsFirehose Java SDKInbound IntegrationsKit IntegrationsOverviewAndroid Kit IntegrationJavaScript Kit IntegrationiOS Kit IntegrationCompose IDData Hosting LocationsGlossaryMigrate from Segment to mParticleMigrate from Segment to mParticleMigrate from Segment to Client-side mParticleMigrate from Segment to Server-side mParticleSegment-to-mParticle Migration ReferenceRules Developer GuideAPI Credential ManagementThe Developer's Guided Journey to mParticleGuidesGetting StartedCreate an InputStart capturing dataConnect an Event OutputCreate an AudienceConnect an Audience OutputTransform and Enhance Your DataPersonalizationIntroductionProfilesAudiencesAudiences OverviewCreate an AudienceConnect an AudienceManage AudiencesReal-time Audiences (Legacy)Standard Audiences (Legacy)Calculated AttributesCalculated Attributes OverviewUsing Calculated AttributesCreate with AI AssistanceCalculated Attributes ReferencePredictive AudiencesPredictive Audiences OverviewUsing Predictive AudiencesJourneysJourneys OverviewManage JourneysDownload an audience from a journeyAudience A/B testing from a journeyJourneys 2.0Predictive AttributesWhat are predictive attributes?Predict Future BehaviorCreate Future PredictionUse Future Predictions in CampaignsAssess and Troubleshoot PredictionsNext Best ActionNext Best Action OverviewCreate a Next Best Action (NBA)View and Manage NBAsActivate Next Best Actions in CampaignsPlatform GuideBillingUsage and Billing ReportThe New mParticle ExperienceThe new mParticle ExperienceThe Overview MapObservabilityObservability OverviewObservability User GuideObservability Troubleshooting ExamplesObservability Span GlossaryIntroductionData RetentionConnectionsActivityLive StreamData FilterRulesTiered EventsmParticle Users and RolesAnalytics Free TrialTroubleshooting mParticleUsage metering for value-based pricing (VBP)AnalyticsIntroductionSetupSync and Activate Analytics User Segments in mParticleUser Segment ActivationWelcome Page AnnouncementsSettingsProject SettingsRoles and TeammatesOrganization SettingsGlobal Project FiltersPortfolio AnalyticsAnalytics Data ManagerAnalytics Data Manager OverviewEventsEvent PropertiesUser PropertiesRevenue MappingExport DataUTM GuideQuery BuilderData DictionaryQuery Builder OverviewModify Filters With And/Or ClausesQuery-time SamplingQuery NotesFilter Where ClausesEvent vs. User PropertiesGroup By ClausesAnnotationsCross-tool CompatibilityApply All for Filter Where ClausesDate Range and Time Settings OverviewUser Attributes at Event TimeUnderstanding the Screen View EventAnalysesAnalyses IntroductionSegmentation: BasicsGetting StartedVisualization OptionsFor ClausesDate Range and Time SettingsCalculatorNumerical SettingsSegmentation: AdvancedAssisted AnalysisProperties ExplorerFrequency in SegmentationTrends in SegmentationDid [not] Perform ClausesCumulative vs. Non-Cumulative Analysis in SegmentationTotal Count of vs. Users Who PerformedSave Your Segmentation AnalysisExport Results in SegmentationExplore Users from SegmentationFunnels: BasicsGetting Started with FunnelsGroup By SettingsConversion WindowTracking PropertiesDate Range and Time SettingsVisualization OptionsInterpreting a Funnel AnalysisFunnels: AdvancedGroup ByFiltersConversion over TimeConversion OrderTrendsFunnel DirectionMulti-path FunnelsAnalyze as Cohort from FunnelSave a Funnel AnalysisExplore Users from a FunnelExport Results from a FunnelCohortsGetting Started with CohortsAnalysis ModesSave a Cohort AnalysisExport ResultsExplore UsersSaved AnalysesManage Analyses in DashboardsJourneysGetting StartedEvent MenuVisualizationEnding EventSave a Journey AnalysisUsersGetting StartedUser Activity TimelinesTime SettingsExport ResultsSave A User AnalysisDashboardsDashboards––Getting StartedManage DashboardsDashboard FiltersOrganize DashboardsScheduled ReportsFavoritesTime and Interval Settings in DashboardsQuery Notes in DashboardsUser AliasingAnalytics ResourcesThe Demo EnvironmentKeyboard ShortcutsTutorialsAnalytics for MarketersAnalytics for Product ManagersCompare Conversion Across Acquisition SourcesAnalyze Product Feature UsageIdentify Points of User FrictionTime-based Subscription AnalysisDashboard Tips and TricksUnderstand Product StickinessOptimize User Flow with A/B TestingUser SegmentsAPIsUser Segments Export APIDashboard Filter APIIDSyncIDSync OverviewUse Cases for IDSyncComponents of IDSyncStore and Organize User DataIdentify UsersDefault IDSync ConfigurationProfile Conversion StrategyProfile Link StrategyProfile Isolation StrategyBest Match StrategyAliasingData MasterGroup IdentityOverviewCreate and Manage Group DefinitionsIntroductionCatalogLive StreamData PlansData PlansBlocked Data Backfill GuideWarehouse SyncData Privacy ControlsData Subject RequestsDefault Service LimitsFeedsCross-Account Audience SharingApproved Sub-ProcessorsImport Data with CSV FilesImport Data with CSV FilesCSV File ReferenceGlossaryVideo IndexAnalytics (Deprecated)Identity ProvidersSingle Sign-On (SSO)Setup ExamplesSettingsDebug ConsoleData Warehouse Delay AlertingIntroductionDeveloper DocsIntroductionIntegrationsIntroductionRudderstackGoogle Tag ManagerSegmentData Warehouses and Data LakesAdvanced Data Warehouse SettingsAWS Kinesis (Snowplow)AWS Redshift (Define Your Own Schema)AWS S3 Integration (Define Your Own Schema)AWS S3 (Snowplow Schema)BigQuery (Snowplow Schema)BigQuery Firebase SchemaBigQuery (Define Your Own Schema)GCP BigQuery ExportSnowflake (Snowplow Schema)Snowplow Schema OverviewSnowflake (Define Your Own Schema)APIsREST APIDashboard Filter API (Deprecated)User Segments Export API (Deprecated)SDKsSDKs IntroductionReact NativeiOSAndroidJavaJavaScriptPythonObject APIDeveloper BasicsAliasingGetting StartedFlutter allows developers to use a single code base to deploy to multiple platforms.
+Now, with the mParticle Flutter Plugin, you can leverage a single API to deploy your data to hundreds of integrations from your iOS, Android, and Web apps.
+Installation
+Add the Flutter SDK as a dependency to your Flutter application:
+flutter pub add mparticle_flutter_sdk
+Specifying this dependency adds a line like the following to your package’s pubspec.yaml:
+dependencies:
+mparticle_flutter_sdk: ^0.0.1
+Import the package into your Dart code:
+import 'package:mparticle_flutter_sdk/mparticle_flutter_sdk.dart'
+Now that you have the mParticle Dart plugin, install mParticle on your native or web platforms.
+Be sure to include an API Key and Secret where required or you will see errors in your logs when launching your app.
+Web
+Add the mParticle snippet to your web/index.html file as high as possible on the page within the
+tag, as described in Add the Snippet for Web SDK.
+<script type="text/javascript">
+//configure the SDK
+window.mParticle = {
+config: {
+isDevelopmentMode: true,
+identifyRequest: {
+userIdentities: {
+email: 'email@example.com',
+customerid: '123456',
+},
+},
+identityCallback: (response) {
+console.log(response);
+},
+dataPlan: {
+planId: 'my_plan_id',
+planVersion: 2
+}
+},
+};
+//load the SDK
+(
+function(e){window.mParticle=window.mParticle||{};window.mParticle.EventType={Unknown:0,Navigation:1,Location:2,Search:3,Transaction:4,UserContent:5,UserPreference:6,Social:7,Other:8};window.mParticle.eCommerce={Cart:{}};window.mParticle.Identity={};window.mParticle.config=window.mParticle.config||{};window.mParticle.config.rq=[];window.mParticle.config.snippetVersion=2.3;window.mParticle.ready=function(e){window.mParticle.config.rq.push(e)};var i=["endSession","logError","logBaseEvent","logEvent","logForm","logLink","logPageView","setSessionAttribute","setAppName","setAppVersion","setOptOut","setPosition","startNewSession","startTrackingLocation","stopTrackingLocation"];var n=["setCurrencyCode","logCheckout"];var t=["identify","login","logout","modify"];i.forEach(function(e){window.mParticle[e]=o(e)});n.forEach(function(e){window.mParticle.eCommerce[e]=o(e,"eCommerce")});t.forEach(function(e){window.mParticle.Identity[e]=o(e,"Identity")});function o(i,n){return function(){if(n){i=n+"."+i}var e=Array.prototype.slice.call(arguments);e.unshift(i);window.mParticle.config.rq.push(e)}}var r,c,a=window.mParticle.config,s=a.isDevelopmentMode?1:0,l="?env="+s,w=window.mParticle.config.dataPlan;if(w){r=w.planId;c=w.planVersion;if(r){if(c&&(c<1||c>1e3)){c=null}l+="&plan_id="+r+(c?"&plan_version="+c:"")}}var d=window.mParticle.config.versions;var m=[];if(d){Object.keys(d).forEach(function(e){m.push(e+"="+d[e])})}var f=document.createElement("script");f.type="text/javascript";f.async=true;f.src=("https:"==document.location.protocol?"https://jssdkcdns":"http://jssdkcdn")+".mparticle.com/js/v2/"+e+"/mparticle.js"+l+"&"+m.join("&");var p=document.getElementsByTagName("script")[0];p.parentNode.insertBefore(f,p)}
+)
+("REPLACE WITH API KEY");
+</script>
+For more help, see the Web SDK quickstart.
+iOS
+Copy your mParticle key and secret** from your app’s dashboard.
+Install the SDK using CocoaPods:
+$ # Update your Podfile to depend on 'mParticle-Apple-SDK' version 8.5.0 or later
+$ pod install
+You must initialize the SDK with an MParticleOptions object with a minimum of your mParticle workspace key and secret.
+Supply your MParticleOptions object to the mParticle start API to initialize the SDK:
+The SDK is designed to be initialized within the application:didFinishLaunchingWithOptions: method. The SDK performs very little work before delegating all actions to a background queue. Also, do not use Grand Central Dispatch’s dispatch_async API to start the SDK. If the SDK is initialized later in the UIApplication lifecycle, session and installation events may not be recorded correctly.
+Objective-CSwift
+// Assumes the SDK has been included as a dynamic library
+// Requires "Enable Modules (C and Objective-C)" in pbxproj
+@import mParticle_Apple_SDK;
+- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+//initialize mParticle
+MParticleOptions *options = [MParticleOptions optionsWithKey:@"REPLACE WITH APP KEY"
+secret:@"REPLACE WITH APP SECRET"];
+[[MParticle sharedInstance] startWithOptions:options];
+return YES;
+}
+import mParticle_Apple_SDK
+func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
+//initialize mParticle
+let options = MParticleOptions(key: "REPLACE WITH APP KEY",
+secret: "REPLACE WITH APP SECRET")
+MParticle.sharedInstance().start(with: options)
+return true
+}
+For more help, see the iOS SDK set up documentation.
+Android
+Add the following dependencies to your app’s build.gradle:
+dependencies {
+implementation 'com.mparticle:android-core:5+'
+// Required for gathering Android Advertising ID (see below)
+implementation 'com.google.android.gms:play-services-ads-identifier:16.0.0'
+// Recommended to query the Google Play install referrer
+implementation 'com.android.installreferrer:installreferrer:1.0'
+}
+Grab your mParticle key and secret from your workspace’s dashboard and construct an MParticleOptions object.
+Call start from the onCreate method of your app’s Application class. It’s crucial that the SDK be started here for proper session management. If you don’t already have an Application class, create it and then specify its fully-qualified name in the <application> tag of your app’s AndroidManifest.xml.
+You must initialize the SDK with an MParticleOptions object and its respective builder class. At minimum you must supply your mParticle input key and secret via the credentials() builder API.
+We recommend initializing the SDK in the onCreate() method of your app’s Application class. If you prefer, you may initialize the SDK in an Activity class - as long as the SDK is initialized prior to any other SDK API calls.
+JavaKotlin
+//import mParticle
+import com.mparticle.MParticle;
+import com.mparticle.MParticleOptions;
+public class ExampleApplication extends Application {
+@Override
+public void onCreate() {
+super.onCreate();
+MParticleOptions options = MParticleOptions.builder(this)
+.credentials("REPLACE ME WITH KEY", "REPLACE ME WITH SECRET")
+.build();
+MParticle.start(options);
+}
+}
+//import mParticle
+import com.mparticle.MParticle
+import com.mparticle.MParticleOptions
+class ExampleApplication : Application() {
+override fun onCreate() {
+super.onCreate()
+val options = MParticleOptions.builder(this)
+.credentials("REPLACE ME WITH KEY", "REPLACE ME WITH SECRET")
+.build()
+MParticle.start(options)
+}
+}
+Warning: Don’t log events in Application.onCreate(). If you do, Android may instantiate Application class for many reasons, in the background, while the user isn’t even using their device.
+For more help, see the full Android set up docs.
+Was this page helpful?YesNoLast Updated: February 27, 2025© 2025 mParticle, Inc. All rights reserved.mParticle.comPrivacy PolicyCookie PolicyDo Not Sell or Share My Personal Data

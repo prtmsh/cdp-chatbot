@@ -1,0 +1,3222 @@
+Lytics Profile Schema
+Jump to ContentHomeDocumentationAPI ReferenceProduct UpdatesCommunityv2.0v2.1v3.0Log InDocumentationLog Inv3.0HomeDocumentationAPI ReferenceProduct UpdatesCommunityLytics Profile SchemaSearchQuick StartDeveloper Quickstart1. Install the Lytics Tag2. Content Setup3. Surface Personalized MessageBuilding ProfilesDefault AttributesDefault SegmentsGuides & InspirationLead CaptureContent RecommendationsAccount ManagementWhat is Vault?Accessing AccountsMonitoring Metrics and AlertsJob AlertsMonitoring Audit LogsExporting Audit Logs or Alert JobsMonitoring MetricsUsage MetricsManaging UsersSingle Sign-OnAccount SettingsAccount DetailsJavaScript Tag ConfigPersonalization APIContent ServicesSecurityAI & Modeling ControlsSchema ControlsData PoliciesPlatform LimitsPrivacy and Data ProtectionImpact of Browser Tracking ChangesComplianceAuthorizationsAccess TokensKey ConceptsIdentity ResolutionConsent & PrivacyComplying with the Digital Markets Act (DMA)Client & Server Side CookiesContent AffinityContent CurationTopic TaxonomyArchitectureIntegration PatternsJob ProcessingLytics Platform Data Flow and AccessCDI and CDP Implementation StrategyLytics Zero Copy with Cloud ConnectPipeline & ProfilesData PipelineJobs (Data Sources and Exports)Data StreamsStream Routing APITemplatesCreating Templates Using the UICreating Templates using Lytics APIUsing the Jsonnet LibraryTemplate ExamplesSchema ManagementFields & MappingsAdvanced Mapping FunctionsMeta FieldsQueries & LQLIdentity Key RanksSchema VersionsPlanning & TroubleshootingLytics Profile SchemaSchema CopilotIdentityMerge StatisticsIdentity ExplorerIdentity RulesWarehouse AccessWhat is Cloud Connect?Connecting WarehousesData Models & QueriesActivating Data ModelsCloud Connect Troubleshooting and FAQsAudiences & ActivationUser ProfilesUnderstanding Profile HealthFinding a UserAudiencesAudience GroupsPrebuilt AudiencesReportsWhat are Reports?ComponentsManaging ReportsDashboard ReportContentTopics & AffinitiesTopicsAffinitiesUsing Topics & AffinitiesClassificationEnrichmentRecommendationsDocumentsContent CollectionsCreating Content CollectionsViewing, Using & Managing CollectionsInterest EnginesDefault Interest EngineCustom Interest EnginesCollaborative FiltersLookalike Models & AudiencesGetting StartedBuilding Lookalike ModelsEvaluating Lookalike ModelsCreating Lookalike AudiencesImproving Lookalike ModelsActivationDestinationsGoalsExperiencesBehavioral ScoresTutorialsLeveraging User ProfilesAccessing Profiles Client SideAccessing Profiles Server SideWorking with Anonymous ProfilesGet Started with Lytics SegmentsInline Content RecommendationsData Collection & OnboardingWorking with Custom DataWorking with Web DataCollect Mobile Data with Firebase + GTMData ManagementProfile Stitching Best PracticesMigrating from Queries to Conductor SchemaLQL & Data Import BasicsUse CasesAcquire New Customers with LyticsBest Practices for Personalizing Your Ad or Search Landing PageCapture More Information from Qualified LeadsContent Modularization in Email with Lytics AudiencesCustomize your Web Experiences with Branded ImagesDeliver Targeted ContentDrive Email Capture & Engagement with ContentDrive Mobile App Downloads With LyticsEngage Qualified Users with Targeted AdsEnhance Personalized Messaging with User Profile FieldsGrow Your Email Marketing ListImport an Audience from your Data WarehouseImprove Ad Campaign Metrics with Predictive TargetingIncrease Conversions with Lytics and Facebook LookalikeKeep Visitors Engaged with Content Recommendation ExperiencesLeverage Lookalike Models and Predictive AudiencesLookalike Models: Conserve marketing spend on engaged usersLookalike Models: Convert anonymous users to known usersLookalike Models: Convert single purchasers to multi-purchasersLookalike Models: Determine which subscribers are likely to churnMobile Messaging with Lytics Webhooks and Serverless FunctionsOptimize Remarketing SpendPersonalize the Messaging of your Website Based on AudiencePopulate Your Website With One-to-One Content RecommendationsPromote Relevant Content to Users based on their InterestsReach the Right People Using LyticsRetain Existing Customers With LyticsPersonalize your Iterable emails With Lytics content recommendationsBuild a Custom Personalized Experience With Video ContentUnlock Additional Web Personalization Features with Lytics API OverridesHow to Use GTM Tags to Modify Lytics Pathfora Widget BehaviorStyle your Lytics Web Experiences to Fit Your Brand GuidelinesSDKs & ToolsWebJavaScriptOn-site PersonalizationSubresource Integrity (SRI)MobileiOSReact NativeAndroidChrome ExtensionIntegrationsLytics Integration OptionsAcousticAdobeAdRollAirshipAmplitudeAmazon AdsAmazon KinesisAmazon PinpointAmazon RedshiftAmazon S3Amazon SQSAnsiraBigCommerceBlueKaiBlueshiftBrazeBrevoCampaign MonitorCheetah DigitalClearbitContentfulCordialCriteoCustomer.ioDatabricksDotdigitalDriftEpiserverFullContactGIGYAGoogle OptimizeGoogle Ad Manager (DFP)Google AdsGoogle BigQueryGoogle Cloud Pub/SubGoogle Cloud StorageGoogle DriveGoogle Marketing: Analytics, DV360, CM360Google Cloud OperationsGoogle Tag ManagerHubSpotiContactInsiderIterableJebbitKlaviyoLeadsquaredLinkedInLiveRampLocalyticsLookerLotameLytics File ServiceLytics MonitoringMailchimpMailgunMandrillMappMapp: BlueHornetMarketoMaropostMediaMathMetaMicrosoftMicrosoft AzureMicrosoft TeamsMixpanelNetSuiteNew RelicOmedaOneSignalOneTrustOracle Marketing Cloud: EloquaPinterestPostUpRadarRedditResponsysRetention ScienceSailthruSalesforceSalesforce DMP (Krux)Salesforce Marketing CloudSalesforce PardotSegment.comSelligentSendGridShopifySitecoreSlackSnapchatSnowflakeSparkPostSurveyMonkeySwrveTaboolaTealiumTikTokThe Trade DeskUnified ID 2.0VersiumWebhooksWebhook TemplatesWistiaX AdsYahoo AdsZapierZendeskZuoraContentstackPartnersPartner TypesLytics CommunicationLegacyInsightsImporting External ExperiencesIDP-initiated SSO (legacy)Web PersonalizationIntroductionDrive Traffic CampaignCollect Leads CampaignPresent a Message CampaignRecommend Content CampaignCampaign ReportingCampaign ManagementBuilding Audiences with Campaign DataLytics Profile Schema Suggest EditsLytics profiles enjoy access to both a universal schema, which provides computed, intelligent attributes on every profile in Lytics, as well as a common schema, a set of standard attributes that facilitates faster integration and more reliable consistency when integrating profiles to and from other systems.
+Growth and Enterprise Lytics accounts may also customize their schema with additional fields and mappings.
+Universal Schema
+Lytics' universal schema delivers a set of intelligent attributes that are universal to every profile that gets created, regardless of data source, age, or their anonymous or known status.
+These attributes include rich behavioral models, AI-derived interests, and identity resolution metadata, leading to more comprehensive insights on all of your profiles.
+(Not just the known ones!)
+Universal attributes provide a common vocabulary with which to think about how you might engage with each and every individual — what they're interested in, what their engagement has been, or how they're likely to engage in the future.
+Identifiers
+Identifiers in Lytics Schema serve to stitch profiles together. For instance, if you pass an email along with the _uid, all events that have only been associated with either identifier will be merged into a single comprehensive profile.
+Default identifiers are listed below.
+Some jobs in your data pipeline may add new identifiers to your schema, like shopify_customer_id or salesforce_contact_ids.
+FieldShort DescriptionLong DescriptionExample_idLytics IDA unique ID that represents the materialized profile in Lytics."4fafb5b3-b199-58f2-a68b-4b266b363dd1"
+Metafields
+Metafields encompass all system-level information that provides insights into the health and breadth of the profile. This includes data such as creation date, last update timestamp, source information, and other metadata associated with the profile's management and maintenance. Metafields offer a behind-the-scenes view of the profile's overall status and administration.
+FieldShort DescriptionLong DescriptionExample_createdCreatedThe time a profile was created."2024-02-28T02:45:51.377423153Z"_last_scoredLast Scored TimestampThe time a profile was last scored by Lytics."2024-02-28T02:45:51.377423153Z"_modifiedModified TimestampThe time a profile was last modified by Lytics."2024-02-28T02:45:51.377423153Z"_num_aliasesNumber of AliasesThe number of aliases for a profile, as calculated by Lytics' Identity Resolution.5_num_daysNumber of DaysThe number of distinct days a profile has had activity.3_num_eventsNumber of EventsThe total number of events processed for a profile.81_num_streamsNumber of StreamsThe number of distinct data streams in which a profile has been present.2_streamnamesStream NamesThe distinct streams in which a profile has been present.["default"]
+Behavioral
+Behavioral attributes comprise a multidimensional set of scores that provide insight into an individual's behavior over time.
+These insights are invaluable when personalizing experiences based on changes in behavior or behaviors indicative of high likelihood. For instance, you might want to present a premium offer to users exhibiting higher momentum than usual.
+Behavioral attributes enable targeted and timely interventions tailored to user actions and patterns.
+FieldShort DescriptionLong DescriptionExamplescore_consistencyConsistencyMeasures the long-term consistency of a typical user's daily engagement.56score_frequencyFrequencyMeasures the frequency of a user's engagement, relative to your most frequent users.74score_intensityIntensityMeasures the depth of a typical user's daily engagement.3score_maturityMaturityMeasures the length of a user's history, relative to your most mature users.97score_momentumMomentumMeasures the rate at which user engagement is changing.45score_propensityPropensityMeasures how likely a user is to re-engage with more activity.91score_quantityQuantityMeasures the quantity of a user's engagement, relative to your most frequent users.12score_recencyRecencyMeasures the recency (over a 1 year window) of a user's engagement.28score_volatilityVolatilityMeasures the long-term volatility of the depth of a typical user's daily engagement.63
+Interests
+Interests entail understanding the topics a user is interested in based on their interactions, cross-referenced by deep programmatic analysis of their online activities. This allows for tailored content recommendations and targeted messaging aligned with the user's preferences and engagement history.
+FieldShort DescriptionLong DescriptionExamplelytics_contentLytics ContentA map of topic-level interests for the user.{"Shoes":0.76,"Pants":0.43}
+Intelligence
+Attributes classified as intelligence encompass diverse, highly valuable information to facilitate relevant and high-value personalized experiences. Within this category, you'll discover real-time segment membership, values crucial for split testing and experimentation, and direct correlation to our real-time machine learning modeling. These attributes empower dynamic and data-driven decision-making, enhancing the efficacy of personalized marketing strategies.
+FieldShort DescriptionLong DescriptionExample_segmentsSegment MembershipThe segments or audiences of which on individual is a member.["all", "anonymous_profiles", "smt_power"]_splitRandom Split 1A randomly assigned value for making randomized audiences and driving experiments.0_split2Random Split 2A randomly assigned value for making randomized audiences and driving experiments.99segment_predictionLytics Predictive ScoresScores from Lytics SegmentML Predictive Models.{"likely_to_buy_shoes": 0.47}segment_prediction_percentileLytics Preditive PercentilesPercentiles from Lytics SegmentML Predictive Models.{"likely_to_buy_shoes": 91}
+_split
+Random splits are assigned by algorithmic hashing and result in an even distribution across profiles.
+There are 100 possible splits (0-99), so creating an audience where _split = 44 would result in a random subset of 1% of profiles.
+A random split where _split < 50 would result in a subset of 50% of profiles.
+_split2
+Having access to two random split assignments allows you to target 100*100, or 10k different subsets of your audiences.
+This means you can create splits that are capable of targeting down to 0.01% of profiles.
+segment_prediction
+Lytics' SegmentML models provide scores for modeling custom outcomes in Lookalike models.
+Each active model attaches a score (between 0 and 1) to a profile with its name.
+segment_prediction_percentile
+Similar to segment_prediction values, the percentiles provide the ability to create audiences and target users based on their percentile instead of their raw score.
+This enables you, for example, to create audiences of users with the top 10% of scores (by using segment_prediction_percentile > 90).
+Common Schema
+Common fields help to structure your profiles in a way for developers to easily plug into them, and for marketers to easily use them in personalization.
+Common mappings help to translate your source data into a format that can be used by common fields.
+These fields and mappings help to provide consistency in your profiles, regardless of the source from which the data came.
+For example, your CRM might have "tax_exempt": "true", while your data warehouse might has "tax_status": "exempt", and your ESP might have "is_tax_exempt": 1.
+In Lytics' Common Schema, this would simply be represented as "tax_exempt": true.
+Pre-defined Mappings
+For your convenience, Jobs managed in your Data Pipeline will automatically create schema fields and mappings to implement Lytics Common Schema in your data so that you can get to more use cases more quickly with our Inspiration Library.
+Some fields, like name, are automatically part of every Lytics account.
+Other channel-specific fields will be added when you add channel-specific data sources to your account. For example, adding a Shopify import job to your data sources would add the common schema field purchase_total, among others.
+Identifiers
+Identifiers in Lytics Schema serve to stitch profiles together. For instance, if you pass an email along with the _uid, all events that have only been associated with either identifier will be merged into a single comprehensive profile.
+Default identifiers are listed below.
+Some jobs in your data pipeline may add new identifiers to your schema, like shopify_customer_id or salesforce_contact_ids.
+FieldShort DescriptionLong DescriptionExample_uidsWeb Cookie Id: AllAll cookies associated with a profile.["50b772f5-a0be-42f2-8828-84b8db5d5a23"]emailEmail AddressEmail address of a profile."[email protected]"email_sha256Email Address: Hash (SHA256)SHA256 hash of the profile's email address."e43763399e5318f14cd7473c4902a6b319343d577ec8283898a5edf9dbc6d711"external_idExternal IDAn identifier to link a profile to custom sources."abc123"
+_uids
+JavaScriptcURLHTTPiePostmanjstag.send({
+"_uid": "50b772f5-a0be-42f2-8828-84b8db5d5a23"
+})
+curl --request POST
+--url https://api.lytics.io/collect/json/default
+--header 'accept: application/json'
+--header 'authorization: API_KEY'
+--header 'content-type: */*'
+--data '{
+"_uid": "50b772f5-a0be-42f2-8828-84b8db5d5a23"
+}'
+echo '{
+"_uid": "50b772f5-a0be-42f2-8828-84b8db5d5a23"
+}' | http post htps://api.lytics.io/collect/json/default Authorization:API_KEY
+pm.request.headers.add({
+key: "Authorization",
+value: "<API_KEY>"
+});
+pm.request.body.raw = JSON.stringify({
+"_uid": "50b772f5-a0be-42f2-8828-84b8db5d5a23"
+});
+pm.sendRequest({
+url: "https://api.lytics.io/collect/json/default",
+method: "POST",
+});
+email
+An individual's email address is automatically standardized (syntactically validated and lower-cased) so as to be compatible as an identifier in your identity graph.
+JavaScriptcURLHTTPiePostmanjstag.send({
+"email_address": "[email protected]"
+})
+curl --request POST
+--url https://api.lytics.io/collect/json/default
+--header 'accept: application/json'
+--header 'authorization: API_KEY'
+--header 'content-type: */*'
+--data '{
+"email_address": "[email protected]"
+}'
+echo '{
+"email_address": "[email protected]"
+}' | http post htps://api.lytics.io/collect/json/default Authorization:API_KEY
+pm.request.headers.add({
+key: "Authorization",
+value: "<API_KEY>"
+});
+pm.request.body.raw = JSON.stringify({
+"email_address": "[email protected]"
+});
+pm.sendRequest({
+url: "https://api.lytics.io/collect/json/default",
+method: "POST",
+});
+email_sha256
+The SHA256 hash of an individual's email address.
+In the event that your account has an email address present, the hash is automatically computed so as to be compatible with external systems that require the SHA256 hash for integration.
+In the event that you don't want any PII in your account, you can pass the hash directly instead of the raw address.
+JavaScriptcURLHTTPiePostmanjstag.send({
+"email_address": "[email protected]"
+})
+curl --request POST
+--url https://api.lytics.io/collect/json/default
+--header 'accept: application/json'
+--header 'authorization: API_KEY'
+--header 'content-type: */*'
+--data '{
+"email_address": "[email protected]"
+}'
+echo '{
+"email_address": "[email protected]"
+}' | http post htps://api.lytics.io/collect/json/default Authorization:API_KEY
+pm.request.headers.add({
+key: "Authorization",
+value: "<API_KEY>"
+});
+pm.request.body.raw = JSON.stringify({
+"email_address": "[email protected]"
+});
+pm.sendRequest({
+url: "https://api.lytics.io/collect/json/default",
+method: "POST",
+});
+external_id
+Optional, and if provided, this will usually come from your proprietary, first-party database.
+This will be used for profile stitching and should therefore be unique to an individual.
+JavaScriptcURLHTTPiePostmanjstag.send({
+"external_id": "abc123"
+})
+curl --request POST
+--url https://api.lytics.io/collect/json/default
+--header 'accept: application/json'
+--header 'authorization: API_KEY'
+--header 'content-type: */*'
+--data '{
+"external_id": "abc123"
+}'
+echo '{
+"external_id": "abc123"
+}' | http post htps://api.lytics.io/collect/json/default Authorization:API_KEY
+pm.request.headers.add({
+key: "Authorization",
+value: "<API_KEY>"
+});
+pm.request.body.raw = JSON.stringify({
+"external_id": "abc123"
+});
+pm.sendRequest({
+url: "https://api.lytics.io/collect/json/default",
+method: "POST",
+});
+Interests
+Interests entail understanding the topics a user is interested in based on their interactions, cross-referenced by deep programmatic analysis of their online activities. This allows for tailored content recommendations and targeted messaging aligned with the user's preferences and engagement history.
+FieldShort DescriptionLong DescriptionExamplehashedurlsHashed URLsA map of URLs an individual has engaged with, indexed by each URL's hashed value.{"hashedurls":{"4058474390481920149":5,"680176754148162020":2}}
+hashedurls
+A history of an individual's most recently visited URLs, helpful for powering Lytics' Interest Engines. A siphash of each URL's sanitized value (without query parameters) is used to index the map.
+hashedurls are used in Lytics' standard Interest Engine, but you can create additional Interest Engines with other sets of URLs, product IDs, or atomic content IDs from your CMS.
+JavaScriptcURLHTTPiePostmanjstag.send({
+"url": "www.lytics.com/blog/real-talk-about-real-time-cdps/"
+})
+curl --request POST
+--url https://api.lytics.io/collect/json/default
+--header 'accept: application/json'
+--header 'authorization: API_KEY'
+--header 'content-type: */*'
+--data '{
+"url": "www.lytics.com/blog/real-talk-about-real-time-cdps/"
+}'
+echo '{
+"url": "www.lytics.com/blog/real-talk-about-real-time-cdps/"
+}' | http post htps://api.lytics.io/collect/json/default Authorization:API_KEY
+pm.request.headers.add({
+key: "Authorization",
+value: "<API_KEY>"
+});
+pm.request.body.raw = JSON.stringify({
+"url": "www.lytics.com/blog/real-talk-about-real-time-cdps/"
+});
+pm.sendRequest({
+url: "https://api.lytics.io/collect/json/default",
+method: "POST",
+});
+Intelligence
+Attributes classified as intelligence encompass diverse, highly valuable information to facilitate relevant and high-value personalized experiences. Within this category, you'll discover real-time segment membership, values crucial for split testing and experimentation, and direct correlation to our real-time machine learning modeling. These attributes empower dynamic and data-driven decision-making, enhancing the efficacy of personalized marketing strategies.
+FieldShort DescriptionLong DescriptionExamplenext_eventNext EventStream-specific preditions for the timestamp of the next expected interaction on a stream.``needs_messageNeeds MessageStream-specific score to predict how much an individual "needs" a message on a data stream.``
+needs_message
+The "needs message" score evaluates how likely an individual is to engage on a channel without any messaging.
+A higher score would indicate that an individual is less likely to return within a typical engagement window (relative to other individuals in a data stream).
+A lower score would indicate that they are more likely to return within a typical engagement window.
+Details
+Details encompass all default attributes related to user demographics and general information, including name, phone number, status, etc. It serves as a catch-all for attributes not specifically tied to interactions or behaviors.
+FieldShort DescriptionLong DescriptionExamplefirst_nameFirst NameAn individual's first name."Jane"last_nameLast NameAn individual's last name."Doe"nameNameAn individual's name."Jane Doe"birthdayBirthdayAn individual's birthday."July 22"birthdayDate of BirthAn individual's exact date of birth."2000-07-22"phonePhone NumberIn most cases, this will be automatically formatted in E164 format."+15555555555"phone_mobileMobile Phone NumberIn most cases, this will be automatically formatted in E164 format."+15555555555"address1Address 1First line of customer address."30 Rockefeller Plaza"address2Address 2Second line of customer address."Suite 1000"cityCityThis will usually correspond to a contact-provided value -- registration, shipping address, etc."New York"regionRegion, State or ProvinceThis will usually correspond to a contact-provided value -- registration, shipping address, etc."NY"countryCountryThis will usually correspond to a contact-provided value -- registration, shipping address, etc."USA"postal_codePostal CodeThis will usually correspond to a contact-provided value -- registration, shipping address, etc."10112"statusProfile StatusThis may be used to indicate a generic customer status -- active, churned, premium, unknown, etc."active"
+first_name
+JavaScriptcURLHTTPiePostmanjstag.send({
+"first_name": "Jane"
+})
+curl --request POST
+--url https://api.lytics.io/collect/json/default
+--header 'accept: application/json'
+--header 'authorization: API_KEY'
+--header 'content-type: */*'
+--data '{
+"first_name": "Jane"
+}'
+echo '{
+"first_name": "Jane"
+}' | http post htps://api.lytics.io/collect/json/default Authorization:API_KEY
+pm.request.headers.add({
+key: "Authorization",
+value: "<API_KEY>"
+});
+pm.request.body.raw = JSON.stringify({
+"first_name": "Jane"
+});
+pm.sendRequest({
+url: "https://api.lytics.io/collect/json/default",
+method: "POST",
+});
+last_name
+JavaScriptcURLHTTPiePostmanjstag.send({
+"last_name": "Doe"
+})
+curl --request POST
+--url https://api.lytics.io/collect/json/default
+--header 'accept: application/json'
+--header 'authorization: API_KEY'
+--header 'content-type: */*'
+--data '{
+"last_name": "Doe"
+}'
+echo '{
+"last_name": "Doe"
+}' | http post htps://api.lytics.io/collect/json/default Authorization:API_KEY
+pm.request.headers.add({
+key: "Authorization",
+value: "<API_KEY>"
+});
+pm.request.body.raw = JSON.stringify({
+"last_name": "Doe"
+});
+pm.sendRequest({
+url: "https://api.lytics.io/collect/json/default",
+method: "POST",
+});
+name
+An individual's name may take a few forms, depending on the source, and this field may sometimes be just the first name, a combination of names, or completely empty.
+JavaScriptcURLHTTPiePostmanjstag.send({
+"name": "Jane Doe"
+})
+curl --request POST
+--url https://api.lytics.io/collect/json/default
+--header 'accept: application/json'
+--header 'authorization: API_KEY'
+--header 'content-type: */*'
+--data '{
+"name": "Jane Doe"
+}'
+echo '{
+"name": "Jane Doe"
+}' | http post htps://api.lytics.io/collect/json/default Authorization:API_KEY
+pm.request.headers.add({
+key: "Authorization",
+value: "<API_KEY>"
+});
+pm.request.body.raw = JSON.stringify({
+"name": "Jane Doe"
+});
+pm.sendRequest({
+url: "https://api.lytics.io/collect/json/default",
+method: "POST",
+});
+birthday
+JavaScriptcURLHTTPiePostmanjstag.send({
+"birthday": "July 22"
+})
+curl --request POST
+--url https://api.lytics.io/collect/json/default
+--header 'accept: application/json'
+--header 'authorization: API_KEY'
+--header 'content-type: */*'
+--data '{
+"birthday": "July 22"
+}'
+echo '{
+"birthday": "July 22"
+}' | http post htps://api.lytics.io/collect/json/default Authorization:API_KEY
+pm.request.headers.add({
+key: "Authorization",
+value: "<API_KEY>"
+});
+pm.request.body.raw = JSON.stringify({
+"birthday": "July 22"
+});
+pm.sendRequest({
+url: "https://api.lytics.io/collect/json/default",
+method: "POST",
+});
+birthday
+JavaScriptcURLHTTPiePostmanjstag.send({
+"dob": "2000-07-22"
+})
+curl --request POST
+--url https://api.lytics.io/collect/json/default
+--header 'accept: application/json'
+--header 'authorization: API_KEY'
+--header 'content-type: */*'
+--data '{
+"dob": "2000-07-22"
+}'
+echo '{
+"dob": "2000-07-22"
+}' | http post htps://api.lytics.io/collect/json/default Authorization:API_KEY
+pm.request.headers.add({
+key: "Authorization",
+value: "<API_KEY>"
+});
+pm.request.body.raw = JSON.stringify({
+"dob": "2000-07-22"
+});
+pm.sendRequest({
+url: "https://api.lytics.io/collect/json/default",
+method: "POST",
+});
+phone
+JavaScriptcURLHTTPiePostmanjstag.send({
+"phone": "555-555-5555"
+})
+curl --request POST
+--url https://api.lytics.io/collect/json/default
+--header 'accept: application/json'
+--header 'authorization: API_KEY'
+--header 'content-type: */*'
+--data '{
+"phone": "555-555-5555"
+}'
+echo '{
+"phone": "555-555-5555"
+}' | http post htps://api.lytics.io/collect/json/default Authorization:API_KEY
+pm.request.headers.add({
+key: "Authorization",
+value: "<API_KEY>"
+});
+pm.request.body.raw = JSON.stringify({
+"phone": "555-555-5555"
+});
+pm.sendRequest({
+url: "https://api.lytics.io/collect/json/default",
+method: "POST",
+});
+phone_mobile
+JavaScriptcURLHTTPiePostmanjstag.send({
+"mobile": "555-555-5555"
+})
+curl --request POST
+--url https://api.lytics.io/collect/json/default
+--header 'accept: application/json'
+--header 'authorization: API_KEY'
+--header 'content-type: */*'
+--data '{
+"mobile": "555-555-5555"
+}'
+echo '{
+"mobile": "555-555-5555"
+}' | http post htps://api.lytics.io/collect/json/default Authorization:API_KEY
+pm.request.headers.add({
+key: "Authorization",
+value: "<API_KEY>"
+});
+pm.request.body.raw = JSON.stringify({
+"mobile": "555-555-5555"
+});
+pm.sendRequest({
+url: "https://api.lytics.io/collect/json/default",
+method: "POST",
+});
+address1
+JavaScriptcURLHTTPiePostmanjstag.send({
+"address1": "30 Rockefeller Plaza"
+})
+curl --request POST
+--url https://api.lytics.io/collect/json/default
+--header 'accept: application/json'
+--header 'authorization: API_KEY'
+--header 'content-type: */*'
+--data '{
+"address1": "30 Rockefeller Plaza"
+}'
+echo '{
+"address1": "30 Rockefeller Plaza"
+}' | http post htps://api.lytics.io/collect/json/default Authorization:API_KEY
+pm.request.headers.add({
+key: "Authorization",
+value: "<API_KEY>"
+});
+pm.request.body.raw = JSON.stringify({
+"address1": "30 Rockefeller Plaza"
+});
+pm.sendRequest({
+url: "https://api.lytics.io/collect/json/default",
+method: "POST",
+});
+address2
+JavaScriptcURLHTTPiePostmanjstag.send({
+"address2": "Suite 1000"
+})
+curl --request POST
+--url https://api.lytics.io/collect/json/default
+--header 'accept: application/json'
+--header 'authorization: API_KEY'
+--header 'content-type: */*'
+--data '{
+"address2": "Suite 1000"
+}'
+echo '{
+"address2": "Suite 1000"
+}' | http post htps://api.lytics.io/collect/json/default Authorization:API_KEY
+pm.request.headers.add({
+key: "Authorization",
+value: "<API_KEY>"
+});
+pm.request.body.raw = JSON.stringify({
+"address2": "Suite 1000"
+});
+pm.sendRequest({
+url: "https://api.lytics.io/collect/json/default",
+method: "POST",
+});
+city
+JavaScriptcURLHTTPiePostmanjstag.send({
+"city": "New York"
+})
+curl --request POST
+--url https://api.lytics.io/collect/json/default
+--header 'accept: application/json'
+--header 'authorization: API_KEY'
+--header 'content-type: */*'
+--data '{
+"city": "New York"
+}'
+echo '{
+"city": "New York"
+}' | http post htps://api.lytics.io/collect/json/default Authorization:API_KEY
+pm.request.headers.add({
+key: "Authorization",
+value: "<API_KEY>"
+});
+pm.request.body.raw = JSON.stringify({
+"city": "New York"
+});
+pm.sendRequest({
+url: "https://api.lytics.io/collect/json/default",
+method: "POST",
+});
+region
+JavaScriptcURLHTTPiePostmanjstag.send({
+"region": "NY"
+})
+curl --request POST
+--url https://api.lytics.io/collect/json/default
+--header 'accept: application/json'
+--header 'authorization: API_KEY'
+--header 'content-type: */*'
+--data '{
+"region": "NY"
+}'
+echo '{
+"region": "NY"
+}' | http post htps://api.lytics.io/collect/json/default Authorization:API_KEY
+pm.request.headers.add({
+key: "Authorization",
+value: "<API_KEY>"
+});
+pm.request.body.raw = JSON.stringify({
+"region": "NY"
+});
+pm.sendRequest({
+url: "https://api.lytics.io/collect/json/default",
+method: "POST",
+});
+country
+JavaScriptcURLHTTPiePostmanjstag.send({
+"country": "United States"
+})
+curl --request POST
+--url https://api.lytics.io/collect/json/default
+--header 'accept: application/json'
+--header 'authorization: API_KEY'
+--header 'content-type: */*'
+--data '{
+"country": "United States"
+}'
+echo '{
+"country": "United States"
+}' | http post htps://api.lytics.io/collect/json/default Authorization:API_KEY
+pm.request.headers.add({
+key: "Authorization",
+value: "<API_KEY>"
+});
+pm.request.body.raw = JSON.stringify({
+"country": "United States"
+});
+pm.sendRequest({
+url: "https://api.lytics.io/collect/json/default",
+method: "POST",
+});
+postal_code
+JavaScriptcURLHTTPiePostmanjstag.send({
+"postal_code": "10112"
+})
+curl --request POST
+--url https://api.lytics.io/collect/json/default
+--header 'accept: application/json'
+--header 'authorization: API_KEY'
+--header 'content-type: */*'
+--data '{
+"postal_code": "10112"
+}'
+echo '{
+"postal_code": "10112"
+}' | http post htps://api.lytics.io/collect/json/default Authorization:API_KEY
+pm.request.headers.add({
+key: "Authorization",
+value: "<API_KEY>"
+});
+pm.request.body.raw = JSON.stringify({
+"postal_code": "10112"
+});
+pm.sendRequest({
+url: "https://api.lytics.io/collect/json/default",
+method: "POST",
+});
+status
+JavaScriptcURLHTTPiePostmanjstag.send({
+"status": "active"
+})
+curl --request POST
+--url https://api.lytics.io/collect/json/default
+--header 'accept: application/json'
+--header 'authorization: API_KEY'
+--header 'content-type: */*'
+--data '{
+"status": "active"
+}'
+echo '{
+"status": "active"
+}' | http post htps://api.lytics.io/collect/json/default Authorization:API_KEY
+pm.request.headers.add({
+key: "Authorization",
+value: "<API_KEY>"
+});
+pm.request.body.raw = JSON.stringify({
+"status": "active"
+});
+pm.sendRequest({
+url: "https://api.lytics.io/collect/json/default",
+method: "POST",
+});
+Geo
+Geolocation attributes are inferred from geolocation on network activity.
+FieldShort DescriptionLong DescriptionExamplegeoip_orgGeoIP: OrganizationOrganization inferred from the most recently observed IP address for an individual.
+This may correspond to a business name, or an internet service provider in the case of residential IP addresses."Acme Corp."geoip_countryGeoIP: CountryCountry inferred from the most recently observed IP address for an individual."USA"geoip_cityGeoIP: CityCity inferred from the most recently observed IP address for an individual."New York"geoip_regionGeoIP: RegionRegion, state, or province inferred from the most recently observed IP address for an individual."NY"designated_market_areaDesignated Market AreaAn individual's designated marketing area."New York"timezoneTimezoneTimezone associated with an individual's browser or location."-4"
+geoip_org
+JavaScriptcURLHTTPiePostmanjstag.send({
+"ip_address": "192.168.0.1"
+})
+curl --request POST
+--url https://api.lytics.io/collect/json/default
+--header 'accept: application/json'
+--header 'authorization: API_KEY'
+--header 'content-type: */*'
+--data '{
+"ip_address": "192.168.0.1"
+}'
+echo '{
+"ip_address": "192.168.0.1"
+}' | http post htps://api.lytics.io/collect/json/default Authorization:API_KEY
+pm.request.headers.add({
+key: "Authorization",
+value: "<API_KEY>"
+});
+pm.request.body.raw = JSON.stringify({
+"ip_address": "192.168.0.1"
+});
+pm.sendRequest({
+url: "https://api.lytics.io/collect/json/default",
+method: "POST",
+});
+geoip_country
+JavaScriptcURLHTTPiePostmanjstag.send({
+"ip_address": "192.168.0.2"
+})
+curl --request POST
+--url https://api.lytics.io/collect/json/default
+--header 'accept: application/json'
+--header 'authorization: API_KEY'
+--header 'content-type: */*'
+--data '{
+"ip_address": "192.168.0.2"
+}'
+echo '{
+"ip_address": "192.168.0.2"
+}' | http post htps://api.lytics.io/collect/json/default Authorization:API_KEY
+pm.request.headers.add({
+key: "Authorization",
+value: "<API_KEY>"
+});
+pm.request.body.raw = JSON.stringify({
+"ip_address": "192.168.0.2"
+});
+pm.sendRequest({
+url: "https://api.lytics.io/collect/json/default",
+method: "POST",
+});
+geoip_city
+JavaScriptcURLHTTPiePostmanjstag.send({
+"ip_address": "192.168.0.3"
+})
+curl --request POST
+--url https://api.lytics.io/collect/json/default
+--header 'accept: application/json'
+--header 'authorization: API_KEY'
+--header 'content-type: */*'
+--data '{
+"ip_address": "192.168.0.3"
+}'
+echo '{
+"ip_address": "192.168.0.3"
+}' | http post htps://api.lytics.io/collect/json/default Authorization:API_KEY
+pm.request.headers.add({
+key: "Authorization",
+value: "<API_KEY>"
+});
+pm.request.body.raw = JSON.stringify({
+"ip_address": "192.168.0.3"
+});
+pm.sendRequest({
+url: "https://api.lytics.io/collect/json/default",
+method: "POST",
+});
+geoip_region
+JavaScriptcURLHTTPiePostmanjstag.send({
+"ip_address": "192.168.0.4"
+})
+curl --request POST
+--url https://api.lytics.io/collect/json/default
+--header 'accept: application/json'
+--header 'authorization: API_KEY'
+--header 'content-type: */*'
+--data '{
+"ip_address": "192.168.0.4"
+}'
+echo '{
+"ip_address": "192.168.0.4"
+}' | http post htps://api.lytics.io/collect/json/default Authorization:API_KEY
+pm.request.headers.add({
+key: "Authorization",
+value: "<API_KEY>"
+});
+pm.request.body.raw = JSON.stringify({
+"ip_address": "192.168.0.4"
+});
+pm.sendRequest({
+url: "https://api.lytics.io/collect/json/default",
+method: "POST",
+});
+designated_market_area
+JavaScriptcURLHTTPiePostmanjstag.send({
+"dma": "New York"
+})
+curl --request POST
+--url https://api.lytics.io/collect/json/default
+--header 'accept: application/json'
+--header 'authorization: API_KEY'
+--header 'content-type: */*'
+--data '{
+"dma": "New York"
+}'
+echo '{
+"dma": "New York"
+}' | http post htps://api.lytics.io/collect/json/default Authorization:API_KEY
+pm.request.headers.add({
+key: "Authorization",
+value: "<API_KEY>"
+});
+pm.request.body.raw = JSON.stringify({
+"dma": "New York"
+});
+pm.sendRequest({
+url: "https://api.lytics.io/collect/json/default",
+method: "POST",
+});
+timezone
+JavaScriptcURLHTTPiePostmanjstag.send({
+"timezone": "-4"
+})
+curl --request POST
+--url https://api.lytics.io/collect/json/default
+--header 'accept: application/json'
+--header 'authorization: API_KEY'
+--header 'content-type: */*'
+--data '{
+"timezone": "-4"
+}'
+echo '{
+"timezone": "-4"
+}' | http post htps://api.lytics.io/collect/json/default Authorization:API_KEY
+pm.request.headers.add({
+key: "Authorization",
+value: "<API_KEY>"
+});
+pm.request.body.raw = JSON.stringify({
+"timezone": "-4"
+});
+pm.sendRequest({
+url: "https://api.lytics.io/collect/json/default",
+method: "POST",
+});
+Device
+Device attributes describe the devices that have been associated with an individual and their activity.
+FieldShort DescriptionLong DescriptionExampledevice_idDevice ID: Most RecentAn individual's most recent device ID."555837ca-cce7-496c-8acc-552793ce969a"device_idsDevice ID: AllThe collection of all of an individual's observed device IDs.["555837ca-cce7-496c-8acc-552793ce969a"]device_advertising_idDevice Advertising ID: Most RecentAn individual's most recent device ID."AB1234CD-E123-12FG-J123"device_advertising_idsDevice Advertising ID: AllThe collection of all of an individual's device IDs.["AB1234CD-E123-12FG-J123"]device_typesDevice: TypesThe collection of all of an individual's observed device types.{"desktop": 1, "mobile": 100}user_agentUser AgentThe most recent user agent of an individual's browser."Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"is_mobileMobile VisitorA flag to indicate if the user has ever been a mobile visitor."FALSE"is_botIs BotA flag to indicate whether or not an individual is suspected of being a bot (determined by their user agent)."FALSE"device_osDevice: OSThe operating system of an individual's most recent device."iOS"device_modelDevice: ModelThe model of an individual's most recent device."iPhone 15"browser_hashBrowser: Computed HashThe set computed hash of an individual's browsers.["555837ca-cce7-496c-8acc-552793ce969a"]browserBrowser: VersionThe version of an individual's browser."Chrome/130.0.0.0"
+device_id
+JavaScriptcURLHTTPiePostmanjstag.send("555837ca-cce7-496c-8acc-552793ce969a")
+curl --request POST
+--url https://api.lytics.io/collect/json/default
+--header 'accept: application/json'
+--header 'authorization: API_KEY'
+--header 'content-type: */*'
+--data '"555837ca-cce7-496c-8acc-552793ce969a"'
+echo '"555837ca-cce7-496c-8acc-552793ce969a"' | http post htps://api.lytics.io/collect/json/default Authorization:API_KEY
+pm.request.headers.add({
+key: "Authorization",
+value: "<API_KEY>"
+});
+pm.request.body.raw = JSON.stringify("555837ca-cce7-496c-8acc-552793ce969a");
+pm.sendRequest({
+url: "https://api.lytics.io/collect/json/default",
+method: "POST",
+});
+device_ids
+JavaScriptcURLHTTPiePostmanjstag.send("555837ca-cce7-496c-8acc-552793ce969a")
+curl --request POST
+--url https://api.lytics.io/collect/json/default
+--header 'accept: application/json'
+--header 'authorization: API_KEY'
+--header 'content-type: */*'
+--data '"555837ca-cce7-496c-8acc-552793ce969a"'
+echo '"555837ca-cce7-496c-8acc-552793ce969a"' | http post htps://api.lytics.io/collect/json/default Authorization:API_KEY
+pm.request.headers.add({
+key: "Authorization",
+value: "<API_KEY>"
+});
+pm.request.body.raw = JSON.stringify("555837ca-cce7-496c-8acc-552793ce969a");
+pm.sendRequest({
+url: "https://api.lytics.io/collect/json/default",
+method: "POST",
+});
+device_advertising_id
+This may be a Google Advertising ID (GAID) or an Apple Identifier for Advertisers (IDFA).
+JavaScriptcURLHTTPiePostmanjstag.send("AB1234CD-E123-12FG-J123")
+curl --request POST
+--url https://api.lytics.io/collect/json/default
+--header 'accept: application/json'
+--header 'authorization: API_KEY'
+--header 'content-type: */*'
+--data '"AB1234CD-E123-12FG-J123"'
+echo '"AB1234CD-E123-12FG-J123"' | http post htps://api.lytics.io/collect/json/default Authorization:API_KEY
+pm.request.headers.add({
+key: "Authorization",
+value: "<API_KEY>"
+});
+pm.request.body.raw = JSON.stringify("AB1234CD-E123-12FG-J123");
+pm.sendRequest({
+url: "https://api.lytics.io/collect/json/default",
+method: "POST",
+});
+device_advertising_ids
+These may be a Google Advertising ID (GAID) or an Apple Identifier for Advertisers (IDFA).
+JavaScriptcURLHTTPiePostmanjstag.send("AB1234CD-E123-12FG-J123")
+curl --request POST
+--url https://api.lytics.io/collect/json/default
+--header 'accept: application/json'
+--header 'authorization: API_KEY'
+--header 'content-type: */*'
+--data '"AB1234CD-E123-12FG-J123"'
+echo '"AB1234CD-E123-12FG-J123"' | http post htps://api.lytics.io/collect/json/default Authorization:API_KEY
+pm.request.headers.add({
+key: "Authorization",
+value: "<API_KEY>"
+});
+pm.request.body.raw = JSON.stringify("AB1234CD-E123-12FG-J123");
+pm.sendRequest({
+url: "https://api.lytics.io/collect/json/default",
+method: "POST",
+});
+device_types
+JavaScriptcURLHTTPiePostmanjstag.send("desktop")
+curl --request POST
+--url https://api.lytics.io/collect/json/default
+--header 'accept: application/json'
+--header 'authorization: API_KEY'
+--header 'content-type: */*'
+--data '"desktop"'
+echo '"desktop"' | http post htps://api.lytics.io/collect/json/default Authorization:API_KEY
+pm.request.headers.add({
+key: "Authorization",
+value: "<API_KEY>"
+});
+pm.request.body.raw = JSON.stringify("desktop");
+pm.sendRequest({
+url: "https://api.lytics.io/collect/json/default",
+method: "POST",
+});
+user_agent
+JavaScriptcURLHTTPiePostmanjstag.send({
+"useragent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+})
+curl --request POST
+--url https://api.lytics.io/collect/json/default
+--header 'accept: application/json'
+--header 'authorization: API_KEY'
+--header 'content-type: */*'
+--data '{
+"useragent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+}'
+echo '{
+"useragent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+}' | http post htps://api.lytics.io/collect/json/default Authorization:API_KEY
+pm.request.headers.add({
+key: "Authorization",
+value: "<API_KEY>"
+});
+pm.request.body.raw = JSON.stringify({
+"useragent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+});
+pm.sendRequest({
+url: "https://api.lytics.io/collect/json/default",
+method: "POST",
+});
+is_mobile
+JavaScriptcURLHTTPiePostmanjstag.send({
+"_uamob": "f"
+})
+curl --request POST
+--url https://api.lytics.io/collect/json/default
+--header 'accept: application/json'
+--header 'authorization: API_KEY'
+--header 'content-type: */*'
+--data '{
+"_uamob": "f"
+}'
+echo '{
+"_uamob": "f"
+}' | http post htps://api.lytics.io/collect/json/default Authorization:API_KEY
+pm.request.headers.add({
+key: "Authorization",
+value: "<API_KEY>"
+});
+pm.request.body.raw = JSON.stringify({
+"_uamob": "f"
+});
+pm.sendRequest({
+url: "https://api.lytics.io/collect/json/default",
+method: "POST",
+});
+is_bot
+JavaScriptcURLHTTPiePostmanjstag.send({
+"_uabot": "f"
+})
+curl --request POST
+--url https://api.lytics.io/collect/json/default
+--header 'accept: application/json'
+--header 'authorization: API_KEY'
+--header 'content-type: */*'
+--data '{
+"_uabot": "f"
+}'
+echo '{
+"_uabot": "f"
+}' | http post htps://api.lytics.io/collect/json/default Authorization:API_KEY
+pm.request.headers.add({
+key: "Authorization",
+value: "<API_KEY>"
+});
+pm.request.body.raw = JSON.stringify({
+"_uabot": "f"
+});
+pm.sendRequest({
+url: "https://api.lytics.io/collect/json/default",
+method: "POST",
+});
+device_os
+JavaScriptcURLHTTPiePostmanjstag.send({
+"device_os": "iOS"
+})
+curl --request POST
+--url https://api.lytics.io/collect/json/default
+--header 'accept: application/json'
+--header 'authorization: API_KEY'
+--header 'content-type: */*'
+--data '{
+"device_os": "iOS"
+}'
+echo '{
+"device_os": "iOS"
+}' | http post htps://api.lytics.io/collect/json/default Authorization:API_KEY
+pm.request.headers.add({
+key: "Authorization",
+value: "<API_KEY>"
+});
+pm.request.body.raw = JSON.stringify({
+"device_os": "iOS"
+});
+pm.sendRequest({
+url: "https://api.lytics.io/collect/json/default",
+method: "POST",
+});
+device_model
+JavaScriptcURLHTTPiePostmanjstag.send({
+"device_model": "iPhone 15"
+})
+curl --request POST
+--url https://api.lytics.io/collect/json/default
+--header 'accept: application/json'
+--header 'authorization: API_KEY'
+--header 'content-type: */*'
+--data '{
+"device_model": "iPhone 15"
+}'
+echo '{
+"device_model": "iPhone 15"
+}' | http post htps://api.lytics.io/collect/json/default Authorization:API_KEY
+pm.request.headers.add({
+key: "Authorization",
+value: "<API_KEY>"
+});
+pm.request.body.raw = JSON.stringify({
+"device_model": "iPhone 15"
+});
+pm.sendRequest({
+url: "https://api.lytics.io/collect/json/default",
+method: "POST",
+});
+browser_hash
+While not a default part of your identity graph, this field may be promoted to an identifier to perform identity stitching.
+This should be performed with caution as it is not guaranteed to be unique and can result in stitching individuals with similarly configured browser.
+JavaScriptcURLHTTPiePostmanjstag.send({
+"browser_hash": "555837ca-cce7-496c-8acc-552793ce969a"
+})
+curl --request POST
+--url https://api.lytics.io/collect/json/default
+--header 'accept: application/json'
+--header 'authorization: API_KEY'
+--header 'content-type: */*'
+--data '{
+"browser_hash": "555837ca-cce7-496c-8acc-552793ce969a"
+}'
+echo '{
+"browser_hash": "555837ca-cce7-496c-8acc-552793ce969a"
+}' | http post htps://api.lytics.io/collect/json/default Authorization:API_KEY
+pm.request.headers.add({
+key: "Authorization",
+value: "<API_KEY>"
+});
+pm.request.body.raw = JSON.stringify({
+"browser_hash": "555837ca-cce7-496c-8acc-552793ce969a"
+});
+pm.sendRequest({
+url: "https://api.lytics.io/collect/json/default",
+method: "POST",
+});
+browser
+JavaScriptcURLHTTPiePostmanjstag.send("Chrome/130.0.0.0")
+curl --request POST
+--url https://api.lytics.io/collect/json/default
+--header 'accept: application/json'
+--header 'authorization: API_KEY'
+--header 'content-type: */*'
+--data '"Chrome/130.0.0.0"'
+echo '"Chrome/130.0.0.0"' | http post htps://api.lytics.io/collect/json/default Authorization:API_KEY
+pm.request.headers.add({
+key: "Authorization",
+value: "<API_KEY>"
+});
+pm.request.body.raw = JSON.stringify("Chrome/130.0.0.0");
+pm.sendRequest({
+url: "https://api.lytics.io/collect/json/default",
+method: "POST",
+});
+Attribution
+FieldShort DescriptionLong DescriptionExampleutm_campaignUTM Campaign: Most RecentAn individual's most recently observed UTM campaign."mycampaign1"utm_campaignsUTM Campaign: AllThe set of an individual's N most recently observed UTM campaigns.["mycampaign1", "mycampaign0"]utm_sourceUTM Source: Most RecentAn individual's most recently observed UTM source."instagram"utm_sourcesUTM Campaign: AllThe set of an individual's N most recently observed UTM sources.["instagram", "google"]utm_termUTM Term: Most RecentAn individual's most recently observed UTM term."winter coats"utm_termsUTM Campaign: AllThe set of an individual's N most recently observed UTM terms.["winter coats"]utm_contentUTM Content: Most RecentAn individual's most recently observed UTM content."spanish"utm_contentsUTM Content: AllThe set of an individual's N most recently observed UTM contents.["spanish"]utm_mediumUTM Medium: Most RecentAn individual's most recently observed UTM medium."paid"utm_mediumsUTM Campaign: AllThe set of an individual's N most recently observed UTM mediums.["paid"]ly_impressionsAttribution: ImpressionsA map of campaign impressions for an individual for Lytics-managed campaigns.{"content-rec-modal": 10}ly_conversionsAttribution: ConversionsA map of campaign conversions for an individual for Lytics-managed campaigns.{"content-rec-modal": 2}ly_closesAttribution: ClosesA map of campaign closes for an individual for Lytics-managed campaigns.{"content-rec-modal": 7}ly_cancelsAttribution: CancelsA map of campaign cancels for an individual for Lytics-managed campaigns.{"content-rec-modal": 1}ly_hoverAttribution: HoveredA map of campaign hovers for an individual for Lytics-managed campaigns.{"content-rec-modal": 5}conversions_tsConversion EventsA map of conversion events of an individual, by timestamp.{"content-rec-modal": "2024-02-28T02:45:51.377423153Z"}impressions_tsImpression EventsA map of impression events of an individual, by timestamp.{"content-rec-modal": "2024-02-28T02:45:51.377423153Z"}
+utm_campaign
+JavaScriptcURLHTTPiePostmanjstag.send({
+"utm_campaign": "mycampaign1"
+})
+curl --request POST
+--url https://api.lytics.io/collect/json/default
+--header 'accept: application/json'
+--header 'authorization: API_KEY'
+--header 'content-type: */*'
+--data '{
+"utm_campaign": "mycampaign1"
+}'
+echo '{
+"utm_campaign": "mycampaign1"
+}' | http post htps://api.lytics.io/collect/json/default Authorization:API_KEY
+pm.request.headers.add({
+key: "Authorization",
+value: "<API_KEY>"
+});
+pm.request.body.raw = JSON.stringify({
+"utm_campaign": "mycampaign1"
+});
+pm.sendRequest({
+url: "https://api.lytics.io/collect/json/default",
+method: "POST",
+});
+utm_campaigns
+JavaScriptcURLHTTPiePostmanjstag.send({
+"utm_campaign": "mycampaign1"
+})
+curl --request POST
+--url https://api.lytics.io/collect/json/default
+--header 'accept: application/json'
+--header 'authorization: API_KEY'
+--header 'content-type: */*'
+--data '{
+"utm_campaign": "mycampaign1"
+}'
+echo '{
+"utm_campaign": "mycampaign1"
+}' | http post htps://api.lytics.io/collect/json/default Authorization:API_KEY
+pm.request.headers.add({
+key: "Authorization",
+value: "<API_KEY>"
+});
+pm.request.body.raw = JSON.stringify({
+"utm_campaign": "mycampaign1"
+});
+pm.sendRequest({
+url: "https://api.lytics.io/collect/json/default",
+method: "POST",
+});
+utm_source
+JavaScriptcURLHTTPiePostmanjstag.send({
+"utm_source": "instagram"
+})
+curl --request POST
+--url https://api.lytics.io/collect/json/default
+--header 'accept: application/json'
+--header 'authorization: API_KEY'
+--header 'content-type: */*'
+--data '{
+"utm_source": "instagram"
+}'
+echo '{
+"utm_source": "instagram"
+}' | http post htps://api.lytics.io/collect/json/default Authorization:API_KEY
+pm.request.headers.add({
+key: "Authorization",
+value: "<API_KEY>"
+});
+pm.request.body.raw = JSON.stringify({
+"utm_source": "instagram"
+});
+pm.sendRequest({
+url: "https://api.lytics.io/collect/json/default",
+method: "POST",
+});
+utm_sources
+JavaScriptcURLHTTPiePostmanjstag.send({
+"utm_source": "instagram"
+})
+curl --request POST
+--url https://api.lytics.io/collect/json/default
+--header 'accept: application/json'
+--header 'authorization: API_KEY'
+--header 'content-type: */*'
+--data '{
+"utm_source": "instagram"
+}'
+echo '{
+"utm_source": "instagram"
+}' | http post htps://api.lytics.io/collect/json/default Authorization:API_KEY
+pm.request.headers.add({
+key: "Authorization",
+value: "<API_KEY>"
+});
+pm.request.body.raw = JSON.stringify({
+"utm_source": "instagram"
+});
+pm.sendRequest({
+url: "https://api.lytics.io/collect/json/default",
+method: "POST",
+});
+utm_term
+JavaScriptcURLHTTPiePostmanjstag.send({
+"utm_term": "winter coats"
+})
+curl --request POST
+--url https://api.lytics.io/collect/json/default
+--header 'accept: application/json'
+--header 'authorization: API_KEY'
+--header 'content-type: */*'
+--data '{
+"utm_term": "winter coats"
+}'
+echo '{
+"utm_term": "winter coats"
+}' | http post htps://api.lytics.io/collect/json/default Authorization:API_KEY
+pm.request.headers.add({
+key: "Authorization",
+value: "<API_KEY>"
+});
+pm.request.body.raw = JSON.stringify({
+"utm_term": "winter coats"
+});
+pm.sendRequest({
+url: "https://api.lytics.io/collect/json/default",
+method: "POST",
+});
+utm_terms
+JavaScriptcURLHTTPiePostmanjstag.send({
+"utm_term": "winter coats"
+})
+curl --request POST
+--url https://api.lytics.io/collect/json/default
+--header 'accept: application/json'
+--header 'authorization: API_KEY'
+--header 'content-type: */*'
+--data '{
+"utm_term": "winter coats"
+}'
+echo '{
+"utm_term": "winter coats"
+}' | http post htps://api.lytics.io/collect/json/default Authorization:API_KEY
+pm.request.headers.add({
+key: "Authorization",
+value: "<API_KEY>"
+});
+pm.request.body.raw = JSON.stringify({
+"utm_term": "winter coats"
+});
+pm.sendRequest({
+url: "https://api.lytics.io/collect/json/default",
+method: "POST",
+});
+utm_content
+JavaScriptcURLHTTPiePostmanjstag.send({
+"utm_content": "spanish"
+})
+curl --request POST
+--url https://api.lytics.io/collect/json/default
+--header 'accept: application/json'
+--header 'authorization: API_KEY'
+--header 'content-type: */*'
+--data '{
+"utm_content": "spanish"
+}'
+echo '{
+"utm_content": "spanish"
+}' | http post htps://api.lytics.io/collect/json/default Authorization:API_KEY
+pm.request.headers.add({
+key: "Authorization",
+value: "<API_KEY>"
+});
+pm.request.body.raw = JSON.stringify({
+"utm_content": "spanish"
+});
+pm.sendRequest({
+url: "https://api.lytics.io/collect/json/default",
+method: "POST",
+});
+utm_contents
+JavaScriptcURLHTTPiePostmanjstag.send({
+"utm_content": "spanish"
+})
+curl --request POST
+--url https://api.lytics.io/collect/json/default
+--header 'accept: application/json'
+--header 'authorization: API_KEY'
+--header 'content-type: */*'
+--data '{
+"utm_content": "spanish"
+}'
+echo '{
+"utm_content": "spanish"
+}' | http post htps://api.lytics.io/collect/json/default Authorization:API_KEY
+pm.request.headers.add({
+key: "Authorization",
+value: "<API_KEY>"
+});
+pm.request.body.raw = JSON.stringify({
+"utm_content": "spanish"
+});
+pm.sendRequest({
+url: "https://api.lytics.io/collect/json/default",
+method: "POST",
+});
+utm_medium
+JavaScriptcURLHTTPiePostmanjstag.send({
+"utm_medium": "paid"
+})
+curl --request POST
+--url https://api.lytics.io/collect/json/default
+--header 'accept: application/json'
+--header 'authorization: API_KEY'
+--header 'content-type: */*'
+--data '{
+"utm_medium": "paid"
+}'
+echo '{
+"utm_medium": "paid"
+}' | http post htps://api.lytics.io/collect/json/default Authorization:API_KEY
+pm.request.headers.add({
+key: "Authorization",
+value: "<API_KEY>"
+});
+pm.request.body.raw = JSON.stringify({
+"utm_medium": "paid"
+});
+pm.sendRequest({
+url: "https://api.lytics.io/collect/json/default",
+method: "POST",
+});
+utm_mediums
+JavaScriptcURLHTTPiePostmanjstag.send({
+"utm_medium": "paid"
+})
+curl --request POST
+--url https://api.lytics.io/collect/json/default
+--header 'accept: application/json'
+--header 'authorization: API_KEY'
+--header 'content-type: */*'
+--data '{
+"utm_medium": "paid"
+}'
+echo '{
+"utm_medium": "paid"
+}' | http post htps://api.lytics.io/collect/json/default Authorization:API_KEY
+pm.request.headers.add({
+key: "Authorization",
+value: "<API_KEY>"
+});
+pm.request.body.raw = JSON.stringify({
+"utm_medium": "paid"
+});
+pm.sendRequest({
+url: "https://api.lytics.io/collect/json/default",
+method: "POST",
+});
+ly_impressions
+JavaScriptcURLHTTPiePostmanjstag.send({
+"pf-widget-id": "content-rec-modal"
+})
+curl --request POST
+--url https://api.lytics.io/collect/json/default
+--header 'accept: application/json'
+--header 'authorization: API_KEY'
+--header 'content-type: */*'
+--data '{
+"pf-widget-id": "content-rec-modal"
+}'
+echo '{
+"pf-widget-id": "content-rec-modal"
+}' | http post htps://api.lytics.io/collect/json/default Authorization:API_KEY
+pm.request.headers.add({
+key: "Authorization",
+value: "<API_KEY>"
+});
+pm.request.body.raw = JSON.stringify({
+"pf-widget-id": "content-rec-modal"
+});
+pm.sendRequest({
+url: "https://api.lytics.io/collect/json/default",
+method: "POST",
+});
+ly_conversions
+JavaScriptcURLHTTPiePostmanjstag.send({
+"pf-widget-id": "content-rec-modal"
+})
+curl --request POST
+--url https://api.lytics.io/collect/json/default
+--header 'accept: application/json'
+--header 'authorization: API_KEY'
+--header 'content-type: */*'
+--data '{
+"pf-widget-id": "content-rec-modal"
+}'
+echo '{
+"pf-widget-id": "content-rec-modal"
+}' | http post htps://api.lytics.io/collect/json/default Authorization:API_KEY
+pm.request.headers.add({
+key: "Authorization",
+value: "<API_KEY>"
+});
+pm.request.body.raw = JSON.stringify({
+"pf-widget-id": "content-rec-modal"
+});
+pm.sendRequest({
+url: "https://api.lytics.io/collect/json/default",
+method: "POST",
+});
+ly_closes
+JavaScriptcURLHTTPiePostmanjstag.send({
+"pf-widget-id": "content-rec-modal"
+})
+curl --request POST
+--url https://api.lytics.io/collect/json/default
+--header 'accept: application/json'
+--header 'authorization: API_KEY'
+--header 'content-type: */*'
+--data '{
+"pf-widget-id": "content-rec-modal"
+}'
+echo '{
+"pf-widget-id": "content-rec-modal"
+}' | http post htps://api.lytics.io/collect/json/default Authorization:API_KEY
+pm.request.headers.add({
+key: "Authorization",
+value: "<API_KEY>"
+});
+pm.request.body.raw = JSON.stringify({
+"pf-widget-id": "content-rec-modal"
+});
+pm.sendRequest({
+url: "https://api.lytics.io/collect/json/default",
+method: "POST",
+});
+ly_cancels
+JavaScriptcURLHTTPiePostmanjstag.send({
+"pf-widget-id": "content-rec-modal"
+})
+curl --request POST
+--url https://api.lytics.io/collect/json/default
+--header 'accept: application/json'
+--header 'authorization: API_KEY'
+--header 'content-type: */*'
+--data '{
+"pf-widget-id": "content-rec-modal"
+}'
+echo '{
+"pf-widget-id": "content-rec-modal"
+}' | http post htps://api.lytics.io/collect/json/default Authorization:API_KEY
+pm.request.headers.add({
+key: "Authorization",
+value: "<API_KEY>"
+});
+pm.request.body.raw = JSON.stringify({
+"pf-widget-id": "content-rec-modal"
+});
+pm.sendRequest({
+url: "https://api.lytics.io/collect/json/default",
+method: "POST",
+});
+ly_hover
+JavaScriptcURLHTTPiePostmanjstag.send({
+"pf-widget-id": "content-rec-modal"
+})
+curl --request POST
+--url https://api.lytics.io/collect/json/default
+--header 'accept: application/json'
+--header 'authorization: API_KEY'
+--header 'content-type: */*'
+--data '{
+"pf-widget-id": "content-rec-modal"
+}'
+echo '{
+"pf-widget-id": "content-rec-modal"
+}' | http post htps://api.lytics.io/collect/json/default Authorization:API_KEY
+pm.request.headers.add({
+key: "Authorization",
+value: "<API_KEY>"
+});
+pm.request.body.raw = JSON.stringify({
+"pf-widget-id": "content-rec-modal"
+});
+pm.sendRequest({
+url: "https://api.lytics.io/collect/json/default",
+method: "POST",
+});
+conversions_ts
+JavaScriptcURLHTTPiePostmanjstag.send({
+"pf-widget-id": "content-rec-modal"
+})
+curl --request POST
+--url https://api.lytics.io/collect/json/default
+--header 'accept: application/json'
+--header 'authorization: API_KEY'
+--header 'content-type: */*'
+--data '{
+"pf-widget-id": "content-rec-modal"
+}'
+echo '{
+"pf-widget-id": "content-rec-modal"
+}' | http post htps://api.lytics.io/collect/json/default Authorization:API_KEY
+pm.request.headers.add({
+key: "Authorization",
+value: "<API_KEY>"
+});
+pm.request.body.raw = JSON.stringify({
+"pf-widget-id": "content-rec-modal"
+});
+pm.sendRequest({
+url: "https://api.lytics.io/collect/json/default",
+method: "POST",
+});
+impressions_ts
+JavaScriptcURLHTTPiePostmanjstag.send({
+"pf-widget-id": "content-rec-modal"
+})
+curl --request POST
+--url https://api.lytics.io/collect/json/default
+--header 'accept: application/json'
+--header 'authorization: API_KEY'
+--header 'content-type: */*'
+--data '{
+"pf-widget-id": "content-rec-modal"
+}'
+echo '{
+"pf-widget-id": "content-rec-modal"
+}' | http post htps://api.lytics.io/collect/json/default Authorization:API_KEY
+pm.request.headers.add({
+key: "Authorization",
+value: "<API_KEY>"
+});
+pm.request.body.raw = JSON.stringify({
+"pf-widget-id": "content-rec-modal"
+});
+pm.sendRequest({
+url: "https://api.lytics.io/collect/json/default",
+method: "POST",
+});
+Demographic
+FieldShort DescriptionLong DescriptionExamplegenderGenderAn individual's gender."F"ageAgeAn individual's age.38localeLocaleAn individual's locale, often determined by their browser."en_US"languageLanguage CodeAn individual's language, often determined by their browser."en"
+gender
+JavaScriptcURLHTTPiePostmanjstag.send({
+"gender": "F"
+})
+curl --request POST
+--url https://api.lytics.io/collect/json/default
+--header 'accept: application/json'
+--header 'authorization: API_KEY'
+--header 'content-type: */*'
+--data '{
+"gender": "F"
+}'
+echo '{
+"gender": "F"
+}' | http post htps://api.lytics.io/collect/json/default Authorization:API_KEY
+pm.request.headers.add({
+key: "Authorization",
+value: "<API_KEY>"
+});
+pm.request.body.raw = JSON.stringify({
+"gender": "F"
+});
+pm.sendRequest({
+url: "https://api.lytics.io/collect/json/default",
+method: "POST",
+});
+age
+JavaScriptcURLHTTPiePostmanjstag.send({
+"age": 38
+})
+curl --request POST
+--url https://api.lytics.io/collect/json/default
+--header 'accept: application/json'
+--header 'authorization: API_KEY'
+--header 'content-type: */*'
+--data '{
+"age": 38
+}'
+echo '{
+"age": 38
+}' | http post htps://api.lytics.io/collect/json/default Authorization:API_KEY
+pm.request.headers.add({
+key: "Authorization",
+value: "<API_KEY>"
+});
+pm.request.body.raw = JSON.stringify({
+"age": 38
+});
+pm.sendRequest({
+url: "https://api.lytics.io/collect/json/default",
+method: "POST",
+});
+locale
+An individual's locale is usually a combination of an individual's language code and country code.
+JavaScriptcURLHTTPiePostmanjstag.send({
+"locale": "en_US"
+})
+curl --request POST
+--url https://api.lytics.io/collect/json/default
+--header 'accept: application/json'
+--header 'authorization: API_KEY'
+--header 'content-type: */*'
+--data '{
+"locale": "en_US"
+}'
+echo '{
+"locale": "en_US"
+}' | http post htps://api.lytics.io/collect/json/default Authorization:API_KEY
+pm.request.headers.add({
+key: "Authorization",
+value: "<API_KEY>"
+});
+pm.request.body.raw = JSON.stringify({
+"locale": "en_US"
+});
+pm.sendRequest({
+url: "https://api.lytics.io/collect/json/default",
+method: "POST",
+});
+language
+An individual's language code, standardized by ISO-639-1 two-letter codes.
+JavaScriptcURLHTTPiePostmanjstag.send({
+"locale": "en_US"
+})
+curl --request POST
+--url https://api.lytics.io/collect/json/default
+--header 'accept: application/json'
+--header 'authorization: API_KEY'
+--header 'content-type: */*'
+--data '{
+"locale": "en_US"
+}'
+echo '{
+"locale": "en_US"
+}' | http post htps://api.lytics.io/collect/json/default Authorization:API_KEY
+pm.request.headers.add({
+key: "Authorization",
+value: "<API_KEY>"
+});
+pm.request.body.raw = JSON.stringify({
+"locale": "en_US"
+});
+pm.sendRequest({
+url: "https://api.lytics.io/collect/json/default",
+method: "POST",
+});
+First Party
+FieldShort DescriptionLong DescriptionExampleuser_attributesUser AttributesA map of custom properties for a profile.{"role": "member", "status": "active"}form_dataForm DataA map to store custom form data for a profile.{"field1": "value1", "field2": "value2"}
+user_attributes
+User Attributes are helpful for storing custom attributes about an individual without having to create and map additional user fields.
+JavaScriptcURLHTTPiePostmanjstag.send({
+"attr": {
+"status": "active"
+}
+})
+curl --request POST
+--url https://api.lytics.io/collect/json/default
+--header 'accept: application/json'
+--header 'authorization: API_KEY'
+--header 'content-type: */*'
+--data '{
+"attr": {
+"status": "active"
+}
+}'
+echo '{
+"attr": {
+"status": "active"
+}
+}' | http post htps://api.lytics.io/collect/json/default Authorization:API_KEY
+pm.request.headers.add({
+key: "Authorization",
+value: "<API_KEY>"
+});
+pm.request.body.raw = JSON.stringify({
+"attr": {
+"status": "active"
+}
+});
+pm.sendRequest({
+url: "https://api.lytics.io/collect/json/default",
+method: "POST",
+});
+form_data
+Form Data is helpful for storing custom form data from an individual without having to create and map additional user fields.
+JavaScriptcURLHTTPiePostmanjstag.send({
+"form": {
+"field1": "value1"
+}
+})
+curl --request POST
+--url https://api.lytics.io/collect/json/default
+--header 'accept: application/json'
+--header 'authorization: API_KEY'
+--header 'content-type: */*'
+--data '{
+"form": {
+"field1": "value1"
+}
+}'
+echo '{
+"form": {
+"field1": "value1"
+}
+}' | http post htps://api.lytics.io/collect/json/default Authorization:API_KEY
+pm.request.headers.add({
+key: "Authorization",
+value: "<API_KEY>"
+});
+pm.request.body.raw = JSON.stringify({
+"form": {
+"field1": "value1"
+}
+});
+pm.sendRequest({
+url: "https://api.lytics.io/collect/json/default",
+method: "POST",
+});
+Behaviors
+FieldShort DescriptionLong DescriptionExamplehourlyActivity by HourA count of an individual's activity by the hour of the day.{"9": 1, "12": 4, "22": 1}hourofweekActivity by Hour of WeekA count of an individual's activity by the hour of the week.{"2": 2, "140": 3, "167": 9}
+hourly
+hourly utilized the timestamp of the event being collected, and does not require any mappings.
+JavaScriptcURLHTTPiePostmanjstag.send({
+"foo": "bar"
+})
+curl --request POST
+--url https://api.lytics.io/collect/json/default
+--header 'accept: application/json'
+--header 'authorization: API_KEY'
+--header 'content-type: */*'
+--data '{
+"foo": "bar"
+}'
+echo '{
+"foo": "bar"
+}' | http post htps://api.lytics.io/collect/json/default Authorization:API_KEY
+pm.request.headers.add({
+key: "Authorization",
+value: "<API_KEY>"
+});
+pm.request.body.raw = JSON.stringify({
+"foo": "bar"
+});
+pm.sendRequest({
+url: "https://api.lytics.io/collect/json/default",
+method: "POST",
+});
+hourofweek
+hourofweek utilized the timestamp of the event being collected, and does not require any mappings.
+JavaScriptcURLHTTPiePostmanjstag.send({
+"foo": "bar"
+})
+curl --request POST
+--url https://api.lytics.io/collect/json/default
+--header 'accept: application/json'
+--header 'authorization: API_KEY'
+--header 'content-type: */*'
+--data '{
+"foo": "bar"
+}'
+echo '{
+"foo": "bar"
+}' | http post htps://api.lytics.io/collect/json/default Authorization:API_KEY
+pm.request.headers.add({
+key: "Authorization",
+value: "<API_KEY>"
+});
+pm.request.body.raw = JSON.stringify({
+"foo": "bar"
+});
+pm.sendRequest({
+url: "https://api.lytics.io/collect/json/default",
+method: "POST",
+});
+Governance
+FieldShort DescriptionLong DescriptionExampleconsent_statusConsent StatusA map of consented marketing channels, and content status.{"web_necessary": "consented"}consent_status_tsConsent Status (Timestamp)A map of consented marketing channels, and when that status was updated.{"web_necessary": "2024-02-28T02:45:51.377423153Z"}consent_status_sourceConsent Status (Source)A map of consented marketing channels, and the source from which the consent came.{"web_necessary": "onetrust"}
+consent_status
+The marketing tracking and activation channels to which an individual has expressly given consent.
+This typically includes the following values: "email_marketing", "sms_marketing", "push_marketing", "cookies_necessary", "cookies_performance", "web_functional", "web_targeting", "web_social".
+JavaScriptcURLHTTPiePostmanjstag.send({
+"consent": {
+"purpose": "c0001",
+"constented": "true"
+}
+})
+curl --request POST
+--url https://api.lytics.io/collect/json/default
+--header 'accept: application/json'
+--header 'authorization: API_KEY'
+--header 'content-type: */*'
+--data '{
+"consent": {
+"purpose": "c0001",
+"constented": "true"
+}
+}'
+echo '{
+"consent": {
+"purpose": "c0001",
+"constented": "true"
+}
+}' | http post htps://api.lytics.io/collect/json/default Authorization:API_KEY
+pm.request.headers.add({
+key: "Authorization",
+value: "<API_KEY>"
+});
+pm.request.body.raw = JSON.stringify({
+"consent": {
+"purpose": "c0001",
+"constented": "true"
+}
+});
+pm.sendRequest({
+url: "https://api.lytics.io/collect/json/default",
+method: "POST",
+});
+consent_status_ts
+The time at which the consent has most recently been confirmed.
+JavaScriptcURLHTTPiePostmanjstag.send({
+"consent": {
+"purpose": "c0001",
+"constented": "true"
+}
+})
+curl --request POST
+--url https://api.lytics.io/collect/json/default
+--header 'accept: application/json'
+--header 'authorization: API_KEY'
+--header 'content-type: */*'
+--data '{
+"consent": {
+"purpose": "c0001",
+"constented": "true"
+}
+}'
+echo '{
+"consent": {
+"purpose": "c0001",
+"constented": "true"
+}
+}' | http post htps://api.lytics.io/collect/json/default Authorization:API_KEY
+pm.request.headers.add({
+key: "Authorization",
+value: "<API_KEY>"
+});
+pm.request.body.raw = JSON.stringify({
+"consent": {
+"purpose": "c0001",
+"constented": "true"
+}
+});
+pm.sendRequest({
+url: "https://api.lytics.io/collect/json/default",
+method: "POST",
+});
+consent_status_source
+The source of the consent status.
+JavaScriptcURLHTTPiePostmanjstag.send({
+"consent": {
+"purpose": "c0001",
+"constented": "true"
+}
+})
+curl --request POST
+--url https://api.lytics.io/collect/json/default
+--header 'accept: application/json'
+--header 'authorization: API_KEY'
+--header 'content-type: */*'
+--data '{
+"consent": {
+"purpose": "c0001",
+"constented": "true"
+}
+}'
+echo '{
+"consent": {
+"purpose": "c0001",
+"constented": "true"
+}
+}' | http post htps://api.lytics.io/collect/json/default Authorization:API_KEY
+pm.request.headers.add({
+key: "Authorization",
+value: "<API_KEY>"
+});
+pm.request.body.raw = JSON.stringify({
+"consent": {
+"purpose": "c0001",
+"constented": "true"
+}
+});
+pm.sendRequest({
+url: "https://api.lytics.io/collect/json/default",
+method: "POST",
+});
+B2B
+FieldShort DescriptionLong DescriptionExamplejob_titleJob TitleAn individual's job title."CEO"job_roleJob RoleAn individual's job role."Executive"company_nameCompany NameThe name of the company at which an individual is employed."Lytics, Inc."company_sizeCompany SizeThe number of employess of the company at which an individual is employed.224company_revenueCompany RevenueThe annual revenue of the company at which an individual is employed.5e+08company_industryCompany IndustryThe industry of the company at which an individual is employed."Healthcare"phone_businessBusiness PhoneThe phone number of the company at which an individual is employed."555-555-5555"
+job_title
+JavaScriptcURLHTTPiePostmanjstag.send("CEO")
+curl --request POST
+--url https://api.lytics.io/collect/json/default
+--header 'accept: application/json'
+--header 'authorization: API_KEY'
+--header 'content-type: */*'
+--data '"CEO"'
+echo '"CEO"' | http post htps://api.lytics.io/collect/json/default Authorization:API_KEY
+pm.request.headers.add({
+key: "Authorization",
+value: "<API_KEY>"
+});
+pm.request.body.raw = JSON.stringify("CEO");
+pm.sendRequest({
+url: "https://api.lytics.io/collect/json/default",
+method: "POST",
+});
+job_role
+JavaScriptcURLHTTPiePostmanjstag.send("Executive")
+curl --request POST
+--url https://api.lytics.io/collect/json/default
+--header 'accept: application/json'
+--header 'authorization: API_KEY'
+--header 'content-type: */*'
+--data '"Executive"'
+echo '"Executive"' | http post htps://api.lytics.io/collect/json/default Authorization:API_KEY
+pm.request.headers.add({
+key: "Authorization",
+value: "<API_KEY>"
+});
+pm.request.body.raw = JSON.stringify("Executive");
+pm.sendRequest({
+url: "https://api.lytics.io/collect/json/default",
+method: "POST",
+});
+company_name
+JavaScriptcURLHTTPiePostmanjstag.send("Lytics, Inc.")
+curl --request POST
+--url https://api.lytics.io/collect/json/default
+--header 'accept: application/json'
+--header 'authorization: API_KEY'
+--header 'content-type: */*'
+--data '"Lytics, Inc."'
+echo '"Lytics, Inc."' | http post htps://api.lytics.io/collect/json/default Authorization:API_KEY
+pm.request.headers.add({
+key: "Authorization",
+value: "<API_KEY>"
+});
+pm.request.body.raw = JSON.stringify("Lytics, Inc.");
+pm.sendRequest({
+url: "https://api.lytics.io/collect/json/default",
+method: "POST",
+});
+company_size
+JavaScriptcURLHTTPiePostmanjstag.send(224)
+curl --request POST
+--url https://api.lytics.io/collect/json/default
+--header 'accept: application/json'
+--header 'authorization: API_KEY'
+--header 'content-type: */*'
+--data '224'
+echo '224' | http post htps://api.lytics.io/collect/json/default Authorization:API_KEY
+pm.request.headers.add({
+key: "Authorization",
+value: "<API_KEY>"
+});
+pm.request.body.raw = JSON.stringify(224);
+pm.sendRequest({
+url: "https://api.lytics.io/collect/json/default",
+method: "POST",
+});
+company_revenue
+JavaScriptcURLHTTPiePostmanjstag.send(5e+08)
+curl --request POST
+--url https://api.lytics.io/collect/json/default
+--header 'accept: application/json'
+--header 'authorization: API_KEY'
+--header 'content-type: */*'
+--data '5e+08'
+echo '5e+08' | http post htps://api.lytics.io/collect/json/default Authorization:API_KEY
+pm.request.headers.add({
+key: "Authorization",
+value: "<API_KEY>"
+});
+pm.request.body.raw = JSON.stringify(5e+08);
+pm.sendRequest({
+url: "https://api.lytics.io/collect/json/default",
+method: "POST",
+});
+company_industry
+JavaScriptcURLHTTPiePostmanjstag.send("Healthcare")
+curl --request POST
+--url https://api.lytics.io/collect/json/default
+--header 'accept: application/json'
+--header 'authorization: API_KEY'
+--header 'content-type: */*'
+--data '"Healthcare"'
+echo '"Healthcare"' | http post htps://api.lytics.io/collect/json/default Authorization:API_KEY
+pm.request.headers.add({
+key: "Authorization",
+value: "<API_KEY>"
+});
+pm.request.body.raw = JSON.stringify("Healthcare");
+pm.sendRequest({
+url: "https://api.lytics.io/collect/json/default",
+method: "POST",
+});
+phone_business
+JavaScriptcURLHTTPiePostmanjstag.send("555-555-5555")
+curl --request POST
+--url https://api.lytics.io/collect/json/default
+--header 'accept: application/json'
+--header 'authorization: API_KEY'
+--header 'content-type: */*'
+--data '"555-555-5555"'
+echo '"555-555-5555"' | http post htps://api.lytics.io/collect/json/default Authorization:API_KEY
+pm.request.headers.add({
+key: "Authorization",
+value: "<API_KEY>"
+});
+pm.request.body.raw = JSON.stringify("555-555-5555");
+pm.sendRequest({
+url: "https://api.lytics.io/collect/json/default",
+method: "POST",
+});
+Social
+FieldShort DescriptionLong DescriptionExamplefacebook_idFacebook IDAn individual's Facebook ID."jane.doe33"twitter_idTwitter IDAn individual's X (Twitter) ID."potus"pinterest_idPinterest IDAn individual's Pinterest ID.1234567891234linkedin_idLinkedIn IDAn Individual's LinkedIn ID."jeff-dean-8b212555"tiktok_idTikTok IDAn Individual's TikTok ID."bts_official_bighit"
+facebook_id
+JavaScriptcURLHTTPiePostmanjstag.send("jane.doe33")
+curl --request POST
+--url https://api.lytics.io/collect/json/default
+--header 'accept: application/json'
+--header 'authorization: API_KEY'
+--header 'content-type: */*'
+--data '"jane.doe33"'
+echo '"jane.doe33"' | http post htps://api.lytics.io/collect/json/default Authorization:API_KEY
+pm.request.headers.add({
+key: "Authorization",
+value: "<API_KEY>"
+});
+pm.request.body.raw = JSON.stringify("jane.doe33");
+pm.sendRequest({
+url: "https://api.lytics.io/collect/json/default",
+method: "POST",
+});
+twitter_id
+JavaScriptcURLHTTPiePostmanjstag.send("potus")
+curl --request POST
+--url https://api.lytics.io/collect/json/default
+--header 'accept: application/json'
+--header 'authorization: API_KEY'
+--header 'content-type: */*'
+--data '"potus"'
+echo '"potus"' | http post htps://api.lytics.io/collect/json/default Authorization:API_KEY
+pm.request.headers.add({
+key: "Authorization",
+value: "<API_KEY>"
+});
+pm.request.body.raw = JSON.stringify("potus");
+pm.sendRequest({
+url: "https://api.lytics.io/collect/json/default",
+method: "POST",
+});
+pinterest_id
+JavaScriptcURLHTTPiePostmanjstag.send(1234567891234)
+curl --request POST
+--url https://api.lytics.io/collect/json/default
+--header 'accept: application/json'
+--header 'authorization: API_KEY'
+--header 'content-type: */*'
+--data '1234567891234'
+echo '1234567891234' | http post htps://api.lytics.io/collect/json/default Authorization:API_KEY
+pm.request.headers.add({
+key: "Authorization",
+value: "<API_KEY>"
+});
+pm.request.body.raw = JSON.stringify(1234567891234);
+pm.sendRequest({
+url: "https://api.lytics.io/collect/json/default",
+method: "POST",
+});
+linkedin_id
+JavaScriptcURLHTTPiePostmanjstag.send("jeff-dean-8b212555")
+curl --request POST
+--url https://api.lytics.io/collect/json/default
+--header 'accept: application/json'
+--header 'authorization: API_KEY'
+--header 'content-type: */*'
+--data '"jeff-dean-8b212555"'
+echo '"jeff-dean-8b212555"' | http post htps://api.lytics.io/collect/json/default Authorization:API_KEY
+pm.request.headers.add({
+key: "Authorization",
+value: "<API_KEY>"
+});
+pm.request.body.raw = JSON.stringify("jeff-dean-8b212555");
+pm.sendRequest({
+url: "https://api.lytics.io/collect/json/default",
+method: "POST",
+});
+tiktok_id
+JavaScriptcURLHTTPiePostmanjstag.send("bts_official_bighit")
+curl --request POST
+--url https://api.lytics.io/collect/json/default
+--header 'accept: application/json'
+--header 'authorization: API_KEY'
+--header 'content-type: */*'
+--data '"bts_official_bighit"'
+echo '"bts_official_bighit"' | http post htps://api.lytics.io/collect/json/default Authorization:API_KEY
+pm.request.headers.add({
+key: "Authorization",
+value: "<API_KEY>"
+});
+pm.request.body.raw = JSON.stringify("bts_official_bighit");
+pm.sendRequest({
+url: "https://api.lytics.io/collect/json/default",
+method: "POST",
+});
+Channels
+FieldShort DescriptionLong DescriptionExamplechannel_activity_first_tsActivity By Channel: First/OldestThe earliest observed activity for an individual in a channel.{"web": "2024-09-13T20:34:17.546Z"}channel_activity_last_tsActivity By Channel: Most RecentThe most recently observed activity for an individual in a channel.{"web": "2023-01-11T20:22:57.249Z"}
+channel_activity_first_ts
+JavaScriptcURLHTTPiePostmanjstag.send({
+"channel": "web",
+"timestamp": "2024-09-13T20:34:17.546Z"
+})
+curl --request POST
+--url https://api.lytics.io/collect/json/default
+--header 'accept: application/json'
+--header 'authorization: API_KEY'
+--header 'content-type: */*'
+--data '{
+"channel": "web",
+"timestamp": "2024-09-13T20:34:17.546Z"
+}'
+echo '{
+"channel": "web",
+"timestamp": "2024-09-13T20:34:17.546Z"
+}' | http post htps://api.lytics.io/collect/json/default Authorization:API_KEY
+pm.request.headers.add({
+key: "Authorization",
+value: "<API_KEY>"
+});
+pm.request.body.raw = JSON.stringify({
+"channel": "web",
+"timestamp": "2024-09-13T20:34:17.546Z"
+});
+pm.sendRequest({
+url: "https://api.lytics.io/collect/json/default",
+method: "POST",
+});
+channel_activity_last_ts
+JavaScriptcURLHTTPiePostmanjstag.send({
+"channel": "web",
+"timestamp": "2023-01-11T20:22:57.249Z"
+})
+curl --request POST
+--url https://api.lytics.io/collect/json/default
+--header 'accept: application/json'
+--header 'authorization: API_KEY'
+--header 'content-type: */*'
+--data '{
+"channel": "web",
+"timestamp": "2023-01-11T20:22:57.249Z"
+}'
+echo '{
+"channel": "web",
+"timestamp": "2023-01-11T20:22:57.249Z"
+}' | http post htps://api.lytics.io/collect/json/default Authorization:API_KEY
+pm.request.headers.add({
+key: "Authorization",
+value: "<API_KEY>"
+});
+pm.request.body.raw = JSON.stringify({
+"channel": "web",
+"timestamp": "2023-01-11T20:22:57.249Z"
+});
+pm.sendRequest({
+url: "https://api.lytics.io/collect/json/default",
+method: "POST",
+});
+Web
+FieldShort DescriptionLong DescriptionExample_uidWeb Cookie Id: CurrentThe most recently observed cookie for an individual's browser, as generated by Lytics' JSTag."50b772f5-a0be-42f2-8828-84b8db5d5a23"refdomainWeb Referrer DomainsThe set of referring web domains for an individual.["facebook.com"]action_web_countWeb Actions: CountA set of counts of various activities observed in web sources.{"pageview": 45}action_web_tsWeb Actions: Most RecentA set of the most recent timestamps of various activities observed in the billing sources.{"pageview": "2024-09-10T12:00:00Z"}analytics_cohortsAnalytics CohortsA set of the analytics cohorts of which an individual is a member["group1", "group2"]
+_uid
+JavaScriptcURLHTTPiePostmanjstag.send("50b772f5-a0be-42f2-8828-84b8db5d5a23")
+curl --request POST
+--url https://api.lytics.io/collect/json/default
+--header 'accept: application/json'
+--header 'authorization: API_KEY'
+--header 'content-type: */*'
+--data '"50b772f5-a0be-42f2-8828-84b8db5d5a23"'
+echo '"50b772f5-a0be-42f2-8828-84b8db5d5a23"' | http post htps://api.lytics.io/collect/json/default Authorization:API_KEY
+pm.request.headers.add({
+key: "Authorization",
+value: "<API_KEY>"
+});
+pm.request.body.raw = JSON.stringify("50b772f5-a0be-42f2-8828-84b8db5d5a23");
+pm.sendRequest({
+url: "https://api.lytics.io/collect/json/default",
+method: "POST",
+});
+refdomain
+JavaScriptcURLHTTPiePostmanjstag.send("facebook.com")
+curl --request POST
+--url https://api.lytics.io/collect/json/default
+--header 'accept: application/json'
+--header 'authorization: API_KEY'
+--header 'content-type: */*'
+--data '"facebook.com"'
+echo '"facebook.com"' | http post htps://api.lytics.io/collect/json/default Authorization:API_KEY
+pm.request.headers.add({
+key: "Authorization",
+value: "<API_KEY>"
+});
+pm.request.body.raw = JSON.stringify("facebook.com");
+pm.sendRequest({
+url: "https://api.lytics.io/collect/json/default",
+method: "POST",
+});
+action_web_count
+JavaScriptcURLHTTPiePostmanjstag.send({
+"action": "pageview"
+})
+curl --request POST
+--url https://api.lytics.io/collect/json/default
+--header 'accept: application/json'
+--header 'authorization: API_KEY'
+--header 'content-type: */*'
+--data '{
+"action": "pageview"
+}'
+echo '{
+"action": "pageview"
+}' | http post htps://api.lytics.io/collect/json/default Authorization:API_KEY
+pm.request.headers.add({
+key: "Authorization",
+value: "<API_KEY>"
+});
+pm.request.body.raw = JSON.stringify({
+"action": "pageview"
+});
+pm.sendRequest({
+url: "https://api.lytics.io/collect/json/default",
+method: "POST",
+});
+action_web_ts
+JavaScriptcURLHTTPiePostmanjstag.send({
+"action": "pageview"
+})
+curl --request POST
+--url https://api.lytics.io/collect/json/default
+--header 'accept: application/json'
+--header 'authorization: API_KEY'
+--header 'content-type: */*'
+--data '{
+"action": "pageview"
+}'
+echo '{
+"action": "pageview"
+}' | http post htps://api.lytics.io/collect/json/default Authorization:API_KEY
+pm.request.headers.add({
+key: "Authorization",
+value: "<API_KEY>"
+});
+pm.request.body.raw = JSON.stringify({
+"action": "pageview"
+});
+pm.sendRequest({
+url: "https://api.lytics.io/collect/json/default",
+method: "POST",
+});
+analytics_cohorts
+JavaScriptcURLHTTPiePostmanjstag.send([
+"group1",
+"group2"
+])
+curl --request POST
+--url https://api.lytics.io/collect/json/default
+--header 'accept: application/json'
+--header 'authorization: API_KEY'
+--header 'content-type: */*'
+--data '[
+"group1",
+"group2"
+]'
+echo '[
+"group1",
+"group2"
+]' | http post htps://api.lytics.io/collect/json/default Authorization:API_KEY
+pm.request.headers.add({
+key: "Authorization",
+value: "<API_KEY>"
+});
+pm.request.body.raw = JSON.stringify([
+"group1",
+"group2"
+]);
+pm.sendRequest({
+url: "https://api.lytics.io/collect/json/default",
+method: "POST",
+});
+Email
+FieldShort DescriptionLong DescriptionExampleemail_domainEmail Address: DomainThe domain of an individual's email address (gmail.com, mail.google.com, lytics.com, etc.).lytics.comemail_list_idsEmail ListsThe email lists to which an individual is subscribed.{"newsletter": "subscribed"}email_statusEmail Subscriber StatusOptional, provides a generic subscriber status for an individual."active"action_email_countEmail Actions: CountA set of counts of various activities observed in email sources.{"open": 45}action_email_tsEmail Actions: Most RecentA set of the most recent timestamps of various activities observed in email sources.{"open": "2024-09-10T12:00:00Z"}
+email_domain
+JavaScriptcURLHTTPiePostmanjstag.send({
+"email_address": "[email protected]"
+})
+curl --request POST
+--url https://api.lytics.io/collect/json/default
+--header 'accept: application/json'
+--header 'authorization: API_KEY'
+--header 'content-type: */*'
+--data '{
+"email_address": "[email protected]"
+}'
+echo '{
+"email_address": "[email protected]"
+}' | http post htps://api.lytics.io/collect/json/default Authorization:API_KEY
+pm.request.headers.add({
+key: "Authorization",
+value: "<API_KEY>"
+});
+pm.request.body.raw = JSON.stringify({
+"email_address": "[email protected]"
+});
+pm.sendRequest({
+url: "https://api.lytics.io/collect/json/default",
+method: "POST",
+});
+email_list_ids
+JavaScriptcURLHTTPiePostmanjstag.send({
+"list": "newsletter",
+"status": "subscribed"
+})
+curl --request POST
+--url https://api.lytics.io/collect/json/default
+--header 'accept: application/json'
+--header 'authorization: API_KEY'
+--header 'content-type: */*'
+--data '{
+"list": "newsletter",
+"status": "subscribed"
+}'
+echo '{
+"list": "newsletter",
+"status": "subscribed"
+}' | http post htps://api.lytics.io/collect/json/default Authorization:API_KEY
+pm.request.headers.add({
+key: "Authorization",
+value: "<API_KEY>"
+});
+pm.request.body.raw = JSON.stringify({
+"list": "newsletter",
+"status": "subscribed"
+});
+pm.sendRequest({
+url: "https://api.lytics.io/collect/json/default",
+method: "POST",
+});
+email_status
+JavaScriptcURLHTTPiePostmanjstag.send("active")
+curl --request POST
+--url https://api.lytics.io/collect/json/default
+--header 'accept: application/json'
+--header 'authorization: API_KEY'
+--header 'content-type: */*'
+--data '"active"'
+echo '"active"' | http post htps://api.lytics.io/collect/json/default Authorization:API_KEY
+pm.request.headers.add({
+key: "Authorization",
+value: "<API_KEY>"
+});
+pm.request.body.raw = JSON.stringify("active");
+pm.sendRequest({
+url: "https://api.lytics.io/collect/json/default",
+method: "POST",
+});
+action_email_count
+JavaScriptcURLHTTPiePostmanjstag.send({
+"action": "open"
+})
+curl --request POST
+--url https://api.lytics.io/collect/json/default
+--header 'accept: application/json'
+--header 'authorization: API_KEY'
+--header 'content-type: */*'
+--data '{
+"action": "open"
+}'
+echo '{
+"action": "open"
+}' | http post htps://api.lytics.io/collect/json/default Authorization:API_KEY
+pm.request.headers.add({
+key: "Authorization",
+value: "<API_KEY>"
+});
+pm.request.body.raw = JSON.stringify({
+"action": "open"
+});
+pm.sendRequest({
+url: "https://api.lytics.io/collect/json/default",
+method: "POST",
+});
+action_email_ts
+JavaScriptcURLHTTPiePostmanjstag.send({
+"action": "open"
+})
+curl --request POST
+--url https://api.lytics.io/collect/json/default
+--header 'accept: application/json'
+--header 'authorization: API_KEY'
+--header 'content-type: */*'
+--data '{
+"action": "open"
+}'
+echo '{
+"action": "open"
+}' | http post htps://api.lytics.io/collect/json/default Authorization:API_KEY
+pm.request.headers.add({
+key: "Authorization",
+value: "<API_KEY>"
+});
+pm.request.body.raw = JSON.stringify({
+"action": "open"
+});
+pm.sendRequest({
+url: "https://api.lytics.io/collect/json/default",
+method: "POST",
+});
+SMS
+FieldShort DescriptionLong DescriptionExampleaction_sms_countSMS Actions: CountA set of counts of various activities observed in SMS sources.{"send": 45}action_sms_tsSMS Actions: Most RecentA set of the most recent timestamps of various activities observed in SMS sources.{"send": "2024-09-10T12:00:00Z"}mobile_carrierMobile CarrierAn individual's mobile carrier."vodafone"
+action_sms_count
+JavaScriptcURLHTTPiePostmanjstag.send({
+"action": "send"
+})
+curl --request POST
+--url https://api.lytics.io/collect/json/default
+--header 'accept: application/json'
+--header 'authorization: API_KEY'
+--header 'content-type: */*'
+--data '{
+"action": "send"
+}'
+echo '{
+"action": "send"
+}' | http post htps://api.lytics.io/collect/json/default Authorization:API_KEY
+pm.request.headers.add({
+key: "Authorization",
+value: "<API_KEY>"
+});
+pm.request.body.raw = JSON.stringify({
+"action": "send"
+});
+pm.sendRequest({
+url: "https://api.lytics.io/collect/json/default",
+method: "POST",
+});
+action_sms_ts
+JavaScriptcURLHTTPiePostmanjstag.send({
+"action": "send"
+})
+curl --request POST
+--url https://api.lytics.io/collect/json/default
+--header 'accept: application/json'
+--header 'authorization: API_KEY'
+--header 'content-type: */*'
+--data '{
+"action": "send"
+}'
+echo '{
+"action": "send"
+}' | http post htps://api.lytics.io/collect/json/default Authorization:API_KEY
+pm.request.headers.add({
+key: "Authorization",
+value: "<API_KEY>"
+});
+pm.request.body.raw = JSON.stringify({
+"action": "send"
+});
+pm.sendRequest({
+url: "https://api.lytics.io/collect/json/default",
+method: "POST",
+});
+mobile_carrier
+JavaScriptcURLHTTPiePostmanjstag.send("vodafone")
+curl --request POST
+--url https://api.lytics.io/collect/json/default
+--header 'accept: application/json'
+--header 'authorization: API_KEY'
+--header 'content-type: */*'
+--data '"vodafone"'
+echo '"vodafone"' | http post htps://api.lytics.io/collect/json/default Authorization:API_KEY
+pm.request.headers.add({
+key: "Authorization",
+value: "<API_KEY>"
+});
+pm.request.body.raw = JSON.stringify("vodafone");
+pm.sendRequest({
+url: "https://api.lytics.io/collect/json/default",
+method: "POST",
+});
+App
+FieldShort DescriptionLong DescriptionExampleapp_versionMobile App: VersionThe version of the app an individual is using."12.0.1"action_push_countMobile Push Actions: CountA set of counts of various activities observed in push sources.{"open": 45}action_push_tsMobile Push Actions: Most RecentA set of the most recent timestamps of various activities observed in push sources.{"open": "2024-09-10T12:00:00Z"}action_app_countMobile App Actions: CountA set of counts of various activities observed in app sources.{"open": 45}action_app_tsMobile App Actions: Most RecentA set of the most recent timestamps of various activities observed in app sources.{"open": "2024-09-10T12:00:00Z"}
+app_version
+JavaScriptcURLHTTPiePostmanjstag.send("12.0.1")
+curl --request POST
+--url https://api.lytics.io/collect/json/default
+--header 'accept: application/json'
+--header 'authorization: API_KEY'
+--header 'content-type: */*'
+--data '"12.0.1"'
+echo '"12.0.1"' | http post htps://api.lytics.io/collect/json/default Authorization:API_KEY
+pm.request.headers.add({
+key: "Authorization",
+value: "<API_KEY>"
+});
+pm.request.body.raw = JSON.stringify("12.0.1");
+pm.sendRequest({
+url: "https://api.lytics.io/collect/json/default",
+method: "POST",
+});
+action_push_count
+JavaScriptcURLHTTPiePostmanjstag.send({
+"action": "open"
+})
+curl --request POST
+--url https://api.lytics.io/collect/json/default
+--header 'accept: application/json'
+--header 'authorization: API_KEY'
+--header 'content-type: */*'
+--data '{
+"action": "open"
+}'
+echo '{
+"action": "open"
+}' | http post htps://api.lytics.io/collect/json/default Authorization:API_KEY
+pm.request.headers.add({
+key: "Authorization",
+value: "<API_KEY>"
+});
+pm.request.body.raw = JSON.stringify({
+"action": "open"
+});
+pm.sendRequest({
+url: "https://api.lytics.io/collect/json/default",
+method: "POST",
+});
+action_push_ts
+JavaScriptcURLHTTPiePostmanjstag.send({
+"action": "open"
+})
+curl --request POST
+--url https://api.lytics.io/collect/json/default
+--header 'accept: application/json'
+--header 'authorization: API_KEY'
+--header 'content-type: */*'
+--data '{
+"action": "open"
+}'
+echo '{
+"action": "open"
+}' | http post htps://api.lytics.io/collect/json/default Authorization:API_KEY
+pm.request.headers.add({
+key: "Authorization",
+value: "<API_KEY>"
+});
+pm.request.body.raw = JSON.stringify({
+"action": "open"
+});
+pm.sendRequest({
+url: "https://api.lytics.io/collect/json/default",
+method: "POST",
+});
+action_app_count
+JavaScriptcURLHTTPiePostmanjstag.send({
+"action": "open"
+})
+curl --request POST
+--url https://api.lytics.io/collect/json/default
+--header 'accept: application/json'
+--header 'authorization: API_KEY'
+--header 'content-type: */*'
+--data '{
+"action": "open"
+}'
+echo '{
+"action": "open"
+}' | http post htps://api.lytics.io/collect/json/default Authorization:API_KEY
+pm.request.headers.add({
+key: "Authorization",
+value: "<API_KEY>"
+});
+pm.request.body.raw = JSON.stringify({
+"action": "open"
+});
+pm.sendRequest({
+url: "https://api.lytics.io/collect/json/default",
+method: "POST",
+});
+action_app_ts
+JavaScriptcURLHTTPiePostmanjstag.send({
+"action": "open"
+})
+curl --request POST
+--url https://api.lytics.io/collect/json/default
+--header 'accept: application/json'
+--header 'authorization: API_KEY'
+--header 'content-type: */*'
+--data '{
+"action": "open"
+}'
+echo '{
+"action": "open"
+}' | http post htps://api.lytics.io/collect/json/default Authorization:API_KEY
+pm.request.headers.add({
+key: "Authorization",
+value: "<API_KEY>"
+});
+pm.request.body.raw = JSON.stringify({
+"action": "open"
+});
+pm.sendRequest({
+url: "https://api.lytics.io/collect/json/default",
+method: "POST",
+});
+Chat
+FieldShort DescriptionLong DescriptionExampleaction_chat_countChat Actions: CountA set of counts of various activities observed in chat sources.{"reply": 45}action_chat_tsChat Actions: Most RecentA set of the most recent timestamps of various activities observed in chat sources.{"reply": "2024-09-10T12:00:00Z"}
+action_chat_count
+JavaScriptcURLHTTPiePostmanjstag.send({
+"action": "reply"
+})
+curl --request POST
+--url https://api.lytics.io/collect/json/default
+--header 'accept: application/json'
+--header 'authorization: API_KEY'
+--header 'content-type: */*'
+--data '{
+"action": "reply"
+}'
+echo '{
+"action": "reply"
+}' | http post htps://api.lytics.io/collect/json/default Authorization:API_KEY
+pm.request.headers.add({
+key: "Authorization",
+value: "<API_KEY>"
+});
+pm.request.body.raw = JSON.stringify({
+"action": "reply"
+});
+pm.sendRequest({
+url: "https://api.lytics.io/collect/json/default",
+method: "POST",
+});
+action_chat_ts
+JavaScriptcURLHTTPiePostmanjstag.send({
+"action": "reply"
+})
+curl --request POST
+--url https://api.lytics.io/collect/json/default
+--header 'accept: application/json'
+--header 'authorization: API_KEY'
+--header 'content-type: */*'
+--data '{
+"action": "reply"
+}'
+echo '{
+"action": "reply"
+}' | http post htps://api.lytics.io/collect/json/default Authorization:API_KEY
+pm.request.headers.add({
+key: "Authorization",
+value: "<API_KEY>"
+});
+pm.request.body.raw = JSON.stringify({
+"action": "reply"
+});
+pm.sendRequest({
+url: "https://api.lytics.io/collect/json/default",
+method: "POST",
+});
+Retail
+FieldShort DescriptionLong DescriptionExampletax_exemptTax ExemptWhether an individual is tax exempt.FALSEcurrencyCurrencyAn individual's most recently used currency."usd"purchase_totalPurchase TotalAn individual's total purchase amount from retail sources, in that individual's currency.142.01purchase_countPurchase CountAn individual's total number of purchases from retail sources.2purchase_shop_totalPurchase Total by ShopTotal amount spent by each shop.{"mystore": 123.45}purchase_shop_countPurchase Count by ShopTotal number of purchases by each shop's name.{"mystore": 2}action_retail_countRetail Actions: CountA set of counts of various activities observed in retail sources.{"refund": 45}action_retail_tsRetail Actions: Most RecentA set of the most recent timestamps of various activities observed in retail sources.{"refund": "2024-09-10T12:00:00Z"}product_idsProduct IDs OrderedThe set of product IDs an individual has ordered.["abc123"]order_idsOrder IDsThe set of order IDs of an individual's order history.["1294322"]
+tax_exempt
+JavaScriptcURLHTTPiePostmanjstag.send("false")
+curl --request POST
+--url https://api.lytics.io/collect/json/default
+--header 'accept: application/json'
+--header 'authorization: API_KEY'
+--header 'content-type: */*'
+--data '"false"'
+echo '"false"' | http post htps://api.lytics.io/collect/json/default Authorization:API_KEY
+pm.request.headers.add({
+key: "Authorization",
+value: "<API_KEY>"
+});
+pm.request.body.raw = JSON.stringify("false");
+pm.sendRequest({
+url: "https://api.lytics.io/collect/json/default",
+method: "POST",
+});
+currency
+JavaScriptcURLHTTPiePostmanjstag.send("usd")
+curl --request POST
+--url https://api.lytics.io/collect/json/default
+--header 'accept: application/json'
+--header 'authorization: API_KEY'
+--header 'content-type: */*'
+--data '"usd"'
+echo '"usd"' | http post htps://api.lytics.io/collect/json/default Authorization:API_KEY
+pm.request.headers.add({
+key: "Authorization",
+value: "<API_KEY>"
+});
+pm.request.body.raw = JSON.stringify("usd");
+pm.sendRequest({
+url: "https://api.lytics.io/collect/json/default",
+method: "POST",
+});
+purchase_total
+JavaScriptcURLHTTPiePostmanjstag.send(142.01)
+curl --request POST
+--url https://api.lytics.io/collect/json/default
+--header 'accept: application/json'
+--header 'authorization: API_KEY'
+--header 'content-type: */*'
+--data '142.01'
+echo '142.01' | http post htps://api.lytics.io/collect/json/default Authorization:API_KEY
+pm.request.headers.add({
+key: "Authorization",
+value: "<API_KEY>"
+});
+pm.request.body.raw = JSON.stringify(142.01);
+pm.sendRequest({
+url: "https://api.lytics.io/collect/json/default",
+method: "POST",
+});
+purchase_count
+JavaScriptcURLHTTPiePostmanjstag.send(2)
+curl --request POST
+--url https://api.lytics.io/collect/json/default
+--header 'accept: application/json'
+--header 'authorization: API_KEY'
+--header 'content-type: */*'
+--data '2'
+echo '2' | http post htps://api.lytics.io/collect/json/default Authorization:API_KEY
+pm.request.headers.add({
+key: "Authorization",
+value: "<API_KEY>"
+});
+pm.request.body.raw = JSON.stringify(2);
+pm.sendRequest({
+url: "https://api.lytics.io/collect/json/default",
+method: "POST",
+});
+purchase_shop_total
+JavaScriptcURLHTTPiePostmanjstag.send({
+"shop_name": "mystore",
+"total_spent": 123.45
+})
+curl --request POST
+--url https://api.lytics.io/collect/json/default
+--header 'accept: application/json'
+--header 'authorization: API_KEY'
+--header 'content-type: */*'
+--data '{
+"shop_name": "mystore",
+"total_spent": 123.45
+}'
+echo '{
+"shop_name": "mystore",
+"total_spent": 123.45
+}' | http post htps://api.lytics.io/collect/json/default Authorization:API_KEY
+pm.request.headers.add({
+key: "Authorization",
+value: "<API_KEY>"
+});
+pm.request.body.raw = JSON.stringify({
+"shop_name": "mystore",
+"total_spent": 123.45
+});
+pm.sendRequest({
+url: "https://api.lytics.io/collect/json/default",
+method: "POST",
+});
+purchase_shop_count
+JavaScriptcURLHTTPiePostmanjstag.send({
+"shop_name": "mystore"
+})
+curl --request POST
+--url https://api.lytics.io/collect/json/default
+--header 'accept: application/json'
+--header 'authorization: API_KEY'
+--header 'content-type: */*'
+--data '{
+"shop_name": "mystore"
+}'
+echo '{
+"shop_name": "mystore"
+}' | http post htps://api.lytics.io/collect/json/default Authorization:API_KEY
+pm.request.headers.add({
+key: "Authorization",
+value: "<API_KEY>"
+});
+pm.request.body.raw = JSON.stringify({
+"shop_name": "mystore"
+});
+pm.sendRequest({
+url: "https://api.lytics.io/collect/json/default",
+method: "POST",
+});
+action_retail_count
+JavaScriptcURLHTTPiePostmanjstag.send({
+"action": "refund"
+})
+curl --request POST
+--url https://api.lytics.io/collect/json/default
+--header 'accept: application/json'
+--header 'authorization: API_KEY'
+--header 'content-type: */*'
+--data '{
+"action": "refund"
+}'
+echo '{
+"action": "refund"
+}' | http post htps://api.lytics.io/collect/json/default Authorization:API_KEY
+pm.request.headers.add({
+key: "Authorization",
+value: "<API_KEY>"
+});
+pm.request.body.raw = JSON.stringify({
+"action": "refund"
+});
+pm.sendRequest({
+url: "https://api.lytics.io/collect/json/default",
+method: "POST",
+});
+action_retail_ts
+JavaScriptcURLHTTPiePostmanjstag.send({
+"action": "refund"
+})
+curl --request POST
+--url https://api.lytics.io/collect/json/default
+--header 'accept: application/json'
+--header 'authorization: API_KEY'
+--header 'content-type: */*'
+--data '{
+"action": "refund"
+}'
+echo '{
+"action": "refund"
+}' | http post htps://api.lytics.io/collect/json/default Authorization:API_KEY
+pm.request.headers.add({
+key: "Authorization",
+value: "<API_KEY>"
+});
+pm.request.body.raw = JSON.stringify({
+"action": "refund"
+});
+pm.sendRequest({
+url: "https://api.lytics.io/collect/json/default",
+method: "POST",
+});
+product_ids
+JavaScriptcURLHTTPiePostmanjstag.send("abc123")
+curl --request POST
+--url https://api.lytics.io/collect/json/default
+--header 'accept: application/json'
+--header 'authorization: API_KEY'
+--header 'content-type: */*'
+--data '"abc123"'
+echo '"abc123"' | http post htps://api.lytics.io/collect/json/default Authorization:API_KEY
+pm.request.headers.add({
+key: "Authorization",
+value: "<API_KEY>"
+});
+pm.request.body.raw = JSON.stringify("abc123");
+pm.sendRequest({
+url: "https://api.lytics.io/collect/json/default",
+method: "POST",
+});
+order_ids
+JavaScriptcURLHTTPiePostmanjstag.send("1294322")
+curl --request POST
+--url https://api.lytics.io/collect/json/default
+--header 'accept: application/json'
+--header 'authorization: API_KEY'
+--header 'content-type: */*'
+--data '"1294322"'
+echo '"1294322"' | http post htps://api.lytics.io/collect/json/default Authorization:API_KEY
+pm.request.headers.add({
+key: "Authorization",
+value: "<API_KEY>"
+});
+pm.request.body.raw = JSON.stringify("1294322");
+pm.sendRequest({
+url: "https://api.lytics.io/collect/json/default",
+method: "POST",
+});
+CRM
+FieldShort DescriptionLong DescriptionExampleaccount_idAccount IDThe account ID associated with an individual."acme-corp-123"lead_statusLead StatusThe lead status associated with an individual."open"lead_sourceLead SourceThe lead source associated with an individual."blog"lead_scoreLead ScoreThe lead score associated with an individual.0.72lifecycle_stageLifecycle StageAn individual's lifecycle stage."loyal"opportunity_valueOpportunity ValueThe opportunity value of an individual.50000
+account_id
+JavaScriptcURLHTTPiePostmanjstag.send("acme-corp-123")
+curl --request POST
+--url https://api.lytics.io/collect/json/default
+--header 'accept: application/json'
+--header 'authorization: API_KEY'
+--header 'content-type: */*'
+--data '"acme-corp-123"'
+echo '"acme-corp-123"' | http post htps://api.lytics.io/collect/json/default Authorization:API_KEY
+pm.request.headers.add({
+key: "Authorization",
+value: "<API_KEY>"
+});
+pm.request.body.raw = JSON.stringify("acme-corp-123");
+pm.sendRequest({
+url: "https://api.lytics.io/collect/json/default",
+method: "POST",
+});
+lead_status
+JavaScriptcURLHTTPiePostmanjstag.send("open")
+curl --request POST
+--url https://api.lytics.io/collect/json/default
+--header 'accept: application/json'
+--header 'authorization: API_KEY'
+--header 'content-type: */*'
+--data '"open"'
+echo '"open"' | http post htps://api.lytics.io/collect/json/default Authorization:API_KEY
+pm.request.headers.add({
+key: "Authorization",
+value: "<API_KEY>"
+});
+pm.request.body.raw = JSON.stringify("open");
+pm.sendRequest({
+url: "https://api.lytics.io/collect/json/default",
+method: "POST",
+});
+lead_source
+JavaScriptcURLHTTPiePostmanjstag.send("blog")
+curl --request POST
+--url https://api.lytics.io/collect/json/default
+--header 'accept: application/json'
+--header 'authorization: API_KEY'
+--header 'content-type: */*'
+--data '"blog"'
+echo '"blog"' | http post htps://api.lytics.io/collect/json/default Authorization:API_KEY
+pm.request.headers.add({
+key: "Authorization",
+value: "<API_KEY>"
+});
+pm.request.body.raw = JSON.stringify("blog");
+pm.sendRequest({
+url: "https://api.lytics.io/collect/json/default",
+method: "POST",
+});
+lead_score
+JavaScriptcURLHTTPiePostmanjstag.send(0.72)
+curl --request POST
+--url https://api.lytics.io/collect/json/default
+--header 'accept: application/json'
+--header 'authorization: API_KEY'
+--header 'content-type: */*'
+--data '0.72'
+echo '0.72' | http post htps://api.lytics.io/collect/json/default Authorization:API_KEY
+pm.request.headers.add({
+key: "Authorization",
+value: "<API_KEY>"
+});
+pm.request.body.raw = JSON.stringify(0.72);
+pm.sendRequest({
+url: "https://api.lytics.io/collect/json/default",
+method: "POST",
+});
+lifecycle_stage
+JavaScriptcURLHTTPiePostmanjstag.send("loyal")
+curl --request POST
+--url https://api.lytics.io/collect/json/default
+--header 'accept: application/json'
+--header 'authorization: API_KEY'
+--header 'content-type: */*'
+--data '"loyal"'
+echo '"loyal"' | http post htps://api.lytics.io/collect/json/default Authorization:API_KEY
+pm.request.headers.add({
+key: "Authorization",
+value: "<API_KEY>"
+});
+pm.request.body.raw = JSON.stringify("loyal");
+pm.sendRequest({
+url: "https://api.lytics.io/collect/json/default",
+method: "POST",
+});
+opportunity_value
+JavaScriptcURLHTTPiePostmanjstag.send(50000)
+curl --request POST
+--url https://api.lytics.io/collect/json/default
+--header 'accept: application/json'
+--header 'authorization: API_KEY'
+--header 'content-type: */*'
+--data '50000'
+echo '50000' | http post htps://api.lytics.io/collect/json/default Authorization:API_KEY
+pm.request.headers.add({
+key: "Authorization",
+value: "<API_KEY>"
+});
+pm.request.body.raw = JSON.stringify(50000);
+pm.sendRequest({
+url: "https://api.lytics.io/collect/json/default",
+method: "POST",
+});
+Survey
+FieldShort DescriptionLong DescriptionExamplesurvey_responsesSurvey ResponsesA collection of the individual's survey responses.{"nps":"promoter"}
+survey_responses
+JavaScriptcURLHTTPiePostmanjstag.send({
+"nps": "promoter"
+})
+curl --request POST
+--url https://api.lytics.io/collect/json/default
+--header 'accept: application/json'
+--header 'authorization: API_KEY'
+--header 'content-type: */*'
+--data '{
+"nps": "promoter"
+}'
+echo '{
+"nps": "promoter"
+}' | http post htps://api.lytics.io/collect/json/default Authorization:API_KEY
+pm.request.headers.add({
+key: "Authorization",
+value: "<API_KEY>"
+});
+pm.request.body.raw = JSON.stringify({
+"nps": "promoter"
+});
+pm.sendRequest({
+url: "https://api.lytics.io/collect/json/default",
+method: "POST",
+});
+Support
+FieldShort DescriptionLong DescriptionExampleaction_survey_countSupport Actions: CountA set of counts of various activities observed in survey sources.{"respond": 45}action_survey_tsSupport Actions: Most RecentA set of the most recent timestamps of various activities observed in survey sources.{"respond": "2024-09-10T12:00:00Z"}csat_scoreCustomer Satisfaction ScoreAn individual's current customer satistfaction score.24support_ticket_statusCurrent Support Ticket StatusAn individual's support ticket status."open"
+action_survey_count
+JavaScriptcURLHTTPiePostmanjstag.send({
+"action": "respond"
+})
+curl --request POST
+--url https://api.lytics.io/collect/json/default
+--header 'accept: application/json'
+--header 'authorization: API_KEY'
+--header 'content-type: */*'
+--data '{
+"action": "respond"
+}'
+echo '{
+"action": "respond"
+}' | http post htps://api.lytics.io/collect/json/default Authorization:API_KEY
+pm.request.headers.add({
+key: "Authorization",
+value: "<API_KEY>"
+});
+pm.request.body.raw = JSON.stringify({
+"action": "respond"
+});
+pm.sendRequest({
+url: "https://api.lytics.io/collect/json/default",
+method: "POST",
+});
+action_survey_ts
+JavaScriptcURLHTTPiePostmanjstag.send({
+"action": "respond"
+})
+curl --request POST
+--url https://api.lytics.io/collect/json/default
+--header 'accept: application/json'
+--header 'authorization: API_KEY'
+--header 'content-type: */*'
+--data '{
+"action": "respond"
+}'
+echo '{
+"action": "respond"
+}' | http post htps://api.lytics.io/collect/json/default Authorization:API_KEY
+pm.request.headers.add({
+key: "Authorization",
+value: "<API_KEY>"
+});
+pm.request.body.raw = JSON.stringify({
+"action": "respond"
+});
+pm.sendRequest({
+url: "https://api.lytics.io/collect/json/default",
+method: "POST",
+});
+csat_score
+JavaScriptcURLHTTPiePostmanjstag.send(24)
+curl --request POST
+--url https://api.lytics.io/collect/json/default
+--header 'accept: application/json'
+--header 'authorization: API_KEY'
+--header 'content-type: */*'
+--data '24'
+echo '24' | http post htps://api.lytics.io/collect/json/default Authorization:API_KEY
+pm.request.headers.add({
+key: "Authorization",
+value: "<API_KEY>"
+});
+pm.request.body.raw = JSON.stringify(24);
+pm.sendRequest({
+url: "https://api.lytics.io/collect/json/default",
+method: "POST",
+});
+support_ticket_status
+JavaScriptcURLHTTPiePostmanjstag.send("open")
+curl --request POST
+--url https://api.lytics.io/collect/json/default
+--header 'accept: application/json'
+--header 'authorization: API_KEY'
+--header 'content-type: */*'
+--data '"open"'
+echo '"open"' | http post htps://api.lytics.io/collect/json/default Authorization:API_KEY
+pm.request.headers.add({
+key: "Authorization",
+value: "<API_KEY>"
+});
+pm.request.body.raw = JSON.stringify("open");
+pm.sendRequest({
+url: "https://api.lytics.io/collect/json/default",
+method: "POST",
+});
+Billing
+FieldShort DescriptionLong DescriptionExampleaction_billing_countBilling Actions: CountA set of counts of various activities observed in billing sources.{"paid": 45}action_billing_tsBilling Actions: Most RecentA set of the most recent timestamps of various activities observed in billing sources.{"paid": "2024-09-10T12:00:00Z"}
+action_billing_count
+JavaScriptcURLHTTPiePostmanjstag.send({
+"action": "paid"
+})
+curl --request POST
+--url https://api.lytics.io/collect/json/default
+--header 'accept: application/json'
+--header 'authorization: API_KEY'
+--header 'content-type: */*'
+--data '{
+"action": "paid"
+}'
+echo '{
+"action": "paid"
+}' | http post htps://api.lytics.io/collect/json/default Authorization:API_KEY
+pm.request.headers.add({
+key: "Authorization",
+value: "<API_KEY>"
+});
+pm.request.body.raw = JSON.stringify({
+"action": "paid"
+});
+pm.sendRequest({
+url: "https://api.lytics.io/collect/json/default",
+method: "POST",
+});
+action_billing_ts
+JavaScriptcURLHTTPiePostmanjstag.send({
+"action": "paid"
+})
+curl --request POST
+--url https://api.lytics.io/collect/json/default
+--header 'accept: application/json'
+--header 'authorization: API_KEY'
+--header 'content-type: */*'
+--data '{
+"action": "paid"
+}'
+echo '{
+"action": "paid"
+}' | http post htps://api.lytics.io/collect/json/default Authorization:API_KEY
+pm.request.headers.add({
+key: "Authorization",
+value: "<API_KEY>"
+});
+pm.request.body.raw = JSON.stringify({
+"action": "paid"
+});
+pm.sendRequest({
+url: "https://api.lytics.io/collect/json/default",
+method: "POST",
+});
+Media
+FieldShort DescriptionLong DescriptionExamplesubscription_statusSubscription StatusAn individual's subscription status."active"subscription_startSubscription Term StartThe start date of an individual's most recent subscription."2024-02-28"subscription_endSubscription Term EndThe end date of an individual's most recent subscription."2025-02-28"
+subscription_status
+JavaScriptcURLHTTPiePostmanjstag.send("active")
+curl --request POST
+--url https://api.lytics.io/collect/json/default
+--header 'accept: application/json'
+--header 'authorization: API_KEY'
+--header 'content-type: */*'
+--data '"active"'
+echo '"active"' | http post htps://api.lytics.io/collect/json/default Authorization:API_KEY
+pm.request.headers.add({
+key: "Authorization",
+value: "<API_KEY>"
+});
+pm.request.body.raw = JSON.stringify("active");
+pm.sendRequest({
+url: "https://api.lytics.io/collect/json/default",
+method: "POST",
+});
+subscription_start
+JavaScriptcURLHTTPiePostmanjstag.send("2024-02-28")
+curl --request POST
+--url https://api.lytics.io/collect/json/default
+--header 'accept: application/json'
+--header 'authorization: API_KEY'
+--header 'content-type: */*'
+--data '"2024-02-28"'
+echo '"2024-02-28"' | http post htps://api.lytics.io/collect/json/default Authorization:API_KEY
+pm.request.headers.add({
+key: "Authorization",
+value: "<API_KEY>"
+});
+pm.request.body.raw = JSON.stringify("2024-02-28");
+pm.sendRequest({
+url: "https://api.lytics.io/collect/json/default",
+method: "POST",
+});
+subscription_end
+JavaScriptcURLHTTPiePostmanjstag.send("2025-02-28")
+curl --request POST
+--url https://api.lytics.io/collect/json/default
+--header 'accept: application/json'
+--header 'authorization: API_KEY'
+--header 'content-type: */*'
+--data '"2025-02-28"'
+echo '"2025-02-28"' | http post htps://api.lytics.io/collect/json/default Authorization:API_KEY
+pm.request.headers.add({
+key: "Authorization",
+value: "<API_KEY>"
+});
+pm.request.body.raw = JSON.stringify("2025-02-28");
+pm.sendRequest({
+url: "https://api.lytics.io/collect/json/default",
+method: "POST",
+});
+JavaScriptcURLHTTPiePostmanjstag.send({
+"subscription_start": "2024-02-28"
+})
+curl --request POST
+--url https://api.lytics.io/collect/json/default
+--header 'accept: application/json'
+--header 'authorization: API_KEY'
+--header 'content-type: */*'
+--data '{
+"subscription_start": "2024-02-28"
+}'
+echo '{
+"subscription_start": "2024-02-28"
+}' | http post htps://api.lytics.io/collect/json/default Authorization:API_KEY
+pm.request.headers.add({
+key: "Authorization",
+value: "<API_KEY>"
+});
+pm.request.body.raw = JSON.stringify({
+"subscription_start": "2024-02-28"
+});
+pm.sendRequest({
+url: "https://api.lytics.io/collect/json/default",
+method: "POST",
+});
+subscription_end
+JavaScriptcURLHTTPiePostmanjstag.send({
+"subscription_end": "2025-02-28"
+})
+curl --request POST
+--url https://api.lytics.io/collect/json/default
+--header 'accept: application/json'
+--header 'authorization: API_KEY'
+--header 'content-type: */*'
+--data '{
+"subscription_end": "2025-02-28"
+}'
+echo '{
+"subscription_end": "2025-02-28"
+}' | http post htps://api.lytics.io/collect/json/default Authorization:API_KEY
+pm.request.headers.add({
+key: "Authorization",
+value: "<API_KEY>"
+});
+pm.request.body.raw = JSON.stringify({
+"subscription_end": "2025-02-28"
+});
+pm.sendRequest({
+url: "https://api.lytics.io/collect/json/default",
+method: "POST",
+});
+Updated 2 months ago Table of Contents
+Universal Schema
+Identifiers
+Metafields
+Behavioral
+Interests
+Intelligence
+Common Schema
+Identifiers
+Interests
+Intelligence
+Details
+Geo
+Device
+Attribution
+Demographic
+First Party
+Behaviors
+Governance
+B2B
+Social
+Channels
+Web
+Email
+SMS
+App
+Chat
+Retail
+CRM
+Survey
+Support
+Billing
+Media

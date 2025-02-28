@@ -1,0 +1,107 @@
+Fields & Mappings
+Jump to ContentHomeDocumentationAPI ReferenceProduct UpdatesCommunityv2.0v2.1v3.0Log InDocumentationLog Inv3.0HomeDocumentationAPI ReferenceProduct UpdatesCommunityFields & MappingsSearchQuick StartDeveloper Quickstart1. Install the Lytics Tag2. Content Setup3. Surface Personalized MessageBuilding ProfilesDefault AttributesDefault SegmentsGuides & InspirationLead CaptureContent RecommendationsAccount ManagementWhat is Vault?Accessing AccountsMonitoring Metrics and AlertsJob AlertsMonitoring Audit LogsExporting Audit Logs or Alert JobsMonitoring MetricsUsage MetricsManaging UsersSingle Sign-OnAccount SettingsAccount DetailsJavaScript Tag ConfigPersonalization APIContent ServicesSecurityAI & Modeling ControlsSchema ControlsData PoliciesPlatform LimitsPrivacy and Data ProtectionImpact of Browser Tracking ChangesComplianceAuthorizationsAccess TokensKey ConceptsIdentity ResolutionConsent & PrivacyComplying with the Digital Markets Act (DMA)Client & Server Side CookiesContent AffinityContent CurationTopic TaxonomyArchitectureIntegration PatternsJob ProcessingLytics Platform Data Flow and AccessCDI and CDP Implementation StrategyLytics Zero Copy with Cloud ConnectPipeline & ProfilesData PipelineJobs (Data Sources and Exports)Data StreamsStream Routing APITemplatesCreating Templates Using the UICreating Templates using Lytics APIUsing the Jsonnet LibraryTemplate ExamplesSchema ManagementFields & MappingsAdvanced Mapping FunctionsMeta FieldsQueries & LQLIdentity Key RanksSchema VersionsPlanning & TroubleshootingLytics Profile SchemaSchema CopilotIdentityMerge StatisticsIdentity ExplorerIdentity RulesWarehouse AccessWhat is Cloud Connect?Connecting WarehousesData Models & QueriesActivating Data ModelsCloud Connect Troubleshooting and FAQsAudiences & ActivationUser ProfilesUnderstanding Profile HealthFinding a UserAudiencesAudience GroupsPrebuilt AudiencesReportsWhat are Reports?ComponentsManaging ReportsDashboard ReportContentTopics & AffinitiesTopicsAffinitiesUsing Topics & AffinitiesClassificationEnrichmentRecommendationsDocumentsContent CollectionsCreating Content CollectionsViewing, Using & Managing CollectionsInterest EnginesDefault Interest EngineCustom Interest EnginesCollaborative FiltersLookalike Models & AudiencesGetting StartedBuilding Lookalike ModelsEvaluating Lookalike ModelsCreating Lookalike AudiencesImproving Lookalike ModelsActivationDestinationsGoalsExperiencesBehavioral ScoresTutorialsLeveraging User ProfilesAccessing Profiles Client SideAccessing Profiles Server SideWorking with Anonymous ProfilesGet Started with Lytics SegmentsInline Content RecommendationsData Collection & OnboardingWorking with Custom DataWorking with Web DataCollect Mobile Data with Firebase + GTMData ManagementProfile Stitching Best PracticesMigrating from Queries to Conductor SchemaLQL & Data Import BasicsUse CasesAcquire New Customers with LyticsBest Practices for Personalizing Your Ad or Search Landing PageCapture More Information from Qualified LeadsContent Modularization in Email with Lytics AudiencesCustomize your Web Experiences with Branded ImagesDeliver Targeted ContentDrive Email Capture & Engagement with ContentDrive Mobile App Downloads With LyticsEngage Qualified Users with Targeted AdsEnhance Personalized Messaging with User Profile FieldsGrow Your Email Marketing ListImport an Audience from your Data WarehouseImprove Ad Campaign Metrics with Predictive TargetingIncrease Conversions with Lytics and Facebook LookalikeKeep Visitors Engaged with Content Recommendation ExperiencesLeverage Lookalike Models and Predictive AudiencesLookalike Models: Conserve marketing spend on engaged usersLookalike Models: Convert anonymous users to known usersLookalike Models: Convert single purchasers to multi-purchasersLookalike Models: Determine which subscribers are likely to churnMobile Messaging with Lytics Webhooks and Serverless FunctionsOptimize Remarketing SpendPersonalize the Messaging of your Website Based on AudiencePopulate Your Website With One-to-One Content RecommendationsPromote Relevant Content to Users based on their InterestsReach the Right People Using LyticsRetain Existing Customers With LyticsPersonalize your Iterable emails With Lytics content recommendationsBuild a Custom Personalized Experience With Video ContentUnlock Additional Web Personalization Features with Lytics API OverridesHow to Use GTM Tags to Modify Lytics Pathfora Widget BehaviorStyle your Lytics Web Experiences to Fit Your Brand GuidelinesSDKs & ToolsWebJavaScriptOn-site PersonalizationSubresource Integrity (SRI)MobileiOSReact NativeAndroidChrome ExtensionIntegrationsLytics Integration OptionsAcousticAdobeAdRollAirshipAmplitudeAmazon AdsAmazon KinesisAmazon PinpointAmazon RedshiftAmazon S3Amazon SQSAnsiraBigCommerceBlueKaiBlueshiftBrazeBrevoCampaign MonitorCheetah DigitalClearbitContentfulCordialCriteoCustomer.ioDatabricksDotdigitalDriftEpiserverFullContactGIGYAGoogle OptimizeGoogle Ad Manager (DFP)Google AdsGoogle BigQueryGoogle Cloud Pub/SubGoogle Cloud StorageGoogle DriveGoogle Marketing: Analytics, DV360, CM360Google Cloud OperationsGoogle Tag ManagerHubSpotiContactInsiderIterableJebbitKlaviyoLeadsquaredLinkedInLiveRampLocalyticsLookerLotameLytics File ServiceLytics MonitoringMailchimpMailgunMandrillMappMapp: BlueHornetMarketoMaropostMediaMathMetaMicrosoftMicrosoft AzureMicrosoft TeamsMixpanelNetSuiteNew RelicOmedaOneSignalOneTrustOracle Marketing Cloud: EloquaPinterestPostUpRadarRedditResponsysRetention ScienceSailthruSalesforceSalesforce DMP (Krux)Salesforce Marketing CloudSalesforce PardotSegment.comSelligentSendGridShopifySitecoreSlackSnapchatSnowflakeSparkPostSurveyMonkeySwrveTaboolaTealiumTikTokThe Trade DeskUnified ID 2.0VersiumWebhooksWebhook TemplatesWistiaX AdsYahoo AdsZapierZendeskZuoraContentstackPartnersPartner TypesLytics CommunicationLegacyInsightsImporting External ExperiencesIDP-initiated SSO (legacy)Web PersonalizationIntroductionDrive Traffic CampaignCollect Leads CampaignPresent a Message CampaignRecommend Content CampaignCampaign ReportingCampaign ManagementBuilding Audiences with Campaign DataFields & Mappings Suggest EditsIntroduction
+User fields and mappings are essential for materializing user profiles in such a way that provides businesses with a comprehensive view of their customers. User fields capture specific attributes and characteristics, while mappings transform and cleanse data for consistency and accuracy. This ensures your profiles are materialized in an ideal way to support highly relevant and personalized marketing campaigns.
+What are fields?
+Fields can include demographic data, behavioral data, or any other data point that is relevant to understanding and engaging with customers. In addition, fields themselves are defined by one of many common data types, such as strings, integers, sets, and maps.
+What are mappings?
+Sometimes, you may want to transform or cleanse messy data before it hits a profile.
+Other times, you may want to perform an operation or aggregation to reflect its usefulness for business decisions or segmentation — like aggregating multiple purchases into a combined lifetime spend metric. In either case, mappings provide the necessary translation layer to ensure each data point collected is clean and consistent. Most importantly, mappings guide the relationship between disparate data points and the final materialized user profile.
+Managing User Fields
+Lytics' profiles are composed of a collection of user fields.
+These fields have standard metadata (name, description) and typical properties you'd expect from a traditional database column (kind/type, capacity).
+In addition, each field has a merge operator that describes how we want to combine data from different sources at different times into a single field.
+For example, a field describing a customer's first purchase date would use a minimum operator to ensure that, regardless of the order in which Lytics sees purchase data, the first purchase date for the field would represent the earliest possible value.
+Creating a User Field
+To create a user field, visit Fields under the Schema tab in the main navigation at the left of your window. Here you will find a list of all current field definitions. Clicking on + Create New will enter the field creation wizard.
+The field creation wizard has a single step where you will define a few parameters related to your new user field.
+ID: An alphanumeric key that defines how this user field will be stored on the profile.
+Short Description: A user-friendly description that will be used throughout the ID to provide additional context to the field.
+Data Type: The type of data that will be stored in this field.
+Long Description: An optional long description that provides additional context in a few areas throughout the UI.
+Categories: An optional categorization for the field in question. This helps further inform the intent of the field and enhances our ability to measure the comprehensiveness of your user profile and overall C360 readiness index (coming soon).
+Identity: A field to identify a user within Lytics or in a downstream channel tool.
+Governance: Any context related to consent, governance, etc.
+Interests: Information supporting surfacing and understanding a consumer's interests, such as a product purchase.
+Behavior: Interactions to be used in understanding behavioral patterns such as page views and non-conversion-related clicks.
+First Party: Any standard first-party data.
+Intelligence: ML/AI-related attributes such as LTV ingested from BigQuery or scores related to Lytics models.
+Activation: Data points related to supporting or monitoring activation in downstream channels.
+Merge Operator: How the merge between two different data points mapped to the same field will be handled.
+Identity Key: A true or false statement identifying if the field should be used as a key to link two or more independent events together.
+Keep Days: The number of days to keep values for this field.
+Capacity: The number of values to store in the set.
+PII (Personally Identifiable Information) Key: A true or false statement identifying if the field is to be considered PII (Personally Identifiable Information).
+Data Types
+Standard:
+Data TypeDescriptionstringStores a sequence of characters (letters, numbers, punctuation) with no set limitation for length.integerStores positive or negative whole numbers without decimals. 64-bit.numberStores positive or negative numbers with decimals. 64 bit.booleanStores only true or false values.dateStores datetime.
+Advanced:
+Data TypeDescription[]stringStores an array of unique string values[]timeStores an array of unique datetime valuesdate[]stringStores a time-ordered unique array of strings (useful for keeping track of order in which they performed set of unique events)map[string]datatypeStores a set of key-value pairs. The key is a unique string and the value is a the specified data type. The value by default will be the most recent value.
+map[string]string
+map[string]integer
+map[string]number
+map[string]boolean
+map[string]datemap[string]intsumStores a set of key-value pairs. The key is a unique string and the value is an integer, but, unlike a map[string]integer, the default merge operator is sum, so the values are summed together.
+Merge Operators
+Supported merge operators are as follows:
+Minimum: When comparing two values, take the smallest one.
+Maximum: When comparing two values, take the largest one.
+Oldest: When comparing two values, take the one with the oldest timestamp.
+Latest: When comparing two values, take the one with the most recent timestamp.
+Merge: When comparing two sets, take the union of the two.
+Capacity and Keep Days
+The keep_days and capacity properties specify the amount of time to keep values, and the number of values to retain in a set field, respectively. Any values in the set older than keep_days in the past will be discarded when the profile is evaluated, and no more than capacity values will be stored in the set. When values are removed from a set due to exceeding the capacity limit, they are removed in FIFO (first in, first out) order. If keep_days or capacity are set to 0 or omitted when creating a field, they are ignored.
+Maintaining a User Field
+As your schema grows in complexity, keeping an eye on the defined relationships is essential. The field summary provides a window into how a single user field is being populated from various channels. This view is excellent for diagnosing what may be causing a conflict or that things are operating healthily.
+Deleting User Fields
+Sometimes you may want to remove a user field from your schema altogether. This can be done from the field summary pictured above. Click the menu with three docs to the right of Edit Field and you will be presented with a sub-menu. This menu contains a Delete option.
+🚧Deleting a field can have major implications once the change has been published. It is important to understand the implications of deleting a field and how it will impact how data is processed and mapped to user profiles.
+What happens when I delete a field?
+As shown in the screenshot above, selecting and confirming deletion will not have an immediate impact. The delete will request will be referenced in the unpublished version of your schema. You must publish a new version of your schema for the changes to take effect. At that point, it is essential to understand the following:
+Data previously collected and mapped to that field will no longer be accessible on the user profile.
+Any existing mappings related to that field will no longer be implemented as new events occur.
+Any mappings that are associated with this field will need to be independently deleted. Failing to delete associated mappings manually will result in validation errors when attempting to publish the schema version.
+Managing Mappings
+Mappings are expressions that provide instructions for how to perform transformations (if any) on raw data.
+They can range from simple to expressive or even include conditional logic.
+Mappings occur when data is processed or observed within Lytics' real-time profile pipeline.
+Multiple mappings can map data into a single field, where the field's merge operator controls updates.
+Let's say we have a user currently visiting the lytics.com website, and we observe the following data sent from JSTag:
+JSON{
+"email_address": "[email protected]",
+"_uid": "123e4567-e89b-12d3-a456-426614174000",
+"utm_campaign": "exciting_campaign",
+"url": "www.lytics.com/get-started",
+"event_type": "page-view"
+}
+Based on the data from the event, we might consider some of the following mappings:
+email_address: no transformation performed, and takes the value of the email as-is.
+email(email_address): use the email function to validate that the email address is syntactically valid.
+email(oneof(email_address, emailAddress)): coalesce either email_address or emailAddress to extract the value of the email address.
+count(event_type) IF event_type == "page-view": sets up a counter to track page views, only if the event is of type "page-view".
+Creating a Mapping
+To create a mapping visit Mappings under the Schema tab in the main navigation at the left of your window. Here you will find a list of all current mapping definitions. Clicking on + Create New will enter the mapping creation wizard.
+The mapping creation wizard has a single step where you will define a few parameters related to your new mapping.
+Stream: The name of the stream for which to apply the mapping to.
+Expression: The rules to apply to the mapping.
+Condition: An optional condition statement of when to apply the mapping.
+Maintaining Mappings
+Since mappings depend on the data available to a stream, monitoring that things are working as desired is important. For instance, if a key changes or stops streaming entirely, it may negatively impact your profiles and, ultimately, your marketing efforts. As such, the mapping summary view is available to review the health of mappings and provide a path for editing mappings in the future if necessary.
+Deleting Mappings
+Sometimes you may want to remove a mapping from your schema altogether. This can be done from the mapping summary pictured above. Simply click the menu with three docs to the right of Edit Mapping and you will be presented with a sub-menu. This menu contains a Delete option.
+🚧Deleting a mapping can have major implications once the change has been published. It is important to understand the implications of deleting a mapping and how it will impact how data is processed and mapped to user profiles.
+What happens when I delete a mapping?
+As shown in the screenshot above, selecting and confirming deletion will not have an immediate impact. The delete will request will be referenced in the unpublished version of your schema. You must publish a new version of your schema for the changes to take effect. At that point, it is crucial to understand the following:
+Data previously collected via the mapping being deleted will remain on the profile as mapping changes only impact event processing from when the change has been published.
+Fields associated with the mapping will not be impacted or deleted.
+Updated 5 months ago Table of Contents
+Introduction
+What are fields?
+What are mappings?
+Managing User Fields
+Creating a User Field
+Maintaining a User Field
+Deleting User Fields
+Managing Mappings
+Creating a Mapping
+Maintaining Mappings
+Deleting Mappings

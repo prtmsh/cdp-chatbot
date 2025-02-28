@@ -1,0 +1,109 @@
+Zeotap CDP Subscription Package
+Solutions
+Zeotap CDP Solutions
+Acquisition & GrowthCustomer Experience and PersonalisationLoyalty & RetentionPredictive Insights and
+Customer AnalyticsData Collection and Privacy
+Industries
+RetailTelcoMediaRetail MediaFinancial ServicesSports & EntertainmentAutomotive
+Platform
+Zeotap CDP Modules
+OverviewIntegrateUnifySegmentOrchestrateAnalyseProtect
+Zeotap CDP Features
+OverviewCustomer 360 ViewPredictive AudiencesOmnichannel JourneyConsent OrchestrationPrivacy & GDPRIntegrations
+Get started
+Subscription PlansDeployment Options
+Partners
+Our PartnersGoogle Cloud PartnershipZeotap Partner Network
+Resources
+AllBlogCase studiesVideosWhitepapersCDP SupportDeveloper Documentation
+Company
+About UsPrivacy and SecurityWhy Zeotap CDPWhy Zeotap DataCareers at ZeotapNewsEventsContact us
+LoginGet A Demo
+close_03
+Hit enter to search or click X to close
+Login
+Get a Demo
+Zeotap CDP Subscription Package
+Optimise your CDP investment with our flexible subscription and custom configurations
+Choose freedom and flexibility
+Zeotap CDP offers a comprehensive package encompassing powerful features designed to empower your business to unlock the full potential of your customer data. Recognising that every business is unique, we offer a modular subscription plan that caters to your distinct requirements.  With our flexible pricing model, you have the freedom to pick and choose from a range of modules and features, creating a bespoke CDP solution that aligns perfectly with your goals. Bid farewell to rigid, one-size-fits-all offerings and embrace the freedom, flexibility, and versatility of Zeotap CDP.
+Zeotap CDP’s Core Package + Add-ons
+Flexibility Meets Data Power
+Zeotap's Customer Success and Support
+Your Triumph, Our Commitment
+Zeotap's Implementation Package
+Crafting Success Through Custom Integrations
+Zeotap CDP Package
+Our flexible subscription lets you tailor a CDP solution that aligns perfectly with your goals. Customise your package to maximise the benefits for your business!
+IntegrateIntegrate your disparate data sources to create actionable, unified customer profiles.
+Read more
+UnifyUnify onsite and offsite data to achieve a 360-degree view of each customer, empowering personalised experiences and driving conversions.
+Read more
+SegmentSegment your customer data, harness the power of machine learning and activate them across multiple channels for maximum campaign success.
+Read more
+ProtectProtect your customer data by being compliant with regulatory frameworks like CCPA, GDPR, and others through our privacy-focused platform.
+Read more
+User DashboardAnalyse platform usage, delve into consumption metrics and attain visibility into aggregated data, providing valuable insights for informed decision-making and improved business performance.
+Read more
+AdminProvides an interface for user creation, access management and creation of child organisations. Accordingly, enable features for each of the organisations as per your business requirements.
+Read more
+API AccessRead, write, or delete user profiles within Zeotap CDP remotely via API, enhancing data management and allowing easy integration with external applications.
+Read more
+OrchestrateOrchestrate a personalised journey with actionable recommendations that enhance retention, minimise attrition, and optimise sales.
+Read more
+ID ExtensionLeverage Zeotap’s third-party data to find and link online identifiers (MAIDs, cookies) with your first-party identifiers (email, mobile number and more).
+Read more
+Non-Customer Data / EntityIngest, enrich, and activate user profiles with non-customer entity data like product catalogues, order data, campaign data, account data, transaction data and more that are not directly tied to a user but to an attribute associated with the user.
+Read more
+Predictive AudiencesBuild out-of-box AI/ML-based audiences for precise targeting using predictive behaviour analysis. Utilise ML models to analyse customer behaviour and auto-create custom audiences based on predictions like Customer Lifetime Value (CLV) and Recency, Frequency and Monetary (RFM) values.
+Read more
+Consent AnalyticsAccess consolidated data for analytics, modelling, and downstream applications. Gain a comprehensive perspective and analyse consent purposes and marketing preferences from various sources in detail.
+Read more
+We provide a tiered pricing model based on the number of ingested events
+Learn more about our package tiers.
+Get in touch
+All you need for your success
+For Implementation, customer success and support we offer different packages. Pick the ones which you prefer, customised to your needs.
+Implementation Package
+Implementation can be delivered directly by us or by one of our trusted partners. Our Implementation Packages are designed to provide an implementation experience tailored to your needs. With technical and operational kick-off calls, a dedicated implementation plan and ongoing support, we ensure seamless onboarding and faster time-to-value.
+Get in touch
+Customer Success
+Our customer success package is tailored to the unique demands of individual businesses, providing timely aid, swift response durations and designated points of contact for customer satisfaction. Engagements encompass regular assessments, accessibility, and business evaluations. To learn more about the details of our customer success and support offerings:
+Get in touch
+Customer Support
+Zeotap is dedicated to partnering to bring you success through our comprehensive support package. Our customer support structure includes email, phone, availability, response times and dedicated support contacts. To learn more about the details of our customer success and support offerings:
+Get in touch
+Industry recognitions
+Trusted by
+Request informationEmbrace the flexibility and versatility of our Zeotap CDP subscription plan. Complete the short form, and we’ll be in touch with you to let you discover all the benefits of our modular pricing model.
+Get a demo
+Step into a new era of marketing possibilities, unleashing the full potential of your customer data. Experience the power of Zeotap CDP.
+GET A DEMO
+Follow us
+Facebook-f
+Twitter
+Linkedin-in
+Sign up for our newsletter
+Be the first to get access to our marketing resources and keep up to date with the latest CDP best practices, privacy standards, marketing, and customer data.
+Get a demo
+Step into a new era of marketing possibilities, unleashing the full potential of your customer data. Experience the power of Zeotap CDP.
+GET A DEMO
+Follow us
+Facebook-f
+Twitter
+Linkedin-in
+©2024 Zeotap All Rights Reserved
+Website Privacy Policy
+Product and Service Privacy Policy
+Vulnerability Disclosure Policy
+Information Security Policy Statement
+Legal Notice
+Legal Hub
+Zeotap Whistleblowing Channel
+Website Privacy Policy
+Product and Service Privacy Policy
+Vulnerability Disclosure Policy
+Information Security Policy Statement
+Legal Notice
+Legal Hub
+Zeotap Whistleblowing Channel

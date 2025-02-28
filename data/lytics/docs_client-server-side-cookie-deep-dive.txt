@@ -1,0 +1,156 @@
+Client & Server Side Cookies
+Jump to ContentHomeDocumentationAPI ReferenceProduct UpdatesCommunityv2.0v2.1v3.0Log InDocumentationLog Inv3.0HomeDocumentationAPI ReferenceProduct UpdatesCommunityClient & Server Side CookiesSearchQuick StartDeveloper Quickstart1. Install the Lytics Tag2. Content Setup3. Surface Personalized MessageBuilding ProfilesDefault AttributesDefault SegmentsGuides & InspirationLead CaptureContent RecommendationsAccount ManagementWhat is Vault?Accessing AccountsMonitoring Metrics and AlertsJob AlertsMonitoring Audit LogsExporting Audit Logs or Alert JobsMonitoring MetricsUsage MetricsManaging UsersSingle Sign-OnAccount SettingsAccount DetailsJavaScript Tag ConfigPersonalization APIContent ServicesSecurityAI & Modeling ControlsSchema ControlsData PoliciesPlatform LimitsPrivacy and Data ProtectionImpact of Browser Tracking ChangesComplianceAuthorizationsAccess TokensKey ConceptsIdentity ResolutionConsent & PrivacyComplying with the Digital Markets Act (DMA)Client & Server Side CookiesContent AffinityContent CurationTopic TaxonomyArchitectureIntegration PatternsJob ProcessingLytics Platform Data Flow and AccessCDI and CDP Implementation StrategyLytics Zero Copy with Cloud ConnectPipeline & ProfilesData PipelineJobs (Data Sources and Exports)Data StreamsStream Routing APITemplatesCreating Templates Using the UICreating Templates using Lytics APIUsing the Jsonnet LibraryTemplate ExamplesSchema ManagementFields & MappingsAdvanced Mapping FunctionsMeta FieldsQueries & LQLIdentity Key RanksSchema VersionsPlanning & TroubleshootingLytics Profile SchemaSchema CopilotIdentityMerge StatisticsIdentity ExplorerIdentity RulesWarehouse AccessWhat is Cloud Connect?Connecting WarehousesData Models & QueriesActivating Data ModelsCloud Connect Troubleshooting and FAQsAudiences & ActivationUser ProfilesUnderstanding Profile HealthFinding a UserAudiencesAudience GroupsPrebuilt AudiencesReportsWhat are Reports?ComponentsManaging ReportsDashboard ReportContentTopics & AffinitiesTopicsAffinitiesUsing Topics & AffinitiesClassificationEnrichmentRecommendationsDocumentsContent CollectionsCreating Content CollectionsViewing, Using & Managing CollectionsInterest EnginesDefault Interest EngineCustom Interest EnginesCollaborative FiltersLookalike Models & AudiencesGetting StartedBuilding Lookalike ModelsEvaluating Lookalike ModelsCreating Lookalike AudiencesImproving Lookalike ModelsActivationDestinationsGoalsExperiencesBehavioral ScoresTutorialsLeveraging User ProfilesAccessing Profiles Client SideAccessing Profiles Server SideWorking with Anonymous ProfilesGet Started with Lytics SegmentsInline Content RecommendationsData Collection & OnboardingWorking with Custom DataWorking with Web DataCollect Mobile Data with Firebase + GTMData ManagementProfile Stitching Best PracticesMigrating from Queries to Conductor SchemaLQL & Data Import BasicsUse CasesAcquire New Customers with LyticsBest Practices for Personalizing Your Ad or Search Landing PageCapture More Information from Qualified LeadsContent Modularization in Email with Lytics AudiencesCustomize your Web Experiences with Branded ImagesDeliver Targeted ContentDrive Email Capture & Engagement with ContentDrive Mobile App Downloads With LyticsEngage Qualified Users with Targeted AdsEnhance Personalized Messaging with User Profile FieldsGrow Your Email Marketing ListImport an Audience from your Data WarehouseImprove Ad Campaign Metrics with Predictive TargetingIncrease Conversions with Lytics and Facebook LookalikeKeep Visitors Engaged with Content Recommendation ExperiencesLeverage Lookalike Models and Predictive AudiencesLookalike Models: Conserve marketing spend on engaged usersLookalike Models: Convert anonymous users to known usersLookalike Models: Convert single purchasers to multi-purchasersLookalike Models: Determine which subscribers are likely to churnMobile Messaging with Lytics Webhooks and Serverless FunctionsOptimize Remarketing SpendPersonalize the Messaging of your Website Based on AudiencePopulate Your Website With One-to-One Content RecommendationsPromote Relevant Content to Users based on their InterestsReach the Right People Using LyticsRetain Existing Customers With LyticsPersonalize your Iterable emails With Lytics content recommendationsBuild a Custom Personalized Experience With Video ContentUnlock Additional Web Personalization Features with Lytics API OverridesHow to Use GTM Tags to Modify Lytics Pathfora Widget BehaviorStyle your Lytics Web Experiences to Fit Your Brand GuidelinesSDKs & ToolsWebJavaScriptOn-site PersonalizationSubresource Integrity (SRI)MobileiOSReact NativeAndroidChrome ExtensionIntegrationsLytics Integration OptionsAcousticAdobeAdRollAirshipAmplitudeAmazon AdsAmazon KinesisAmazon PinpointAmazon RedshiftAmazon S3Amazon SQSAnsiraBigCommerceBlueKaiBlueshiftBrazeBrevoCampaign MonitorCheetah DigitalClearbitContentfulCordialCriteoCustomer.ioDatabricksDotdigitalDriftEpiserverFullContactGIGYAGoogle OptimizeGoogle Ad Manager (DFP)Google AdsGoogle BigQueryGoogle Cloud Pub/SubGoogle Cloud StorageGoogle DriveGoogle Marketing: Analytics, DV360, CM360Google Cloud OperationsGoogle Tag ManagerHubSpotiContactInsiderIterableJebbitKlaviyoLeadsquaredLinkedInLiveRampLocalyticsLookerLotameLytics File ServiceLytics MonitoringMailchimpMailgunMandrillMappMapp: BlueHornetMarketoMaropostMediaMathMetaMicrosoftMicrosoft AzureMicrosoft TeamsMixpanelNetSuiteNew RelicOmedaOneSignalOneTrustOracle Marketing Cloud: EloquaPinterestPostUpRadarRedditResponsysRetention ScienceSailthruSalesforceSalesforce DMP (Krux)Salesforce Marketing CloudSalesforce PardotSegment.comSelligentSendGridShopifySitecoreSlackSnapchatSnowflakeSparkPostSurveyMonkeySwrveTaboolaTealiumTikTokThe Trade DeskUnified ID 2.0VersiumWebhooksWebhook TemplatesWistiaX AdsYahoo AdsZapierZendeskZuoraContentstackPartnersPartner TypesLytics CommunicationLegacyInsightsImporting External ExperiencesIDP-initiated SSO (legacy)Web PersonalizationIntroductionDrive Traffic CampaignCollect Leads CampaignPresent a Message CampaignRecommend Content CampaignCampaign ReportingCampaign ManagementBuilding Audiences with Campaign DataClient & Server Side CookiesEverything you wanted to know about cookies from client side to server side. Suggest EditsWhat is a Cookie
+An HTTP cookie (web cookie, browser cookie) is a small piece of data that a server sends to a user's web browser. The browser may store the cookie and send it back to the same server with later requests. Typically, an HTTP cookie is used to tell if two requests come from the same browser—keeping a user logged in, for example. It remembers stateful information for the stateless HTTP protocol.
+Cookie Flavors
+First-party
+First-party cookies are created by the host domain – the domain the user is visiting. These cookies are generally considered good; they help provide a better user experience and keep the session open. This means the browser can remember key information, such as items you add to shopping carts, username, and language preferences.
+Third-party
+Third-party cookies are those created by domains other than the one the user is visiting at the time and are mainly used for tracking and online-advertising purposes. They also allow website owners to provide certain services, such as live chats.
+Common Cookie Use Cases
+Session management
+Logins, shopping carts, game scores, or anything else the server should remember.
+Personalization
+User preferences, themes, and other settings.
+Tracking
+Recording and analyzing user behavior.
+How does Lytics use cookies?
+Cookies are one of the preferred methods for maintaining a user identifier in the browser, both known and anonymous. This gets associated with all inbound events captured by our Javascript tag as they interact with customer websites. Specifically, our Javascript tag stores a string of digits and characters that are used as a unique ID commonly referred to as our _uid or, in some cases seerid as a first-party cookie.
+Creating & Managing Cookies
+Where do cookies come from?
+Client-Side
+In web development, the client-side refers to everything in a web application displayed on the client (end-user device). This includes what the user sees, such as text, images, and the rest of the UI, along with any actions an application performs within the user's browser.
+When someone refers to a “client-side cookie,” they are generally referring to a cookie that is created and/or managed via a common client-side programming language such as Javascript.
+Server Side
+Like with client-side, server-side means everything that happens on the server instead of on the client. In the past, nearly all business logic ran on the server-side, including rendering dynamic webpages, interacting with databases, identity authentication, and push notifications.
+When someone refers to a “server-side cookie,” they are generally referring to a cookie that is created and managed using one of the many common server-side programming languages such as NodeJS, PHP, Python, etc.
+Cookie Ingredients
+Name
+Defines the cookie name. Generally, the cookie name is the primary way of retrieving a cookie and its associated value and attributes.
+Value
+The stored value for the cookie. This can include any US-ASCII character excluding a control character, whitespace, double quotes, comma, semicolon, and backslash.
+Expires
+Indicates the maximum lifetime of the cookie as an HTTP-date timestamp. See Date for the required formatting.
+Max-Age
+Indicates the number of seconds until the cookie expires. A zero or negative number will expire the cookie immediately.
+Domain
+Defines the host to which the cookie will be sent.
+Path
+Indicates the path that must exist in the requested URL for the browser to send the Cookie header.
+Secure
+This indicates that the cookie is sent to the server only when a request is made with the HTTPS: scheme (except on localhost) and, therefore, is more resistant to man-in-the-middle attacks.
+HttpOnly
+Forbids JavaScript from accessing the cookie, for example, through the Document.cookie property. Note that a cookie created with HttpOnly will still be sent with JavaScript-initiated requests, for example, when calling XMLHttpRequest.send() or fetch(). This mitigates attacks against cross-site scripting (XSS).
+SameSite
+Controls whether or not a cookie is sent with cross-origin requests, providing some protection against cross-site request forgery attacks (CSRF).
+Who’s taking away my cookies?!?
+In June 2017, Apple introduced a new privacy feature called Intelligent Tracking Prevention (ITP). This same feature was officially released in September 2017 with Safari 12 and iOS 11. Since then, the ITP has evolved and introduced several subsequent versions leading us to the current state (as of July 2022), which has many impacts on marketing but most notably:
+ITP blocks all third-party cookies by default. (ITP 1.0/1.1)
+ITP can grant exceptions to third-party cookies with Storage API. (ITP 2.0)
+ITP caps all first-party cookies set with JavaScript to 7 days or 24 hours. (ITP 2.1/2.2)
+ITP caps first-party cookies set by the server using CNAME cloaking to 7 days. (ITP 2.3)
+As a result of the privacy and security efforts in general other browsers such as Mozilla’s Firefox(ETP) and Google Chrome have followed suit in announcing and/or implementing their security and tracking protocols, which continue to impact tools such as third and first-party cookies that have long been a staple in providing the data necessary for marketers to personalize their communications effectively.
+What can I do to replace my cookies?
+With each iteration on more stringent privacy-related changes comes a wave of workarounds or alternate approaches to maintaining access to behavioral data essential to marketing:
+1. Deploy a strong first-party identification strategy.
+There is no replacement then a strong identification strategy. Creating a relationship in which a user will openly share their identity through a login or some other authenticated means will always result in the highest level of certainty on identity, which leads to the best level of personalization. However, many use cases focus on anonymous users or users who have not built up the relationship necessary to unlock this level of authentication.
+2. First-party client-side cookies have changed but are still a viable solution.
+Though third-party cookies are effectively dead, first-party cookies are still viable for many use cases. Not only do they offer a very simple off-the-shelf type of implementation for leveraging, they also have a long shelf life, assuming that an anonymous user interacts frequently enough to overcome the 7-day expiration window.
+3. First-party server-side cookies offer an extended expiration window.
+Over the past 12 months, there has been a surge of interest in server-side cookies. This method for setting cookies currently is not affected by the ITP changes that impact client-side cookies, most notably the automatic expiration at seven days. Rather, server-side cookies can live for long periods, leading to a higher quality identification for anonymous users. The downside, however, is they are far more difficult to leverage than the client-side. They require a much more technical integration with whatever server-side technology is used to power the web asset and may not be accessible in the same manner as client-side cookies.
+Getting Technical with Server Side Cookies
+In general, regardless of the specific attribute settings used when leveraging server-side cookies, they currently are not impacted by the 7-day expiration window that client-side cookies fall victim to. However, Apple has made it clear that they have additional plans to extend some of the client-side cookie limitations to the server-side, and the most important attribute in that discussion is the HttpOnly attribute.
+https://webkit.org/blog/9521/intelligent-tracking-prevention-2-3/
+As a CDP and technology leader, we always aim to help our customers future-proof their implementations. As such, even though a non-HttpOnly server-side cookie offers an easier means to bypass current client-side restrictions, it is our recommendation to consider investing to leverage HttpOnly cookies set by the server-side to prevent any potential impacts of the next few iterations of ITP. Below we’ll explore the two options and demonstrate the key differences.
+Server Side Cookie without HttpOnly
+The following example in Node.js demonstrates a sample snippet for setting the cookie server side. Most server-side languages have existing methods to make this very easy. In the case of creating a cookie for Lytics to leverage, you will also need to generate a unique ID which can be done in a variety of ways. In the case of Node, you may consider using the randomUUID() method of the Crypto interface. A simple Google search can lead you or your developer down the road of generating a unique ID that best fits your use case.
+Once you have that unique ID, you simply set the cookie using the pre-defined Lytics name our Javascript tag is looking for. Alternatively, the tag can be configured to use any custom name.
+// THE FOLLOWING REPRESENTS A UNTESTED AND NON-PRODUCTION LEVEL
+// EXAMPLE OF HOW TO SET A COOKIE SERVER SIDE WITH NODE.JS AND
+// ACCESS THE DOCUMENT.COOKIES FROM THE CLIENT SIDE
+var express = require('express');
+var app = express();
+var cookieParser = require('cookie-parser');
+var crypto = require('crypto');
+var dayjs = require('dayjs');
+// cookieParser middleware
+app.use(cookieParser());
+// route for setting the cookies
+app.get('/setcookie', function (req, res) {
+// setting a server side cookie without httponly
+res.cookie("seerid", crypto.randomUUID(), {
+httpOnly: false,
+expires: dayjs().add(30, "days").toDate(),
+});
+res.send(`<html><body><p>A server side cookie has been set.</p></body></html>`);
+})
+// Route for getting all the cookies
+app.get('/getcookie', function (req, res) {
+res.send(`
+<html>
+<head>
+<script>
+alert(document.cookie);
+</script>
+</head>
+<body>
+<p>This is an example of how to get the cookies client side.</p>
+</body>
+</html>`
+);
+})
+app.listen(3000, (err) => {
+if (err) throw err;
+console.log('server running on port 3000');
+});
+Since non-HttpOnly cookies are accessible out of the box client-side there is no additional lift necessary. Our tag will pick up the cookie and use that ID as the identifier. It is important to note that any UID changes must also be managed server-side as setting the cookie client-side will engage the 7-day expiration max. In this example, we simply raise an alert with the cookie string and do not show the actual implementation of the Lytics tag.
+Server Side Cookie with HttpOnly
+Setting HttpOnly to true comes with an additional level of complexity but benefits from following the stringent and recommended guidelines of Apple ITP, which in theory will go farther in the way of future-proofing.
+Much like the above example, we’ll set a cookie, in this case using Node, in the same way. The only difference here is setting httpOnly to true. This means that the cookie is secure but will no longer be accessible out of the box by Javascript. Rather, you’ll have to implement an alternative method for surfacing that ID to Javascript so that it can be passed to the Lytics Javascript tag and used during collection/resolution.
+// THE FOLLOWING REPRESENTS A UNTESTED AND NON-PRODUCTION LEVEL
+// EXAMPLE OF HOW TO SET A COOKIE SERVER SIDE WITH NODE.JS AND
+// ACCESS THE DOCUMENT.COOKIES FROM THE CLIENT SIDE WHEN USING HTTPONLY
+var express = require('express');
+var app = express();
+var cookieParser = require('cookie-parser');
+var crypto = require('crypto');
+var dayjs = require('dayjs');
+// cookieParser middleware
+app.use(cookieParser());
+// route for setting the cookies
+app.get('/setcookie', function (req, res) {
+// setting a server side cookie with httponly
+res.cookie("uuid", crypto.randomUUID(), {
+httpOnly: true,
+expires: dayjs().add(30, "days").toDate(),
+});
+res.send(`<html><body><p>A server side cookie has been set using httpOnly.</p></body></html>`);
+})
+// Route for getting all the cookies
+app.get('/getcookie', function (req, res) {
+res.send(`
+<html>
+<head>
+<script>
+var uuid = '${req.cookies.uuid}';
+alert(uuid);
+</script>
+</head>
+<body>
+<p>This is an example of how to get the cookies client side when cookie is httpOnly.</p>
+</body>
+</html>`
+);
+})
+app.listen(3000, (err) => {
+if (err) throw err;
+console.log('server running on port 3000');
+});
+All code examples in this document are purely for demonstration. Any customer facing implementation should follow the guidance of our customer facing technical teams and the technical experts on our customer’s end. These examples in production represent HIGH risk as documented.Updated about 1 year ago Table of Contents
+What is a Cookie
+Cookie Flavors
+Common Cookie Use Cases
+How does Lytics use cookies?
+Creating & Managing Cookies
+Who’s taking away my cookies?!?
+What can I do to replace my cookies?
+Getting Technical with Server Side Cookies

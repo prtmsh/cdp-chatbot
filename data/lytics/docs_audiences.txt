@@ -1,0 +1,250 @@
+Audiences
+Jump to ContentHomeDocumentationAPI ReferenceProduct UpdatesCommunityv2.0v2.1v3.0Log InDocumentationLog Inv3.0HomeDocumentationAPI ReferenceProduct UpdatesCommunityAudiencesSearchQuick StartDeveloper Quickstart1. Install the Lytics Tag2. Content Setup3. Surface Personalized MessageBuilding ProfilesDefault AttributesDefault SegmentsGuides & InspirationLead CaptureContent RecommendationsAccount ManagementWhat is Vault?Accessing AccountsMonitoring Metrics and AlertsJob AlertsMonitoring Audit LogsExporting Audit Logs or Alert JobsMonitoring MetricsUsage MetricsManaging UsersSingle Sign-OnAccount SettingsAccount DetailsJavaScript Tag ConfigPersonalization APIContent ServicesSecurityAI & Modeling ControlsSchema ControlsData PoliciesPlatform LimitsPrivacy and Data ProtectionImpact of Browser Tracking ChangesComplianceAuthorizationsAccess TokensKey ConceptsIdentity ResolutionConsent & PrivacyComplying with the Digital Markets Act (DMA)Client & Server Side CookiesContent AffinityContent CurationTopic TaxonomyArchitectureIntegration PatternsJob ProcessingLytics Platform Data Flow and AccessCDI and CDP Implementation StrategyLytics Zero Copy with Cloud ConnectPipeline & ProfilesData PipelineJobs (Data Sources and Exports)Data StreamsStream Routing APITemplatesCreating Templates Using the UICreating Templates using Lytics APIUsing the Jsonnet LibraryTemplate ExamplesSchema ManagementFields & MappingsAdvanced Mapping FunctionsMeta FieldsQueries & LQLIdentity Key RanksSchema VersionsPlanning & TroubleshootingLytics Profile SchemaSchema CopilotIdentityMerge StatisticsIdentity ExplorerIdentity RulesWarehouse AccessWhat is Cloud Connect?Connecting WarehousesData Models & QueriesActivating Data ModelsCloud Connect Troubleshooting and FAQsAudiences & ActivationUser ProfilesUnderstanding Profile HealthFinding a UserAudiencesAudience GroupsPrebuilt AudiencesReportsWhat are Reports?ComponentsManaging ReportsDashboard ReportContentTopics & AffinitiesTopicsAffinitiesUsing Topics & AffinitiesClassificationEnrichmentRecommendationsDocumentsContent CollectionsCreating Content CollectionsViewing, Using & Managing CollectionsInterest EnginesDefault Interest EngineCustom Interest EnginesCollaborative FiltersLookalike Models & AudiencesGetting StartedBuilding Lookalike ModelsEvaluating Lookalike ModelsCreating Lookalike AudiencesImproving Lookalike ModelsActivationDestinationsGoalsExperiencesBehavioral ScoresTutorialsLeveraging User ProfilesAccessing Profiles Client SideAccessing Profiles Server SideWorking with Anonymous ProfilesGet Started with Lytics SegmentsInline Content RecommendationsData Collection & OnboardingWorking with Custom DataWorking with Web DataCollect Mobile Data with Firebase + GTMData ManagementProfile Stitching Best PracticesMigrating from Queries to Conductor SchemaLQL & Data Import BasicsUse CasesAcquire New Customers with LyticsBest Practices for Personalizing Your Ad or Search Landing PageCapture More Information from Qualified LeadsContent Modularization in Email with Lytics AudiencesCustomize your Web Experiences with Branded ImagesDeliver Targeted ContentDrive Email Capture & Engagement with ContentDrive Mobile App Downloads With LyticsEngage Qualified Users with Targeted AdsEnhance Personalized Messaging with User Profile FieldsGrow Your Email Marketing ListImport an Audience from your Data WarehouseImprove Ad Campaign Metrics with Predictive TargetingIncrease Conversions with Lytics and Facebook LookalikeKeep Visitors Engaged with Content Recommendation ExperiencesLeverage Lookalike Models and Predictive AudiencesLookalike Models: Conserve marketing spend on engaged usersLookalike Models: Convert anonymous users to known usersLookalike Models: Convert single purchasers to multi-purchasersLookalike Models: Determine which subscribers are likely to churnMobile Messaging with Lytics Webhooks and Serverless FunctionsOptimize Remarketing SpendPersonalize the Messaging of your Website Based on AudiencePopulate Your Website With One-to-One Content RecommendationsPromote Relevant Content to Users based on their InterestsReach the Right People Using LyticsRetain Existing Customers With LyticsPersonalize your Iterable emails With Lytics content recommendationsBuild a Custom Personalized Experience With Video ContentUnlock Additional Web Personalization Features with Lytics API OverridesHow to Use GTM Tags to Modify Lytics Pathfora Widget BehaviorStyle your Lytics Web Experiences to Fit Your Brand GuidelinesSDKs & ToolsWebJavaScriptOn-site PersonalizationSubresource Integrity (SRI)MobileiOSReact NativeAndroidChrome ExtensionIntegrationsLytics Integration OptionsAcousticAdobeAdRollAirshipAmplitudeAmazon AdsAmazon KinesisAmazon PinpointAmazon RedshiftAmazon S3Amazon SQSAnsiraBigCommerceBlueKaiBlueshiftBrazeBrevoCampaign MonitorCheetah DigitalClearbitContentfulCordialCriteoCustomer.ioDatabricksDotdigitalDriftEpiserverFullContactGIGYAGoogle OptimizeGoogle Ad Manager (DFP)Google AdsGoogle BigQueryGoogle Cloud Pub/SubGoogle Cloud StorageGoogle DriveGoogle Marketing: Analytics, DV360, CM360Google Cloud OperationsGoogle Tag ManagerHubSpotiContactInsiderIterableJebbitKlaviyoLeadsquaredLinkedInLiveRampLocalyticsLookerLotameLytics File ServiceLytics MonitoringMailchimpMailgunMandrillMappMapp: BlueHornetMarketoMaropostMediaMathMetaMicrosoftMicrosoft AzureMicrosoft TeamsMixpanelNetSuiteNew RelicOmedaOneSignalOneTrustOracle Marketing Cloud: EloquaPinterestPostUpRadarRedditResponsysRetention ScienceSailthruSalesforceSalesforce DMP (Krux)Salesforce Marketing CloudSalesforce PardotSegment.comSelligentSendGridShopifySitecoreSlackSnapchatSnowflakeSparkPostSurveyMonkeySwrveTaboolaTealiumTikTokThe Trade DeskUnified ID 2.0VersiumWebhooksWebhook TemplatesWistiaX AdsYahoo AdsZapierZendeskZuoraContentstackPartnersPartner TypesLytics CommunicationLegacyInsightsImporting External ExperiencesIDP-initiated SSO (legacy)Web PersonalizationIntroductionDrive Traffic CampaignCollect Leads CampaignPresent a Message CampaignRecommend Content CampaignCampaign ReportingCampaign ManagementBuilding Audiences with Campaign DataAudiences Suggest EditsIntroduction
+Audiences are central to creating personalized marketing using Lytics. It is how groups of users get targeted and defines how cross-channel user data is used in campaigns. Lytics offers audiences as a tool that operates on user fields as well as other audiences. This provides the ability to craft audiences that target one user, every user, or any number in between.
+Lytics audiences are automatically kept up to date. As time passes, an audience that once targeted 500 users may grow to target 10,000. This is great if your audience is targeting engaged users who have shown interest in your upcoming product, but not so great if your audience targets users with outstanding support tickets. Lytics makes it easy to find these insights so your campaign strategies can be adjusted accordingly.
+Audiences can be used in Lytics Experiences, third-party ad campaigns, and tools like Google BigQuery for advanced reporting. When all of that isn’t enough, the Lytics APIs provide deep integrations with the Lytics platform.
+📘Access the audience builder from Lytics navigation menu by expanding the Audiences tab and clicking Audiences. Once on the Audiences page, click on the
++ Create New Audience button.
+Creating Audiences
+Building new audiences allows you to target specific groups of your users. Why send the same email to your entire audience? Instead, send emails to distinct audiences with content that you know those users enjoy. Lytics gives you the ability to create audiences based on cross channel user data, behaviors and interests.
+Audiences can be built using existing audiences, user content affinity, your personalization campaigns, or by custom rules utilizing any user fields in your Lytics account. Create rulesets by combining multiple audiences and boolean logic to target users with as much or as little granularity as you require.
+Lytics updates your audiences automatically. Once an audience is built, users will join or leave whenever they match (or fail to match) the rules you have set. Export your audiences, often in real-time, to your integrated marketing tools giving you the power of Lytics however you engage with your users.
+📘Access the audience builder from Lytics navigation menu by expanding the Audiences tab and clicking Audiences. Once on the Audiences page, click on the
++ Create New Audience button.
+Building Audiences: Existing Audiences
+The Existing Audiences tab in the audience builder contains a list of all existing audiences and their size categorized by audience type such as characteristic. Characteristics are pre-built audiences pertaining to single user attributes such as location or behavior.
+Keep in mind that the audience sizes you see in this list are not real-time. They are updated every few hours for performance reasons. When creating or editing an audience, however, you will always see real-time numbers so that you can make precise decisions based on accurate data.
+You can use the Filter by Audience Type drop-down to filter the list or use the Search box to quickly find an audience by name.
+Select an audience or characteristic to add it to the definition of the audience you are building or editing.
+Building Audiences: Content Affinity
+The Content Affinity tab in the audience builder is used to add Affinity-based rules to your audience. Since Affinities are a group of related Topics, this allows you to effectively target users interested in several subjects or products.
+In the example above, we created a "Lavender" Affinity for an online beauty store, which includes 6 Topics such as "lavender", "lavender lotion", and "lavender luxury." Instead of creating an audience with 6 rules (one per Topic), we just select our Lavender Affinity that contains those 6 Topics.
+Once you choose an Affinity for your audience, you will be able to select the range of affinity values. The histogram displays the distribution of user interest for the selected Affinity and is helpful to build an audience that has the desired size. By default, users with Any Affinity are selected. You can choose a built-in range by clicking any of the Affinity buttons or, to set a custom range, use the slider to refine the range of users to target. As you change the range, the total number of users that fit the range is shown in the right column.
+As soon as you create an Affinity, Lytics start scoring users against it as they interact with your content or products. For active users, you can expect this number to start populating within a few days. For inactive users, it can take up to 2 weeks for them to be scored against an Affinity. So it's recommended that you create Affinities in advance of the audience needed for an Affinity-based campaign.
+Topic-Based Audiences
+Under the Custom Rule tab in the Audience Builder, you can find the existing audiences based on Topics in your content taxonomy. If you want to create new audiences based on a single Topic, you can do so as follows:
+Search for "Topics" in the Custom Rule tab of the Audience Builder
+Select the Topic of interest.
+Set the threshold according to the desired users' level of interest in that Topic.
+Once you hit "Add Condition", the custom rule for a Topic will look like this:
+Although Topics are still supported in the Audience Builder, we strongly recommend you use Affinities to build audiences for a more efficient workflow and more effective targeting.
+Inferred Content Affinity
+Some users may find a field named Inferred Content Affinity when trying to build affinity or topic based audiences. This field contains topics that a user could be interested in even though they may not have interacted with the topics directly. To learn more about how these inferrences are made, you can read about our content taxonomy process. Note that topic affinity already includes this information, but this field contains only inferred affinity. We would also recommend not using this field to build audiences as it is not a wholistic view of a user's affinity.
+Building Audiences: Custom Rules
+The Custom Rules tab in the audience builder is used to add any rule based on a user field to the audience being built or edited.
+Custom rules allow for ultimate access of all data that is aggregated in user fields. Custom rules are simple statements that can be combined to create very precise audiences. Using them correctly requires a thorough understanding of the data being used, but there is no replacement for this level of segmentation.
+🚧Audiences Field Value LimitsAudiences can have a maximum of 1,000 field values. "Values" in this context apply to a single evaluation against a user field.When exceeded, the error message "Audience too large! Remove values to save this audience" will be displayed. For example, the following scenarios would trigger the alert:
+An audience with a single rule that supports multiple values ( e.g. contains one of) with 1001+ values.
+An audience with 1001+ user field rules each with a single evaluation (e.g. exists).
+Any variation in between such as two rules each containing over 500 evaluations, etc.
+The user field list displays all the fields in your account. The Source drop-down can be used to filter on the data stream the user field came from. The Includes drop-down can be used to filter user fields on the percentage of users that have a field. Use the Search input to search for a user field by name.
+Generally, to add a Custom Rule to an audience definition:
+Choose a User Field
+Choose an operator (e.g., text contains, value is less than)
+Choose a value
+There are variations to this general procedure based on the type of the user field and the operator chosen.
+User Field Types
+How you work with user fields in the Custom Rules tab will depend on way the field is mapped in on the user profile.
+Numeric User Fields
+Numeric user fields are most commonly used for data that is counted. For instance, the number of times a visitor has been to a website or the number of times a subscriber has opened an email. Exact values can be matched, but more commonly, inequalities are expressed.
+Examples:
+Total Number of Visits must equal 5: Any user who has visited 4 times, 6 times, or any number of times other than 5 will not be matched by this rule.
+Total Number of Visits must be less than 3: Any user who has visited 0, 1, or 2 times will be matched by this rule.
+Text User Fields
+Text User fields are commonly used for words and miscellaneous information. For instance, a user’s first name. Since there is no mathematical relationship between two text values, the operations used are generally exact match or partial match.
+There are 5 operator options when making audiences with text user fields:
+Equal: The value for the field you want the audience to have. Format and character spacing for the value must match exactly what is in the data stream. You can select the value by interacting with the visualization or be promoted with available values by typing into the search bar.
+Contain: The text entered (case sensitive and exact order) appears within a value for the field.
+Be Like: Use the wildcard character * along with text to decide the parts of values you want to match. E.g., test will only match on the exact string test, while test* will match strings starting with test, such as "testing", and *test* will match any string that has test in it, such as "my test case".
+Equal one of: Add each, exact value you want included individually. A new search bar will appear after each selection. You can remove values from the list using the “x” to the left of the value. The logic for each of these rules follows the logic from “Equal”.
+Exist: Excludes everyone that does not have a value for the field.
+Examples
+First Name must equal Ash: Only users named Ash will be matched.
+First name must contain Ash: Any user named Ash will be matched. Additionally, anyone named Ashley, Ashton, or any other name that has the letters "Ash" next to each other will be matched. Dash or Natasha will NOT be matched - as these do not have an “A.” To make an audience that includes these, create a second rule set for “First name must contain ash.”
+Date User Fields
+Date user fields are commonly used for any data that represents a point in time. For instance, the last time a user visited a website. Most commonly, a date is chosen to divide the people who fall before or after that date. You will need to select both your starting point and a direction in time for your custom rule.
+Your starting point could be a fixed point in time (useful for milestone events, like product launches) or a relative point in time (useful for scheduled follow ups).
+Since each rule only handles going forward or backward from a single point in time, you may need to create two rules that work together to bound a range of time. One rule will capture all dates after the first point in time, and a second rule will capture all dates before a later point in time.
+Some date fields have a natural boundary, such as Last Visits, which will never include a date in the future. If you want all Last Visits from a point in time up until now, you would only need to create one rule.
+Examples
+Last Visit must be Before June 22, 2016: Created by selecting Specific Date and the direction Before. This rule includes only users who have not visited since the 22nd of June.
+Last Visit must be After 3 days in the past: Created by selecting Relative Date, entering 3 days In the past and selecting the direction After. This rule includes only users who have visited in the last three days.
+Subscription End Date must be within the next 30 days: Created by building two rules: one to set the start date to always be the current date and the other to set the end date to 30 days in the future relative to the current date.
+Create the first rule by selecting Relative Date, After, entering 0 Days, selecting In the past, and clicking Add Condition.
+Create the second rule by selecting Relative Date, Before, 30 Days, In the future, and clicking Add Condition.
+This audience will now include all users who have a subscription ending in the next 30 days beginning with the current date.
+Set User Fields
+Set user fields are commonly used for collecting related data over time. For instance, all the URLs a user has visited. These fields are generally used much like text user fields, even though the data is structured differently.
+Examples
+All URL Paths Ever must contain one of
+/blog, /products, or /about: Any user who has visited any one of these three paths will be matched.
+Followed Sports must contain Baseball: Any user who follows Baseball will be matched. This is true whether they only follow Baseball or follow Baseball in addition to Football, Hockey, and Bowling.
+Map/Nested User Fields
+Map user fields are used to add hierarchy to a dynamic domain of data. For instance, Events By Device is a count of all events, but grouped by each device. So instead of building a rule by only specifying the count, the rule is built by first specifying the device, then the count. The device could be thought of as an additional, dynamic user field that is nested under the map user field.
+Selecting a Key
+When using a map user field, the first step is selecting the dynamic user field to build a rule with, called a key. Using the URLs Visited example, the keys could include any numeric value. Since these keys are dynamic,
+counts will be updated automatically.
+Building the Condition
+Once a key is selected a condition is built. The type of the nested user field is called the value type. In the case of URLs Visited, the value type is numeric. When building audiences with nested fields, the visualization chart will not display for mapped fields to minimize page load times.
+Examples
+Events By Device (Desktop) must be greater than 5: Only users who have visited the website more than 5 times on a desktop will be matched. If a user has visited more than 5 times on the mobile web, they will not be matched.
+Signup Date for Event (Personalization Webinar) must be within the last 7 days: Only the users who signed up for the Personalization Webinar in the last week will be matched. Users who signed up more than 7 days ago will not be matched. Users who signed up for a different event in the last 7 days will also not be matched.
+Out of the Box Custom Rules
+Some user fields are mapped by default and populated through the use of the Lytics Javascript tag and Experiences. These out of the box fields can be incredibly useful when building audiences using Custom Rules.
+Lytics Javascript Tag
+Assuming that you have not made changes to the 'default' web LQL file that is automatically created when the Lytics Javascript Tag is installed, the following custom rules are available to you for use when building audiences.
+RuleDescriptionAll channels used (web, email, etc.)All the channels a user has been active in based on the data imported into your Lytics account.BotThe Lytics JavaScript Tag captures information from the web browser to determine if the user is bot or not. When data is collected from the Lytics JavaScript Tag, that request will include the user-agent of the client that was used to initiate the request. The user agent is parsed and evaluated using a third party library. That evaluation determines if the request is from a "bot" or not. NOTE: The third party library does not capture all bots.Created TimestampThe timestamp of when a user profile was created. When an anonymous and known profile is merged the oldest timestamp is retained.Devices UsedAny devices a user has used e.g. desktop, Android, iOS.Event First Time SeenCaptures the timestamp of the first event sent through from your website by either your tag manager or the Lytics JavaScript Tag, along with some details around what that event was.Event Last Time SeenCaptures the timestamp of the last event sent through from your website from either your tag manager or our Lytics JavaScript Tag, along with some details around what that event was.Last ActiveThe last timestamp on the profile that indicated activity on web or any connected sources importing activity data to your account.Last Activity by ChannelThe last timestamp on the profile that indicated activity on a particular channel.Last Visit CityPulled from visit_city field from your Default (web) source and indicates the last value seen.Last Visit CountryPulled from visit_country field from your Default (web) source and indicates the last value seen.Last Visit State/ProvincePulled from visit_region field from your Default (web) source and indicated last value seen.Modified TimestampThe last time that a profile was updated.Random, uniform partition of usersEvery profile in Lytics is assigned a random number between 1-100. By using this rule, you can perform simple A/B tests to decrease the size of an audience for testing down to a certain percentage of the total audience size. Read more about simple AB testing.ScoreFrequency, Intensity, Momentum, Propensity, Quntatiy, or Recency. The values of the user's Lytics behavorial scores. See Lytics Scores for detailed descriptions of these fields.Time of First VisitThe time of a user’s first visit to your website since the Lytics JavaScript Tag was installed.Time of Last VisitThe time of a user’s last website visit.TimezoneThe timezone they are in based on their last web session.Total Number of VisitsTotal number of different times a user has come to your website.Total Pageview CountA user’s lifetime total of pageviews.User AgentThe last browser user agent of the user e.g. Chrome, Firefox, Edge.Web Cookie ID(current)The cookie id of the last session a user had on your website.Web Cookie IDs(all)All of the cookie ids tied to a user.Web Domains VisitedAll the domains a user has visited that have the Lytics JavaScript Tag installed.Web Events by HourNumber of tracked events for each hour of the day in 24 hour UTC time.Web Events by WeekNumber of tracked events for each hour in a week.
+Experiences
+There are a variety of use cases that involve targeting users who have engaged with previous marketing campaigns. For example, if a user converted on an Iterable Experience email, and you want to follow up with an SMS message. The steps below will walk you through how to create an audience to target users who were reached by or clicked on an Experience.
+Navigate to Experiences and search for the one you would like to use.
+You will need to get an ID for the Experience, which differs depending on the Experience type:
+For Lytics Web Personalization Experiences: Look up the URL for this Experience and locate the long string of numbers of letters as highlighted below. Save this to your clipboard.
+For all other Experience types: open developer tools and navigate to the “Network” tab. Refresh the page and filter the requests by “experience”. Find the response that looks similar to the example below, and save the external_id value (nested under vehicle) to your clipboard.
+Note: You can also use the Experience API to fetch the current Experience by ID to get the full payload, including the Experience's external_id.
+In your Lytics account, navigate to Audiences > Create New Audience.
+In the audience builder, select Custom Rule and search for the provider of the Experience you would like to segment on.
+After you enter a provider, you should see a field for conversions and reach on those Experience types. Select the action you wish to segment off of.
+Copy and paste the ID you copied from step 2 into the text box.
+Choose Exist as your operator and add the condition to your audience.
+Select Add Condition. You now have an audience based on past interactions with an Experience. You can save the audience as is, or continue to add rules based on your use case.
+Building Audiences: Multiple Rules and Rule Sets
+All audience definitions are comprised of rules based on existing audiences, content affinity, campaigns, and custom rules. You may have noticed that after you add your first rule in the audience builder you have the option to Add New Rule or Add New Rule Set. Adding new rules and rulesets, and setting the conditions for their interaction, gives you the ability to refine which users your audiences target.
+Working With Multiple Rules
+This audience has a single rule: included all users with the characteristic Behavior: Perusers. This will select all users with an intensity score of 20 or less but with a frequency score of 20 or greater. These are users who interact often but not on a deep level. You can refine this rule further by clicking Add New Rule.
+This audience now also includes a rule for users who have a low content affinity for Technology content. Now that it has been added, there are three numbers of interest. The first number, 87,650, is the number of users with the characteristic Behavior: Perusers. The second number, 466,730, is the number of users who have low affinity for Technology content. The third number, 11,514, are the users who meet both of these conditions.
+Clicking the And/Or toggle, will switch the way the two rules intereact. The audience now includes all 542,921 users who either have the characteristic Behavior: Perusers or have low afffinity for Technology content.
+Excluding Rules
+In addition to the And/Or toggle, there is the Included/Excluded toggle. This toggle inverts a condition.
+This audience contains a rule that targets the 159,084 users with the characteristic Browser / OS: Mobile or users who have used a mobile devices.
+Clicking the Include/Exclude toggle the audience will now target the 705,166 users who do not have the characteristic Browser / OS: Mobile.
+The sum of the two numbers will be the total audience size that meets those rule(s).
+This is especially apparent when using a rule such as Created Timestamp Exists. Every user in Lytics will have a timestamp of when they were created. Therefore, the number of users who do not meet the condition of having a created timestamp will always be 0.
+Working With Rule Sets
+When building elaborate audiences, having a single set of rules that are evaluated using either an AND or an OR is not enough. A ruleset is a set of rules that itself can be used as a rule for an even larger set of rules that is again evaluated using an AND or an OR.
+This audience has two rulesets. The first ruleset has one rule: all users who have the characteristic Email Capture Status: Known Email. The second ruleset has two rules: all users have some affinity for Marketing OR Advertising content. Combining these two rulesets with the AND operator produces an audience that targets users with an email address that have some interest in either marketing or advertising. This audience could be used to email a special newsletter or promotion about a product or trending topic that is related to marketing or advertising.
+Excluding Rule Sets
+Rulesets, just like rules, can be excluded. Clicking the Include/Exclude toogle on the second ruleset will result in the audience targeting all users with an email address who do not have some interest in either marketing or advertising. It could be used to send a different email to the remainder of your users with email addresses.
+Building Audiences: Configuration Options
+Configure your Lytics audiences with the following options to execute your use cases.
+Enabling API Access
+By default, newly created Lytics audiences are not enabled for API access and thus will not be available to public APIs. Enabling API access is necessary when integrating with other client-side tags/ pixels, Pathfora, or the Lytics personalization API endpoints.
+Select the API Accessible checkbox to enable access.
+Generate Insights
+Lytics Insights provide visibility into the performance of your audiences and campaigns as users interact with your brand. Insights are generated out-of-the-box for Lytics Behavioral and Engagement audiences. You can also request up to 10 custom audiences to be prioritized as candidates for generating Insights.
+When creating a new audience or editing an existing one, select the Generate Insights checkbox to make that audience a candidate for Insights (shown in the screenshot above).
+Lytics prioritizes Insights based on the statistical significance of the data and the most frequently used audiences for your account. Therefore, even if you select the "Generate Insights" option for a particular audience, it is not guaranteed to show up in your Insights drawer.
+Managing Audiences
+Managing audiences becomes important as an account develops and your user base grows. Audiences are critical to both targeted campaigns as well as discovering insights about your users.
+The Audiences section of Lytics houses all of your account’s audiences. You can view, create, and manage audiences from this section.
+Audiences are listed alphabetically by default. Click any column header to change the sort property. Common sort options are Last Modified and Size (the number of users in the audience).
+Naming Your Audiences
+For better targeting, Lytics encourages the creation of many audiences. They’re easy and free to make. When working with a large library of audiences, naming conventions become important.
+Name your audiences by purpose and include any categorization in the name. Giving them a common prefix (e.g., Holiday Promo: Tech lovers, Holiday Promo: Loyal Shoppers) will help you to keep everything related next to each other in the user interface.
+Audiences appear throughout the Lytics platform. Make sure your naming convention works in any context to avoid confusion.
+Finding Audiences
+The easiest way to find an audience is to use the Search box. As you enter your search term the audience list will display any matching audiences.
+📘Fuzzy matching is used to search for audiences so the results will not be an exact match to the search term.
+Editing Audiences
+Occasionally you will want to return to previously created audiences and update the logic used to create the segment.
+Find the audience you would like to edit
+Click on the audience to navigate to the overview of the audience
+Click the Edit button to enter the audience builder
+Make your desired changes within the audience builder
+Click Save
+🚧When editing audiences that are in an active triggered workflow, it is recommended that you reconfigure the job after the audience changes have been made.
+Duplicating Audiences
+Find the audience you would like to duplicate
+Click on the audience to navigate to the overview of the audience
+Click the ... button to enter the audience builder. The audience builder will be pre-populated with all of the criteria of the audience you duplicated.
+Make any desired changes
+Click Save
+🚧Audiences created by duplication will retain the name and slug of the duplicated audience, but with have "duplicate" appended at the end. It is recommended that you update both the name and manually input a unique slug name for clarity sake.
+Deleting Audiences
+Deleting audiences is an integral part to keeping a tidy workspace in Lytics. Audiences can be deleted in one of two ways: individually or in batch.
+Note: Deleting an audience does not delete the users associated with that audience.
+Deleting an Individual Audience
+From the Browse Audiences list, select the name of the audience you wish to delete.
+From the options menu, select Delete.
+Click Delete.
+Click Accept to confirm.
+Deleting Multiple Audiences
+From the Browse Audiences list, select the checkboxes of the audiences you wish to delete.
+NOTE: Audience selection persists when changing pages allowing you to select audiences from multiple pages.
+Click Delete Selected Audiences.
+Click Delete.
+NOTE: Lytics will check to see if the audiences you selected are safe to delete. Audiences are considered safe if they are not used in an ongoing export, campaign, or another audience's definition. You will be prompted to delete dependant audiences, click Yes to delete the selected audience and any dependants listed or Skip cancel deletion of the selected audience.
+Click Accept to confirm.
+Maintaining Audiences
+📘From the Audiences page, click any audience in the list to view all of its details.
+An audience's landing page contains a lot of valuable information about your users and the audience itself. At the top of the audience page, you will find the following information...
+Audience name
+ID
+Slug
+Created by
+Created on date
+Last updated date
+API access configuration
+Below this information you will find multiple tabs where you can access additional information about the audience.
+Audience Summary
+The audience summary page is designed to provide insights into the current state of an audience as well as how the audience has changed over time. When first navigating to an audience landing page, this tab will be selected by default.
+The Summary tab includes the following sections:
+General Metrics
+The total number of users in this audience
+The total percentage of this audience as compared to the total number of profiles in your account
+The percentage change in audience size over the last 7 and last 30 days
+Activity trend (graph of audience size over the defined date range)
+Activity Graph
+After creating a new audience, the audience size graph will begin to populate within a day. Depending on the date range you specify, the activity graph can be viewed using following intervals:
+Hourly
+Daily
+Weekly
+Monthly
+Audience Size Trends
+📘The statistics for audience size start from the creation date of the audience.
+Keep in mind that audiences are real-time. This makes them quite different from the user lists in other marketing tools which are frozen in time and only change when you update the list. Audiences are filters applied to the total audience and will change whenever a user's behavior changes in a way that will add or remove them from the audience definition. In this way, tracking audience size over time is a powerful reporting tool.
+For example, you create an audience that contains users who have visited the international news section of your website. Upon creation the audience contains 120,000 users. You then run a marketing campaign promoting your international news section. After one week, the audience has grown from 120,000 to 400,000 users with most of the growth occurring in the 24 hours after the campaign was launched. This is clear evidence that the campaign was effective, and most effective in the first 24 hours, at driving users to your international news section.s
+Audience Details
+Select the Details tab to view the following sections:
+Exports: This section outlines what exports (if any) are using this audience
+Recent Users: This section allows you to view a sample of users in this audience who have been active recently (by clicking the View button)
+Audience Characteristics
+Select the Characteristics tab to view the characteristics of users in this audience. Characteristics include:
+Behavior
+Web Activity
+Content Affinity
+Campaign Referral Interactions
+Audience Logs
+Select the Logs tab to view recent events relating to this audience. Activity such as creation, updating and syncing can all be found here.
+Activating Audiences
+Activating Audiences in Experiences
+Creating a Lytics Experience is one of the easiest and most common ways to activate Lytics Audiences. Learn more about Lytics Experiences to find out how you can engage your audiences on site.
+Accessing Audiences Using the Public Entity API
+The Lytics Experience Editor is a great way to get started with website personalization, but through the use of the Lytics API, there is much more that can be done.
+The Lytics Experience editor is powered by the Pathfora SDK which is in turn powered by the Lytics Entity API. The Lytics Entity API is how to find out what audiences the current user belongs to as well as what traits the user has. Using the Lytics Entity API it's possible to create completely custom personalized experiences on your site.
+📘Personalizing a site using the Public Entity API requires making code changes to the host website.
+To read more about the Entity API, check out the API documentation.
+Exporting Audiences to Other Tools
+A core benefit of Lytics is exporting your smart audiences to the other tools in your marketing tech stack. That way, the campaigns run on your channels are enriched with the behavioral data and content affinities powered by data science on Lytics.
+From the audience overview page, click the Export button to create a new export job . The Export menu lists built in exports such as Email CSV and any out of the box Integrations. Specific instructions for exporting can be found in the Integrations section (under the desired tool) of our documentation.Updated 5 months ago Table of Contents
+Introduction
+Creating Audiences
+Building Audiences: Existing Audiences
+Building Audiences: Content Affinity
+Building Audiences: Custom Rules
+Building Audiences: Multiple Rules and Rule Sets
+Building Audiences: Configuration Options
+Managing Audiences
+Naming Your Audiences
+Finding Audiences
+Editing Audiences
+Duplicating Audiences
+Deleting Audiences
+Maintaining Audiences
+Audience Summary
+Audience Details
+Audience Characteristics
+Audience Logs
+Activating Audiences
+Activating Audiences in Experiences
+Accessing Audiences Using the Public Entity API
+Exporting Audiences to Other Tools

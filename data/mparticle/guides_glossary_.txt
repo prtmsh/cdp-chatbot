@@ -1,0 +1,224 @@
+DOCSDOCSHomeGuidesDevelopersIntegrationsChangelogSign UpDocumentationDevelopersAPI ReferencesPlatform APIPlatform API OverviewAccountsAppsAudiencesCalculated AttributesData PointsFeedsField TransformationsServicesUsersWorkspacesData Subject Request APIData Subject Request API Version 1 and 2Data Subject Request API Version 3Warehouse Sync APIWarehouse Sync API OverviewWarehouse Sync API TutorialWarehouse Sync API ReferenceData MappingWarehouse Sync SQL ReferenceWarehouse Sync Troubleshooting GuideComposeIDWarehouse Sync API v2 MigrationCalculated Attributes Seeding APIBulk Profile Deletion API ReferenceCustom Access Roles APIData Planning APIGroup Identity API ReferencePixel ServiceProfile APIEvents APImParticle JSON Schema ReferenceIDSyncClient SDKsAMPAMP SDKAndroidInitializationConfigurationNetwork Security ConfigurationEvent TrackingUser AttributesIDSyncScreen EventsCommerce EventsLocation TrackingMediaKitsApplication State and Session ManagementData Privacy ControlsError TrackingOpt OutPush NotificationsWebView IntegrationLoggerPreventing Blocked HTTP Traffic with CNAMELinting Data PlansTroubleshooting the Android SDKAPI ReferenceUpgrade to Version 5CordovaCordova PluginIdentityDirect Url RoutingDirect URL Routing FAQWebAndroidiOSFlutterGetting StartedUsageAPI ReferenceiOSInitializationConfigurationEvent TrackingUser AttributesIDSyncScreen TrackingCommerce EventsLocation TrackingMediaKitsApplication State and Session ManagementData Privacy ControlsError TrackingOpt OutPush NotificationsWebview IntegrationUpload FrequencyApp ExtensionsPreventing Blocked HTTP Traffic with CNAMELinting Data PlansTroubleshooting iOS SDKSocial NetworksiOS 14 GuideiOS 15 FAQiOS 16 FAQiOS 17 FAQiOS 18 FAQAPI ReferenceUpgrade to Version 7RokuGetting StartedIdentityMediaReact NativeGetting StartedIdentityUnityUpload FrequencyGetting StartedOpt OutInitialize the SDKEvent TrackingCommerce TrackingError TrackingScreen TrackingIdentityLocation TrackingSession ManagementXboxGetting StartedIdentityWebInitializationConfigurationContent Security PolicyEvent TrackingUser AttributesIDSyncPage View TrackingCommerce EventsLocation TrackingMediaKitsApplication State and Session ManagementData Privacy ControlsError TrackingOpt OutCustom LoggerPersistenceNative Web ViewsSelf-HostingMultiple InstancesWeb SDK via Google Tag ManagerPreventing Blocked HTTP Traffic with CNAMEFacebook Instant ArticlesTroubleshooting the Web SDKBrowser CompatibilityLinting Data PlansAPI ReferenceUpgrade to Version 2 of the SDKXamarinGetting StartedIdentityWebAlexaMedia SDKsAndroidiOSWebToolsmParticle Command Line InterfaceLinting ToolsSmartypeServer SDKsNode SDKGo SDKPython SDKRuby SDKJava SDKQuickstartAndroidOverviewStep 1. Create an inputStep 2. Verify your inputStep 3. Set up your outputStep 4. Create a connectionStep 5. Verify your connectionStep 6. Track eventsStep 7. Track user dataStep 8. Create a data planStep 9. Test your local appHTTP Quick StartStep 1. Create an inputStep 2. Create an outputStep 3. Verify outputiOS Quick StartOverviewStep 1. Create an inputStep 2. Verify your inputStep 3. Set up your outputStep 4. Create a connectionStep 5. Verify your connectionStep 6. Track eventsStep 7. Track user dataStep 8. Create a data planJava Quick StartStep 1. Create an inputStep 2. Create an outputStep 3. Verify outputNode Quick StartStep 1. Create an inputStep 2. Create an outputStep 3. Verify outputPython Quick StartStep 1. Create an inputStep 2. Create an outputStep 3. Verify outputWebOverviewStep 1. Create an inputStep 2. Verify your inputStep 3. Set up your outputStep 4. Create a connectionStep 5. Verify your connectionStep 6. Track eventsStep 7. Track user dataStep 8. Create a data planGuidesPartnersIntroductionOutbound IntegrationsOutbound IntegrationsFirehose Java SDKInbound IntegrationsKit IntegrationsOverviewAndroid Kit IntegrationJavaScript Kit IntegrationiOS Kit IntegrationCompose IDData Hosting LocationsGlossaryMigrate from Segment to mParticleMigrate from Segment to mParticleMigrate from Segment to Client-side mParticleMigrate from Segment to Server-side mParticleSegment-to-mParticle Migration ReferenceRules Developer GuideAPI Credential ManagementThe Developer's Guided Journey to mParticleGuidesGetting StartedCreate an InputStart capturing dataConnect an Event OutputCreate an AudienceConnect an Audience OutputTransform and Enhance Your DataPersonalizationIntroductionProfilesAudiencesAudiences OverviewCreate an AudienceConnect an AudienceManage AudiencesReal-time Audiences (Legacy)Standard Audiences (Legacy)Calculated AttributesCalculated Attributes OverviewUsing Calculated AttributesCreate with AI AssistanceCalculated Attributes ReferencePredictive AudiencesPredictive Audiences OverviewUsing Predictive AudiencesJourneysJourneys OverviewManage JourneysDownload an audience from a journeyAudience A/B testing from a journeyJourneys 2.0Predictive AttributesWhat are predictive attributes?Predict Future BehaviorCreate Future PredictionUse Future Predictions in CampaignsAssess and Troubleshoot PredictionsNext Best ActionNext Best Action OverviewCreate a Next Best Action (NBA)View and Manage NBAsActivate Next Best Actions in CampaignsPlatform GuideBillingUsage and Billing ReportThe New mParticle ExperienceThe new mParticle ExperienceThe Overview MapObservabilityObservability OverviewObservability User GuideObservability Troubleshooting ExamplesObservability Span GlossaryIntroductionData RetentionConnectionsActivityLive StreamData FilterRulesTiered EventsmParticle Users and RolesAnalytics Free TrialTroubleshooting mParticleUsage metering for value-based pricing (VBP)AnalyticsIntroductionSetupSync and Activate Analytics User Segments in mParticleUser Segment ActivationWelcome Page AnnouncementsSettingsProject SettingsRoles and TeammatesOrganization SettingsGlobal Project FiltersPortfolio AnalyticsAnalytics Data ManagerAnalytics Data Manager OverviewEventsEvent PropertiesUser PropertiesRevenue MappingExport DataUTM GuideQuery BuilderData DictionaryQuery Builder OverviewModify Filters With And/Or ClausesQuery-time SamplingQuery NotesFilter Where ClausesEvent vs. User PropertiesGroup By ClausesAnnotationsCross-tool CompatibilityApply All for Filter Where ClausesDate Range and Time Settings OverviewUser Attributes at Event TimeUnderstanding the Screen View EventAnalysesAnalyses IntroductionSegmentation: BasicsGetting StartedVisualization OptionsFor ClausesDate Range and Time SettingsCalculatorNumerical SettingsSegmentation: AdvancedAssisted AnalysisProperties ExplorerFrequency in SegmentationTrends in SegmentationDid [not] Perform ClausesCumulative vs. Non-Cumulative Analysis in SegmentationTotal Count of vs. Users Who PerformedSave Your Segmentation AnalysisExport Results in SegmentationExplore Users from SegmentationFunnels: BasicsGetting Started with FunnelsGroup By SettingsConversion WindowTracking PropertiesDate Range and Time SettingsVisualization OptionsInterpreting a Funnel AnalysisFunnels: AdvancedGroup ByFiltersConversion over TimeConversion OrderTrendsFunnel DirectionMulti-path FunnelsAnalyze as Cohort from FunnelSave a Funnel AnalysisExplore Users from a FunnelExport Results from a FunnelCohortsGetting Started with CohortsAnalysis ModesSave a Cohort AnalysisExport ResultsExplore UsersSaved AnalysesManage Analyses in DashboardsJourneysGetting StartedEvent MenuVisualizationEnding EventSave a Journey AnalysisUsersGetting StartedUser Activity TimelinesTime SettingsExport ResultsSave A User AnalysisDashboardsDashboards––Getting StartedManage DashboardsDashboard FiltersOrganize DashboardsScheduled ReportsFavoritesTime and Interval Settings in DashboardsQuery Notes in DashboardsUser AliasingAnalytics ResourcesThe Demo EnvironmentKeyboard ShortcutsTutorialsAnalytics for MarketersAnalytics for Product ManagersCompare Conversion Across Acquisition SourcesAnalyze Product Feature UsageIdentify Points of User FrictionTime-based Subscription AnalysisDashboard Tips and TricksUnderstand Product StickinessOptimize User Flow with A/B TestingUser SegmentsAPIsUser Segments Export APIDashboard Filter APIIDSyncIDSync OverviewUse Cases for IDSyncComponents of IDSyncStore and Organize User DataIdentify UsersDefault IDSync ConfigurationProfile Conversion StrategyProfile Link StrategyProfile Isolation StrategyBest Match StrategyAliasingData MasterGroup IdentityOverviewCreate and Manage Group DefinitionsIntroductionCatalogLive StreamData PlansData PlansBlocked Data Backfill GuideWarehouse SyncData Privacy ControlsData Subject RequestsDefault Service LimitsFeedsCross-Account Audience SharingApproved Sub-ProcessorsImport Data with CSV FilesImport Data with CSV FilesCSV File ReferenceGlossaryVideo IndexAnalytics (Deprecated)Identity ProvidersSingle Sign-On (SSO)Setup ExamplesSettingsDebug ConsoleData Warehouse Delay AlertingIntroductionDeveloper DocsIntroductionIntegrationsIntroductionRudderstackGoogle Tag ManagerSegmentData Warehouses and Data LakesAdvanced Data Warehouse SettingsAWS Kinesis (Snowplow)AWS Redshift (Define Your Own Schema)AWS S3 Integration (Define Your Own Schema)AWS S3 (Snowplow Schema)BigQuery (Snowplow Schema)BigQuery Firebase SchemaBigQuery (Define Your Own Schema)GCP BigQuery ExportSnowflake (Snowplow Schema)Snowplow Schema OverviewSnowflake (Define Your Own Schema)APIsREST APIDashboard Filter API (Deprecated)User Segments Export API (Deprecated)SDKsSDKs IntroductionReact NativeiOSAndroidJavaJavaScriptPythonObject APIDeveloper BasicsAliasingGlossary
+CDP
+account
+Each customer has at least one mParticle account, which contains one or more workspaces. All accounts for the same customer are contained within an organization (org). These three logical containers control different types of scope. For example, The Profile API is set to workspace scope, while the Platform API is set to account scope.
+act-as feed
+A feed you can configure as if it comes from an iOS, Android, or Web platform (Act as Platform option in the Feed Configuration). Data from the feed can be forwarded to any output that supports the specified platform type.
+alias
+Aliasing is a feature that allows clients to associate anonymous customer events to post-sign up events.
+Functionally, aliasing performs a copy operation from a source MPID to target MPID. The source MPID is unchanged and still accessible in the system.
+This feature is supported by the Profile Link and Profile Conversion identity strategies.
+ARN
+Amazon Resource Name. A complete ARN is required for partner lambda integrations and some Amazon Redshift integrations.
+attribute
+A key-value pair that provides additional information about an event, user, or product. For example, a custom event Play Video might have the attribute of category with a value of documentary.
+audience
+A set of users connected to an integration for the purpose of engaging those users. Audiences may be real-time or standard:
+real-time audiences are populated based on recently received data.
+standard audiences are populated from historical data.
+If the type of audience isn’t specified, then the reference is likely to real-time audiences unless stated otherwise.
+audience real-time lookback window
+A date range for how far back you can look to create real-time (not standard) audience segments, apply event enrichment of profiles, and to keep calculated attribute values up to date after initiatilization. Most lookback windows are 30, 60, or 90 days. Lookback windows are defined in the service agreement and are sometimes referred to as “hot storage.”
+Contrast with data retention.
+AWS
+Amazon Web Services. mParticle accounts are assigned to an AWS region that provides optimal performance.
+batch
+The basic processing unit for all mParticle data. A batch contains data about a single user of your app, on a maximum of one device. And includes an array of events along with information about the user and device. You can inspect raw batches in JSON format in the Live Stream and User Activity View.
+Beta release
+An early release of mParticle products or features. See releases for more details.
+calculated attribute
+A read-only user attribute with a value that is automatically calculated as new event data is received. Examples of calculated attributes include a total count of events, aggregation of events, the discrete occurrence of events, or lists of unique event attributes.
+CDP
+Customer data platform. mParticle includes functionality for CDP, as well as decision making powered by machine learning with Cortex, and behavioral analytics with Indicative.
+certified partner
+A company that is a certified solutions partner or technology partner with mParticle.
+channel
+The type of input by which a batch reached mParticle. Not to be confused with platform. For example, a batch for the Android platform can arrive via three different channels: the SDK, the server-to-server Event API, or an ‘act as’ partner feed.
+client-side
+Data forwarded directly from a device or web browser to an integration partner. Client-side integrations often require a kit to be included with the mParticle SDK. Some client-side kits have a configuration option to work in tandem with a server-side integration.
+Contrast with server-side.
+cold storage
+See data retention.
+commerce events
+A special mParticle event type that tracks actions related to products and promotions. Examples of commerce events are Add to Cart, Purchase and Refund.
+configuration settings and connection settings
+Settings for event and audience integrations are split into two sections: configuration settings and connection settings.
+Configuration settings define an output and are reused for each connection.
+Connection settings are specific to the input (platform, feed, or audience) being connected.
+connection
+A configuration that defines how data flows into mParticle (input) or is forwarded out of it (output).
+consent
+mParticle lets you track a user’s consent for their data to be captured. Consent is tracked according to a predefined consent framework. mParticle supports the GDPR and CCPA frameworks.
+Cortex
+Machine learning in the mParticle platform. mParticle also includes functionality for customer data platforms (CDP), and behavioral analytics with Indicative.
+credentials
+A key and secret used to access the mParticle Events API.
+custom event
+An event type that can capture any type of user activity in your app. A basic custom event contains a name, a custom event type, and a free-form map of attributes. See also atribute.
+custom feed
+A feed from any data source including the mParticle Events API. Contrast with act-as feed, unbound feed, or platform input.
+custom mapping
+The relationship between a custom event, screen view, or commerce event and the corresponding event in the integration partner.
+data map
+A definition of how one data model equates to another data model in either the same or a different data store.
+data model
+A definition of how data objects are structured. In Warehouse Sync, a data model may include a data map.
+data plan
+A codified set of expectations about the extent and shape of your data collected with mParticle. Data plans contain data points and metadata: a plan name, plan ID, version, and description.
+data point
+An event, user attribute, or user identity that is unique within an mParticle workspace, defined for each type of data received from an input.
+data privacy controls
+A set of mParticle features for working with consent and data subject requests.
+data retention
+The maximum period of time that mParticle stores profile and event data. The duration of the time period is governed by your long-term data retention policy, which is defined in your contract.
+Contrast with audience real-time lookback window.
+data type
+The type of data contained in an attribute value. mParticle supports the following data types: string, number, boolean, and date.
+data warehouse
+A type of integration partner, such as Snowflake, Google BigQuery, and Amazon Redshift.
+development (DEV)
+See environment.
+device application stamp
+A unique identifier generated for each unique device the first time it is seen on a given platform in an mParticle workspace. Some event outputs use the Device Application Stamp (DAS) as part of a fallback strategy when other identities are not available.
+device standard
+Term for the device used to access your app or website. Examples of devices include an iPhone, an Android phone, a web browser, or an XBox.
+DSR
+From the GDPR specification, a data subject request.
+Early Access (EA) release
+An early release of mParticle products or features. See releases for more details.
+environment
+Each event batch is associated with an environment: either development (DEV) or production (PROD). All development data can be inspected in the Live Stream to enable debugging. You can also create separate event outputs to handle development and production data.
+event
+A data point that records an action taken by a user in your app. Events are either predefined for use in mParticle or custom events that require mapping. See also custom event.
+feed
+A stream of data into mParticle from either your own data source or a partner. See act-as feed, custom feed, platform input, and unbound feed.
+field transformation
+Specifically for Warehouse Sync, a field transformation is a data map between an external data source and mParticle’s JSON schema. Field transformations define which individual key:value pairs of data in an external data source correlate to which key:value pairs of data in mParticle.
+filter
+A definition that blocks a data point from being forwarded to a particular output.
+forward
+Send data from an input to an output.
+Generally Available (GA) release
+The release of mParticle products or features that are typically available to all customers. See releases for more details.
+GDPR
+The General Data Protection Regulation is a set of regulations passed by the European Union. mParticle provides two features to help clients manage their obligations under the GDPR: Consent Management, and Data Subject Request processing.
+hot storage
+See audience real-time lookback window.
+IAM
+AWS Identity and Access Management. Using a custom AWS Lambda function ARN to apply rules in mParticle requires the configuration of an IAM User and IAM Role.
+identity priorities
+The order of precedence for matching user profiles. See also identity strategy and IDSync.
+identity strategy
+The strategy that determines which user profile to add data to when the current user (known user) can be identified, and what to do when the current user can’t be identified (anonymous user).
+You are assigned an identity strategy when your org is created.
+See also identity priorities and IDSync.
+IDFA
+Identifier for advertisers on iPhones. An Apple IDFA is similar to an advertising cookie, in that it enables an advertiser to understand that a user of a particular phone has taken an action like a click or an app install.
+IDSync
+A set of mParticle features for managing how you identify your users across devices: identity strategy, identity priorities, and the Identity API.
+Indicative
+Behavioral analytics in the mParticle platform. mParticle also includes functionality for customer data platforms (CDP), as well as decision making powered by machine learning with Cortex.
+input
+The configuration that defines how a partner sends data to an output. Inputs may be one of several types:
+Platform inputs capture data sent by mParticle partners from an operating-system-specific device or the web. For example, ‘iOS’, ‘Android’, or ‘web.’
+Feeds capture data sent by mParticle partners using feed integrations. There are several types of feeds: act-as feed, custom feed, and unbound feed.
+install
+A data point tracked by many mParticle partners, representing the action of a user installing the app on their device. In mParticle, an install corresponds to an Application State Transition event, of type Application Launch, where the attribute is_first_run is true.
+integration
+The flow of data from one of mParticle’s partners to another. Types of integration include: event, audience, data warehouse, feed, data subject request, and cookie sync. Also referred to as integration partner or integration service.
+kit
+A component you add to an mParticle SDK that communicates directly with an integration partner from the app client. Usually the kit includes some or all of the partner’s own client-side SDK. Kits are not the same as SDKs. Also referred to as embedded kits. Kits are typically not needed for server-side integrations.
+mapping
+Each of mParticle’s integration partners uses a slightly different data structure, with different names for key data points. Mapping is the process of transforming mParticle data into a format that can be used by a partner, and vice versa. For some integration, mapping is customizable. For example, if a partner only collects one user ID, you may need to decide which mParticle identity type to map to the partner’s user ID. See also custom mapping.
+Metered Integration
+An integration type in which mParticle runs a secondary processing service for mapping data. These integrations consume credits and are enabled by the mParticle account team.
+MPID
+A unique identifier (64 bit signed integer) that each user is assigned in mParticle to aid in processing identity and profile data.
+MAU*
+Monthly active users.
+MTU
+Monthly tracked user, a measurement used in mParticle billing. An MTU is any profile stored in mParticle that has been updated or has generated at least one tracked event within a calendar month. Contrast with VBP.
+organization (org)
+Each customer of mParticle is assigned an org, which contains one or more accounts. An account contains one or more workspaces. Different features of mParticle are scoped to org, account, and workspace.
+output
+The configuration that defines how a service receives data from an input via either mParticle servers or directly from the client.
+partner
+Apps and services that can receive data from, or forward data to, mParticle via an integration. Downstream partners are connected by an output configuration to mParticle, and upstream partners are connected by an input configuration. Also referred to as “integration partner.”
+A company that is a certified solutions partner or technology partner with mParticle.
+pipeline
+Generally speaking, a pipeline is a data definition describing the data that flows continuously from a source to a destination.
+Cortex machine-learning pipelines transform raw data into machine learning predictions. These pipelines are used in the CDP to create user predictions.
+Warehouse Sync pipelines ingest predefined selections of data into mParticle from databases in external warehouses. Warehouse Sync pipelines can be configured to run automatically according to a schedule, or they can be configured and run manually.
+platform input
+An operating system such as iOS, Android, Roku, or the web that serves as an input. Contrast with act-as feed or custom feed or unbound feed.
+product
+mParticle representation of a physical or virtual product or service that your users can buy. Products are referenced in Commerce events.
+production (PROD)
+See environment.
+premium feature
+A feature of mParticle that requires an additional license. Submit a request to mParticle Support to request a premium feature.
+profile
+A complete record of what you’ve learned about a given user over time, across all channels, continuously updated and maintained in real time as new data is captured.
+purchase
+A type of commerce event captured when a user of your app buys one or more products.
+real-time audience
+A set of users connected to an integration for the purpose of engaging those users. Real-time audiences are populated based on recently received data.
+Contrast with standard audience.
+releases
+mParticle has two types of releases:
+Beta
+An initial release of products or features that mParticle expects to make generally available.
+mParticle typically offers Beta release functionality free of charge to customers who want to test and provide feedback on future functionality.
+General Availability (GA)
+A release of products or features that have been fully tested and validated for scalability, quality, and usability. Any product or feature not labeled Beta or Early Access (EA) in documentation is a GA release. GA features are rolled out to customers over a period of time.
+GA release functionality is available for purchase to all customers.
+rule
+Rules allow you to cleanse, enrich and transform your incoming data before it is forwarded.
+screen event
+An event type used for tracking navigation within an app.
+SDK
+A code library created and maintained by mParticle to track data in your native and web apps. Note that the preferred terminology varies between platforms. This includes native SDKs for iOS and Android, a JavaScript snippet on Web and various libraries, modules, and plugins used for mobile development frameworks like Xamarin and React Native.
+server-side
+Data forwarded from mParticle servers to an integration partner, rather than directly from a client (such as a mobile device). Server-side integrations typically do not require that a kit be added to the mParticle SDK.
+server-to-server
+A channel for incoming data such as the Event API.
+standard audience
+A premium feature that enables you to define and build audiences based on long-term historical data.
+Contrast with real-time audience.
+UAV
+See User Activity View.
+unbound feed
+A feed that can’t be configured to behave as if it came from a specified platform (there is no Act as Platform option in the Feed Configuration). Contrast with act-as feed.
+user
+The person or system who caused an event to occur. Users may be anonymous or known.
+Someone who has access to the mParticle system is an mParticle user.
+User attribute change (UAC)
+A user attribute change event: an event_type : attribute_change_event.
+An SDK uploads an event whenever a user attribute changes to denote new attributes, changing attributes, and removed attributes. This allows for calculation of the current user attribute state for each event within an mParticle upload.
+User Activity View (UAV)
+The page in the Activity section of mParticle that allows you to view a detailed summary of data associated with a single user.
+user profile
+See profile.
+VBP
+Value-based pricing (VBP), an alternative to MTU mParticle billing. VBP is aligned with a customer’s usage and scales as the customer’s needs grow.
+workspace
+A workspace is the basic container for data in an mParticle account. An account has one workspace already created; more can be created at any time. These logical containers control different types of scope. For example, the Profile API is set to workspace scope, while the Platform API is set to account scope.
+Analytics
+event
+An event is a tracked user action. Examples of events are a user loading a page, clicking a button, or opening an email. Every analysis in Analytics starts with at least one event to analyze behavioral patterns. You can think of events as the “what” that a user has done.
+event property
+Event properties describe the context of an event. For example, event properties for the event “Button Click” could include the device type used to perform the event, the time zone the event was performed in, or the web browser through which the event was performed.
+user property
+Analytics isn’t just about tracking events, it’s also about tracking user. User Properties are the properties associated with the user performing an event, such as demographic factors, an email address, or the marketing channel through which the user was originally acquired. While event properties can differ from event to event, user properties are associated with every event performed by a given user.
+query builder
+Every analysis in Analytics is built in the query builder. Here, you may combine events, event properties, and user properties to create and visualize an analysis.
+query row
+A query row is a section within a query, and contains events, event properties, and/or user properties that will determine the analysis. A query may be composed of one or more query rows.
+value
+When an event property or user property is broken apart into its components, these components are referred to as values. For example, when looking at the property “Platform”, “iPhone” and “Android” are potential values.
+numeric value
+A value that contains only numbers. Numeric values may be used in calculations. For example, values under the property “Purchase Type” containing specific price information are numeric values.
+string value
+A value that contains letters, numbers, or other characters. String values are not used in calculations. For example, a User ID consisting only of numbers is a string value.
+widget
+A widget is a module on a dashboard within Analytics. Widgets provide both access to and results from saved analyses. Any analysis built in Segmentation, and Cohort may be added to a dashboard as a widget.Was this page helpful?YesNoLast Updated: February 27, 2025© 2025 mParticle, Inc. All rights reserved.mParticle.comPrivacy PolicyCookie PolicyDo Not Sell or Share My Personal Data

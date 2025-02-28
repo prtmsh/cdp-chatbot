@@ -1,0 +1,88 @@
+Jobs (Data Sources and Exports)
+Jump to ContentHomeDocumentationAPI ReferenceProduct UpdatesCommunityv2.0v2.1v3.0Log InDocumentationLog Inv3.0HomeDocumentationAPI ReferenceProduct UpdatesCommunityJobs (Data Sources and Exports)SearchQuick StartDeveloper Quickstart1. Install the Lytics Tag2. Content Setup3. Surface Personalized MessageBuilding ProfilesDefault AttributesDefault SegmentsGuides & InspirationLead CaptureContent RecommendationsAccount ManagementWhat is Vault?Accessing AccountsMonitoring Metrics and AlertsJob AlertsMonitoring Audit LogsExporting Audit Logs or Alert JobsMonitoring MetricsUsage MetricsManaging UsersSingle Sign-OnAccount SettingsAccount DetailsJavaScript Tag ConfigPersonalization APIContent ServicesSecurityAI & Modeling ControlsSchema ControlsData PoliciesPlatform LimitsPrivacy and Data ProtectionImpact of Browser Tracking ChangesComplianceAuthorizationsAccess TokensKey ConceptsIdentity ResolutionConsent & PrivacyComplying with the Digital Markets Act (DMA)Client & Server Side CookiesContent AffinityContent CurationTopic TaxonomyArchitectureIntegration PatternsJob ProcessingLytics Platform Data Flow and AccessCDI and CDP Implementation StrategyLytics Zero Copy with Cloud ConnectPipeline & ProfilesData PipelineJobs (Data Sources and Exports)Data StreamsStream Routing APITemplatesCreating Templates Using the UICreating Templates using Lytics APIUsing the Jsonnet LibraryTemplate ExamplesSchema ManagementFields & MappingsAdvanced Mapping FunctionsMeta FieldsQueries & LQLIdentity Key RanksSchema VersionsPlanning & TroubleshootingLytics Profile SchemaSchema CopilotIdentityMerge StatisticsIdentity ExplorerIdentity RulesWarehouse AccessWhat is Cloud Connect?Connecting WarehousesData Models & QueriesActivating Data ModelsCloud Connect Troubleshooting and FAQsAudiences & ActivationUser ProfilesUnderstanding Profile HealthFinding a UserAudiencesAudience GroupsPrebuilt AudiencesReportsWhat are Reports?ComponentsManaging ReportsDashboard ReportContentTopics & AffinitiesTopicsAffinitiesUsing Topics & AffinitiesClassificationEnrichmentRecommendationsDocumentsContent CollectionsCreating Content CollectionsViewing, Using & Managing CollectionsInterest EnginesDefault Interest EngineCustom Interest EnginesCollaborative FiltersLookalike Models & AudiencesGetting StartedBuilding Lookalike ModelsEvaluating Lookalike ModelsCreating Lookalike AudiencesImproving Lookalike ModelsActivationDestinationsGoalsExperiencesBehavioral ScoresTutorialsLeveraging User ProfilesAccessing Profiles Client SideAccessing Profiles Server SideWorking with Anonymous ProfilesGet Started with Lytics SegmentsInline Content RecommendationsData Collection & OnboardingWorking with Custom DataWorking with Web DataCollect Mobile Data with Firebase + GTMData ManagementProfile Stitching Best PracticesMigrating from Queries to Conductor SchemaLQL & Data Import BasicsUse CasesAcquire New Customers with LyticsBest Practices for Personalizing Your Ad or Search Landing PageCapture More Information from Qualified LeadsContent Modularization in Email with Lytics AudiencesCustomize your Web Experiences with Branded ImagesDeliver Targeted ContentDrive Email Capture & Engagement with ContentDrive Mobile App Downloads With LyticsEngage Qualified Users with Targeted AdsEnhance Personalized Messaging with User Profile FieldsGrow Your Email Marketing ListImport an Audience from your Data WarehouseImprove Ad Campaign Metrics with Predictive TargetingIncrease Conversions with Lytics and Facebook LookalikeKeep Visitors Engaged with Content Recommendation ExperiencesLeverage Lookalike Models and Predictive AudiencesLookalike Models: Conserve marketing spend on engaged usersLookalike Models: Convert anonymous users to known usersLookalike Models: Convert single purchasers to multi-purchasersLookalike Models: Determine which subscribers are likely to churnMobile Messaging with Lytics Webhooks and Serverless FunctionsOptimize Remarketing SpendPersonalize the Messaging of your Website Based on AudiencePopulate Your Website With One-to-One Content RecommendationsPromote Relevant Content to Users based on their InterestsReach the Right People Using LyticsRetain Existing Customers With LyticsPersonalize your Iterable emails With Lytics content recommendationsBuild a Custom Personalized Experience With Video ContentUnlock Additional Web Personalization Features with Lytics API OverridesHow to Use GTM Tags to Modify Lytics Pathfora Widget BehaviorStyle your Lytics Web Experiences to Fit Your Brand GuidelinesSDKs & ToolsWebJavaScriptOn-site PersonalizationSubresource Integrity (SRI)MobileiOSReact NativeAndroidChrome ExtensionIntegrationsLytics Integration OptionsAcousticAdobeAdRollAirshipAmplitudeAmazon AdsAmazon KinesisAmazon PinpointAmazon RedshiftAmazon S3Amazon SQSAnsiraBigCommerceBlueKaiBlueshiftBrazeBrevoCampaign MonitorCheetah DigitalClearbitContentfulCordialCriteoCustomer.ioDatabricksDotdigitalDriftEpiserverFullContactGIGYAGoogle OptimizeGoogle Ad Manager (DFP)Google AdsGoogle BigQueryGoogle Cloud Pub/SubGoogle Cloud StorageGoogle DriveGoogle Marketing: Analytics, DV360, CM360Google Cloud OperationsGoogle Tag ManagerHubSpotiContactInsiderIterableJebbitKlaviyoLeadsquaredLinkedInLiveRampLocalyticsLookerLotameLytics File ServiceLytics MonitoringMailchimpMailgunMandrillMappMapp: BlueHornetMarketoMaropostMediaMathMetaMicrosoftMicrosoft AzureMicrosoft TeamsMixpanelNetSuiteNew RelicOmedaOneSignalOneTrustOracle Marketing Cloud: EloquaPinterestPostUpRadarRedditResponsysRetention ScienceSailthruSalesforceSalesforce DMP (Krux)Salesforce Marketing CloudSalesforce PardotSegment.comSelligentSendGridShopifySitecoreSlackSnapchatSnowflakeSparkPostSurveyMonkeySwrveTaboolaTealiumTikTokThe Trade DeskUnified ID 2.0VersiumWebhooksWebhook TemplatesWistiaX AdsYahoo AdsZapierZendeskZuoraContentstackPartnersPartner TypesLytics CommunicationLegacyInsightsImporting External ExperiencesIDP-initiated SSO (legacy)Web PersonalizationIntroductionDrive Traffic CampaignCollect Leads CampaignPresent a Message CampaignRecommend Content CampaignCampaign ReportingCampaign ManagementBuilding Audiences with Campaign DataJobs (Data Sources and Exports) Suggest EditsIntroduction
+Consumers engage with your brand across many channels, resulting in vast amounts of rich behavioral data siloed away across various channel tools. Lytics connects to these channels via Jobs to aggregate and unify that data into a comprehensive view of the customer. This enables you to gain deeper insights, create personalized experiences, and drive revenue.
+📘The landscape in which your consumers interact is broad. To ensure Lytics makes it easy to both collect and deliver essential data, insights, and audiences, we have a variety of integration options.
+The Basics
+Import Jobs are managed by Lytics and are responsible for automating, where applicable, the process of:
+Authenticating and managing a connection to an external system.
+Gathering data from an external system and ingesting it in Lytics on sensible data streams.
+Handling errors and "retry" logic.
+Determining the cadence at which the job should run again.
+Similarly, Export Jobs are managed by Lytics and are responsible for automating, where applicable, the process of:
+Authenticating and managing a connection to an external system.
+Gathering data like user attributes, audiences or events from Lytics and exporting it to an external system.
+Handling errors and "retry" logic.
+Determining the cadence at which the job should run again.
+Adding a new Job
+New data import Jobs are added from the Conductor interface by first navigating to the Jobs section under the Pipeline section in the main navigation.
+From there, you'll click "+ Create New" at the top of the list and enter the wizard to guide you through the creation process.
+Configuring a Job
+Select a Provider
+Each Job is first categorized by the provider, making it easy to narrow down the channel you'd like to integrate with. To select a provider, click the tile representing your desired provider, such as "Google."
+Select Job Type
+With the provider selected, we'll surface the various ways you can integrate with that particular provider. This will vary significantly by the provider.
+Select Authorization Method
+Each provider and job type may require additional authorization to finalize the connection. On the "select authorization" step, you can either select an existing authorization or create a new one. When creating a new authorization, you will be asked to provide the required credentials, such as key and secret, to proceed.
+Create New Authorization
+You can create it during source configuration if you lack valid authorization for your desired provider/source combination. Click "Create new Authorization" above the list, follow the wizard in Vault, and return to where you left off.
+Configure Job
+The final step lets you provide the specific configuration details for your chosen provider and job type. Again, the options supported by each provider will vary greatly, and provider-specific integration details should be leveraged to determine the optimal approach.
+Monitoring a Job
+Once you have one or more Source jobs running, they will be accessible from the Source list view, as pictured below. This view provides quick access to essential details:
+Name: Name of job, such as "Export of High-Value Users to Facebook."
+Authorization: Name of the associated authorization.
+Provider: Third-party tool that you are connecting with Lytics.
+Type: Indicates whether the job is an import, export, or enrichment.
+Status: Current state of a job such as running, paused, completed, etc.
+Created: Date the job was initially created.
+Job Status
+Detailed states are provided to understand better what is happening in the background during a job's lifecycle. These states will vary by job but include:
+Job StatusDescriptionRunningThe job is actively running.SleepingThe job is not actively running but is scheduled to run again after a given period. A job is sleeping either because the job runs on a periodic cadence with scheduled sleep in between job runs or the job has encountered an error and is sleeping before retrying the request.FailedThe job has encountered consecutive errors over 10 hours and is removed from running again. Check the logs to see if there are any fixable issues. Failed works can be resumed, which will schedule it to run again. Failed jobs will be automatically purged after 90 days.PausedA user has paused the job. The work can be scheduled to run again by resuming the job. Paused works will be automatically purged after 90 days.CompletedThe job has completed all its scheduled tasks and will not be rerun. These will be purged from the job history after 90 days.
+For more information on job states or troubleshooting failed jobs, see job processing.
+Job Summary
+Clicking on any of the items in the Source list will navigate to its dedicated summary view for greater detail. This summary provides all the relevant information about each job you've created in Lytics and an entry point to alter the configuration or status.
+At the top of the Job Summary page, you’ll find the following quick-access information:
+Status: Indicates the current state of a job. See the table below for descriptions of each status.
+Provider: Third-party tool that you are connecting with Lytics, such as Facebook, Google, Mailchimp, etc.
+Type: Indicates whether the job is an import, export, or enrichment.
+Job Name: Name of the job, such as “Import Users & Activity” or “Export Audiences.”
+Authorization: Name of the authorization, such as “Main Salesforce auth.”
+Created By: Lytics user who created the authorization.
+Last Updated: Date the job was most recently edited.
+📘You can edit the name and description of an existing job from its summary page to improve the organization and clarity of your account's list of jobs.
+Metrics
+The activity chart will provide metrics (if available) on a job's performance to give a better understanding of how your data is flowing in and out of Lytics. You can see the number of profiles the job added, removed, or omitted during the selected time frame. Note this feature is currently in development. Once metrics are available for each job, this chart will become populated.
+Configuration
+The configuration section displays a JSON view of your job's current configuration. This includes details such as the authorization used, where data is coming from, which data is being pulled in, etc.
+Logs
+The Logs section records the history of events for this job, details about the work completed, and the time each job was run. The logs are helpful to ensure your work is running as expected and for troubleshooting if any issues arise. Below are descriptions of the job events you may see in the logs.
+Job EventsDescriptionStartedThe job has started running for the first time.SyncedThe job has completed a unit of work successfully and will continue to run.ErrorThe job has encountered an error and will retry automatically.SleepingThe job is currently sleeping due to external restrictions, such as hitting a provider's API limits.FailedThe job has encountered consecutive errors over 10 hours and is removed from running again.CompletedThe job has completed all its scheduled tasks and will not be rerun.
+Backfilling Data
+Some use cases involve having historical data available for segmentation.
+This data might be demographic in nature, or describe how customers prefer to be contacted. This document offers guidelines for cases where large amounts of this data must be available in your Lytics account.
+Best Practices
+Separate Backfill from Real-time Streams
+A real-time data stream contains messages sent in response to the activity they describe. This is distinguished from batched data streams, where messages are sent in groups on a given schedule or according to another trigger.
+For attributes that will be kept updated by a real-time stream, there is the additional requirement to populate that attribute with a substantial amount of pre-existing information, separating that backfilling from now-forward messages.
+Backfill messages can be sent using multiple means. API loads should be sent via the bulk CSV or bulk JSON endpoints. It is also possible to use integration workflows to import this data, such as Amazon Web Services (AWS) S3.
+The benefit of separating this data from real-time message streams is that the processing of backfill messages does not impact the processing time of messages received from real-time streams. The bulk imports are processed in parallel to real-time messages. This means that marketing activations reliant on real-time updates are not affected.
+Utilize Timestamps
+Whenever possible, all messages should have an explicit timestamp. While all messages are additionally time stamped by Lytics at the time of ingestion, specifying a message timestamp is helpful in all circumstances, particularly in cases when messages are received out of order so that Lytics knows which one is the most up-to-date.
+It is essential when a backfill occurs concurrently with a real-time stream of the same attribute.
+All means of loading data permit specifying timestamps. Via API, this is via a timestamp_field URL parameter. In the Admin UI, data import configuration options feature a menu to pick among the file schema for a timestamp field.
+Evaluate Necessity
+All messages imported into your Lytics account are stored in their raw form and represented as profile attributes in the graph. The purpose of storing all messages is to enable the reprocessing of those messages, a process called rebuilding. Rebuilding enables all received messages to be represented differently with different attributes, identity resolution rules, etc.
+All data ingested into Lytics incrementally increase the overhead of rebuilding, making it a longer and more processing-intensive operation. Therefore, before importing large amounts of data, consider the value/benefit of that data. If there is no clear use case for backfilling, consider skipping it.Updated 6 months ago Table of Contents
+Introduction
+The Basics
+Adding a new Job
+Configuring a Job
+Select a Provider
+Select Job Type
+Select Authorization Method
+Configure Job
+Monitoring a Job
+Job Status
+Job Summary
+Backfilling Data
+Best Practices

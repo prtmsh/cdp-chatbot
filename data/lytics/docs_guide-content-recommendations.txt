@@ -1,0 +1,174 @@
+Content Recommendations
+Jump to ContentHomeDocumentationAPI ReferenceProduct UpdatesCommunityv2.0v2.1v3.0Log InDocumentationLog Inv3.0HomeDocumentationAPI ReferenceProduct UpdatesCommunityContent RecommendationsSearchQuick StartDeveloper Quickstart1. Install the Lytics Tag2. Content Setup3. Surface Personalized MessageBuilding ProfilesDefault AttributesDefault SegmentsGuides & InspirationLead CaptureContent RecommendationsAccount ManagementWhat is Vault?Accessing AccountsMonitoring Metrics and AlertsJob AlertsMonitoring Audit LogsExporting Audit Logs or Alert JobsMonitoring MetricsUsage MetricsManaging UsersSingle Sign-OnAccount SettingsAccount DetailsJavaScript Tag ConfigPersonalization APIContent ServicesSecurityAI & Modeling ControlsSchema ControlsData PoliciesPlatform LimitsPrivacy and Data ProtectionImpact of Browser Tracking ChangesComplianceAuthorizationsAccess TokensKey ConceptsIdentity ResolutionConsent & PrivacyComplying with the Digital Markets Act (DMA)Client & Server Side CookiesContent AffinityContent CurationTopic TaxonomyArchitectureIntegration PatternsJob ProcessingLytics Platform Data Flow and AccessCDI and CDP Implementation StrategyLytics Zero Copy with Cloud ConnectPipeline & ProfilesData PipelineJobs (Data Sources and Exports)Data StreamsStream Routing APITemplatesCreating Templates Using the UICreating Templates using Lytics APIUsing the Jsonnet LibraryTemplate ExamplesSchema ManagementFields & MappingsAdvanced Mapping FunctionsMeta FieldsQueries & LQLIdentity Key RanksSchema VersionsPlanning & TroubleshootingLytics Profile SchemaSchema CopilotIdentityMerge StatisticsIdentity ExplorerIdentity RulesWarehouse AccessWhat is Cloud Connect?Connecting WarehousesData Models & QueriesActivating Data ModelsCloud Connect Troubleshooting and FAQsAudiences & ActivationUser ProfilesUnderstanding Profile HealthFinding a UserAudiencesAudience GroupsPrebuilt AudiencesReportsWhat are Reports?ComponentsManaging ReportsDashboard ReportContentTopics & AffinitiesTopicsAffinitiesUsing Topics & AffinitiesClassificationEnrichmentRecommendationsDocumentsContent CollectionsCreating Content CollectionsViewing, Using & Managing CollectionsInterest EnginesDefault Interest EngineCustom Interest EnginesCollaborative FiltersLookalike Models & AudiencesGetting StartedBuilding Lookalike ModelsEvaluating Lookalike ModelsCreating Lookalike AudiencesImproving Lookalike ModelsActivationDestinationsGoalsExperiencesBehavioral ScoresTutorialsLeveraging User ProfilesAccessing Profiles Client SideAccessing Profiles Server SideWorking with Anonymous ProfilesGet Started with Lytics SegmentsInline Content RecommendationsData Collection & OnboardingWorking with Custom DataWorking with Web DataCollect Mobile Data with Firebase + GTMData ManagementProfile Stitching Best PracticesMigrating from Queries to Conductor SchemaLQL & Data Import BasicsUse CasesAcquire New Customers with LyticsBest Practices for Personalizing Your Ad or Search Landing PageCapture More Information from Qualified LeadsContent Modularization in Email with Lytics AudiencesCustomize your Web Experiences with Branded ImagesDeliver Targeted ContentDrive Email Capture & Engagement with ContentDrive Mobile App Downloads With LyticsEngage Qualified Users with Targeted AdsEnhance Personalized Messaging with User Profile FieldsGrow Your Email Marketing ListImport an Audience from your Data WarehouseImprove Ad Campaign Metrics with Predictive TargetingIncrease Conversions with Lytics and Facebook LookalikeKeep Visitors Engaged with Content Recommendation ExperiencesLeverage Lookalike Models and Predictive AudiencesLookalike Models: Conserve marketing spend on engaged usersLookalike Models: Convert anonymous users to known usersLookalike Models: Convert single purchasers to multi-purchasersLookalike Models: Determine which subscribers are likely to churnMobile Messaging with Lytics Webhooks and Serverless FunctionsOptimize Remarketing SpendPersonalize the Messaging of your Website Based on AudiencePopulate Your Website With One-to-One Content RecommendationsPromote Relevant Content to Users based on their InterestsReach the Right People Using LyticsRetain Existing Customers With LyticsPersonalize your Iterable emails With Lytics content recommendationsBuild a Custom Personalized Experience With Video ContentUnlock Additional Web Personalization Features with Lytics API OverridesHow to Use GTM Tags to Modify Lytics Pathfora Widget BehaviorStyle your Lytics Web Experiences to Fit Your Brand GuidelinesSDKs & ToolsWebJavaScriptOn-site PersonalizationSubresource Integrity (SRI)MobileiOSReact NativeAndroidChrome ExtensionIntegrationsLytics Integration OptionsAcousticAdobeAdRollAirshipAmplitudeAmazon AdsAmazon KinesisAmazon PinpointAmazon RedshiftAmazon S3Amazon SQSAnsiraBigCommerceBlueKaiBlueshiftBrazeBrevoCampaign MonitorCheetah DigitalClearbitContentfulCordialCriteoCustomer.ioDatabricksDotdigitalDriftEpiserverFullContactGIGYAGoogle OptimizeGoogle Ad Manager (DFP)Google AdsGoogle BigQueryGoogle Cloud Pub/SubGoogle Cloud StorageGoogle DriveGoogle Marketing: Analytics, DV360, CM360Google Cloud OperationsGoogle Tag ManagerHubSpotiContactInsiderIterableJebbitKlaviyoLeadsquaredLinkedInLiveRampLocalyticsLookerLotameLytics File ServiceLytics MonitoringMailchimpMailgunMandrillMappMapp: BlueHornetMarketoMaropostMediaMathMetaMicrosoftMicrosoft AzureMicrosoft TeamsMixpanelNetSuiteNew RelicOmedaOneSignalOneTrustOracle Marketing Cloud: EloquaPinterestPostUpRadarRedditResponsysRetention ScienceSailthruSalesforceSalesforce DMP (Krux)Salesforce Marketing CloudSalesforce PardotSegment.comSelligentSendGridShopifySitecoreSlackSnapchatSnowflakeSparkPostSurveyMonkeySwrveTaboolaTealiumTikTokThe Trade DeskUnified ID 2.0VersiumWebhooksWebhook TemplatesWistiaX AdsYahoo AdsZapierZendeskZuoraContentstackPartnersPartner TypesLytics CommunicationLegacyInsightsImporting External ExperiencesIDP-initiated SSO (legacy)Web PersonalizationIntroductionDrive Traffic CampaignCollect Leads CampaignPresent a Message CampaignRecommend Content CampaignCampaign ReportingCampaign ManagementBuilding Audiences with Campaign DataContent Recommendations Suggest EditsTL;DR
+This document details the process of utilizing Lytics' real-time personalization engine to showcase content that resonates with a visitor's interests. This can be implemented directly inline or through a pop-up modal on your website to boost engagement.
+Background
+How does Lytics make content recommendations?
+Lytics Interest Engines provides a sophisticated approach for businesses to gain and leverage insights into which content is most likely to resonate based on behavioral patterns. This is achieved through a detailed enrichment and affinity generation process in real-time. While full details are available in Lytics' comprehensive documentation, the core process can be distilled into four key steps:
+Tracking Interactions: Monitoring visitor behavior in real-time to understand their engagement with the site.
+Content Analysis & Topic Extraction: Using Google NLP and proprietary algorithms, Lytics automatically analyzes all the content on your website, translating it into a detailed topic graph.
+Interest Scoring: Assigning scores to reflect a visitor's level of interest in different topics, updated dynamically as new interactions occur.
+Content Recommendation: Suggesting content that aligns with the visitor's demonstrated interests, leveraging real-time insights for timely and relevant engagement.
+This streamlined framework enables real-time personalization, enhancing user experience by continuously adapting to evolving visitor interests.
+Why is it important?
+Relevant content for individual users boosts marketing effectiveness and ROI by increasing engagement and conversion rates. Personalized content meets users' interests, leading to better resource utilization and higher customer retention. This targeted strategy enhances sales opportunities and brand perception, directly improving return on investment.
+See it in action.
+Lytics' real-time personalization engine lets you first identify the current web visitor, programmatically review their profile, and deliver one or more pieces of content based on their unique interests to maximize engagement.
+Instructions
+Below, you'll find a detailed guide on how to execute this use case. At the end, you'll find additional reading, which will help you learn how to extend and customize this use case further.
+Requirements
+Have access to an active Lytics account.
+Lytics account must have had enough time to build the topic graph. Typically, 24 to 48 hours.
+Ability to add JavaScript to your website via tag manager or CMS.
+Entry-level knowledge of JavaScript. (Don't worry; it is mostly "copy and paste" here.)
+Install Lytics Core SDK
+Before executing this use case, your website must be properly configured with the core Lytics SDK (JavaScript tag). Please refer to our installation documentation to confirm the tag is present before continuing.
+Interest Scores & Content Collections
+Your content must be classified before Lytics can offer content recommendations or insights. Typically, this classification process takes 24 to 48 hours, though it may extend if your catalog is particularly large. To ensure the health of your content graph and interest engines, there are a few key areas to focus on:
+Verify Interest Scores on Profile
+Ensure the Lytics Developer Tools Chrome extension is installed and Enabled.
+Visit the domain(s) that have the Lytics JavaScript SDK installed.
+Open the Chrome extension and navigate to the Profile section at the bottom.
+From the Summary tab, you will see a section labeled Interests. Here, we will list any topics and their associated level for the user. If your user gets a message "No interests are available," proceed to the next step to ensure content has been classified.
+Verify Content has Been Classified
+📘If you have not already verified the quality of classification and metadata, please refer to our quickstart documentation.
+From the Lytics interface, navigate to Decision Engine from the product switcher at the top left.
+Using the left-hand menu, navigate to Content > Collections.
+From the list of collections, there is likely only one; look for All Content in the list and the rows Size. This refers to the number of documents classified; it should be greater than one and reflect your total catalog.
+For greater detail, you can also visit Content > Web Classification.
+At the top of that page will be a summary dashboard of all content that has been successfully classified and cataloged. Most notably, the All Documents count under the URL Path component.
+Troubleshooting Common Problems
+I have no lytics_content_enrich stream. (coming soon)
+My content is not showing up at all. (coming soon)
+My content is being classified, but none of my documents have images. (coming soon)
+Select a content collection.
+We will use the default collection outlined below for this exercise, but you may also create a custom collection with a subset of your content to recommend.
+CollectionDescriptionall_contentThis collection contains all classified documents. It comes out of the box in all Lytics accounts.
+📘Ready to go a step farther and build a custom collection of your content to ensure recommendations are selected from a more currated set of documents? Check out our full documentation.
+Activate Required Attributes & Segments
+As an admin user of Lytics, you can enable or disable any attributes from being surfaced to the web via our JavaScript SDK. Depending on how your account has been configured, you may need to allow some of the required attributes for this particular use case.
+Required Attributes:
+SegmentDescriptionallWe will use the out-of-the-box segment containing all your site's users for demonstration. We recommend using something more refined in production, such as new or high-value visitors.
+Configure Web Experience
+To execute this use case, we will demonstrate two examples. The first will be a single content recommendation in a popup style modal, while the second will leverage Pathfora to add a set of recommendations inline to your website.
+Example 1: Content Recommendation Modal
+JavaScriptHTMLjstag.on('pathfora.publish.done', function(topic, event){
+var module = new pathfora.Message({
+id: 'content-rec-sample',
+layout: 'slideout',
+theme: 'dark',
+headline: 'Yummy content!',
+msg: 'We suspect you are going to want to check this out.',
+recommend: {
+collection: 'all_content'
+},
+cancelShow: false,
+okShow: false,
+variant: 3
+});
+var modules = {
+target: [{
+segment: "all",
+widgets: [module]
+}]
+};
+pathfora.initializeWidgets(modules);
+});
+<script type="text/javascript">
+jstag.on('pathfora.publish.done', function(topic, event){
+var module = new pathfora.Message({
+id: 'content-rec-sample',
+layout: 'slideout',
+theme: 'dark',
+headline: 'Yummy content!',
+msg: 'We suspect you are going to want to check this out.',
+recommend: {
+collection: 'all_content'
+},
+cancelShow: false,
+okShow: false,
+variant: 3 // this variant shows the title and image for the recommendations
+});
+var modules = {
+target: [{
+segment: "all",
+widgets: [module]
+}]
+};
+pathfora.initializeWidgets(modules);
+});
+</script>
+Example 2: Inline Content Recommendation
+In this example, we'll use a generic Drupal Block with pure HTML and CSS, but the same approach can be taken using WordPress or a third-party tag manager such as Google Tag Manager.
+HTML<style>
+.rec-container {
+display: flex;
+justify-content: space-between;
+width: 100%;
+}
+.rec-item {
+box-sizing: border-box;
+flex: 1;
+padding: 10px;
+}
+.rec-title,
+.rec-description {
+font-size: 14px;
+margin-bottom: 5px;
+word-wrap: break-word;
+}
+.rec-description {
+font-size: 12px;
+}
+.rec-img {
+height: auto;
+margin-bottom: 5px;
+max-width: 100%;
+}
+</style>
+<div class="rec-container">
+<div class="rec-item" data-pfblock="lytics-recommend" data-pfrecommend="all_content">
+<div class="rec-title">
+<a data-pftype="URL"><strong data-pftype="title">Recommendation title loading...</strong></a>
+</div>
+<p>
+<img class="rec-img" alt="Recommendation related image">
+</p>
+<p class="rec-description" data-pftype="description">
+The recommendation description is loading...
+</p>
+</div>
+<div class="rec-item" data-pfblock="lytics-recommend" data-pfrecommend="all_content">
+<div class="rec-title">
+<a data-pftype="URL"><strong data-pftype="title">Recommendation title loading...</strong></a>
+</div>
+<p>
+<img class="rec-img" alt="Recommendation related image">
+</p>
+<p class="rec-description" data-pftype="description">
+The recommendation description is loading...
+</p>
+</div>
+<div class="rec-item" data-pfblock="lytics-recommend" data-pfrecommend="all_content">
+<div class="rec-title">
+<a data-pftype="URL"><strong data-pftype="title">Recommendation title loading...</strong></a>
+</div>
+<p>
+<img class="rec-img" alt="Recommendation related image">
+</p>
+<p class="rec-description" data-pftype="description">
+The recommendation description is loading...
+</p>
+</div>
+</div>
+Updated 12 months ago Table of Contents
+TL;DR
+Background
+How does Lytics make content recommendations?
+Why is it important?
+See it in action.
+Instructions
+Requirements
+Install Lytics Core SDK
+Interest Scores & Content Collections
+Activate Required Attributes & Segments
+Configure Web Experience

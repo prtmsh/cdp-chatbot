@@ -1,0 +1,117 @@
+Integration Patterns
+Jump to ContentHomeDocumentationAPI ReferenceProduct UpdatesCommunityv2.0v2.1v3.0Log InDocumentationLog Inv3.0HomeDocumentationAPI ReferenceProduct UpdatesCommunityIntegration PatternsSearchQuick StartDeveloper Quickstart1. Install the Lytics Tag2. Content Setup3. Surface Personalized MessageBuilding ProfilesDefault AttributesDefault SegmentsGuides & InspirationLead CaptureContent RecommendationsAccount ManagementWhat is Vault?Accessing AccountsMonitoring Metrics and AlertsJob AlertsMonitoring Audit LogsExporting Audit Logs or Alert JobsMonitoring MetricsUsage MetricsManaging UsersSingle Sign-OnAccount SettingsAccount DetailsJavaScript Tag ConfigPersonalization APIContent ServicesSecurityAI & Modeling ControlsSchema ControlsData PoliciesPlatform LimitsPrivacy and Data ProtectionImpact of Browser Tracking ChangesComplianceAuthorizationsAccess TokensKey ConceptsIdentity ResolutionConsent & PrivacyComplying with the Digital Markets Act (DMA)Client & Server Side CookiesContent AffinityContent CurationTopic TaxonomyArchitectureIntegration PatternsJob ProcessingLytics Platform Data Flow and AccessCDI and CDP Implementation StrategyLytics Zero Copy with Cloud ConnectPipeline & ProfilesData PipelineJobs (Data Sources and Exports)Data StreamsStream Routing APITemplatesCreating Templates Using the UICreating Templates using Lytics APIUsing the Jsonnet LibraryTemplate ExamplesSchema ManagementFields & MappingsAdvanced Mapping FunctionsMeta FieldsQueries & LQLIdentity Key RanksSchema VersionsPlanning & TroubleshootingLytics Profile SchemaSchema CopilotIdentityMerge StatisticsIdentity ExplorerIdentity RulesWarehouse AccessWhat is Cloud Connect?Connecting WarehousesData Models & QueriesActivating Data ModelsCloud Connect Troubleshooting and FAQsAudiences & ActivationUser ProfilesUnderstanding Profile HealthFinding a UserAudiencesAudience GroupsPrebuilt AudiencesReportsWhat are Reports?ComponentsManaging ReportsDashboard ReportContentTopics & AffinitiesTopicsAffinitiesUsing Topics & AffinitiesClassificationEnrichmentRecommendationsDocumentsContent CollectionsCreating Content CollectionsViewing, Using & Managing CollectionsInterest EnginesDefault Interest EngineCustom Interest EnginesCollaborative FiltersLookalike Models & AudiencesGetting StartedBuilding Lookalike ModelsEvaluating Lookalike ModelsCreating Lookalike AudiencesImproving Lookalike ModelsActivationDestinationsGoalsExperiencesBehavioral ScoresTutorialsLeveraging User ProfilesAccessing Profiles Client SideAccessing Profiles Server SideWorking with Anonymous ProfilesGet Started with Lytics SegmentsInline Content RecommendationsData Collection & OnboardingWorking with Custom DataWorking with Web DataCollect Mobile Data with Firebase + GTMData ManagementProfile Stitching Best PracticesMigrating from Queries to Conductor SchemaLQL & Data Import BasicsUse CasesAcquire New Customers with LyticsBest Practices for Personalizing Your Ad or Search Landing PageCapture More Information from Qualified LeadsContent Modularization in Email with Lytics AudiencesCustomize your Web Experiences with Branded ImagesDeliver Targeted ContentDrive Email Capture & Engagement with ContentDrive Mobile App Downloads With LyticsEngage Qualified Users with Targeted AdsEnhance Personalized Messaging with User Profile FieldsGrow Your Email Marketing ListImport an Audience from your Data WarehouseImprove Ad Campaign Metrics with Predictive TargetingIncrease Conversions with Lytics and Facebook LookalikeKeep Visitors Engaged with Content Recommendation ExperiencesLeverage Lookalike Models and Predictive AudiencesLookalike Models: Conserve marketing spend on engaged usersLookalike Models: Convert anonymous users to known usersLookalike Models: Convert single purchasers to multi-purchasersLookalike Models: Determine which subscribers are likely to churnMobile Messaging with Lytics Webhooks and Serverless FunctionsOptimize Remarketing SpendPersonalize the Messaging of your Website Based on AudiencePopulate Your Website With One-to-One Content RecommendationsPromote Relevant Content to Users based on their InterestsReach the Right People Using LyticsRetain Existing Customers With LyticsPersonalize your Iterable emails With Lytics content recommendationsBuild a Custom Personalized Experience With Video ContentUnlock Additional Web Personalization Features with Lytics API OverridesHow to Use GTM Tags to Modify Lytics Pathfora Widget BehaviorStyle your Lytics Web Experiences to Fit Your Brand GuidelinesSDKs & ToolsWebJavaScriptOn-site PersonalizationSubresource Integrity (SRI)MobileiOSReact NativeAndroidChrome ExtensionIntegrationsLytics Integration OptionsAcousticAdobeAdRollAirshipAmplitudeAmazon AdsAmazon KinesisAmazon PinpointAmazon RedshiftAmazon S3Amazon SQSAnsiraBigCommerceBlueKaiBlueshiftBrazeBrevoCampaign MonitorCheetah DigitalClearbitContentfulCordialCriteoCustomer.ioDatabricksDotdigitalDriftEpiserverFullContactGIGYAGoogle OptimizeGoogle Ad Manager (DFP)Google AdsGoogle BigQueryGoogle Cloud Pub/SubGoogle Cloud StorageGoogle DriveGoogle Marketing: Analytics, DV360, CM360Google Cloud OperationsGoogle Tag ManagerHubSpotiContactInsiderIterableJebbitKlaviyoLeadsquaredLinkedInLiveRampLocalyticsLookerLotameLytics File ServiceLytics MonitoringMailchimpMailgunMandrillMappMapp: BlueHornetMarketoMaropostMediaMathMetaMicrosoftMicrosoft AzureMicrosoft TeamsMixpanelNetSuiteNew RelicOmedaOneSignalOneTrustOracle Marketing Cloud: EloquaPinterestPostUpRadarRedditResponsysRetention ScienceSailthruSalesforceSalesforce DMP (Krux)Salesforce Marketing CloudSalesforce PardotSegment.comSelligentSendGridShopifySitecoreSlackSnapchatSnowflakeSparkPostSurveyMonkeySwrveTaboolaTealiumTikTokThe Trade DeskUnified ID 2.0VersiumWebhooksWebhook TemplatesWistiaX AdsYahoo AdsZapierZendeskZuoraContentstackPartnersPartner TypesLytics CommunicationLegacyInsightsImporting External ExperiencesIDP-initiated SSO (legacy)Web PersonalizationIntroductionDrive Traffic CampaignCollect Leads CampaignPresent a Message CampaignRecommend Content CampaignCampaign ReportingCampaign ManagementBuilding Audiences with Campaign DataIntegration Patterns Suggest EditsOverview
+Lytics offers pre-built integrations for many of today’s most popular marketing tools to ease the onboarding and exporting of data. These integrations are available in the Data tab of the Lytics platform under Data > Jobs. Each of these marketing tools has specific instructions for setup found in our integrations documentation.
+Types
+The implementation type refers to the development methods used to implement the job. Usually this depends on the third-party provider's capabilities and the resources they provide to outside developers such as APIs or SDKs. Integrations may be client-side or server-side.
+Client-side Integrations
+Client-side integrations are implemented in browser-facing code. These are implemented through the Lytics JavaScript tag and usually require you to have a tag from the third-party provider also installed on your web page. Given the nature of these integrations being tightly coupled to the browser session, these integrations collect and send data in real time. There are two types of client-side integrations:
+Push Integrations
+A push integration pushes data from Lytics, such as surfaced fields or audience membership of users to the third party. Examples of push integrations include personalization tools such as Pathfora SDK which uses Lytics user data to personalize the page with content based on audience membership, or data management platforms (DMPs) such as Krux, which transmits Lytics user information to the DMP.
+Pull Integrations
+A pull integration pulls data from the third party and imports it into Lytics. This data will differ based on the provider, and the exact fields available in the audience builder will be listed in the respective integration document. An example of this type of integration includes the Lytics JavaScript tag communicating with a data layer object on your website to collect data from various third-party vendors such as Tealium or even a custom implementation.
+Server-to-server Integrations
+Server-side integrations allow Lytics and the third-party service to communicate directly, usually in the form of a job. These jobs are available to set up and execute in the Lytics platform under Data > Jobs. There are two main types of Server-side integrations:
+Import Integrations
+As the name implies, import integrations ingest data into Lytics. This data will differ based on the provider and job type. It can be anything from identifying information, demographic data, subscription status, or activity data for a user. Examples of import integrations include the Amplitude Cohorts Import which imports user data from Amplitude.
+Export Integrations
+Export integrations send user profile data from Lytics to a third-party tool, usually at the audience level. You can select which audience(s) you want to export, and include user data such as user fields, audience membership and more such as the SendGrid User Export. However, some integrations may export raw event data or metrics for monitoring such as the BigQuery Event Export or the New Relic Insights Monitoring job.
+Enrichment Integrations
+An enrichment integration uses a third-party service to enhance and enrich existing user profiles within Lytics. These integrations require Lytics to push a list of user identifiers (defined by an audience of known users) to a third-party enrichment tool. That tool then returns additional data on that user such as information on the user's company (for B2B marketing), or additional demographic and social data. Examples of enrichment integrations include Full Contact Audience Enrichment and Clearbit User Enrichment jobs.
+Many providers support both import and export job types for a complete two-way data sync between Lytics and the third-party tool.
+Implementation Techniques
+Client and server-side integrations may be implemented in a number of different ways. The implementation technique often determines factors such as Tier, Frequency, and Resulting Data.
+Client-side Implementations
+JavaScript Tag
+All default client-side integrations somehow utilize the Lytics JavaScript tag. The tag implements functions for sending data to a data stream and receiving user profile data which has been surfaced. Behind the scenes, these functions utilize some of the public Lytics API endpoints.
+Server-side Implementations
+APIs
+API integrations utilize REST or SOAP APIs the third-party vendor provides to send or receive data. The specific endpoints used are listed in the documentation for the integration. Lytics prefers to integrate with third parties via API as it provides a deeper out-of-the-box integration.
+Audience Triggers
+Audience triggers are used in conjunction with an API implementation for export or enrichment job types. Audience triggers are powered by an internal system called subscriptions. Subscriptions listen to specific events, such as when a user has entered or exited an audience. A subscription can then send a trigger to any job listening to the subscription. Once received, the job can push the updated user data to the third-party tool via APIs. This process enables real-time exports versus a scheduled batch export.
+File-Based Transfer
+Lytics supports file-based import and export jobs.
+Files may be obtained or pushed to a server via Secure File Transfer Protocol (SFTP). SFTP integrations may be provided for third-party vendors who do not have API capabilities or as part of a custom integration. Lytics has a managed SFTP server that can be used to transfer files, or it may retrieve files from a third-party SFTP server.
+Another example of a file-based export is via Email Attachment, such as the CSV Email Export.
+Webhooks
+Many third-party vendors offer webhooks or API callbacks, which send requests containing relevant user-activity data to another service after an event has occurred in the system. The Lytics API has a collection endpoint that can be used as a destination for third-party webhooks. Providers that support webhooks will have documentation detailing the preferred setup method for Lytics to receive webhook data.
+In addition, Lytics supports webhooks that can be configured to send user-level events, such as real-time audience membership updates.
+Frequency
+Frequency describes when and how often that data is sent or received. It attempts to answer common questions such as: "When will I see data in my tool?" and "Can I keep my data up-to-date?" Lytics integrations are either real-time or scheduled.
+Real-time
+A number of different integration types are considered real-time (or "near" real-time). In that, user data is sent or received downstream as soon as the data is available in the native system. The following types of integrations are considered real-time:
+Client-Side Integrations - All client-side integrations are considered real-time unless otherwise stated in the documentation. Data collected via a pull integration is captured in the browser while the user performs actions, and push integrations always contain the most up-to-date data from the user profile.
+Webhooks - As stated above, webhooks are API calls that happen after an event has occurred, often used to notify downstream tools.
+Jobs Using Triggers - As stated above, jobs utilizing triggers receive and may push events downstream in real-time. Depending on rate limits or other such limitations of the third-party in question, the job may queue a small batch of events over a short amount of time before sending them, hence "near" real-time.
+Backfill
+Jobs that use audience triggers also often have an option to perform a backfill of users. Without a backfill, only new users who enter the audience after the time of job setup will be processed. Enabling a one-time backfill as part of the job configuration will immediately process a batch of all existing users in the audience to the third-party tool and then rely on real-time triggers to update user information once the backfill is finished. Some jobs support this feature as a configurable option. If so, it is listed under the "Frequency" section of "Integration Details" in a job's documentation.
+Batch
+Batch integrations send or receive user data in larger batches. Depending on the configuration of the job, it may only import/export a single batch of users once, or it may run continuously, checking for new users and updates to existing user data.
+One-time run - You may want to run a one-time job to import, export, or enrich users at a specific point in time. For example, if you're running a one-time promotional blast email to a unique audience, exporting your audience once before sending the email would make sense.
+Continuous Update - Many batch jobs support a configuration option for continuous updates which will re-run the job on some cadence (hourly, daily, weekly, etc). This is common for import jobs for providers that don't support webhooks, as Lytics will want to keep the user profiles up to date with what is available in the third party.
+Scheduled - Some jobs may support specific scheduled run times, which can be especially helpful for continuous updates. It allows you to specify the time of day the job should run and the timezone.
+Resulting Data
+The final way Lytics categorizes integrations is by the type of data it handles and how the job output is perceived. The resulting export and push integration data will vary based on the structures supported by the provider tool, and each integration will document the specific output type. Here is a list of common data types in Lytics for import and pull integrations:
+User Profiles
+When you import users, you will likely see new user profiles created for users that previously did not have data associated with them in Lytics. However, you may also see updates to existing users' profiles, if Lytics is able to recognize an existing user based on the identity resolution strategy for your account.
+User Fields
+The new user fields that are created as part of an integration are listed in the "Fields" section of each doc. These fields will be added to new and existing user profiles as described in the section above, and they will become available for segmentation in the audience builder.
+Raw Event Data
+If data is imported to Lytics without being mapped by LQL, this data is stored as raw fields in data streams, which are un-actionable. For example, if you are importing custom data via CSV, you will need queries in place for the raw data to be meaningful. In addition, some pre-built integrations may import additional fields that are not mapped as part of the default queries provided by the out-of-the-box integration. You may contact support for assistance with mapping these fields.
+Content
+In addition to user data, some integrations may ingest content that can be analyzed and processed by the Lytics Content Affinity Engine. An example of this is the MailChimp Import which, in addition to user data, brings in content from your MailChimp email campaigns. This content can help inform affinity scores for users who have viewed and interacted with the email.
+Metrics
+This is an uncommon pattern in existing integrations, but Lytics can also import specific metrics from third-party tools. For example, in the Goal Canvas, Facebook Experience metrics are imported directly from the Facebook Insights API. Metrics that are imported to Lytics are accessible via the Metrics API.
+PGP Encryption
+File imports and exports can be decrypted and encrypted, respectively using
+Pretty Good Privacy (PGP). To create or ingest PGP encrypted files, use an authorization that includes PGP keys.
+PGP Public Key authorizations are used to encrypt exports.
+PGP Private Key authorizations are used to decrypt imports.
+Follow the instructions below when creating a PGP authorization.
+PGP Public Key
+Use a PGP Public Key authorization to encrypt file exports. You will need to generate an armored PGP key pair if you haven't already.
+In the PGP Public Key field, enter your public key. Be sure to include the header and footer of the armored key. This means your entry should begin and end with the following:
+-----BEGIN PGP PUBLIC KEY BLOCK----- and -----END PGP PUBLIC KEY BLOCK-----
+If your key does not begin and end with these strings respectively, it is possible it has not been ASCII armored.
+PGP Private Key
+Use a PGP Private Key authorization to decrypt file imports. You will need the private key that is paired with the public key used to encrypt the file.
+In the PGP Private Key field, enter your private key. Be sure to include the header and footer of the armored key. This means your entry should begin and end with the following:
+-----BEGIN PGP PRIVATE KEY BLOCK----- and -----END PGP PRIVATE KEY BLOCK-----
+If your key does not begin and end with these strings respectively, it is possible it has not been ASCII armored.
+If your private key has been protected with a passphrase, enter the passphrase in the field labeled PGP Private Key Passphrase. If your private key is not passphrase protected, leave this field empty.
+Note: in order for Lytics to decrypt the file successfully, you will need to provide the private key that is paired with the public key that was used to encrypt the file.
+Templating
+User profile fields can be dynamically inserted into an alert using
+templating of supported fields including the alert title, alert subtitle, and alert body fields. Lytics uses Golang's template package to provide this functionality. The data available to you will vary based on the data available on each individual profile.
+You can download a customer profile to see a list of fields available on your user profiles. For example, if you want to include a user's name in an alert and the field containing the name is called first_name, a template like the following could be used:
+Hey, {{ .first_name }}
+Notice the "." before the name of the profile field.
+Some profiles may not have a first-name field. To avoid sending an incoherent alert when you don't have the first name field available, a template like the following could be used:
+{{ if .first_name }}Hey, {{ .first_name }}{{ else }}I wish I knew you{{ end }}
+Alternatively, if you would rather include a default name when the field does not exist on the profile, a template like the following could be used:
+Hey, {{.last_name | default "valued customer"}}
+If you would like to make sure that multiple fields on a profile exist, a template like the following could be used:
+{{ if and .first_name .last_name }}Hey, {{ .first_name }} {{ .last_name }}{{ else }}I don't know you{{ end }}
+To check equality on a particular profile field, you can create a template like the following:
+{{ if eq .subscriber_status “subscribed” }}You are a subscriber!{{ else }}You should subscribe!{{ end }}
+Updated almost 2 years ago Table of Contents
+Overview
+Types
+Client-side Integrations
+Server-to-server Integrations
+Implementation Techniques
+Client-side Implementations
+Server-side Implementations
+Frequency
+Real-time
+Backfill
+Batch
+Resulting Data
+User Profiles
+User Fields
+Raw Event Data
+Content
+Metrics
+PGP Encryption
+PGP Public Key
+PGP Private Key
+Templating

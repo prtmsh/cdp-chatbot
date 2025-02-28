@@ -1,0 +1,80 @@
+Job Processing
+Jump to ContentHomeDocumentationAPI ReferenceProduct UpdatesCommunityv2.0v2.1v3.0Log InDocumentationLog Inv3.0HomeDocumentationAPI ReferenceProduct UpdatesCommunityJob ProcessingSearchQuick StartDeveloper Quickstart1. Install the Lytics Tag2. Content Setup3. Surface Personalized MessageBuilding ProfilesDefault AttributesDefault SegmentsGuides & InspirationLead CaptureContent RecommendationsAccount ManagementWhat is Vault?Accessing AccountsMonitoring Metrics and AlertsJob AlertsMonitoring Audit LogsExporting Audit Logs or Alert JobsMonitoring MetricsUsage MetricsManaging UsersSingle Sign-OnAccount SettingsAccount DetailsJavaScript Tag ConfigPersonalization APIContent ServicesSecurityAI & Modeling ControlsSchema ControlsData PoliciesPlatform LimitsPrivacy and Data ProtectionImpact of Browser Tracking ChangesComplianceAuthorizationsAccess TokensKey ConceptsIdentity ResolutionConsent & PrivacyComplying with the Digital Markets Act (DMA)Client & Server Side CookiesContent AffinityContent CurationTopic TaxonomyArchitectureIntegration PatternsJob ProcessingLytics Platform Data Flow and AccessCDI and CDP Implementation StrategyLytics Zero Copy with Cloud ConnectPipeline & ProfilesData PipelineJobs (Data Sources and Exports)Data StreamsStream Routing APITemplatesCreating Templates Using the UICreating Templates using Lytics APIUsing the Jsonnet LibraryTemplate ExamplesSchema ManagementFields & MappingsAdvanced Mapping FunctionsMeta FieldsQueries & LQLIdentity Key RanksSchema VersionsPlanning & TroubleshootingLytics Profile SchemaSchema CopilotIdentityMerge StatisticsIdentity ExplorerIdentity RulesWarehouse AccessWhat is Cloud Connect?Connecting WarehousesData Models & QueriesActivating Data ModelsCloud Connect Troubleshooting and FAQsAudiences & ActivationUser ProfilesUnderstanding Profile HealthFinding a UserAudiencesAudience GroupsPrebuilt AudiencesReportsWhat are Reports?ComponentsManaging ReportsDashboard ReportContentTopics & AffinitiesTopicsAffinitiesUsing Topics & AffinitiesClassificationEnrichmentRecommendationsDocumentsContent CollectionsCreating Content CollectionsViewing, Using & Managing CollectionsInterest EnginesDefault Interest EngineCustom Interest EnginesCollaborative FiltersLookalike Models & AudiencesGetting StartedBuilding Lookalike ModelsEvaluating Lookalike ModelsCreating Lookalike AudiencesImproving Lookalike ModelsActivationDestinationsGoalsExperiencesBehavioral ScoresTutorialsLeveraging User ProfilesAccessing Profiles Client SideAccessing Profiles Server SideWorking with Anonymous ProfilesGet Started with Lytics SegmentsInline Content RecommendationsData Collection & OnboardingWorking with Custom DataWorking with Web DataCollect Mobile Data with Firebase + GTMData ManagementProfile Stitching Best PracticesMigrating from Queries to Conductor SchemaLQL & Data Import BasicsUse CasesAcquire New Customers with LyticsBest Practices for Personalizing Your Ad or Search Landing PageCapture More Information from Qualified LeadsContent Modularization in Email with Lytics AudiencesCustomize your Web Experiences with Branded ImagesDeliver Targeted ContentDrive Email Capture & Engagement with ContentDrive Mobile App Downloads With LyticsEngage Qualified Users with Targeted AdsEnhance Personalized Messaging with User Profile FieldsGrow Your Email Marketing ListImport an Audience from your Data WarehouseImprove Ad Campaign Metrics with Predictive TargetingIncrease Conversions with Lytics and Facebook LookalikeKeep Visitors Engaged with Content Recommendation ExperiencesLeverage Lookalike Models and Predictive AudiencesLookalike Models: Conserve marketing spend on engaged usersLookalike Models: Convert anonymous users to known usersLookalike Models: Convert single purchasers to multi-purchasersLookalike Models: Determine which subscribers are likely to churnMobile Messaging with Lytics Webhooks and Serverless FunctionsOptimize Remarketing SpendPersonalize the Messaging of your Website Based on AudiencePopulate Your Website With One-to-One Content RecommendationsPromote Relevant Content to Users based on their InterestsReach the Right People Using LyticsRetain Existing Customers With LyticsPersonalize your Iterable emails With Lytics content recommendationsBuild a Custom Personalized Experience With Video ContentUnlock Additional Web Personalization Features with Lytics API OverridesHow to Use GTM Tags to Modify Lytics Pathfora Widget BehaviorStyle your Lytics Web Experiences to Fit Your Brand GuidelinesSDKs & ToolsWebJavaScriptOn-site PersonalizationSubresource Integrity (SRI)MobileiOSReact NativeAndroidChrome ExtensionIntegrationsLytics Integration OptionsAcousticAdobeAdRollAirshipAmplitudeAmazon AdsAmazon KinesisAmazon PinpointAmazon RedshiftAmazon S3Amazon SQSAnsiraBigCommerceBlueKaiBlueshiftBrazeBrevoCampaign MonitorCheetah DigitalClearbitContentfulCordialCriteoCustomer.ioDatabricksDotdigitalDriftEpiserverFullContactGIGYAGoogle OptimizeGoogle Ad Manager (DFP)Google AdsGoogle BigQueryGoogle Cloud Pub/SubGoogle Cloud StorageGoogle DriveGoogle Marketing: Analytics, DV360, CM360Google Cloud OperationsGoogle Tag ManagerHubSpotiContactInsiderIterableJebbitKlaviyoLeadsquaredLinkedInLiveRampLocalyticsLookerLotameLytics File ServiceLytics MonitoringMailchimpMailgunMandrillMappMapp: BlueHornetMarketoMaropostMediaMathMetaMicrosoftMicrosoft AzureMicrosoft TeamsMixpanelNetSuiteNew RelicOmedaOneSignalOneTrustOracle Marketing Cloud: EloquaPinterestPostUpRadarRedditResponsysRetention ScienceSailthruSalesforceSalesforce DMP (Krux)Salesforce Marketing CloudSalesforce PardotSegment.comSelligentSendGridShopifySitecoreSlackSnapchatSnowflakeSparkPostSurveyMonkeySwrveTaboolaTealiumTikTokThe Trade DeskUnified ID 2.0VersiumWebhooksWebhook TemplatesWistiaX AdsYahoo AdsZapierZendeskZuoraContentstackPartnersPartner TypesLytics CommunicationLegacyInsightsImporting External ExperiencesIDP-initiated SSO (legacy)Web PersonalizationIntroductionDrive Traffic CampaignCollect Leads CampaignPresent a Message CampaignRecommend Content CampaignCampaign ReportingCampaign ManagementBuilding Audiences with Campaign DataJob Processing Suggest EditsOverview
+Lytics Job runtime and APIs control the mechanics of how data flows in and out of Lytics.
+Lytics jobs can be generally broken down into a few important categories:
+Direction: Does this job route data to Lytics, or from Lytics?
+Subject: Does this job target entities (commonly known as profiles)? Or does it target raw events?
+Schedule: What starts this workflow?
+Is it based on real-time triggers?
+Or does it run on a batching schedule?
+Termination: Is this a one-time job, or is it expected to run again?
+If so, on what frequency?
+Knowing which type of job you're dealing with can help guide expectations for behavior and troubleshooting.
+Auths
+Some jobs, like specific Webhook flows, don't require explicit credentials to access external systems.
+However, most jobs require some form of authorization to retrieve data from or send data to external systems.
+In Lytics, these credentials are generically referred to as Authorizations.
+Authorizations can be managed from the Auth API, or directly from the Lytics interface.
+All authorizations are either configuration-based or OAuth-based.
+Configuration: The authorization is based on credentials provided to Lytics.
+These usually take the form of API keys/secrets and usernames/passwords.
+OAuth: The authorization is given access delegation from an OAuth flow..
+Commonly, authorizations will change – some systems require periodic password changes, tokens get revoked, users who complete OAuth flows leave an organization, etc.
+Consequently, a job that is running successfully with authorization today may fail tomorrow if the authorization is no longer valid.
+If you know in advance that credentials will update or change, it is recommended that you create a new authorization and update the job to use the new one.
+To stay alerted on the health status of a job, you can set up alerts as described in the Monitoring section below.
+Configuring and Submitting Jobs
+Jobs can be managed from the Jobs API, or directly from the Lytics interface.
+Each job has custom configuration options that tell the job when to run, what type of data to pull, which lists to pull data from in external systems, how to send the data to downstream sources, etc.
+Each job's API endpoint will validate the presence of any required parameters, or other conditions that must be satisfied for the job to run correctly.
+In the event of a validation error in the job configuration, the API will return a 400 error with a message indicating what is misconfigured.
+If the configuration for the job request is valid, the job will be immediately submitted to Lytics internal job running system.
+Job State Machine
+Jobs running on Lytics' internal job running system may be in any of the following states:
+Runnable: The job is currently running.
+Completed: The job has run successfully and is not scheduled to re-run.
+Paused: The job has been manually paused, and will remain so until it is unpaused or terminated.
+Sleeping: The job is in between runs and is scheduled to run again at a later point in time.
+Failed: The job has exceeded its retry limit and will not attempt to run again.
+Terminated: The job has been manually terminated and will not attempt to run again.
+Jobs will usually first enter into a Runnable state.
+If the job is fed input from real-time triggers, it will stay running unless it encounters any errors.
+If the job runs on a batched interval, it will usually switch between Runnable and Sleeping.
+While most transitions happen automatically in the system (Runnable → Completed, for example), some are triggered manually, namely:
+From
+To
+API Route
+Sleeping, Runnable
+Paused
+/v2/job/{job}/{id}/pause
+Paused
+Runnable
+/v2/job/{job}/{id}/resume
+Failed
+Runnable
+/v2/job/{job}/{id}/bounce
+Any
+Terminated
+/v2/job/{job}/{id}/kill
+Errors
+There are a variety of reasons a job will enter a Failed state, including:
+Authorization issues: This is the most common reason for job failures.
+Some authorizations can become invalid if the external system requires periodic password changes and the authorization isn't updated, if tokens get revoked, or if users who complete OAuth flows leave an organization and the token no longer has access to the resources it is requesting.
+External failures: Sometimes external systems can produce intermittent failures, like HTTP 503 errors if the system is temporarily unavailable.
+Because of their intermittency, it's less likely that one of these errors will result in a job ending in a Failed state.
+Internal Lytics failures: While rare, sometimes the availability of internal Lytics resources can cause a job to fail.
+Because of the high availability of Lytics systems (>99.9%), it's unlikely that a job will be in a Failed state from Lytics internals.
+When an error occurs, the job will enter a Sleeping state, and retry a minute later.
+If an error occurs on the second attempted run, the job will sleep double the amount of time as the previous run.
+If errors still occur after two hours, the job will enter a Failed state.
+Any failed work can be manually restarted, through the Job API or through the Lytics interface.
+If, for example, a job is in a failed state because of an authorization issue, you can create a new authorization for the job and restart it.
+Contributing
+Many jobs are maintained by Lytics, and even more workflows can be enabled by using our generic tooling for Webhook and SFTP-based integration flows.
+Some jobs are open-sourced and run on Conductor's Opus framework for running jobs. Check out our Conductor Opus Template on GiHub to get started creating your own jobs.Updated 11 months ago Table of Contents
+Overview
+Auths
+Configuring and Submitting Jobs
+Job State Machine
+Errors
+Contributing

@@ -1,0 +1,89 @@
+Zeotap and Insider Partner to Unify Customer Data and Drive Seamless Real-Time Experiences | Zeotap
+Solutions
+Zeotap CDP Solutions
+Acquisition & GrowthCustomer Experience and PersonalisationLoyalty & RetentionPredictive Insights and
+Customer AnalyticsData Collection and Privacy
+Industries
+RetailTelcoMediaRetail MediaFinancial ServicesSports & EntertainmentAutomotive
+Platform
+Zeotap CDP Modules
+OverviewIntegrateUnifySegmentOrchestrateAnalyseProtect
+Zeotap CDP Features
+OverviewCustomer 360 ViewPredictive AudiencesOmnichannel JourneyConsent OrchestrationPrivacy & GDPRIntegrations
+Get started
+Subscription PlansDeployment Options
+Partners
+Our PartnersGoogle Cloud PartnershipZeotap Partner Network
+Resources
+AllBlogCase studiesVideosWhitepapersCDP SupportDeveloper Documentation
+Company
+About UsPrivacy and SecurityWhy Zeotap CDPWhy Zeotap DataCareers at ZeotapNewsEventsContact us
+LoginGet A Demo
+close_03
+Hit enter to search or click X to close
+Login
+Get a Demo
+Zeotap and Insider Partner to Unify Customer Data and Drive Seamless Real-Time Experiences
+Berlin, 5 December 2024 – Zeotap, an enterprise Customer Data Platform (CDP), and Insider, a leader in customer engagement and experience technology, have joined forces to offer businesses a powerful, low-latency, seamless solution for unifying customer data and delivering personalised, real-time customer experiences. This partnership integrates Zeotap CDP’s enriched data management capabilities with Insider’s advanced customer engagement tools, enabling brands to enhance customer insights and orchestrate meaningful journeys.
+“At the heart of this partnership is a shared vision to offer businesses a unified approach to better understanding and engaging with customers,” said Projjol Banerjea, founder and Chief Product Officer at Zeotap. “With this collaboration, we’re enabling businesses to achieve both precision in data management and excellence in customer experience and engagement.”
+Seamless Integration for Maximum Impact
+The partnership establishes a tight integration between Zeotap CDP and Insider, allowing brands to optimise customer journeys across all touchpoints. Key features of this integration include:
+Bidirectional Data Flow: Forward zero-party data —such as survey responses and other voluntarily provided customer input— along with channel interactions and engagement events captured by Insider into Zeotap for advanced segmentation and activation.
+Data-Enriched Profiles: By leveraging additional customer insights provided by Insider and multiple engagement capabilities alongside Zeotap CDP’s enriched unified profiles, brands can enhance communication and further analyze their customers’ behaviour.
+Synchronised Audiences: Seamlessly share advanced audiences and segmentations to Insider for precise and tailored engagement.
+Extended Activation Capabilities: Expand Insider’s activation reach by leveraging Zeotap CDP’s extensive network of advertising platform integrations, enabling brands to engage audiences across a broader range of digital channels.
+Journey Orchestration: Trigger personalised Insider Journeys with low latency using real-time events from Zeotap CDP, incorporating dynamic data for timely and relevant engagements.
+Real-Time Personalisation: Update customer profiles within Insider’s activation platform using data captured by Zeotap CDP, ensuring brands can deliver consistently up-to-date and highly personalised experiences.
+This partnership combines Zeotap CDP’s excellence in data integration, customer segmentation, and real-time personalisation with Insider’s predictive segmentation and engagement  channels including onsite and in-app personalization, product recommendations, onsite and in app search as well as channels such as WhatsApp, Email or SMS. Together, the platforms allow businesses to unify incoming data under a 360-degree user profile and analyse it to drive actionable insights. By integrating these best-of-breed solutions, brands can stay competitive in an evolving market and offer their customers consistent, meaningful interactions across every touchpoint.
+About InsiderInsider, is a leading AI-native Omnichannel Experience and Customer Engagement Platform – enabling marketing and customer experience teams to deliver a unique experience per person, from a single platform. Insider’s integrated CDP vertically integrates data and marketing application layers to fuel marketing automation and personalized customer journey orchestration across 12+ natively-supported channels, like WhatsApp, SMS, Email, Web, App, Site Search, and more. Insider helps marketers to efficiently collect, analyze, and predictively use first-party data in real-time. As a result, brands accelerate growth, realize higher productivity, maximize marketing ROI, increase customer lifetime value, and create more valuable customer relationships.Insider powers omnichannel experiences and customer engagement for 1,500+ global customers across retail, automotive, travel, and telecommunications, including Nike, Samsung, L’Oreal, Unilever, Allianz, Walt Disney, ING Group, Toyota, Singapore Airlines, and GAP.
+Share this post
+Industry recognitions
+Trusted By
+What our customers say
+"Based on my experience, I can honestly say Zeotap’s platform is without equal. Brands can happily jettison a complex and
+inefficient patchwork of point solutions in favour of their unified stack for all data-related activities."
+Kay SchwabedalChief Digital Officer, Virgin Media O2
+"Zeotap has always set the bar when it comes to quality and security. It is part of their DNA."
+Steffen Roehnformer CIO, Deutsche Telekom
+"Being the data centre for the entire EMEA region, we have found Zeotap to be the right partner to improve our customer data intelligence and the service we provide to our clients."
+Jordi UrbeaChief Revenue Officer, Ogilvy
+"Zeotap is a strategic partner of Google Cloud in EMEA, driving
+additional value and improved experience for our customers with
+GCP. We realise that leveraging first-party data to drive digital
+transformation and omni-channel personalisation is top of mind for
+retailers - while also ensuring the best-possible privacy and
+security. We believe Zeotap - with its roots in Germany - is an
+expert and reliable partner to help navigate the first-party data
+opportunity."
+Adaire Martin-FoxPresident of Google Cloud International and Head of Google Ireland
+Get a demo
+Step into a new era of marketing possibilities, unleashing the full potential of your customer data. Experience the power of Zeotap CDP.
+GET A DEMO
+Follow us
+Facebook-f
+Twitter
+Linkedin-in
+Sign up for our newsletter
+Be the first to get access to our marketing resources and keep up to date with the latest CDP best practices, privacy standards, marketing, and customer data.
+Get a demo
+Step into a new era of marketing possibilities, unleashing the full potential of your customer data. Experience the power of Zeotap CDP.
+GET A DEMO
+Follow us
+Facebook-f
+Twitter
+Linkedin-in
+©2024 Zeotap All Rights Reserved
+Website Privacy Policy
+Product and Service Privacy Policy
+Vulnerability Disclosure Policy
+Information Security Policy Statement
+Legal Notice
+Legal Hub
+Zeotap Whistleblowing Channel
+Website Privacy Policy
+Product and Service Privacy Policy
+Vulnerability Disclosure Policy
+Information Security Policy Statement
+Legal Notice
+Legal Hub
+Zeotap Whistleblowing Channel

@@ -1,0 +1,86 @@
+Integrations Library | Zeotap
+Solutions
+Zeotap CDP Solutions
+Acquisition & GrowthCustomer Experience and PersonalisationLoyalty & RetentionPredictive Insights and
+Customer AnalyticsData Collection and Privacy
+Industries
+RetailTelcoMediaRetail MediaFinancial ServicesSports & EntertainmentAutomotive
+Platform
+Zeotap CDP Modules
+OverviewIntegrateUnifySegmentOrchestrateAnalyseProtect
+Zeotap CDP Features
+OverviewCustomer 360 ViewPredictive AudiencesOmnichannel JourneyConsent OrchestrationPrivacy & GDPRIntegrations
+Get started
+Subscription PlansDeployment Options
+Partners
+Our PartnersGoogle Cloud PartnershipZeotap Partner Network
+Resources
+AllBlogCase studiesVideosWhitepapersCDP SupportDeveloper Documentation
+Company
+About UsPrivacy and SecurityWhy Zeotap CDPWhy Zeotap DataCareers at ZeotapNewsEventsContact us
+LoginGet A Demo
+close_03
+Hit enter to search or click X to close
+Login
+Get a Demo
+Integrations Library
+Integrate with the leading Martech and Adtech platforms and activate your customer segments at scale
+Explore our robust integrations library
+Reach across the ecosystem with the integrations you need to activate your data in real time and batch
+Featured integrations
+Learn more
+Learn more
+Learn more
+Learn more
+By Category
+AB Testing(4)Advertising(14)Advertising – Ad Networks(10)Advertising – Retail Media(1)AI/ML Models(1)Analytics(4)Campaign(9)CDP(2)Cloud Storage(5)CRM Data(2)Data Lake(5)Data Processing(5)Data Science(1)Data Warehouse(0)Data Warehouse(5)ETL(5)Marketing Automation Media(10)MDM(2)Mobile(1)Retargeting(8)Social(6)Tag Manager(5)Web & Mobile Tracking(3)Web Personalisation(2)
+Google DMP is a robust platform that helps businesses manage and optimize their digital advertising
+Read More ▸
+The SFTP Integration with Zeotap CDP allows businesses to securely transfer customer data via the
+Read More ▸
+Zeotap CDP streamlines your data onboarding process by enabling direct integration with your source data
+Read More ▸
+The Server-to-Server (S2S) HTTP API in Zeotap CDP enables seamless data transfer from any website
+Read More ▸
+The Salesforce CRM Integration with Zeotap CDP enables seamless data synchronisation from key Salesforce standard
+Read More ▸
+The Microsoft Dynamics CRM (now Dynamics 365 CRM) integration with Zeotap CDP enables seamless data
+Read More ▸
+The iOS SDK for Zeotap CDP streamlines the integration of iOS applications across all iOS
+Read More ▸
+The Zeotap Collect Tag is a custom template available on Google Tag Manager (GTM) for
+Read More ▸
+Google BigQuery is a fully-managed cloud data warehouse that allows for efficient storage and analysis
+Read More ▸
+Show More
+Get a demo
+Step into a new era of marketing possibilities, unleashing the full potential of your customer data. Experience the power of Zeotap CDP.
+GET A DEMO
+Follow us
+Facebook-f
+Twitter
+Linkedin-in
+Sign up for our newsletter
+Be the first to get access to our marketing resources and keep up to date with the latest CDP best practices, privacy standards, marketing, and customer data.
+Get a demo
+Step into a new era of marketing possibilities, unleashing the full potential of your customer data. Experience the power of Zeotap CDP.
+GET A DEMO
+Follow us
+Facebook-f
+Twitter
+Linkedin-in
+©2024 Zeotap All Rights Reserved
+Website Privacy Policy
+Product and Service Privacy Policy
+Vulnerability Disclosure Policy
+Information Security Policy Statement
+Legal Notice
+Legal Hub
+Zeotap Whistleblowing Channel
+Website Privacy Policy
+Product and Service Privacy Policy
+Vulnerability Disclosure Policy
+Information Security Policy Statement
+Legal Notice
+Legal Hub
+Zeotap Whistleblowing Channel

@@ -1,0 +1,102 @@
+Zeotap CDP Solutions for Automotive Industry
+Solutions
+Zeotap CDP Solutions
+Acquisition & GrowthCustomer Experience and PersonalisationLoyalty & RetentionPredictive Insights and
+Customer AnalyticsData Collection and Privacy
+Industries
+RetailTelcoMediaRetail MediaFinancial ServicesSports & EntertainmentAutomotive
+Platform
+Zeotap CDP Modules
+OverviewIntegrateUnifySegmentOrchestrateAnalyseProtect
+Zeotap CDP Features
+OverviewCustomer 360 ViewPredictive AudiencesOmnichannel JourneyConsent OrchestrationPrivacy & GDPRIntegrations
+Get started
+Subscription PlansDeployment Options
+Partners
+Our PartnersGoogle Cloud PartnershipZeotap Partner Network
+Resources
+AllBlogCase studiesVideosWhitepapersCDP SupportDeveloper Documentation
+Company
+About UsPrivacy and SecurityWhy Zeotap CDPWhy Zeotap DataCareers at ZeotapNewsEventsContact us
+LoginGet A Demo
+close_03
+Hit enter to search or click X to close
+Login
+Get a Demo
+Industries
+Automotive
+Power an agency model by creating a central repository of customer data to deliver omnichannel experiences
+The challenges in the industry
+Data collection is a key challenge for marketers in the Automotive industry due to the car dealerships’ involvement in the buying journey. While car manufacturers own the online experience, dealerships tend to own the showroom experience (offline), fragmenting the data. Creating a repository of first-party customer data from different data silos is critical to sharpening the 360-degree customer view for accurate analysis and optimum campaign performance. Managing engagement over cross-channel touch points is also a challenge. The customer journey might start with a clicked advert on a social platform, taking the prospect to a car manufacturer’s website, but ends offline with a test drive at the showroom. Driving loyalty is also a challenge for marketers as individuals may go many years between buying a new car. Promoting in-app experiences, financial services, car services, and car parts, all help build a strong connection to a brand.
+Success stories and quotes
+"Based on my experience, I can honestly say Zeotap’s platform is without equal. Brands can happily jettison a complex and
+inefficient patchwork of point solutions in favour of their unified stack for all data-related activities."
+Kay SchwabedalChief Digital Officer, Virgin Media O2
+"Zeotap has always set the bar when it comes to quality and security. It is part of their DNA."
+Steffen Roehnformer CIO, Deutsche Telekom
+"Being the data centre for the entire EMEA region, we have found Zeotap to be the right partner to improve our customer data intelligence and the service we provide to our clients."
+Jordi UrbeaChief Revenue Officer, Ogilvy
+"Zeotap is a strategic partner of Google Cloud in EMEA, driving
+additional value and improved experience for our customers with
+GCP. We realise that leveraging first-party data to drive digital
+transformation and omni-channel personalisation is top of mind for
+retailers - while also ensuring the best-possible privacy and
+security. We believe Zeotap - with its roots in Germany - is an
+expert and reliable partner to help navigate the first-party data
+opportunity."
+Adaire Martin-FoxPresident of Google Cloud International and Head of Google Ireland
+USE CASE 1
+360-degree customer view
+Once all relevant online and offline data (e.g. showroom) has been collected (including consent and marketing preferences), Zeotap CDP unifies all disparate first-party data and links IDs and attributes of the same customer to a unique customer profile, providing a 360-degree view of every customer. Zeotap CDP ensures high accuracy of audience segments for optimum omnichannel performance. Zeotap was awarded a patent in recognition of our ability to gather multiple data attributes from various data sources, clean them up, combine them, and use resource allocation to build audience groups for targeted advertising (patent number: US 2021/0365292 A1)
+USE CASE 2
+Cross-channel campaigns
+Marketers have the challenge of sending optimal messages to customers across all channels, whether it be onsite (your website or app), offsite (programmatic advertising), or outbound marketing (your CRM or email broadcast tool). Sending tailored messages to the best channel at the right time optimises the experience for each customer, helping to maximise long-term customer value. Zeotap CDP can orchestrate the delivery of messages across multiple touchpoints and channels automatically based on a simple drag-and-drop rules engine to provide the best possible customer experience, leading to increased customer satisfaction and loyalty.
+USE CASE 3
+Cross-sell and upsell campaigns
+Marketers can track visitor behaviour and IDs in real-time from downstream activation platforms. Apply rules to touch points across a customer journey that select the best product for the customer, based on profile data. This selection is sent to the advertising or marketing platform for delivery to the customer. For example, send the customer a promotion on car insurance when a new car is purchased or a promotion of a new car, which fits recent customer events, such as marriage or a new home. Marketers can monitor the customer’s behaviour and make new, adjusted selections to provide a personalised experience, increasing customer lifetime value and driving loyalty.
+Dive into our case study
+Learn how Mercedes-Benz achieved 175% higher CTR and increased conversion and visibility by streamlining paid acquisition campaigns.
+Read More
+Why Zeotap CDP?
+IMMEDIATE VALUE4+4 FrameworkSpecialised in prioritising simple use cases that drive commercial outcomes in 8 weeks
+EASY DEPLOYMENT GCP NativeFrictionless deployment make existing tools and investment better with latency and
+cost advantages
+INTUITIVE INTERFACE Built for MarketersDesigned for hands-on marketers with no need for technical coding skills
+360 IDENTITYIncluding Cookieless IDPatented identity stitching strategies for discriminatory digital marketing use cases
+PRIVACY ABOVE ALL From Europe for EuropeConceived in Germany and developed for stringent European regulation
+TRUSTED PARTNERWe will be your trusted partner, not just a software vendor, that will make your CDP project successful.
+Industry recognitions
+Trusted by
+Schedule a demo
+It is simple to deliver amazing customer experiences without compromising user privacy. Complete the short form, and we’ll be in touch to schedule your demo.
+Get a demo
+Step into a new era of marketing possibilities, unleashing the full potential of your customer data. Experience the power of Zeotap CDP.
+GET A DEMO
+Follow us
+Facebook-f
+Twitter
+Linkedin-in
+Sign up for our newsletter
+Be the first to get access to our marketing resources and keep up to date with the latest CDP best practices, privacy standards, marketing, and customer data.
+Get a demo
+Step into a new era of marketing possibilities, unleashing the full potential of your customer data. Experience the power of Zeotap CDP.
+GET A DEMO
+Follow us
+Facebook-f
+Twitter
+Linkedin-in
+©2024 Zeotap All Rights Reserved
+Website Privacy Policy
+Product and Service Privacy Policy
+Vulnerability Disclosure Policy
+Information Security Policy Statement
+Legal Notice
+Legal Hub
+Zeotap Whistleblowing Channel
+Website Privacy Policy
+Product and Service Privacy Policy
+Vulnerability Disclosure Policy
+Information Security Policy Statement
+Legal Notice
+Legal Hub
+Zeotap Whistleblowing Channel

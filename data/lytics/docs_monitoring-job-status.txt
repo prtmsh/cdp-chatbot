@@ -1,0 +1,117 @@
+Exporting Audit Logs or Alert Jobs
+Jump to ContentHomeDocumentationAPI ReferenceProduct UpdatesCommunityv2.0v2.1v3.0Log InDocumentationLog Inv3.0HomeDocumentationAPI ReferenceProduct UpdatesCommunityExporting Audit Logs or Alert JobsSearchQuick StartDeveloper Quickstart1. Install the Lytics Tag2. Content Setup3. Surface Personalized MessageBuilding ProfilesDefault AttributesDefault SegmentsGuides & InspirationLead CaptureContent RecommendationsAccount ManagementWhat is Vault?Accessing AccountsMonitoring Metrics and AlertsJob AlertsMonitoring Audit LogsExporting Audit Logs or Alert JobsMonitoring MetricsUsage MetricsManaging UsersSingle Sign-OnAccount SettingsAccount DetailsJavaScript Tag ConfigPersonalization APIContent ServicesSecurityAI & Modeling ControlsSchema ControlsData PoliciesPlatform LimitsPrivacy and Data ProtectionImpact of Browser Tracking ChangesComplianceAuthorizationsAccess TokensKey ConceptsIdentity ResolutionConsent & PrivacyComplying with the Digital Markets Act (DMA)Client & Server Side CookiesContent AffinityContent CurationTopic TaxonomyArchitectureIntegration PatternsJob ProcessingLytics Platform Data Flow and AccessCDI and CDP Implementation StrategyLytics Zero Copy with Cloud ConnectPipeline & ProfilesData PipelineJobs (Data Sources and Exports)Data StreamsStream Routing APITemplatesCreating Templates Using the UICreating Templates using Lytics APIUsing the Jsonnet LibraryTemplate ExamplesSchema ManagementFields & MappingsAdvanced Mapping FunctionsMeta FieldsQueries & LQLIdentity Key RanksSchema VersionsPlanning & TroubleshootingLytics Profile SchemaSchema CopilotIdentityMerge StatisticsIdentity ExplorerIdentity RulesWarehouse AccessWhat is Cloud Connect?Connecting WarehousesData Models & QueriesActivating Data ModelsCloud Connect Troubleshooting and FAQsAudiences & ActivationUser ProfilesUnderstanding Profile HealthFinding a UserAudiencesAudience GroupsPrebuilt AudiencesReportsWhat are Reports?ComponentsManaging ReportsDashboard ReportContentTopics & AffinitiesTopicsAffinitiesUsing Topics & AffinitiesClassificationEnrichmentRecommendationsDocumentsContent CollectionsCreating Content CollectionsViewing, Using & Managing CollectionsInterest EnginesDefault Interest EngineCustom Interest EnginesCollaborative FiltersLookalike Models & AudiencesGetting StartedBuilding Lookalike ModelsEvaluating Lookalike ModelsCreating Lookalike AudiencesImproving Lookalike ModelsActivationDestinationsGoalsExperiencesBehavioral ScoresTutorialsLeveraging User ProfilesAccessing Profiles Client SideAccessing Profiles Server SideWorking with Anonymous ProfilesGet Started with Lytics SegmentsInline Content RecommendationsData Collection & OnboardingWorking with Custom DataWorking with Web DataCollect Mobile Data with Firebase + GTMData ManagementProfile Stitching Best PracticesMigrating from Queries to Conductor SchemaLQL & Data Import BasicsUse CasesAcquire New Customers with LyticsBest Practices for Personalizing Your Ad or Search Landing PageCapture More Information from Qualified LeadsContent Modularization in Email with Lytics AudiencesCustomize your Web Experiences with Branded ImagesDeliver Targeted ContentDrive Email Capture & Engagement with ContentDrive Mobile App Downloads With LyticsEngage Qualified Users with Targeted AdsEnhance Personalized Messaging with User Profile FieldsGrow Your Email Marketing ListImport an Audience from your Data WarehouseImprove Ad Campaign Metrics with Predictive TargetingIncrease Conversions with Lytics and Facebook LookalikeKeep Visitors Engaged with Content Recommendation ExperiencesLeverage Lookalike Models and Predictive AudiencesLookalike Models: Conserve marketing spend on engaged usersLookalike Models: Convert anonymous users to known usersLookalike Models: Convert single purchasers to multi-purchasersLookalike Models: Determine which subscribers are likely to churnMobile Messaging with Lytics Webhooks and Serverless FunctionsOptimize Remarketing SpendPersonalize the Messaging of your Website Based on AudiencePopulate Your Website With One-to-One Content RecommendationsPromote Relevant Content to Users based on their InterestsReach the Right People Using LyticsRetain Existing Customers With LyticsPersonalize your Iterable emails With Lytics content recommendationsBuild a Custom Personalized Experience With Video ContentUnlock Additional Web Personalization Features with Lytics API OverridesHow to Use GTM Tags to Modify Lytics Pathfora Widget BehaviorStyle your Lytics Web Experiences to Fit Your Brand GuidelinesSDKs & ToolsWebJavaScriptOn-site PersonalizationSubresource Integrity (SRI)MobileiOSReact NativeAndroidChrome ExtensionIntegrationsLytics Integration OptionsAcousticAdobeAdRollAirshipAmplitudeAmazon AdsAmazon KinesisAmazon PinpointAmazon RedshiftAmazon S3Amazon SQSAnsiraBigCommerceBlueKaiBlueshiftBrazeBrevoCampaign MonitorCheetah DigitalClearbitContentfulCordialCriteoCustomer.ioDatabricksDotdigitalDriftEpiserverFullContactGIGYAGoogle OptimizeGoogle Ad Manager (DFP)Google AdsGoogle BigQueryGoogle Cloud Pub/SubGoogle Cloud StorageGoogle DriveGoogle Marketing: Analytics, DV360, CM360Google Cloud OperationsGoogle Tag ManagerHubSpotiContactInsiderIterableJebbitKlaviyoLeadsquaredLinkedInLiveRampLocalyticsLookerLotameLytics File ServiceLytics MonitoringMailchimpMailgunMandrillMappMapp: BlueHornetMarketoMaropostMediaMathMetaMicrosoftMicrosoft AzureMicrosoft TeamsMixpanelNetSuiteNew RelicOmedaOneSignalOneTrustOracle Marketing Cloud: EloquaPinterestPostUpRadarRedditResponsysRetention ScienceSailthruSalesforceSalesforce DMP (Krux)Salesforce Marketing CloudSalesforce PardotSegment.comSelligentSendGridShopifySitecoreSlackSnapchatSnowflakeSparkPostSurveyMonkeySwrveTaboolaTealiumTikTokThe Trade DeskUnified ID 2.0VersiumWebhooksWebhook TemplatesWistiaX AdsYahoo AdsZapierZendeskZuoraContentstackPartnersPartner TypesLytics CommunicationLegacyInsightsImporting External ExperiencesIDP-initiated SSO (legacy)Web PersonalizationIntroductionDrive Traffic CampaignCollect Leads CampaignPresent a Message CampaignRecommend Content CampaignCampaign ReportingCampaign ManagementBuilding Audiences with Campaign DataExporting Audit Logs or Alert Jobs Suggest EditsLytics System Events: Audit Logs and Alerts
+In Lytics, audit logs and system alerts originate from a shared source: Lytics System Events. A System Event is simply a log of an action taken within the platform, whether it’s a user creating a job, segment, or role, or an error message indicating a job failure.
+Export vs. Alert
+Log Export: This is a job that either streams logs in real time or performs a batch export to an external source, such as a webhook or a data warehouse table.
+Log Alert: Alerts are triggered based on specified conditions and notify users when certain actions occur within the system.
+In both cases, the content of exports or alerts depends on the filters you set up. Filtering is typically done using the Subject (such as User, Segment, or Job) and the Verb (the action taken on the subject, like created, updated, deleted, or failed).
+Creating an Audit Log export (aka System Alert) Job via the UI
+Creating a job to export your Audit and System Event logs is like creating any other job; for more information, see
+Data Pipeline-> Jobs.
+In the Filters panel, simply select Audit Logs to create an export of your Audit logs or System Events.
+Depending on your Provider, you can then select to export System Events.
+For example, if you selected Google Cloud and you want to export the events to BigQuery.
+Then, you'd want to select the BigQuery: Export System Events Job-Type tile.
+After choosing the Job-Type, it's like configuring any other export job.
+In the case of BigQuery, you can do a one-time or continuous export.
+Creating an Alert based on System Events
+Creating a job to alert on an Audit and System Event logs is like creating any other job; for more information, see
+Data Pipeline-> Jobs.
+In the Filters panel, simply select Audit Logs to create an export of your Audit logs or System Events.
+Depending on your Provider, you can then select to export System Events or Email Alerts.
+For example, if you select to get an email when an Alert is triggered, then use Lytics as your provider and select Email Alerts.
+Then configure what Subject you wanted to listen too and what Event Types (aka Verbs).
+Filtering Audit logs
+Audit logs can be filtered by
+Subject Type: what the event is about, such as work, workflow, user, campaign. See the list of subject types below.
+Subject ID: identifier of a subject, such as work ID, workflow ID, campaign ID, etc.
+Verb: action described by the event performed on a subject. See the list of available verbs below.
+VerbDescriptionFrequencysynccompleteFor the completion of one synchronization cycle. Emitted when a work cycle finishes successfully. This is shown at the end when there are multiple cycles per scheduled sync or when there is a sleep cycle.Real-timeupdateFor when work configuration is modified. It may occur multiple times per work.Real-time, batchcreatedFor when works are created. This only occurs only once per work.Real-time, batchdeletedFor when a work is deleted.Real-time, batchsyncedFor the completion of one sync unit (multiple units may happen per sleep cycle).Real-timecompletedFor the final successful completion of a work. This occurs once per work.BatchstartedFor the first time, work is started. This occurs once per work.Real-time, batchfailedFor the final failure of a work. This occurs once per work unless work is bounced.Real-time, batchsyncingFor the start of a series of sync cycles for a work.Real-time
+Subject TypeDescriptionaccountRepresents account-related actions or changes.authRefers to authentication events, including 3rd party access control activities with service accounts.userActions related to user accounts, such as creation, update, or deactivation.campaignActions or modifications related to marketing campaigns.dataCovers data management events, such as data ingestion and updates.entityRefers to actions involving user entities aka Profiles.experienceActions associated with experience.journeyPertains to events tracking customer journeys and related updates.programEvents involving the creation or modification of programs within the system.providerRefers to data provider configurations or integrations.queryCovers actions involving Lytics queries.reportRefers to generation, access, or modification of Lytics reports.rollupInvolves aggregation events, such as data roll-ups for analytics.schemaActions associated with data schema configuration and updates.schematableRefers to operations involving schema tables or data structure definitions.scoringCovers actions involving user scoring mechanisms within the system.segmentEvents related to segment creation, modification, or deletion.segmentcollectionRefers to collections of segments and associated actions.segmentmlInvolves machine learning (ML) processes related to segment analysis.streamActions or updates related to a Lytics stream.subscriptionEvents involving subscriptions, such as subscription creation or cancellation.topic-documentRefers to topic modeling or document processing events.variationRefers to A/B testing or variation setup within experiences or campaigns.workCovers general work-related actions or tasks within the system.workflowActions associated with workflow creation, modification, or execution
+Job Status Monitoring via Webhooks
+Job-status events can be observed by creating a webhook subscription that POSTs data (or JSON) to a specific URL. These updates, like email alerting and reporting, can be consumed downstream for your monitoring use cases.
+Some common examples include listening for audience exports created/updated/deleted or being notified whenever a batch import or export for a given integration fails.
+Work related filters
+For events related to the subject type work, the following verbs may be emitted:
+synccomplete - Emitted when a sync operation is completed.
+updated - Emitted when the job configuration is modified.
+created - Emitted when a new job is created.
+deleted - Emitted when a job is terminated.
+synced - Emitted when the job sync operation completes.
+completed - Emitted when a job has finished successfully.
+started - Emitted when a job begins execution.
+failed - Emitted when a job encounters an error.
+syncing - Emitted while a job is actively syncing.
+Building custom Alerts/Exports using our Webhook Integration
+Overview
+Lytics provides a webhook integration that allows you to monitor and react to system events in real-time. This integration enables you to build automated workflows, trigger external actions, and maintain synchronization with your other systems based on events occurring within Lytics.
+Configuration Examples
+Basic Webhook Setup
+The following example shows how to subscribe to multiple event types and send them to a webhook endpoint:
+JSON{
+"config": {
+"system_event_multiple_types": ["updated", "created", "failed"],
+"webhook_url": "YOUR_WEBHOOK_ENDPOINT",
+"headers": {
+"custom-header": "header-value"
+}
+},
+"workflow": "webhook_system_events"
+}
+Slack Integration
+You can integrate Lytics system events with Slack using a custom JSON template. This example shows how to send failure notifications to a Slack channel:
+JSON{
+"config": {
+"system_event_type": "failed",
+"webhook_url": "YOUR_SLACK_WEBHOOK_URL",
+"json_template": "local note = if std.objectHas(event.data, \"notes\") then event.data.notes else \"A work failed\"; {\"text\": \"Alert notification: \" + note + \". For more info go to: https://activate.getlytics.com/data/integrations/work/%s?aid=%s\" % [event.data.subject_id, event.data.aid] }"
+},
+"workflow": "webhook_system_events"
+}
+Advanced Filtering
+You can filter events by source type and ID using the system_event_sources configuration:
+Filter by Specific IDs
+JSON{
+"config": {
+"system_event_multiple_types": ["updated", "created", "failed"],
+"system_event_sources": {
+"work": [
+"work-id-1",
+"work-id-2"
+]
+},
+"webhook_url": "YOUR_WEBHOOK_ENDPOINT",
+"headers": {
+"custom-header": "header-value"
+}
+},
+"workflow": "webhook_system_events"
+}
+Monitor All Events of a specific Verb Type
+To receive events for all works in your account, use an empty array.
+JSON{
+"config": {
+"system_event_multiple_types": ["updated", "created", "failed"],
+"system_event_sources": {
+"work": []
+},
+"webhook_url": "YOUR_WEBHOOK_ENDPOINT",
+"headers": {
+"custom-header": "header-value"
+}
+},
+"workflow": "webhook_system_events"
+}
+Best Practices
+Ensure your webhook endpoint can handle the expected volume of events
+Implement proper error handling and retry logic in your webhook receiver
+Use HTTPS endpoints for secure data transmission
+Monitor webhook delivery success rates and implement appropriate alerting
+Support
+For additional assistance or questions about webhook integration, please contact Lytics support or consult our API documentation.Updated 4 months ago Table of Contents
+Lytics System Events: Audit Logs and Alerts
+Creating an Audit Log export (aka System Alert) Job via the UI
+Creating an Alert based on System Events
+Filtering Audit logs
+Job Status Monitoring via Webhooks
+Building custom Alerts/Exports using our Webhook Integration

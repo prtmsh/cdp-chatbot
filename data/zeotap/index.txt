@@ -1,0 +1,58 @@
+Zeotap Help Center
+Loading…
+Loading…
+Learn how to use Zeotap CDP to collect, unify and activate your customer data across multiple platforms.
+Get Started with Zeotap CDP
+Learn how to use the different modules within Zeotap CDP and get started.
+Browse by product
+Integrate
+Discover how to use Sources and Destinations
+to integrate your disparate data sources and activate your data across platforms.
+Unify
+Discover how to use Catalogue, Calculated Attributes and ID Strategy to unify your customer data.
+Segment
+Discover how to use Audiences to create cohorts and activate your customer data.
+Orchestrate
+Discover how to use Journeys to
+orchestrate personalised workflows with actionable recommendations.
+Dashboard
+Discover how to use Dashboard to analyse your platform usage, exploring consumption metrics and more.
+Protect
+Discover how to use Consent, Customer 360 and Data Lifecycle to protect your customer data by being compliant with regulatory frameworks.
+Do more with Zeotap
+Target
+Discover how to use Target to create and activate deterministic third-party Audience.
+ID+
+Discover how to use ID+ to create custom journeys and provide optimal actions.
+Admin
+Discover how to use Admin to create organisations and add users with specific roles and access.
+Products
+Integrate
+Unify
+Segment
+Orchestrate
+Dashboard
+Protect
+Target
+Security
+GDPR
+For Developers
+API Docs
+Company
+Careers
+Press
+Acceptable Use Policy
+Support
+Help Center
+Contact us
+Resources
+Clear your Cache and Cookies
+Create an HAR File
+Privacy
+Terms
+Acceptable Use Policy
+Esc
+Search Results
+Filter by:
+Search entire portal
+Loading…

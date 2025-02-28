@@ -1,0 +1,158 @@
+DOCSDOCSHomeGuidesDevelopersIntegrationsChangelogSign UpDocumentationDevelopersAPI ReferencesPlatform APIPlatform API OverviewAccountsAppsAudiencesCalculated AttributesData PointsFeedsField TransformationsServicesUsersWorkspacesData Subject Request APIData Subject Request API Version 1 and 2Data Subject Request API Version 3Warehouse Sync APIWarehouse Sync API OverviewWarehouse Sync API TutorialWarehouse Sync API ReferenceData MappingWarehouse Sync SQL ReferenceWarehouse Sync Troubleshooting GuideComposeIDWarehouse Sync API v2 MigrationCalculated Attributes Seeding APIBulk Profile Deletion API ReferenceCustom Access Roles APIData Planning APIGroup Identity API ReferencePixel ServiceProfile APIEvents APImParticle JSON Schema ReferenceIDSyncClient SDKsAMPAMP SDKAndroidInitializationConfigurationNetwork Security ConfigurationEvent TrackingUser AttributesIDSyncScreen EventsCommerce EventsLocation TrackingMediaKitsApplication State and Session ManagementData Privacy ControlsError TrackingOpt OutPush NotificationsWebView IntegrationLoggerPreventing Blocked HTTP Traffic with CNAMELinting Data PlansTroubleshooting the Android SDKAPI ReferenceUpgrade to Version 5CordovaCordova PluginIdentityDirect Url RoutingDirect URL Routing FAQWebAndroidiOSFlutterGetting StartedUsageAPI ReferenceiOSInitializationConfigurationEvent TrackingUser AttributesIDSyncScreen TrackingCommerce EventsLocation TrackingMediaKitsApplication State and Session ManagementData Privacy ControlsError TrackingOpt OutPush NotificationsWebview IntegrationUpload FrequencyApp ExtensionsPreventing Blocked HTTP Traffic with CNAMELinting Data PlansTroubleshooting iOS SDKSocial NetworksiOS 14 GuideiOS 15 FAQiOS 16 FAQiOS 17 FAQiOS 18 FAQAPI ReferenceUpgrade to Version 7RokuGetting StartedIdentityMediaReact NativeGetting StartedIdentityUnityUpload FrequencyGetting StartedOpt OutInitialize the SDKEvent TrackingCommerce TrackingError TrackingScreen TrackingIdentityLocation TrackingSession ManagementXboxGetting StartedIdentityWebInitializationConfigurationContent Security PolicyEvent TrackingUser AttributesIDSyncPage View TrackingCommerce EventsLocation TrackingMediaKitsApplication State and Session ManagementData Privacy ControlsError TrackingOpt OutCustom LoggerPersistenceNative Web ViewsSelf-HostingMultiple InstancesWeb SDK via Google Tag ManagerPreventing Blocked HTTP Traffic with CNAMEFacebook Instant ArticlesTroubleshooting the Web SDKBrowser CompatibilityLinting Data PlansAPI ReferenceUpgrade to Version 2 of the SDKXamarinGetting StartedIdentityWebAlexaMedia SDKsAndroidiOSWebToolsmParticle Command Line InterfaceLinting ToolsSmartypeServer SDKsNode SDKGo SDKPython SDKRuby SDKJava SDKQuickstartAndroidOverviewStep 1. Create an inputStep 2. Verify your inputStep 3. Set up your outputStep 4. Create a connectionStep 5. Verify your connectionStep 6. Track eventsStep 7. Track user dataStep 8. Create a data planStep 9. Test your local appHTTP Quick StartStep 1. Create an inputStep 2. Create an outputStep 3. Verify outputiOS Quick StartOverviewStep 1. Create an inputStep 2. Verify your inputStep 3. Set up your outputStep 4. Create a connectionStep 5. Verify your connectionStep 6. Track eventsStep 7. Track user dataStep 8. Create a data planJava Quick StartStep 1. Create an inputStep 2. Create an outputStep 3. Verify outputNode Quick StartStep 1. Create an inputStep 2. Create an outputStep 3. Verify outputPython Quick StartStep 1. Create an inputStep 2. Create an outputStep 3. Verify outputWebOverviewStep 1. Create an inputStep 2. Verify your inputStep 3. Set up your outputStep 4. Create a connectionStep 5. Verify your connectionStep 6. Track eventsStep 7. Track user dataStep 8. Create a data planGuidesPartnersIntroductionOutbound IntegrationsOutbound IntegrationsFirehose Java SDKInbound IntegrationsKit IntegrationsOverviewAndroid Kit IntegrationJavaScript Kit IntegrationiOS Kit IntegrationCompose IDData Hosting LocationsGlossaryMigrate from Segment to mParticleMigrate from Segment to mParticleMigrate from Segment to Client-side mParticleMigrate from Segment to Server-side mParticleSegment-to-mParticle Migration ReferenceRules Developer GuideAPI Credential ManagementThe Developer's Guided Journey to mParticleGuidesGetting StartedCreate an InputStart capturing dataConnect an Event OutputCreate an AudienceConnect an Audience OutputTransform and Enhance Your DataPersonalizationIntroductionProfilesAudiencesAudiences OverviewCreate an AudienceConnect an AudienceManage AudiencesReal-time Audiences (Legacy)Standard Audiences (Legacy)Calculated AttributesCalculated Attributes OverviewUsing Calculated AttributesCreate with AI AssistanceCalculated Attributes ReferencePredictive AudiencesPredictive Audiences OverviewUsing Predictive AudiencesJourneysJourneys OverviewManage JourneysDownload an audience from a journeyAudience A/B testing from a journeyJourneys 2.0Predictive AttributesWhat are predictive attributes?Predict Future BehaviorCreate Future PredictionUse Future Predictions in CampaignsAssess and Troubleshoot PredictionsNext Best ActionNext Best Action OverviewCreate a Next Best Action (NBA)View and Manage NBAsActivate Next Best Actions in CampaignsPlatform GuideBillingUsage and Billing ReportThe New mParticle ExperienceThe new mParticle ExperienceThe Overview MapObservabilityObservability OverviewObservability User GuideObservability Troubleshooting ExamplesObservability Span GlossaryIntroductionData RetentionConnectionsActivityLive StreamData FilterRulesTiered EventsmParticle Users and RolesAnalytics Free TrialTroubleshooting mParticleUsage metering for value-based pricing (VBP)AnalyticsIntroductionSetupSync and Activate Analytics User Segments in mParticleUser Segment ActivationWelcome Page AnnouncementsSettingsProject SettingsRoles and TeammatesOrganization SettingsGlobal Project FiltersPortfolio AnalyticsAnalytics Data ManagerAnalytics Data Manager OverviewEventsEvent PropertiesUser PropertiesRevenue MappingExport DataUTM GuideQuery BuilderData DictionaryQuery Builder OverviewModify Filters With And/Or ClausesQuery-time SamplingQuery NotesFilter Where ClausesEvent vs. User PropertiesGroup By ClausesAnnotationsCross-tool CompatibilityApply All for Filter Where ClausesDate Range and Time Settings OverviewUser Attributes at Event TimeUnderstanding the Screen View EventAnalysesAnalyses IntroductionSegmentation: BasicsGetting StartedVisualization OptionsFor ClausesDate Range and Time SettingsCalculatorNumerical SettingsSegmentation: AdvancedAssisted AnalysisProperties ExplorerFrequency in SegmentationTrends in SegmentationDid [not] Perform ClausesCumulative vs. Non-Cumulative Analysis in SegmentationTotal Count of vs. Users Who PerformedSave Your Segmentation AnalysisExport Results in SegmentationExplore Users from SegmentationFunnels: BasicsGetting Started with FunnelsGroup By SettingsConversion WindowTracking PropertiesDate Range and Time SettingsVisualization OptionsInterpreting a Funnel AnalysisFunnels: AdvancedGroup ByFiltersConversion over TimeConversion OrderTrendsFunnel DirectionMulti-path FunnelsAnalyze as Cohort from FunnelSave a Funnel AnalysisExplore Users from a FunnelExport Results from a FunnelCohortsGetting Started with CohortsAnalysis ModesSave a Cohort AnalysisExport ResultsExplore UsersSaved AnalysesManage Analyses in DashboardsJourneysGetting StartedEvent MenuVisualizationEnding EventSave a Journey AnalysisUsersGetting StartedUser Activity TimelinesTime SettingsExport ResultsSave A User AnalysisDashboardsDashboards––Getting StartedManage DashboardsDashboard FiltersOrganize DashboardsScheduled ReportsFavoritesTime and Interval Settings in DashboardsQuery Notes in DashboardsUser AliasingAnalytics ResourcesThe Demo EnvironmentKeyboard ShortcutsTutorialsAnalytics for MarketersAnalytics for Product ManagersCompare Conversion Across Acquisition SourcesAnalyze Product Feature UsageIdentify Points of User FrictionTime-based Subscription AnalysisDashboard Tips and TricksUnderstand Product StickinessOptimize User Flow with A/B TestingUser SegmentsAPIsUser Segments Export APIDashboard Filter APIIDSyncIDSync OverviewUse Cases for IDSyncComponents of IDSyncStore and Organize User DataIdentify UsersDefault IDSync ConfigurationProfile Conversion StrategyProfile Link StrategyProfile Isolation StrategyBest Match StrategyAliasingData MasterGroup IdentityOverviewCreate and Manage Group DefinitionsIntroductionCatalogLive StreamData PlansData PlansBlocked Data Backfill GuideWarehouse SyncData Privacy ControlsData Subject RequestsDefault Service LimitsFeedsCross-Account Audience SharingApproved Sub-ProcessorsImport Data with CSV FilesImport Data with CSV FilesCSV File ReferenceGlossaryVideo IndexAnalytics (Deprecated)Identity ProvidersSingle Sign-On (SSO)Setup ExamplesSettingsDebug ConsoleData Warehouse Delay AlertingIntroductionDeveloper DocsIntroductionIntegrationsIntroductionRudderstackGoogle Tag ManagerSegmentData Warehouses and Data LakesAdvanced Data Warehouse SettingsAWS Kinesis (Snowplow)AWS Redshift (Define Your Own Schema)AWS S3 Integration (Define Your Own Schema)AWS S3 (Snowplow Schema)BigQuery (Snowplow Schema)BigQuery Firebase SchemaBigQuery (Define Your Own Schema)GCP BigQuery ExportSnowflake (Snowplow Schema)Snowplow Schema OverviewSnowflake (Define Your Own Schema)APIsREST APIDashboard Filter API (Deprecated)User Segments Export API (Deprecated)SDKsSDKs IntroductionReact NativeiOSAndroidJavaJavaScriptPythonObject APIDeveloper BasicsAliasingConnectionsmParticle provides multiple data flows to ensure different kinds of data travel from a client application or the web (input) to a destination (output).
+Data Forwarding and Connections
+Data about an event, including individual attributes, may be forwarded from the input to an output in a variety of ways:
+Server-side: Data is forwarded from the web or client app to mParticle servers, stored there, and from there is forwarded on to an output or destination such as Braze. For these types of forwarding, no client setup is needed, because the client communicates directly with mParticle.
+Client-side: Data is forwarded from the web or client app directly to the output, unseen by mParticle servers. For this type of forwarding, you must set up your client, usually by adding a kit to the platform SDK of the client app.
+Some integrations allow you to choose either server-side or client-side when you configure a connection.
+Connection Workflow
+No matter which data flow your integration uses, a connection is required. A connection is the combination of an input, an output, and the configuration information required to make the connection work. Most of the configuration information is specified in the mParticle UI, but some values may need to be fetched from the output, and you may need to add a kit to an SDK for some client-side integrations.
+The Connections screen controls how event data from your inputs (iOS, Android, Web, Feeds, etc) is forwarded to your output platforms. You must set up a separate connection for each input-output-configuration combination. For each connection, you have several opportunities to cleanse and filter your data, to ensure that each output receives the data you want it to receive, in the correct format.
+Each output has its own requirements, so the process for setting up each connection is a little different. However, all connections require these basic steps:
+Create a connection.
+If needed, add a kit to the SDK for your input platform.
+Activate the connection.
+Verify that data is being forwarded.
+Create a Connection
+Data flows once an input and output are connected and the connection is active. For an overview before you create your first connection, view the following video:
+1. Select an input
+Navigate to Connections > Connect in the mParticle UI.
+From the list displayed, select the input you want to configure. If the list is empty, go to Setup > Inputs to create an input.
+2. Apply ‘All Outputs’ transformations
+Once you have an input selected, you can set up transformations that are applied to all outputs connected to that input. Click All Outputs to see options.
+Warning: Because rules are processed before storage and processing, if you apply a subtractive rule to all outputs and apply it between stages 1 and 2, such as dropping events from a batch, you may remove data that you don't intend to remove and the data may not be recoverable because it's dropped before storage and processing.
+There are two transformations that can be applied here:
+Rules
+User Splits
+3. Select an Output
+Once you have selected an input, you will see a list of available outputs that can receive data from your selected input. If this list is empty, go to Setup > Outputs to create some outputs.
+The following video shows how to create an output:
+The mParticle UI may indicate that you need or may need to add a reference to a kit in your platform dependency configuration. You can do this after you create the connection but before you change the Connection Status to active. See Add a Kit for more information.
+If you are planning to apply any data transformations to the connection, make sure the Connection Status switch in the output Connection Settings page is set to off.
+4. Complete Connection Settings
+Complete any settings that apply to the connection. These will be different for every output but can include:
+Credentials or Account/Workspace identifiers
+What user identifiers and attributes should be sent. You must choose a User Identification (identity type) or data may not flow.
+Encoding to be used for identifying data
+How custom attributes should be mapped
+How to handle attributes specific to the Output
+The minimum platform version of your input that the connection will forward data from.
+If you set the Min Platform Version connection setting, then mParticle will only forward data from inputs with an application_version that is equal to or greater than the version you set. This allows you to create a separate connection for different versions of your app.
+The version number you set for the Min Platform Version connection setting must only contain numeric characters (0 through 9) and decimals (.) Using any non-numeric characters when setting your Min Platform Version will cause the connection to fail.
+5. Apply ‘Specific Output’ transformations
+The second set of transformations apply only to your selected Output. Click Specific Output to see options. Specific output transformations include:
+Event Filter - note, this is not part of Connections Screen but should be configured before the next step if needed.
+Specific Outputs Rules
+Forwarding Rules
+Custom Mappings
+User Sampling
+Add a Kit
+When you configured your output in step 3, the mParticle UI may have indicated that you do need or may need a kit added to the SDK for your app or web pages:
+If so, check the integration documentation for your output. If a kit is required, follow the instructions for adding the kit to your input platform dependency configuration.
+Activate the Connection
+After you have completed the required settings, set up any transformations, and added a kit (if needed), you are ready to activate the connection:
+Navigate to Connections.
+Select the input for your connection.
+Click the output you are ready to activate.
+Click the Connection Settings gear icon.
+Click the Connection Status slider so it displays Active.
+Click Save.
+Very large data volumes may take up to 48 hours to process. To reduce processing time, reduce the number of sessions your account sends to fewer than 200,000 per day.
+Verify Your Connection
+Verify that data is flowing. Check in the mParticle UI and in your downstream app or system (output).
+Step 1: Verify that data is flowing from the input to the output
+Wait for the time indicated in the mparticle UI to ensure your connection has been activated. Additionally, some outputs such as Google Analytics have their own processing delays. Check the “Data Processing” section of [the integration documentation(/integrations) for your output.
+Open Data Master > Live Stream and select the following values:
+The input from Inputs
+The output from Outputs
+In Message Direction, select Both In and Out to check whether events are being forwarded.
+In Device, leave the default value All Dev Data unless you are verifying the flow to a device in production. In that case, choose the relevant device.
+Check that you have chosen a User Identification (identity type).
+Events should be listed as they occur:
+If you don’t see events being forwarded, troubleshoot your connection.
+Step 2: Verify that data is arriving in the downstream system
+To verify that data is arriving n the downstream system:
+In mParticle, look in Data Master > Live Stream and select an event.
+Search for that event in your downstream system.
+If you don’t see events being forwarded, troubleshoot your connection.
+Troubleshooting Connections
+Follow these steps to troubleshoot an event connection:
+Make sure you have waited for the time period specified in the mParticle UI before troubleshooting further.
+Check Activity > System Alerts for any fatal errors or warnings and resolve them.
+If your events are not appearing in the output although the mParticle Live Stream suggests that the connection is active, follow the steps in Verify your connection to ensure your connection is working. Although Live Stream has indicated that events are forwarded downstream, there might be issues downstream that prevent successful forwarding. The next steps will help you find this type of problem.
+Does your connection depend on a kit? Does your connection use a kit to forward data downstream? Has the kit been included in your application? If yes, check your application for HTTP requests directed to the partner. Have they succeeded or are they reporting errors?
+Does your connection use batch forwarding? Some outputs use batch forwarding. You might have to wait longer for events to arrive in these systems (approximately 10 minutes or after several event batches have been collected).
+Still not sure what’s wrong? Contact mParticle Support.
+All Outputs Transformations
+See Rules for more information on all-output rules.
+Specific Output Transformations
+mParticle lets you customize the data that you send to each output. There are many reasons to do this, including:
+Filtering out personally identifiable information (PII);
+Filtering out data containing company insights you don’t want to share with a particular service;
+Filtering out events that you don’t need to track in a particular service;
+Filtering out information from places or customer types you don’t want to track in a particular service;
+Enriching the data you send to a service with extra user info from an external source;
+Reformatting your data to match what a particular service accepts.
+The Data Filter
+Unlike other transformations, the data filter exists on its own page, separate from the Connections screen. A data filter allows you to decide which events/attributes you want to send to each output. By default, all event attributes are enabled when you first activate a connection. From the event filter you can:
+Decide whether new events and attributes should be forwarded by default.
+Turn forwarding on/off for each event, by event name.
+Turn forwarding on/off for attributes of each event, by attribute name.
+See The Data Filter for more information.
+Forwarding Rules
+Like the event filter, forwarding rules let you filter out events from being sent to an Output. But where the event filter is based on event and attribute names, forwarding rules look at values, which lets you build some more complex conditions. There are several types of forwarding rules.
+Attribute: Attribute rules take an event attribute name and a value. You can choose to either not forward events that match the rule, or to only forward events that match the rule, excluding all others. Greater than / less than comparisons are not possible. Matching is case sensitive and exact.
+If an attribute is criteria for the forwarding rule, but is omitted from the source payload, it is treated as if the attribute key exists and the value doesn’t match.
+Attribution: Attribution rules filter events according to Publisher information. You can choose to exclude events attributed to a specific publisher, or forward only events attributed to that publisher.
+Consent: Data privacy controls allow you to filter events based on whether a user has given consent to a particular data collection purpose.
+ID Sync: ID Sync rules allow you to only forward data from logged-in users. A logged in user is one with at least one Login ID, as defined by your Identity Strategy.
+User Sampling
+User Sampling is applied to a single output and sends only a subset, or sample of your data to an output. The main reason to do this is to control costs on services that charge by volume of data. Data is sampled on a user level, not an event level - if you select a 50% sample, mParticle forwards all data received from half of your users, not half of each user’s data.
+Specific Output Rules
+See Rules for more information about specific-output rules.
+Custom Mappings
+Some services allow your incoming events to be translated into events specific to the service. For example, if you have a custom event named “NextLevel”, typically this event would be forwarded as a custom event to a service. With custom mappings, you can specify that this event be forwarded to a service using their specific event name. For example:
+Integration
+Integration Description
+Integration Event Name
+Criteo
+User Level Finished
+UserLevel
+Facebook
+Achieved Level
+fb_mobile_level_achieved
+For partners that support custom mappings, the output’s events are listed on the left side of the Custom Mappings tab. For each event, you can then select an mParticle event and associated attributes to map to the partner’s event.
+The following integrations support custom mappings:
+AgilOne
+Algolia
+Amazon Mobile Analytics
+AppLovin
+AppsFlyer
+Criteo
+Facebook
+Fiksu
+Google Ads Enhanced Conversions
+Google Analytics for Firebase
+Google Analytics 4 (GA4)
+Iterable
+NCR Aloha
+Optimizely
+SimpleReach
+Snapchat
+TikTok
+If an event has a Custom Mapping for a particular connection, it will be displayed with an icon in the Event Filter
+If you turn off forwarding of an event with a Custom Mapping, the mapping information will be deleted.
+mParticle Forwarder Module
+The final and most crucial transformation step is the mParticle Forwarder Module itself.
+After all your other transformations have been completed, the forwarder module turns your data into messages to the output in its preferred format.
+Each integration has its own forwarding module. Settings for the forwarder are derived from three places:
+Some data is handled based on hard-coded settings. For example, any device information (such as device model or operating system type) the output service accepts is usually forwarded without the user needing to set anything up.
+Some data is handled according to the connection settings. For example, in the Mixpanel settings, you can choose whether you want to forward session events, and decide what they should be called.
+Any custom mappings you have created.
+Based on these settings, mParticle transforms your data into a format accepted by the output. This can involve extensively reformatting the data. For example, Mixpanel’s API accepts events, with attributes given as a flat set of key-value pairs. To fit this structure, a single mParticle eCommerce event with four products will be transformed into four Mixpanel Events - one for each product - with common attributes, such as user and device info, repeated for each event.
+The documentation for each integration will tell you what you need to know about how data is transformed to be accepted by the Output service.
+Best Practice for Transformations
+mParticle provides many opportunities to transform and enrich your data. It is often possible to perform the same transformation in more than one place. For example, if you wanted to drop all Application State Transition events for a given output, you could use the event filter, or you could write a condition in an output rule. There are advantages to each choice. The event filter can be used by anyone with the appropriate access to your organization in the mParticle Dashboard, so it is easy to update and maintain. Writing a rule gives you much finer control over your data, but rules may be difficult for non-developers to understand or alter.
+Make the necessary transformations to your data in as few steps as possible. The fewer times you alter your data, the easier your integration will be to troubleshoot and maintain.
+More Help
+To find out more about event integrations in mParticle, view the following video:
+Was this page helpful?YesNoLast Updated: February 27, 2025© 2025 mParticle, Inc. All rights reserved.mParticle.comPrivacy PolicyCookie PolicyDo Not Sell or Share My Personal Data

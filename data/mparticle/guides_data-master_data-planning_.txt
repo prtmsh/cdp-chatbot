@@ -1,0 +1,465 @@
+DOCSDOCSHomeGuidesDevelopersIntegrationsChangelogSign UpDocumentationDevelopersAPI ReferencesPlatform APIPlatform API OverviewAccountsAppsAudiencesCalculated AttributesData PointsFeedsField TransformationsServicesUsersWorkspacesData Subject Request APIData Subject Request API Version 1 and 2Data Subject Request API Version 3Warehouse Sync APIWarehouse Sync API OverviewWarehouse Sync API TutorialWarehouse Sync API ReferenceData MappingWarehouse Sync SQL ReferenceWarehouse Sync Troubleshooting GuideComposeIDWarehouse Sync API v2 MigrationCalculated Attributes Seeding APIBulk Profile Deletion API ReferenceCustom Access Roles APIData Planning APIGroup Identity API ReferencePixel ServiceProfile APIEvents APImParticle JSON Schema ReferenceIDSyncClient SDKsAMPAMP SDKAndroidInitializationConfigurationNetwork Security ConfigurationEvent TrackingUser AttributesIDSyncScreen EventsCommerce EventsLocation TrackingMediaKitsApplication State and Session ManagementData Privacy ControlsError TrackingOpt OutPush NotificationsWebView IntegrationLoggerPreventing Blocked HTTP Traffic with CNAMELinting Data PlansTroubleshooting the Android SDKAPI ReferenceUpgrade to Version 5CordovaCordova PluginIdentityDirect Url RoutingDirect URL Routing FAQWebAndroidiOSFlutterGetting StartedUsageAPI ReferenceiOSInitializationConfigurationEvent TrackingUser AttributesIDSyncScreen TrackingCommerce EventsLocation TrackingMediaKitsApplication State and Session ManagementData Privacy ControlsError TrackingOpt OutPush NotificationsWebview IntegrationUpload FrequencyApp ExtensionsPreventing Blocked HTTP Traffic with CNAMELinting Data PlansTroubleshooting iOS SDKSocial NetworksiOS 14 GuideiOS 15 FAQiOS 16 FAQiOS 17 FAQiOS 18 FAQAPI ReferenceUpgrade to Version 7RokuGetting StartedIdentityMediaReact NativeGetting StartedIdentityUnityUpload FrequencyGetting StartedOpt OutInitialize the SDKEvent TrackingCommerce TrackingError TrackingScreen TrackingIdentityLocation TrackingSession ManagementXboxGetting StartedIdentityWebInitializationConfigurationContent Security PolicyEvent TrackingUser AttributesIDSyncPage View TrackingCommerce EventsLocation TrackingMediaKitsApplication State and Session ManagementData Privacy ControlsError TrackingOpt OutCustom LoggerPersistenceNative Web ViewsSelf-HostingMultiple InstancesWeb SDK via Google Tag ManagerPreventing Blocked HTTP Traffic with CNAMEFacebook Instant ArticlesTroubleshooting the Web SDKBrowser CompatibilityLinting Data PlansAPI ReferenceUpgrade to Version 2 of the SDKXamarinGetting StartedIdentityWebAlexaMedia SDKsAndroidiOSWebToolsmParticle Command Line InterfaceLinting ToolsSmartypeServer SDKsNode SDKGo SDKPython SDKRuby SDKJava SDKQuickstartAndroidOverviewStep 1. Create an inputStep 2. Verify your inputStep 3. Set up your outputStep 4. Create a connectionStep 5. Verify your connectionStep 6. Track eventsStep 7. Track user dataStep 8. Create a data planStep 9. Test your local appHTTP Quick StartStep 1. Create an inputStep 2. Create an outputStep 3. Verify outputiOS Quick StartOverviewStep 1. Create an inputStep 2. Verify your inputStep 3. Set up your outputStep 4. Create a connectionStep 5. Verify your connectionStep 6. Track eventsStep 7. Track user dataStep 8. Create a data planJava Quick StartStep 1. Create an inputStep 2. Create an outputStep 3. Verify outputNode Quick StartStep 1. Create an inputStep 2. Create an outputStep 3. Verify outputPython Quick StartStep 1. Create an inputStep 2. Create an outputStep 3. Verify outputWebOverviewStep 1. Create an inputStep 2. Verify your inputStep 3. Set up your outputStep 4. Create a connectionStep 5. Verify your connectionStep 6. Track eventsStep 7. Track user dataStep 8. Create a data planGuidesPartnersIntroductionOutbound IntegrationsOutbound IntegrationsFirehose Java SDKInbound IntegrationsKit IntegrationsOverviewAndroid Kit IntegrationJavaScript Kit IntegrationiOS Kit IntegrationCompose IDData Hosting LocationsGlossaryMigrate from Segment to mParticleMigrate from Segment to mParticleMigrate from Segment to Client-side mParticleMigrate from Segment to Server-side mParticleSegment-to-mParticle Migration ReferenceRules Developer GuideAPI Credential ManagementThe Developer's Guided Journey to mParticleGuidesGetting StartedCreate an InputStart capturing dataConnect an Event OutputCreate an AudienceConnect an Audience OutputTransform and Enhance Your DataPersonalizationIntroductionProfilesAudiencesAudiences OverviewCreate an AudienceConnect an AudienceManage AudiencesReal-time Audiences (Legacy)Standard Audiences (Legacy)Calculated AttributesCalculated Attributes OverviewUsing Calculated AttributesCreate with AI AssistanceCalculated Attributes ReferencePredictive AudiencesPredictive Audiences OverviewUsing Predictive AudiencesJourneysJourneys OverviewManage JourneysDownload an audience from a journeyAudience A/B testing from a journeyJourneys 2.0Predictive AttributesWhat are predictive attributes?Predict Future BehaviorCreate Future PredictionUse Future Predictions in CampaignsAssess and Troubleshoot PredictionsNext Best ActionNext Best Action OverviewCreate a Next Best Action (NBA)View and Manage NBAsActivate Next Best Actions in CampaignsPlatform GuideBillingUsage and Billing ReportThe New mParticle ExperienceThe new mParticle ExperienceThe Overview MapObservabilityObservability OverviewObservability User GuideObservability Troubleshooting ExamplesObservability Span GlossaryIntroductionData RetentionConnectionsActivityLive StreamData FilterRulesTiered EventsmParticle Users and RolesAnalytics Free TrialTroubleshooting mParticleUsage metering for value-based pricing (VBP)AnalyticsIntroductionSetupSync and Activate Analytics User Segments in mParticleUser Segment ActivationWelcome Page AnnouncementsSettingsProject SettingsRoles and TeammatesOrganization SettingsGlobal Project FiltersPortfolio AnalyticsAnalytics Data ManagerAnalytics Data Manager OverviewEventsEvent PropertiesUser PropertiesRevenue MappingExport DataUTM GuideQuery BuilderData DictionaryQuery Builder OverviewModify Filters With And/Or ClausesQuery-time SamplingQuery NotesFilter Where ClausesEvent vs. User PropertiesGroup By ClausesAnnotationsCross-tool CompatibilityApply All for Filter Where ClausesDate Range and Time Settings OverviewUser Attributes at Event TimeUnderstanding the Screen View EventAnalysesAnalyses IntroductionSegmentation: BasicsGetting StartedVisualization OptionsFor ClausesDate Range and Time SettingsCalculatorNumerical SettingsSegmentation: AdvancedAssisted AnalysisProperties ExplorerFrequency in SegmentationTrends in SegmentationDid [not] Perform ClausesCumulative vs. Non-Cumulative Analysis in SegmentationTotal Count of vs. Users Who PerformedSave Your Segmentation AnalysisExport Results in SegmentationExplore Users from SegmentationFunnels: BasicsGetting Started with FunnelsGroup By SettingsConversion WindowTracking PropertiesDate Range and Time SettingsVisualization OptionsInterpreting a Funnel AnalysisFunnels: AdvancedGroup ByFiltersConversion over TimeConversion OrderTrendsFunnel DirectionMulti-path FunnelsAnalyze as Cohort from FunnelSave a Funnel AnalysisExplore Users from a FunnelExport Results from a FunnelCohortsGetting Started with CohortsAnalysis ModesSave a Cohort AnalysisExport ResultsExplore UsersSaved AnalysesManage Analyses in DashboardsJourneysGetting StartedEvent MenuVisualizationEnding EventSave a Journey AnalysisUsersGetting StartedUser Activity TimelinesTime SettingsExport ResultsSave A User AnalysisDashboardsDashboards––Getting StartedManage DashboardsDashboard FiltersOrganize DashboardsScheduled ReportsFavoritesTime and Interval Settings in DashboardsQuery Notes in DashboardsUser AliasingAnalytics ResourcesThe Demo EnvironmentKeyboard ShortcutsTutorialsAnalytics for MarketersAnalytics for Product ManagersCompare Conversion Across Acquisition SourcesAnalyze Product Feature UsageIdentify Points of User FrictionTime-based Subscription AnalysisDashboard Tips and TricksUnderstand Product StickinessOptimize User Flow with A/B TestingUser SegmentsAPIsUser Segments Export APIDashboard Filter APIIDSyncIDSync OverviewUse Cases for IDSyncComponents of IDSyncStore and Organize User DataIdentify UsersDefault IDSync ConfigurationProfile Conversion StrategyProfile Link StrategyProfile Isolation StrategyBest Match StrategyAliasingData MasterGroup IdentityOverviewCreate and Manage Group DefinitionsIntroductionCatalogLive StreamData PlansData PlansBlocked Data Backfill GuideWarehouse SyncData Privacy ControlsData Subject RequestsDefault Service LimitsFeedsCross-Account Audience SharingApproved Sub-ProcessorsImport Data with CSV FilesImport Data with CSV FilesCSV File ReferenceGlossaryVideo IndexAnalytics (Deprecated)Identity ProvidersSingle Sign-On (SSO)Setup ExamplesSettingsDebug ConsoleData Warehouse Delay AlertingIntroductionDeveloper DocsIntroductionIntegrationsIntroductionRudderstackGoogle Tag ManagerSegmentData Warehouses and Data LakesAdvanced Data Warehouse SettingsAWS Kinesis (Snowplow)AWS Redshift (Define Your Own Schema)AWS S3 Integration (Define Your Own Schema)AWS S3 (Snowplow Schema)BigQuery (Snowplow Schema)BigQuery Firebase SchemaBigQuery (Define Your Own Schema)GCP BigQuery ExportSnowflake (Snowplow Schema)Snowplow Schema OverviewSnowflake (Define Your Own Schema)APIsREST APIDashboard Filter API (Deprecated)User Segments Export API (Deprecated)SDKsSDKs IntroductionReact NativeiOSAndroidJavaJavaScriptPythonObject APIDeveloper BasicsAliasingData PlansData plans help you improve data quality and control across the enterprise:
+Developers who need to validate data against a schema and get live feedback on invalid data points during QA.
+Product managers who need better control over data collection and federation throughout their tech stack.
+Marketers who need to prevent bad data from entering a downstream partner.
+Privacy teams who need more safeguards against bad data entering the tech stack.
+Data governance teams who need to collaborate more seamlessly on data requirements and architecture.
+A data plan is a codified set of expectations about the extent and shape of your data collected with mParticle. A plan contains the following elements:
+Name: a descriptive label for the plan. Keep in mind several teams may reference this name and share the plan. Plans may be renamed after they are created.
+ID: a URL-safe slug. This value never changes and is automatically generated based on the original plan name. The ID is used by your teams to refer to the plan in their code when they send data into mParticle.
+Version (Optional): an integer value. You can create new versions of a plan as you evolve your schema. When the version is omitted the latest active version in an environment is chosen.
+Description (Optional): an optional freeform field to describe the plan.
+Data Points: each data point contains an event, user attributes, or user identities. You define these for each type of data you expect to receive.
+You create and update data plans using the mParticle user interface (UI), a Data Plan Builder (Google Sheet) or the Data Planning API.
+Use the mParticle UI for simple plans (with few repeating attributes across events).
+Use the Data Plan Builder for complex plans with many repeating event attribute across events.
+Use the Data Planning API instead of the mParticle UI if you:
+Store data plans in source code, and use your own SDLC and approval processes to define your data model.
+Integrate mParticle’s suite of Data Planning tools to perform compile-time and runtime data quality verification.
+Depending on your goals, create a single plan or multiple plans. You decide whether all of your feeds and inputs share the same plan, or if you create a unique plan for every individual client-side and server-side input. Two common scenarios indicate a need for multiple plans:
+Your web app(s) may have slight variations to data collection as compared to your mobile app(s).
+You have a specific server-side feed that collects a different set of data from your client-side inputs. You may wish to ensure that each feed sticks only to its intended data points.
+Limits
+Similar to our event limit for workspaces, data plans support up to 1,000 data points.
+Managing plans with more than 400 data points in the UI can become unwieldy. Manage larger plans outside the UI, either via a Data Plan Builder or the Data Planning API.
+You can block data only for unplanned violations: events or attributes with names that diverge from the schema defined in a data plan.
+Prerequisites
+Although most of the data planning steps can be completed in the Data Plan UI, Step 3 requires a small code change. You must have developer support for the following:
+Adding a small piece of code to the client SDK on each initialization.
+For the Events API, adding a small piece of code to each request body.
+The following client SDKs support Data Planning:
+Web
+v2.1.1 or later
+Github
+iOS
+v7.13.0 or later
+Github
+Android
+v5.12.0 or later
+Github
+Python
+v0.10.8 or later
+Github
+Java
+v2.2.0 or later
+Github
+Roku
+v2.1.3 or later
+Github
+Optionally, you can review the JSON Reference to learn more about the full JSON structure.
+Getting Started
+To create and implement a data plan:
+Create a data plan that defines your expectations for incoming data. You can choose one of four different ways to create your plan:
+If this is your first time experimenting with data plans, and you are unfamiliar with your data structure, start with a template to explore the basics of data points (events and attributes) and data validation.
+If you don’t have any data in mParticle yet, but understand your data structure and are ready to implement your first data plan, use Data Plan Builder. This tool is a Google Sheet that provides step-by-step guidance to create a data plan and convert it into JSON in order to upload it to mParticle. Data Plan Builder uses either a generic template or an industry-specific template.
+If you already have data in mParticle, import data from the mParticle Catalog, or from another data plan or a JSON file.
+Want to start from scratch? You can start with a completely empty plan and import your data later.
+You can easily create, modify, and delete plans, so feel free to experiment.
+Activate your plan, so it is ready to validate incoming data.
+Tag your incoming data so that it is validated against the plan. You’ll need a developer to complete this step.
+Monitor your event stream to measure and continuously improve the quality of your data. To monitor data, review violations reports, and then fix your implementation or adjust your data plan.
+Update your data plan as you learn more about the data you collect, or as it changes over time. You can also move plans from one environment to another.
+Block unplanned data from being stored in mParticle and forwarded to downstream systems.
+More About Data Plan Builder and Templates
+Data Plan Builder is a Google Sheet add-on and template that helps you create a data plan:
+A template with full instructions to specify your events and attributes. You simply clone the spreadsheet and add your data.
+A one-button process for turning the specifications into a JSON that you load into the Data Plan UI (or use the Data Planning API). Just select mParticle > Generate Data Plan from the Google Sheet menu, and copy the output onto your clipboard.
+Industry Templates
+Choose from one of the industry-specific templates or the generic template.
+Generic
+Travel
+QSR
+Gaming
+FinTech
+Retail
+Media
+Here’s an example of the first part of the JSON file that you create from the generic template with no changes of your own:
+{
+"version_description":"",
+"version_document":{
+"data_points":[
+{
+"description":"This is an example Custom Event. Use it as a reference when creating your own.",
+"match":{
+"type":"custom_event",
+"criteria":{
+"event_name":"My Custom Event",
+"custom_event_type":"other"
+}
+},
+"validator":{
+"type":"json_schema",
+"definition":{
+"properties":{
+"data":{
+"additionalProperties":true,
+"properties":{
+"custom_attributes":{
+"additionalProperties":false,
+"properties":{
+"my string attribute (enum validation)":{
+"description":"An example string attribute using enum validation.",
+"type":"string",
+"enum":[
+"two seater",
+"three seater",
+"sectional"
+]
+},
+"my string attribute (regex validation)":{
+"description":"An example string attribute using regex validation.",
+"type":"string",
+"pattern":"^[a-zA-Z0-9_]*$"
+},
+"my numeric attribute":{
+"description":"An example numeric attribute using range validation.",
+"type":"number",
+"minimum":0,
+"maximum":100
+},
+"my boolean attribute":{
+"description":"An example boolean attribute.",
+"type":"boolean"
+},
+"my shared attribute":{
+"description":"An example shared attribute. This will appear on every event in the \"example_events\" group (see column titled \"Group\" on the Events tab)",
+"type":"number"
+}
+},
+"required":[
+"my string attribute (enum validation)",
+"my string attribute (regex validation)",
+"my numeric attribute",
+"my boolean attribute",
+"my shared attribute"
+],
+"type":"object"
+}
+},
+"required":[
+],
+"type":"object"
+}
+}
+}
+}
+}
+]
+}
+}
+Once you have the JSON from Data Plan Builder, paste it into the Data Plan import window (as explained in Step 1.3 below), or store the file and upload it using the Data Planning API.
+Step 1: Create Your Plan
+To create a plan:
+In the mParticle UI, select Data Master > Plans > Create Plan.
+Choose how you will import data points, using the instructions in the dialog to pick the most suitable method.
+Note:
+You can move data plans between various mParticle workspaces and accounts by downloading and uploading JSON formatted plans.
+When updating or uploading a data plan by copying and pasting JSON (as when using the Data Plan Builder) you must update the version description separately in the mParticle UI.
+Step 2: Activate Your Plan
+To start verifying incoming data against your plan, you first need to activate it. To do this, click the Activate button on your data plan’s home screen. Then in the Activate modal, use the Status dropdown to select the environment in which you want to activate your data plan (dev or prod). (You also have the option to save the plan as a draft to return to later.)
+Now that your plan is active, you need to ensure that incoming data is tagged with your plan’s id. Continue to the next step to learn how.
+Step 3: Validate Incoming Data with Your Plan
+Before mParticle validates incoming data against the plan, the data must be tagged with a plan ID, an environment, and optionally a plan version. This is the step that requires a small code change, as mentioned in Prerequisites.
+Gather the Required Information
+Plan ID: This is the “slugified” form of your data plan name. You can find it during plan creation, and on the plan listing page.
+Plan Version (optional): The plan version that the data should conform to. If omitted, mParticle uses the latest active version for your environment.
+Environment (development or production): The environment of your data. mParticle uses this value to look for plans that are activated in the given environment.
+To find your plan ID, navigate to the plan listing page. In the following image, fintech_template is the plan ID and should be used in the code snippets below:
+Add the Required Information to All Batches Sent to mParticle
+Include the plan ID and environment in all batches sent to mParticle.
+For client-side SDKs, you must provide this metadata on initialization of the SDK.
+For the Events API, you must include it in every request body.
+In addition to plan ID, you can optionally add a plan version, which pins your validation to a specific version. If the plan version is omitted, mParticle will choose the latest version active in a given environment.
+Example Code in Four Languages
+You can cut and paste the following example code in either JSON, Swift, Kotlin, or JavaScript for your developer to implement:
+JSONSwiftKotlinJavascript
+{
+"context": {
+"data_plan": {
+"plan_id": "mobile_data_plan",
+"plan_version": 2
+}
+},
+"environment": "development",
+"user_identities": {...},
+"events": [...]
+}
+let options = MParticleOptions(
+key: "REPLACE WITH APP KEY",
+secret: "REPLACE WITH APP SECRET"
+)
+options.dataPlanId = "mobile_data_plan"
+options.dataPlanVersion = 2
+options.environment = MPEnvironment.development;
+MParticle.sharedInstance().start(options);
+var options = MParticleOptions.builder(this)
+.credentials("REPLACE WITH APP KEY", "REPLACE WITH APP SECRET")
+.environment(MParticle.Environment.Development)
+.dataplan("mobile_data_plan", 2)
+.build()
+MParticle.start(options)
+window.mParticle = {
+config: {
+isDevelopmentMode: true,
+dataPlan: {
+planId: 'mobile_data_plan',
+planVersion: 2,
+}
+}
+};
+Data that has not been tagged with an existing plan ID and environment is not validated. You must include these values in every upload.
+Now that you have tagged incoming data, use Live Stream to debug violations as they occur.
+Step 4: Monitor Your Plan
+Once your plan is validating data, violations reports help monitor your data quality. To view violations, click Unique Violations in the header row of your data plan’s home screen. This will display a violation report like the one below:
+It can take up to 5 minutes for new violations to be reflected in reports.
+Step 5: Update Your Plan
+Your data needs change over time. Data plans can be easily updated to reflect these changes.
+Smaller changes can be made directly to an existing plan version. Updates to active data plans are live immediately: simply update the plan in the UI and save your changes. For larger changes, we recommend creating a new plan version. Creating a new plan version allows you to track changes over time and to revert back to an older version if necessary.
+If you’re using a Data Plan Builder, make the update in the builder and follow instructions to export a new data plan version into mParticle.
+When updating or uploading a data plan by copying and pasting JSON (as when using the Data Plan Builder), you must update the version description separately in the mParticle UI.
+If you've pinned your SDK or Events API payload to a plan version, update your code to point to the version. If you have omitted the plan version in your implementation, mParticle will automatically find the latest version that is active in development or production.
+To view the version history of a data plan:
+Log in to mParticle and navigate to Data Master > Plans in the left nav bar.
+Select a data plan from the list.
+Hover your cursor over the details icon (…), and click View Plan History.
+Step 6: Block Unplanned Data from Being Forwarded to Downstream Systems
+Once you are confident that your plan reflects the data you want to collect, you can block unplanned data from being forwarded to downstream systems. Learn more about blocking data in the next section.
+Blocking Bad Data
+Enabling blocking will impact your data stream and can lead to data loss. Work closely with your mParticle representative when implementing this feature for your production data stream.
+Using Data Plans, you can block unplanned data from being forwarded to downstream systems. You can think of this feature as an allowlist (sometimes called a whitelist) for the data you want to capture with mParticle: any event, event attribute, or user attribute that is not included in the allowlist can be blocked from further processing.
+Limitations
+You cannot replay blocked data through the UI. If you have set up a Quarantine Connection, we offer instructions and sample scripts for replaying blocked data in our backfill guide.
+Only custom_attributes can be blocked from client-side kits. Other unplanned event attributes will not be blocked client-side. Learn more in the Blocking data sent to mParticle Kits section.
+Quarantine Connections
+To prevent blocked data from being lost, you can opt for blocked data to be forwarded to an Output with a Quarantine Connection. To illustrate a typical workflow, assume you choose to configure an Amazon S3 bucket as your Quarantine Output:
+Anytime a data point is blocked, the Quarantine Connection will forward the original batch and metadata about what was blocked to the configured Amazon S3 bucket. You will then be able to:
+Examine the blocked data in greater detail.
+Backfill data that was mistakenly blocked by following our backfill guide.
+Blocking Data Sent to mParticle Kits
+What’s a Kit?
+In most cases, data collected by the mParticle SDK is sent to mParticle and then forwarded on to an integration partner server-to-server. However, in cases where a server-to-server integration cannot support all required functionality for an integration, an embedded kit can be used instead.
+A kit is a client-side wrapper of an integration’s SDK. Some kits (e.g. AppsFlyer, Apptentive, Branch, Braze) will forward data directly to the integration partner from your client application.
+You can learn which integrations are kits for a given SDK here:
+Web
+iOS
+Android
+How Do I Block Data Before It Is Sent to a Kit?
+By default, the current Block feature supports blocking for server-side integrations. If you would like to enable blocking for mParticle kits, you need to follow additional steps outlined below for each of our most popular SDKs: Web, Android and iOS.
+Step 1: Build a Data Plan and Reference It in Your Code
+Before you can enable the blocking feature, you need to create a data plan and initialize the respective SDK with a data plan ID in your code. Read our “Getting Started” section for detailed guidance.
+Step 2: Ensure That You are Using the Right SDK Version
+Platform
+Versions
+TTL
+Repo
+Web
+v2.1.1 or later
+60 min
+Github
+iOS
+v8.1.0 or later
+10 min
+Github
+Android
+v5.15.0 or later
+10 min
+Github
+Our SDKs are served by a CDN that caches SDK configuration, including your data plan, for some period of time (the “TTL”). As a result, updates to a data plan can take time before they are reflected in your client code. To avoid caching a plan version while you are iterating on it:
+Explicitly mention the plan version in your code.
+Create a new plan version when you make changes.
+Update the plan version in your code to point to the latest version. The resulting changes in the URL will sidestep previously cached versions.
+Step 3: Turn on Block Settings for Your Plan Version
+You can now turn on Block settings for the type of data you would like to block by completing the following steps:
+Open your data plan version in the UI and navigate to the Block tab.
+Enable “Block unplanned events” or any other block setting. Events are a good place to start blocking.
+Step 4: Verify That Data Is Being Blocked before It Is Forwarded to a Kit Integration
+For Web, you can use the developer console to verify when a kit’s underlying SDK uploads an event to the partner’s API. For iOS and Android, you can typically use verbose console logs or a proxy such as Charles Proxy. Depending on your block settings, you should see unplanned data removed from payloads. For example, if you have not planned “Bad Event A”, “Bad Event A” will not be forwarded to a specific partner integration.
+"Bad Event A" will still be uploaded to mParticle, so mParticle can report the blocked event in Live Stream and in your data planning report.
+Step 5: Deploy Your Changes
+Follow your usual software development process to deploy your code changes to production. Remember to also promote your data plan version to prod through the mParticle UI to start blocking production data that does not match your plan. Plan versions active on production are locked in the UI to prevent accidental updates. The recommended flow for updating a production plan is to clone the latest version and to deploy a new version after testing.
+FAQ
+How does the memory quota work?
+To protect shared resources, every mParticle account includes a memory quota for active data plan versions. The byte size of a plan version’s JSON representation is a good estimate of its memory footprint. The typical data plan version size is approximately 50 KB.
+You can verify your current usage, check the size of a data plan, and if needed, take action to reduce your memory quota usage:
+To find your quota limit and current usage, navigate to Data Master > Data Plans.
+To download the JSON file for a data plan to check its size, navigate to Data Master > Data Plans, click a plan name to open it, and then click the Download as JSON icon above the Unique Violations area.
+To stay within an account’s memory quota, deactivate plan versions that you aren’t using. Draft plan versions don’t count against your quota, only active plan versions do.
+Contact your mParticle representative if you need more memory provisioned for your account.
+How do I enable validation?
+To enable validation, you need to point your code to a data plan id with at least one active version. For a version to be considered active, its status has to be set to dev or dev & prod.
+You can either pin your code to a specific data plan version or omit the version, in which case mParticle will match the data you send with the latest plan version that is active in a given environment (dev or prod). Learn more about how to implement a data plan with Getting Started.
+Which events are supported?
+You can plan for and validate the following events:
+Custom Events (including events emitted by the Media SDK)
+Screen Events
+Commerce Events
+The following events are not yet included:
+Application State Transition Events
+Session Events
+Attribution Events
+User Attribute Change Events
+Which user identifiers are supported?
+You can plan for and validate the following user identifier types:
+Amp Client ID
+Google Advertising ID
+Android Device ID
+Customer ID
+mParticle Device Application Stamp
+Email Address
+Facebook ID
+Facebook Audience ID
+Fire Advertising ID
+Google ID
+Apple IDFA
+Apple IDFV
+Microsoft ID
+Microsoft Advertising ID
+Microsoft Publisher ID
+Mobile Telephone Number
+Phone Number 2
+Phone Number 3
+Push Token
+Roku Advertising ID
+Roku Publisher ID
+Twitter Handle
+Yahoo ID
+Other
+Other 2
+Other 3
+Other 4
+Other 5
+Other 6
+Other 7
+Other 8
+Other 9
+Other 10
+The Other identifiers allow you to enter up to ten different custom strings against which to validate data.
+How do I validate the shape of event schemas?
+Here’s an example schema configuration for a screen event called “Sandbox Page View”:
+This configuration states the following:
+The custom_attributes object is required and any additional attributes that are not listed below should be flagged – the behavior for additional attributes is implied by the validation dropdown for the custom_attributes object.
+An attribute called anchor is a string, and it’s required.
+An attribute called name is a string, and it’s optional.
+Let’s look at a couple examples to see this schema validation in action.
+Example 1
+window.mParticle.logPageView(
+'Sandbox Page View',
+{
+'anchor': '/home',
+'name': 'Home',
+}
+)
+This event passes validation.
+Example 2
+window.mParticle.logPageView(
+'Sandbox Page View',
+{
+'name': 'Home',
+}
+)
+This event fails validation since the required anchor attribute is excluded.
+Example 3
+window.mParticle.logPageView(
+'Sandbox Page View',
+{
+'anchor': '/home',
+}
+)
+This event passes validation: The name attribute is excluded but optional.
+Example 4
+window.mParticle.logPageView(
+'Sandbox Page View',
+{
+'anchor': '/home',
+'label': 'Home'
+}
+)
+This event fails validation: The label attribute is unplanned and custom_attributes has been configured to disallow additional attributes. You can change this behavior by changing the validation of the custom_attributes object to Allow add'l attributes (see below).
+What do valid events look like on the developer side?
+If you’re looking for an example of how to implement events that conform to your data plan, download your data plan and check out our Snippets Tool. This tool will show you how to implement every data point in your plan for any of our SDKs.
+How are attribute types validated?
+Since various mParticle features (Audiences, Calculated Attributes, Forwarding Rules, some integrations) will automatically convert string representations of numbers and booleans to their respective types, data planning does not distinguish between raw numeric or boolean values (e.g. 42 or true) and their string representation (e.g. "42" or "true").
+As long as the value can be converted to a type, it is considered valid.
+How can I validate specific event, user and identity attributes?
+You can validate specific attributes differently depending on detected type. Learn more about how type validation works here.
+Numbers
+Number can be validated in two ways:
+An inclusive numeric range as implemented by the JSON Schema’s minimum and maximum keywords. Learn more here.
+A fixed list of integers as implemented by the JSON Schema’s enum keyword. Learn more here.
+Strings
+String can be validated in three ways:
+A fixed list of allowed strings as implemented by JSON Schema’s enum keyword. Learn more here. Within an enum value, commas are not allowed.
+A regex pattern.
+A list of pre-defined formats defined by the JSON Schema standard, including email, URI, date, time, datetime and others.
+Where in mParticle’s data pipeline are plans enforced?
+Ingestion, plan validation (and blocking), and event forwarding occur in the following sequence:
+Step 1: Client Logs an mParticle Event Batch
+Use any API client or SDK to send data to the Events API, and tag the data with your plan ID and, optionally, a plan version. For instructions, see Step 1 in Getting Started.
+If you are using an mParticle kit to forward data to a destination, and you have enabled blocking of bad data, you can configure popular client SDKs to block bad data before it is forwarded to a kit. Learn more about blocking bad data before it is sent to kits here.
+Step 2: Rules Are Applied
+Your data then passes through the mParticle Rules engine. You can use your Rules to further enrich or fix your data.
+Step 3: Plan Validation and Blocking
+Data is then validated and, optionally, blocked. You can see dev data being validated in real-time with Live Stream.
+Step 4: Profile Storage
+Data is then sent to the mParticle profile storage system. When you block bad data, it is dropped before being stored on a profile. Learn more about what happens when data is blocked here.
+Step 5: Outbound Integrations
+Your data then passes through the rest of the mParticle platform and is sent outbound, including:
+Outbound Rules
+the mParticle Audience system
+all Event and Audience-based integrations
+What do the different violations mean?
+During plan enforcement, mParticle will generate violations when actual data does not match expectations. mParticle tracks the following types of violations:
+Unplanned Event
+The event type and name combination is not expected.
+Unplanned Event Attribute
+The attribute is not expected on a specific event.
+Unplanned User Attribute or Identity
+The user attribute or identity is not expected.
+Invalid Attribute
+This means the attribute is expected, but it has one or more data quality violations such as:
+Invalid Data Type: The data type of an attribute’s value does not match expectations. Learn more about type validation here.
+Invalid Expected Value: The value associated with an attribute does not match expectations. Learn more about attribute validation here.
+What do I need to know before enabling block settings?
+Enabling blocking will impact your data stream and can lead to data loss. Work closely with your mParticle representative when implementing this feature for your production data stream.
+Limitations
+You can’t replay blocked data through the UI. If you have set up a Quarantine Connection, we offer instructions and sample scripts for replaying blocked data in our backfill guide.
+You can’t block the following items:
+Unplanned identifiers
+Invalid data
+The event user_attribute_change can’t be blocked as unplanned data
+What happens to blocked data?
+Blocked data is dropped from your data stream before it is consumed by other mParticle features, such as:
+User Profiles, as viewed in User Activity View and accessed through the Profile API
+Filters
+Catalog
+Audiences
+For debugging and reporting purposes, blocked data is shown in Live Stream and the Data Plan Report. Unless you create a Quarantine Connection, you won’t be able to recover blocked data.
+Does blocking data impact how mParticle counts MTU or events?
+Blocking data does not impact MTU or (ingested) event counts.
+Quarantine Connections
+To prevent blocked data from being lost, you can opt for blocked data to be forwarded to an Output with a Quarantine Connection. To illustrate a typical workflow, assume you choose to configure an Amazon S3 bucket as your Quarantine Output.
+Anytime a data point is blocked, the Quarantine Connection will forward the original batch and metadata about what was blocked to the configured Amazon S3 bucket. You will then be able to:
+Examine the blocked data in greater detail.
+Backfill data that was mistakenly blocked.
+Learn more about how to use quarantined data in the Blocked Data Backfill Guide.
+Linting
+We’ve developed tools for you to be able to lint your Swift, Kotlin/Java, and JavaScript/TypeScript code. For more information, see Linting Tools.
+mParticle Snippets Tool
+The mParticle Snippets tool helps you to generate example code blocks that log events using the mParticle SDKs in a way that conforms to a specified data plan.
+For example, if a data plan includes a data point for a custom event with 10 different attributes, you can create the exact code that will log that event with all of its attributes by running the data plan through the Snippets tool.
+This is helpful when integrating the mParticle SDK into your app if you are unsure which method to call to log a specific event or how to ensure that all of an event’s attributes are captured correctly.
+To use the Snippets tool:
+Copy the raw JSON of your data plan. For an example, you can test the Snippets tool using the data plan created for the mParticle sample web app, The Higgs Shop.
+Navigate to the Snippets tool at mparticle.github.io/data-planning-snippets
+Paste the data plan JSON in the left column.
+Use the language dropdown menu to select the appropriate language for the SDK you are using. For the sample Higgs Shop web app data plan, select Web SDK.
+The right column will automatically populate with example code blocks for each data point in the data plan. The Higgs Shop web sample app plan includes 16 different events, and the generated code block for each event includes a comment describing the action that will trigger the event based on the data point’s description plan.
+For example:
+// Data Plan Point 6
+// User added product to cart
+let product = mParticle.eCommerce.createProduct('productName', 'productId', 19.199, 1)
+mParticle.eCommerce.logProductAction(mParticle.ProductActionType.AddToCart, [product])
+For this data point, you must first create the product being added to the cart using the mParticle.eCommerce.createProduct() method, passing in the attributes productName, productId, and 19.199 for the product’s name, ID, price, and amount.
+To log the event, your app must call the mParticle.eCommerce.logProductAction() method passing in the product object just created and the product action type (AddToCart).
+Visit the mParticle developer documentation to learn more about integrating the SDKs into your application.
+For more information about the Snippets Tool, visit the GitHub repo. Was this page helpful?YesNoLast Updated: February 27, 2025© 2025 mParticle, Inc. All rights reserved.mParticle.comPrivacy PolicyCookie PolicyDo Not Sell or Share My Personal Data

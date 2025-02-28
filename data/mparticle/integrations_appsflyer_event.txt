@@ -1,0 +1,146 @@
+DOCSDOCSHomeGuidesDevelopersIntegrationsChangelogSign UpDocumentationDevelopersAPI ReferencesPlatform APIPlatform API OverviewAccountsAppsAudiencesCalculated AttributesData PointsFeedsField TransformationsServicesUsersWorkspacesData Subject Request APIData Subject Request API Version 1 and 2Data Subject Request API Version 3Warehouse Sync APIWarehouse Sync API OverviewWarehouse Sync API TutorialWarehouse Sync API ReferenceData MappingWarehouse Sync SQL ReferenceWarehouse Sync Troubleshooting GuideComposeIDWarehouse Sync API v2 MigrationCalculated Attributes Seeding APIBulk Profile Deletion API ReferenceCustom Access Roles APIData Planning APIGroup Identity API ReferencePixel ServiceProfile APIEvents APImParticle JSON Schema ReferenceIDSyncClient SDKsAMPAMP SDKAndroidInitializationConfigurationNetwork Security ConfigurationEvent TrackingUser AttributesIDSyncScreen EventsCommerce EventsLocation TrackingMediaKitsApplication State and Session ManagementData Privacy ControlsError TrackingOpt OutPush NotificationsWebView IntegrationLoggerPreventing Blocked HTTP Traffic with CNAMELinting Data PlansTroubleshooting the Android SDKAPI ReferenceUpgrade to Version 5CordovaCordova PluginIdentityDirect Url RoutingDirect URL Routing FAQWebAndroidiOSFlutterGetting StartedUsageAPI ReferenceiOSInitializationConfigurationEvent TrackingUser AttributesIDSyncScreen TrackingCommerce EventsLocation TrackingMediaKitsApplication State and Session ManagementData Privacy ControlsError TrackingOpt OutPush NotificationsWebview IntegrationUpload FrequencyApp ExtensionsPreventing Blocked HTTP Traffic with CNAMELinting Data PlansTroubleshooting iOS SDKSocial NetworksiOS 14 GuideiOS 15 FAQiOS 16 FAQiOS 17 FAQiOS 18 FAQAPI ReferenceUpgrade to Version 7RokuGetting StartedIdentityMediaReact NativeGetting StartedIdentityUnityUpload FrequencyGetting StartedOpt OutInitialize the SDKEvent TrackingCommerce TrackingError TrackingScreen TrackingIdentityLocation TrackingSession ManagementXboxGetting StartedIdentityWebInitializationConfigurationContent Security PolicyEvent TrackingUser AttributesIDSyncPage View TrackingCommerce EventsLocation TrackingMediaKitsApplication State and Session ManagementData Privacy ControlsError TrackingOpt OutCustom LoggerPersistenceNative Web ViewsSelf-HostingMultiple InstancesWeb SDK via Google Tag ManagerPreventing Blocked HTTP Traffic with CNAMEFacebook Instant ArticlesTroubleshooting the Web SDKBrowser CompatibilityLinting Data PlansAPI ReferenceUpgrade to Version 2 of the SDKXamarinGetting StartedIdentityWebAlexaMedia SDKsAndroidiOSWebToolsmParticle Command Line InterfaceLinting ToolsSmartypeServer SDKsNode SDKGo SDKPython SDKRuby SDKJava SDKQuickstartAndroidOverviewStep 1. Create an inputStep 2. Verify your inputStep 3. Set up your outputStep 4. Create a connectionStep 5. Verify your connectionStep 6. Track eventsStep 7. Track user dataStep 8. Create a data planStep 9. Test your local appHTTP Quick StartStep 1. Create an inputStep 2. Create an outputStep 3. Verify outputiOS Quick StartOverviewStep 1. Create an inputStep 2. Verify your inputStep 3. Set up your outputStep 4. Create a connectionStep 5. Verify your connectionStep 6. Track eventsStep 7. Track user dataStep 8. Create a data planJava Quick StartStep 1. Create an inputStep 2. Create an outputStep 3. Verify outputNode Quick StartStep 1. Create an inputStep 2. Create an outputStep 3. Verify outputPython Quick StartStep 1. Create an inputStep 2. Create an outputStep 3. Verify outputWebOverviewStep 1. Create an inputStep 2. Verify your inputStep 3. Set up your outputStep 4. Create a connectionStep 5. Verify your connectionStep 6. Track eventsStep 7. Track user dataStep 8. Create a data planGuidesPartnersIntroductionOutbound IntegrationsOutbound IntegrationsFirehose Java SDKInbound IntegrationsKit IntegrationsOverviewAndroid Kit IntegrationJavaScript Kit IntegrationiOS Kit IntegrationCompose IDData Hosting LocationsGlossaryMigrate from Segment to mParticleMigrate from Segment to mParticleMigrate from Segment to Client-side mParticleMigrate from Segment to Server-side mParticleSegment-to-mParticle Migration ReferenceRules Developer GuideAPI Credential ManagementThe Developer's Guided Journey to mParticleGuidesGetting StartedCreate an InputStart capturing dataConnect an Event OutputCreate an AudienceConnect an Audience OutputTransform and Enhance Your DataPersonalizationIntroductionProfilesAudiencesAudiences OverviewCreate an AudienceConnect an AudienceManage AudiencesReal-time Audiences (Legacy)Standard Audiences (Legacy)Calculated AttributesCalculated Attributes OverviewUsing Calculated AttributesCreate with AI AssistanceCalculated Attributes ReferencePredictive AudiencesPredictive Audiences OverviewUsing Predictive AudiencesJourneysJourneys OverviewManage JourneysDownload an audience from a journeyAudience A/B testing from a journeyJourneys 2.0Predictive AttributesWhat are predictive attributes?Predict Future BehaviorCreate Future PredictionUse Future Predictions in CampaignsAssess and Troubleshoot PredictionsNext Best ActionNext Best Action OverviewCreate a Next Best Action (NBA)View and Manage NBAsActivate Next Best Actions in CampaignsPlatform GuideBillingUsage and Billing ReportThe New mParticle ExperienceThe new mParticle ExperienceThe Overview MapObservabilityObservability OverviewObservability User GuideObservability Troubleshooting ExamplesObservability Span GlossaryIntroductionData RetentionConnectionsActivityLive StreamData FilterRulesTiered EventsmParticle Users and RolesAnalytics Free TrialTroubleshooting mParticleUsage metering for value-based pricing (VBP)AnalyticsIntroductionSetupSync and Activate Analytics User Segments in mParticleUser Segment ActivationWelcome Page AnnouncementsSettingsProject SettingsRoles and TeammatesOrganization SettingsGlobal Project FiltersPortfolio AnalyticsAnalytics Data ManagerAnalytics Data Manager OverviewEventsEvent PropertiesUser PropertiesRevenue MappingExport DataUTM GuideQuery BuilderData DictionaryQuery Builder OverviewModify Filters With And/Or ClausesQuery-time SamplingQuery NotesFilter Where ClausesEvent vs. User PropertiesGroup By ClausesAnnotationsCross-tool CompatibilityApply All for Filter Where ClausesDate Range and Time Settings OverviewUser Attributes at Event TimeUnderstanding the Screen View EventAnalysesAnalyses IntroductionSegmentation: BasicsGetting StartedVisualization OptionsFor ClausesDate Range and Time SettingsCalculatorNumerical SettingsSegmentation: AdvancedAssisted AnalysisProperties ExplorerFrequency in SegmentationTrends in SegmentationDid [not] Perform ClausesCumulative vs. Non-Cumulative Analysis in SegmentationTotal Count of vs. Users Who PerformedSave Your Segmentation AnalysisExport Results in SegmentationExplore Users from SegmentationFunnels: BasicsGetting Started with FunnelsGroup By SettingsConversion WindowTracking PropertiesDate Range and Time SettingsVisualization OptionsInterpreting a Funnel AnalysisFunnels: AdvancedGroup ByFiltersConversion over TimeConversion OrderTrendsFunnel DirectionMulti-path FunnelsAnalyze as Cohort from FunnelSave a Funnel AnalysisExplore Users from a FunnelExport Results from a FunnelCohortsGetting Started with CohortsAnalysis ModesSave a Cohort AnalysisExport ResultsExplore UsersSaved AnalysesManage Analyses in DashboardsJourneysGetting StartedEvent MenuVisualizationEnding EventSave a Journey AnalysisUsersGetting StartedUser Activity TimelinesTime SettingsExport ResultsSave A User AnalysisDashboardsDashboards––Getting StartedManage DashboardsDashboard FiltersOrganize DashboardsScheduled ReportsFavoritesTime and Interval Settings in DashboardsQuery Notes in DashboardsUser AliasingAnalytics ResourcesThe Demo EnvironmentKeyboard ShortcutsTutorialsAnalytics for MarketersAnalytics for Product ManagersCompare Conversion Across Acquisition SourcesAnalyze Product Feature UsageIdentify Points of User FrictionTime-based Subscription AnalysisDashboard Tips and TricksUnderstand Product StickinessOptimize User Flow with A/B TestingUser SegmentsAPIsUser Segments Export APIDashboard Filter APIIDSyncIDSync OverviewUse Cases for IDSyncComponents of IDSyncStore and Organize User DataIdentify UsersDefault IDSync ConfigurationProfile Conversion StrategyProfile Link StrategyProfile Isolation StrategyBest Match StrategyAliasingData MasterGroup IdentityOverviewCreate and Manage Group DefinitionsIntroductionCatalogLive StreamData PlansData PlansBlocked Data Backfill GuideWarehouse SyncData Privacy ControlsData Subject RequestsDefault Service LimitsFeedsCross-Account Audience SharingApproved Sub-ProcessorsImport Data with CSV FilesImport Data with CSV FilesCSV File ReferenceGlossaryVideo IndexAnalytics (Deprecated)Identity ProvidersSingle Sign-On (SSO)Setup ExamplesSettingsDebug ConsoleData Warehouse Delay AlertingIntroductionDeveloper DocsIntroductionIntegrationsIntroductionRudderstackGoogle Tag ManagerSegmentData Warehouses and Data LakesAdvanced Data Warehouse SettingsAWS Kinesis (Snowplow)AWS Redshift (Define Your Own Schema)AWS S3 Integration (Define Your Own Schema)AWS S3 (Snowplow Schema)BigQuery (Snowplow Schema)BigQuery Firebase SchemaBigQuery (Define Your Own Schema)GCP BigQuery ExportSnowflake (Snowplow Schema)Snowplow Schema OverviewSnowflake (Define Your Own Schema)APIsREST APIDashboard Filter API (Deprecated)User Segments Export API (Deprecated)SDKsSDKs IntroductionReact NativeiOSAndroidJavaJavaScriptPythonObject APIDeveloper BasicsAliasingIntegrations24iEventAarkiAudienceAbakusEventAdChemixEventABTastyAudienceActableFeedAdikteevAudienceEventAdjustFeedEventAdobe Marketing CloudCookie SyncPlatform SDK EventsServer-to-Server EventsAdobe Audience ManagerAudienceAdobe Campaign ManagerAudienceAdobe TargetAudienceAgilOneEventAdMediaAudienceAirshipAudienceEventFeedAdPredictiveFeedAlgoliaEventAlgoLiftEventFeedAloomaEventAmazon KinesisEventAmazon AdvertisingAudienceAmazon RedshiftData WarehouseAmazon S3EventAmazon Kinesis FirehoseAudienceEventAmazon SNSEventAmazon SQSEventAmobeeAudienceAmplitudeEventForwarding Data Subject RequestsAmpushAudienceEventAnalyticsAudienceEventForwarding Data Subject RequestsAnodotEventAntavoFeedApptentiveEventAppsFlyerEventForwarding Data Subject RequestsFeedApptimizeEventApteligentEventAttentiveEventFeedMicrosoft Azure Blob StorageEventAttractorEventBatchAudienceEventBideaseAudienceBing AdsEventBluecoreEventBluedotFeedBlueshiftEventFeedForwarding Data Subject RequestsBranchEventForwarding Data Subject RequestsFeedBranch S2S EventEventBrazeAudienceFeedForwarding Data Subject RequestsEventBugsnagEventButtonAudienceEventCadentAudienceCensusFeedciValueEventFeedCleverTapAudienceEventFeedcomScoreEventConversantEventCordialAudienceFeedCortexEventFeedForwarding Data Subject RequestsCrossing MindsEventCriteoAudienceEventCustom FeedCustom FeedCustomerGluEventFeedCustomer.ioAudienceEventFeedDatabricksData WarehouseDidomiEventDatadogEventDynamic YieldEventAudienceDynalystAudienceEdge226AudienceEmarsysAudienceEpsilonEventEverflowAudienceFacebook Offline ConversionsEventFacebookAudienceEventFiksuAudienceEventGoogle Analytics for FirebaseEventFlurryEventFlybitsEventForeSeeEventFormationEventFeedFoursquareFeedAudienceFreeWheel Data SuiteAudienceGoogle Ad ManagerAudienceGoogle AdsAudienceEventGoogle AnalyticsEventGoogle Analytics 4EventGoogle Cloud StorageAudienceEventGoogle BigQueryAudienceData WarehouseGoogle Enhanced ConversionsEventGoogle Marketing PlatformCookie SyncAudienceEventGoogle Marketing Platform Offline ConversionsEventGoogle Pub/SubEventGoogle Tag ManagerEventHeapEventHerowFeedHightouchFeedHyperlocologyEventIbottaEventImpactEventInMobiAudienceEventIndicativeAudienceEventInMarketAudienceIntercomEventInsiderEventAudienceFeedInspectletEventiPostAudienceFeedIterableAudienceFeedEventironSourceAudienceJamppAudienceEventKafkaEventKayzenAudienceEventKissmetricsEventKlaviyoEventAudienceKubitEventKochavaEventForwarding Data Subject RequestsFeedLaunchDarklyFeedLeanplumEventFeedAudienceLifeStreetAudienceLiftoffEventAudienceLiveLikeEventLiverampAudienceLocalyticsEventmAdme TechnologiesEventMadHiveAudienceMailchimpFeedAudienceEventMauticEventAudienceMarigoldAudienceMediaMathAudienceMediasmartAudienceMicrosoft Azure Event HubsEventMintegralAudienceMixpanelAudienceEventForwarding Data Subject RequestsMolocoAudienceEventMoEngageAudienceEventFeedMonetateEventMovable InkEventMovable Ink - V2EventmyTargetAudienceEventNami MLFeedMultipliedEventNanigansEventNarrativeAudienceEventFeedNCR AlohaEventNeuraEventOneTrustEventOptimizelyAudienceEventOracle BlueKaiEventOracle ResponsysAudienceEventPaytronixFeedPersona.lyAudiencePieEyeInbound Data Subject RequestsPersonify XPEventPilgrimEventFeedPlarinEventPinterestAudienceEventPostieAudienceEventPunchhAudienceEventFeedAppLovinAudienceEventPrimerEventQuantcastEventPushwooshEventAudienceRadarEventFeedRedditAudienceEventRegalEventRemergeAudienceEventRetina AIEventFeedReveal MobileEventRevenueCatFeedRoktAudienceEventRTB HouseAudienceEventSalesforce EmailAudienceFeedEventSailthruAudienceEventSalesforce Mobile PushEventSamba TVAudienceEventScalarrEventSessionMEventFeedSendGridAudienceFeedShareThisAudienceFeedShopifyCustom PixelFeedSignalEventSingularFeedEventSimpleReachEventSingular-DEPRECATEDEventSkyhookEventSmadexAudienceSlackEventSmarterHQEventSnapchatAudienceEventSnapchat ConversionsEventSnowplowEventSplitEventFeedSplunk MINTEventSnowflakeData WarehouseSprigEventAudienceStartAppAudienceStatsigFeedEventStormlyAudienceEventTalon.OneAudienceEventFeedLoyalty FeedSwrveEventFeedTapadAudienceTapjoyAudienceTaplyticsEventTapticaAudienceTeakAudienceThe Trade DeskAudienceCookie SyncEventTicketureFeedTikTok EventAudienceAudience (Deprecated)EventAudience MigrationTreasure DataAudienceEventTUNEEventTriton DigitalAudienceValidEventTwitterAudienceEventVkontakteAudienceVoucherifyAudienceEventVungleAudienceWebhookEventWebtrendsEventWhite Label LoyaltyEventWootricEventXandrCookie SyncAudienceYahoo (formerly Verizon Media)AudienceCookie SyncYotpoFeedYouAppiAudienceZendeskEventFeedQuadratic LabsEventZ2A DigitalEventAudienceQualtricsEventEventAppsFlyer is a leading Mobile Attribution & Marketing Analytics platform that allows app marketers to easily measure the performance of all their marketing channels - paid, organic and social - from a single real-time dashboard.
+mParticle’s integration with AppsFlyer includes a required Kit integration and an optional server-side integration. The Kit forwards event data from your app to AppsFlyer on the client side, and also handles app install attribution, uninstall tracking, and deeplinking, including deferred deeplinking. Supplementary data from outside your app can be forwarded to mParticle via our Events API and sent on to AppsFlyer server-to-server.
+Consent
+To adhere to the EU user consent policy, starting March 6, 2024, Google is enforcing the consent field to be populated for EU users. AppsFlyer is adjusting to this requirement. You can find more details in AppsFlyer's announcement here.
+Google has several notions of user-provided consent.
+Two of these apply to AppsFlyer events: ad_user_data and ad_personalization. These represent consent for ad user data and ad personalization.
+User-specified Consent
+To configure user consent forwarding under this value, a mapping should be set-up leveraging mParticle’s notion of Consent Purposes. To learn more about handling user consent within mParticle’s platform, see the following docs: Data Privacy Controls.
+Once a Consent Purpose is set up, user consent information can be associated with it in subsequent Event Batches. The Consent Purpose data mapping can then be configured for downstream forwarding via the User Consent Data Mapping connection setting.
+Consent Defaults
+In the absence of a user-defined consent value for the ad_user_data and ad_personalization fields via the Consent Purpose mapping, a default value can be optionally configured via a separate drop-down setting for each consent type. When no user consent is provided, the default status is used, if specified.
+Caution: It is recommended that in the long term, you set up user-specified consent through the Consent Purpose mapping, such that the user consent is correctly forwarded to Google. It is your responsibility as a Data Controller to stay compliant under the GDPR, and set up user consent collection for downstream forwarding. The consent default setting can be deprecated in the future.
+Enabling AppsFlyer
+1. Configure
+Add the mParticle SDKs to your iOS and/or Android apps. See the docs for your platform here.
+Connect your iOS and/or Android workspaces to AppsFlyer. You will need to provide your Dev Key, which you can access from the Settings page of your organization’s AppsFlyer dashboard. For an iOS connection, you will also need your Apple App ID. Make sure you remove the ‘ID’ prefix. For example, if your App ID is id12345, just enter 12345. For more information on setting up a new mParticle connection, see the Platform Guide.
+Configuration Settings
+Setting Name
+Data Type
+Default Value
+Description
+Dev Key
+string
+You can find your Dev Key within the AppsFlyer settings page.
+Connection Settings
+Setting Name
+Data Type
+Default Value
+Platform
+Description
+Send Additional Product Data
+bool
+false
+S2S
+If enabled, additional product data will be forwarded for purchase and add-to-cart events. This was designed for a downstream Facebook product.
+Apple App ID
+string
+iOS
+You can find your app’s Apple ID in the app page in iTunes Connect.
+GDPR Applies
+bool
+false
+All
+If enabled, the integration will be considered as European regulations do apply to these users and conversions.
+Consent Data Mapping
+mapping
+null
+All
+A mapping of mParticle consents to Google consents.
+Ad User Data Default Consent Value
+string
+Unspecified
+All
+Select the Ad User Data Consent Status to be forwarded to AppsFlyer.
+Ad Personalization Default Consent Value
+string
+Unspecified
+All
+Select the Ad Personalization Consent Status to be forwarded to AppsFlyer.
+2. Add the iOS/Android Kits
+mParticle’s AppsFlyer integration requires that you add the AppsFlyer Kit to your iOS or Android app. Just by adding the binary to your app:
+The mParticle SDK will initialize AppsFlyer’s SDK per their documentation, using the AppsFlyer dev key provided above, and will also forward all required UIApplication (iOS) and Activity (Android) lifecycle events to the AppsFlyer SDK.
+Events that you log via mParticle’s API will be automatically mapped onto AppsFlyer analogous event tracking APIs.
+The customer ID and email of the current user, set via mParticle’s Identity APIs, will be mapped onto AppsFlyer’s analogous setUser APIs.
+Google Play Install Referrer will be forwarded (Android only - see below).
+mParticle publishes the AppsFlyer Kit as separate iOS and Android libraries which have a transitive dependency on the mParticle core libraries. You can add them to your app via Carthage, Cocoapods, Swift Package Manager, or Gradle:
+CocoaPods
+# Sample Podfile
+source 'https://github.com/CocoaPods/Specs.git'
+target '<Your Target>' do
+pod 'mParticle-AppsFlyer'
+end
+Carthage
+github "mparticle-integrations/mparticle-apple-integration-appsflyer" "~> 8.0"
+Swift
+To integrate the SDK using Swift Package Manager, open your Xcode project and navigate to File > Swift Packages > Add Package Dependency
+Enter the repository URL `https://github.com/mparticle-integrations/mparticle-apple-integration-appsflyer` and click Next.
+You can leave the version settings as default and click Next one more time to complete adding the package dependency.
+Gradle
+// Sample build.gradle
+dependencies {
+// Ensure the Kit version matches that of the mParticle Core SDK that you're using
+implementation 'com.mparticle:android-appsflyer-kit:5+'
+}
+Refer to the Apple SDK and Android SDK guides to read more about kits.
+3. Install Referrer (Android only)
+AppsFlyer’s SDK requires the forwarding of the Google Play Install Referrer Intent. The AppsFlyer kit will take care of this for you as long as you’ve added mParticle’s ReferrerReceiver to you manifest, or you are manually forwarding the Intent to our ReferrerReceiver class. The mParticle SDK will then forward the Install Referrer intent to each configured kit, including AppsFlyer.
+Please see the Android SDK setup guide to ensure your manifest is configured properly.
+Deep Linking and Attribution
+The AppsFlyer SDK exposes client-side deep linking and attribution APIs, all of which are supported by the mParticle AppsFlyer kit and are covered in this section. The core use-cases are:
+Retrieving install attribution information (deferred deep linking)
+Retrieve app-open attribution information (non-deferred deep linking)
+OneLink, AppsFlyer’s unified deeplinking hosting service
+Each platform has very specific requirements to ensure that the above functionality is supported. The minimum requirements are:
+Verify the AppsFlyer connection is enabled for the workspace key and secret, and mParticle environment (development or production) that you’re testing.
+Verify that the devKey configured above matches your AppsFlyer app.
+Verify that you have correctly configured your Apple App ID (retrieve from iTunes connect, this is not your iOS development team prefix) both in AppsFlyer and in mParticle.
+Verify that the proper associated domains and entitlements are configured (iOS only)
+Verify that your AndroidManifest.xml has the proper Intent Filters to match any deep link domains that you’re testing.
+Retrieving Attribution Information
+mParticle’s SDKs will automatically initialize the AppsFlyer SDK, forwarding the required UIApplication lifecycle events and the continueUserAcivity events for iOS and Android, as well as registering a delegate such that you can retrieve deep linking and attribution parameters on the client-side to customize your user’s in-app experience.
+Specifically, the AppsFlyer SDK exposes one distinct callback:
+didResolveDeepLink
+mParticle’s API includes a wrapper for this callback, and both the iOS and Android kits expose a constant to inform you when the callback has been fired and if it was successful. On both platforms, the iOS/Android kit will register a delegate/callback with the AppsFlyer SDK on initialization and for the lifetime of the app’s process, and will call your completion handler block (iOS) or AttributionListener (Android) whenever there is new conversion data available.
+When a user clicks a OneLink link, the AppsFlyer SDK retrieves available OneLink data from the AppsFlyer servers. Then, the UDL API calls the didResolveDeepLink() method which returns a DeepLinkResult object containing a status and (if successful) a DeepLink object containing the deep_link_value and deep_link_sub1-10 parameters you can use to customize the resulting in-app outcome.
+However, when users deep link directly using universal or app links, the didResolveDeepLink method returns the full link unparsed since the app opens directly without going through AppsFlyer first. You can read more about AppsFlyer’s deep linking methods here.
+The parameters returned in these results will match the result of the AppsFlyer SDK, as documented for Android and iOS.
+See the deep linking documentation for iOS and Android for more information.
+Test Scenarios
+The following core test scenarios that should be verified:
+New user-install (deferred deeplink)
+Application not running, and an existing user-install invokes a deep link (“cold start” scenario)
+Application running in the background, and an existing user install invokes a deep link (“warm start” scenario)
+Track Events
+The AppsFlyer Kit will forward app events and eCommerce events to AppsFlyer. Custom Mappings are available to map your custom app events onto AppsFlyer’s event names. Refer to the iOS and Android SDK docs for details on instrumenting your app for event tracking:
+eCommerce
+iOS SDK
+Android SDK
+App Events
+iOS SDK
+Android SDK
+Note that AppsFlyer enforces a limit of 45 characters for event names.
+Kit Source and Sample Applications
+The source code for each kit, as well as sample apps, are available on Github:
+iOS
+Android
+Server Integration
+mParticle can forward app events and commerce events received via our Events API to AppsFlyer’s server-API. Note that AppsFlyer requires data to be linked to a unique AppsFlyer ID, generated client-side by the AppsFlyer Kit. mParticle stores the AppsFlyer ID in its internal user profile. This means that:
+You must have the AppsFlyer Kit included in your app to be able to forward data, and you can only forward data associated with your app users.
+The data you send server-side must include a device ID, so that mParticle can lookup the AppsFlyer ID for the user.
+The AppsFlyer Kit must be included in your app - the server integration may only be used as a complement to the Kit integration.
+iOS 14 Update for ApplicationTrackingTransparency
+For iOS 14, mParticle will send the att field based on the att_authorization_status to AppsFlyer in their expected format. Check the iOS14 Implementation guide for more information.
+If att_authorization_status is available:
+att_authorization_status
+att
+authorized
+3
+denied
+2
+not_determined
+0
+restricted
+1
+Last Updated: February 27, 2025DOCSLast Updated:
+2/27/2025, 7:45:31 PMCDPmParticle DocsHomeGuidesDevelopersIntegrationsAnalyticsAnalytics DocsOverviewGetting StartedDevelopersExpert TrainingPredictive AICortex DocsOverviewGetting StartedDevelopersUsing CortexLearn MoreBlogPodcastResourcesCommunityChange logGet in TouchHelp CenterDemoBecome a Partner© 2025 mParticle, Inc. All rights reserved.mParticle.comPrivacy PolicyCookie PolicyDo Not Sell or Share My Personal Data

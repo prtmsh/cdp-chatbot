@@ -1,0 +1,106 @@
+Zeotap Privacy & Security: Protecting Customers Data
+Solutions
+Zeotap CDP Solutions
+Acquisition & GrowthCustomer Experience and PersonalisationLoyalty & RetentionPredictive Insights and
+Customer AnalyticsData Collection and Privacy
+Industries
+RetailTelcoMediaRetail MediaFinancial ServicesSports & EntertainmentAutomotive
+Platform
+Zeotap CDP Modules
+OverviewIntegrateUnifySegmentOrchestrateAnalyseProtect
+Zeotap CDP Features
+OverviewCustomer 360 ViewPredictive AudiencesOmnichannel JourneyConsent OrchestrationPrivacy & GDPRIntegrations
+Get started
+Subscription PlansDeployment Options
+Partners
+Our PartnersGoogle Cloud PartnershipZeotap Partner Network
+Resources
+AllBlogCase studiesVideosWhitepapersCDP SupportDeveloper Documentation
+Company
+About UsPrivacy and SecurityWhy Zeotap CDPWhy Zeotap DataCareers at ZeotapNewsEventsContact us
+LoginGet A Demo
+close_03
+Hit enter to search or click X to close
+Login
+Get a Demo
+Privacy and Security: We Protect Your Customer Data
+Zeotap Products are designed to meet the European compliance standards and beyond
+Protecting your data: our commitment and approach
+At Zeotap, we acknowledge that the security and privacy of information and data created, maintained, and hosted by us are critical to the success of our business and the trust of our partners. We commit to the confidentiality, integrity, and availability of our customers’ data safeguarded at all times. Our privacy and security remain the cornerstone of our CDP. It dictates that we apply enterprise-grade security measures over every inch of our product. We continuously implement best practices, identify and mitigate risk as a matter of priority, and constantly evolve our security measures to protect our customers’ data.
+Find out more about Zeotap Trust center
+EXPLORE NOW
+Security and Privacy above all
+Built for EuropeWhile most CDPs are made for North America, Zeotap has been conceived in Germany and developed for the stringent European regulation. Our platform is compliance-first by nature.
+Certified complianceZeotap is continually re-certified for multiple international privacy and security certifications, including ISO 27001, ISO 27701, ISO27017, ISO27018, SOC2 Type2, CSA Star and GDPR Seal.
+Designed around consentAll of our solutions place user consent and preferences at the cornerstone, helping ensure proper governance and complete compliance at all time.
+Our privacy certifications
+We believe that even the toughest data privacy regulations still leave plenty of room for managing and activating customer data, as long as it’s done right. And that’s why we engineer to meet the highest data privacy standards in the world.
+EU Data Protection
+ePrivacy SealThe ePrivacy Seal, initially awarded in 2016 and maintained to date, indicates our GDPR compliance.
+ISO/IEC 27701This certificate guides us on policies and procedures to be compliant with GDPR and other data protection/privacy regulations and laws.
+IAPP and FPF corporate membershipZeotap is a member of the International Association of Privacy Professionals (IAPP) and Future of Privacy Forum (FPF) and actively participates in other international member-based organisations such as the IAB Consent Framework.
+ISO/IEC 27018Awarded the ISO/IEC 27701 for ensuring continuous compliance around PIMS (Privacy Information Management System) and ISO/IEC 27018 for the protection of Personally Identifiable Information (PII) in public cloud computing environments
+Find out more on how you can excercise your rights
+If you want to exercise your rightsand directly opt-out of your data being used, fill in our form
+GO NOW
+Our security certifications
+Our security measures exceed industry standards for data protection and securityWhen it comes to handling customer data, security is paramount. Zeotap has over ten years of experience in ensuring that every step of the data journey is held to the highest standards.
+ISO/IEC 27001Our platform has coherent and comprehensive information security controls in place that have resulted in certification for security management for over five years running.
+ISO/IEC 27701 ISO 27701 is a standard that provides guidance on the protection of privacy, including the management of personal information and demonstrates compliance with regulation around the world.
+ISO/IEC 27017:2015 Our controls-based use of cloud services has been certified by the ISO/IEC 27017: 2015. This certification promotes a safer cloud environment.
+ISO 27018ISO/IEC 27018 ensures the protection of personally identifiable information (PII) in public clouds acting as PII processors.
+SOC2
+Type2SOC2 certifies that we've following the right practices and controls to safeguard the privacy and security of customer data stored in the cloud.
+CSA Security, Trust, Assurance and RiskAwarded the CSA STAR certification for 4 years running based on successful ISO 27001
+certification and additional cloud-based requirements.
+HIPAAThe certification ensures that our Customer Data Solutions adhere to the strict standards required for managing Protected Health Information (PHI), offering a dependable solution for healthcare organisations.
+TISAXTISAX is a European automotive industry-standard information security assessment (ISA) catalog based on key aspects of information security such as data protection and connection to third parties.
+What our customers say
+"Based on my experience, I can honestly say Zeotap’s platform is without equal. Brands can happily jettison a complex and
+inefficient patchwork of point solutions in favour of their unified stack for all data-related activities."
+Kay SchwabedalChief Digital Officer, Virgin Media O2
+"Zeotap has always set the bar when it comes to quality and security. It is part of their DNA."
+Steffen Roehnformer CIO, Deutsche Telekom
+"Being the data centre for the entire EMEA region, we have found Zeotap to be the right partner to improve our customer data intelligence and the service we provide to our clients."
+Jordi UrbeaChief Revenue Officer, Ogilvy
+"Zeotap is a strategic partner of Google Cloud in EMEA, driving
+additional value and improved experience for our customers with
+GCP. We realise that leveraging first-party data to drive digital
+transformation and omni-channel personalisation is top of mind for
+retailers - while also ensuring the best-possible privacy and
+security. We believe Zeotap - with its roots in Germany - is an
+expert and reliable partner to help navigate the first-party data
+opportunity."
+Adaire Martin-FoxPresident of Google Cloud International and Head of Google Ireland
+Trusted by
+Get a demo
+Step into a new era of marketing possibilities, unleashing the full potential of your customer data. Experience the power of Zeotap CDP.
+GET A DEMO
+Follow us
+Facebook-f
+Twitter
+Linkedin-in
+Sign up for our newsletter
+Be the first to get access to our marketing resources and keep up to date with the latest CDP best practices, privacy standards, marketing, and customer data.
+Get a demo
+Step into a new era of marketing possibilities, unleashing the full potential of your customer data. Experience the power of Zeotap CDP.
+GET A DEMO
+Follow us
+Facebook-f
+Twitter
+Linkedin-in
+©2024 Zeotap All Rights Reserved
+Website Privacy Policy
+Product and Service Privacy Policy
+Vulnerability Disclosure Policy
+Information Security Policy Statement
+Legal Notice
+Legal Hub
+Zeotap Whistleblowing Channel
+Website Privacy Policy
+Product and Service Privacy Policy
+Vulnerability Disclosure Policy
+Information Security Policy Statement
+Legal Notice
+Legal Hub
+Zeotap Whistleblowing Channel

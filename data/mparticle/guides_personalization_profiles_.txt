@@ -1,0 +1,164 @@
+DOCSDOCSHomeGuidesDevelopersIntegrationsChangelogSign UpDocumentationDevelopersAPI ReferencesPlatform APIPlatform API OverviewAccountsAppsAudiencesCalculated AttributesData PointsFeedsField TransformationsServicesUsersWorkspacesData Subject Request APIData Subject Request API Version 1 and 2Data Subject Request API Version 3Warehouse Sync APIWarehouse Sync API OverviewWarehouse Sync API TutorialWarehouse Sync API ReferenceData MappingWarehouse Sync SQL ReferenceWarehouse Sync Troubleshooting GuideComposeIDWarehouse Sync API v2 MigrationCalculated Attributes Seeding APIBulk Profile Deletion API ReferenceCustom Access Roles APIData Planning APIGroup Identity API ReferencePixel ServiceProfile APIEvents APImParticle JSON Schema ReferenceIDSyncClient SDKsAMPAMP SDKAndroidInitializationConfigurationNetwork Security ConfigurationEvent TrackingUser AttributesIDSyncScreen EventsCommerce EventsLocation TrackingMediaKitsApplication State and Session ManagementData Privacy ControlsError TrackingOpt OutPush NotificationsWebView IntegrationLoggerPreventing Blocked HTTP Traffic with CNAMELinting Data PlansTroubleshooting the Android SDKAPI ReferenceUpgrade to Version 5CordovaCordova PluginIdentityDirect Url RoutingDirect URL Routing FAQWebAndroidiOSFlutterGetting StartedUsageAPI ReferenceiOSInitializationConfigurationEvent TrackingUser AttributesIDSyncScreen TrackingCommerce EventsLocation TrackingMediaKitsApplication State and Session ManagementData Privacy ControlsError TrackingOpt OutPush NotificationsWebview IntegrationUpload FrequencyApp ExtensionsPreventing Blocked HTTP Traffic with CNAMELinting Data PlansTroubleshooting iOS SDKSocial NetworksiOS 14 GuideiOS 15 FAQiOS 16 FAQiOS 17 FAQiOS 18 FAQAPI ReferenceUpgrade to Version 7RokuGetting StartedIdentityMediaReact NativeGetting StartedIdentityUnityUpload FrequencyGetting StartedOpt OutInitialize the SDKEvent TrackingCommerce TrackingError TrackingScreen TrackingIdentityLocation TrackingSession ManagementXboxGetting StartedIdentityWebInitializationConfigurationContent Security PolicyEvent TrackingUser AttributesIDSyncPage View TrackingCommerce EventsLocation TrackingMediaKitsApplication State and Session ManagementData Privacy ControlsError TrackingOpt OutCustom LoggerPersistenceNative Web ViewsSelf-HostingMultiple InstancesWeb SDK via Google Tag ManagerPreventing Blocked HTTP Traffic with CNAMEFacebook Instant ArticlesTroubleshooting the Web SDKBrowser CompatibilityLinting Data PlansAPI ReferenceUpgrade to Version 2 of the SDKXamarinGetting StartedIdentityWebAlexaMedia SDKsAndroidiOSWebToolsmParticle Command Line InterfaceLinting ToolsSmartypeServer SDKsNode SDKGo SDKPython SDKRuby SDKJava SDKQuickstartAndroidOverviewStep 1. Create an inputStep 2. Verify your inputStep 3. Set up your outputStep 4. Create a connectionStep 5. Verify your connectionStep 6. Track eventsStep 7. Track user dataStep 8. Create a data planStep 9. Test your local appHTTP Quick StartStep 1. Create an inputStep 2. Create an outputStep 3. Verify outputiOS Quick StartOverviewStep 1. Create an inputStep 2. Verify your inputStep 3. Set up your outputStep 4. Create a connectionStep 5. Verify your connectionStep 6. Track eventsStep 7. Track user dataStep 8. Create a data planJava Quick StartStep 1. Create an inputStep 2. Create an outputStep 3. Verify outputNode Quick StartStep 1. Create an inputStep 2. Create an outputStep 3. Verify outputPython Quick StartStep 1. Create an inputStep 2. Create an outputStep 3. Verify outputWebOverviewStep 1. Create an inputStep 2. Verify your inputStep 3. Set up your outputStep 4. Create a connectionStep 5. Verify your connectionStep 6. Track eventsStep 7. Track user dataStep 8. Create a data planGuidesPartnersIntroductionOutbound IntegrationsOutbound IntegrationsFirehose Java SDKInbound IntegrationsKit IntegrationsOverviewAndroid Kit IntegrationJavaScript Kit IntegrationiOS Kit IntegrationCompose IDData Hosting LocationsGlossaryMigrate from Segment to mParticleMigrate from Segment to mParticleMigrate from Segment to Client-side mParticleMigrate from Segment to Server-side mParticleSegment-to-mParticle Migration ReferenceRules Developer GuideAPI Credential ManagementThe Developer's Guided Journey to mParticleGuidesGetting StartedCreate an InputStart capturing dataConnect an Event OutputCreate an AudienceConnect an Audience OutputTransform and Enhance Your DataPersonalizationIntroductionProfilesAudiencesAudiences OverviewCreate an AudienceConnect an AudienceManage AudiencesReal-time Audiences (Legacy)Standard Audiences (Legacy)Calculated AttributesCalculated Attributes OverviewUsing Calculated AttributesCreate with AI AssistanceCalculated Attributes ReferencePredictive AudiencesPredictive Audiences OverviewUsing Predictive AudiencesJourneysJourneys OverviewManage JourneysDownload an audience from a journeyAudience A/B testing from a journeyJourneys 2.0Predictive AttributesWhat are predictive attributes?Predict Future BehaviorCreate Future PredictionUse Future Predictions in CampaignsAssess and Troubleshoot PredictionsNext Best ActionNext Best Action OverviewCreate a Next Best Action (NBA)View and Manage NBAsActivate Next Best Actions in CampaignsPlatform GuideBillingUsage and Billing ReportThe New mParticle ExperienceThe new mParticle ExperienceThe Overview MapObservabilityObservability OverviewObservability User GuideObservability Troubleshooting ExamplesObservability Span GlossaryIntroductionData RetentionConnectionsActivityLive StreamData FilterRulesTiered EventsmParticle Users and RolesAnalytics Free TrialTroubleshooting mParticleUsage metering for value-based pricing (VBP)AnalyticsIntroductionSetupSync and Activate Analytics User Segments in mParticleUser Segment ActivationWelcome Page AnnouncementsSettingsProject SettingsRoles and TeammatesOrganization SettingsGlobal Project FiltersPortfolio AnalyticsAnalytics Data ManagerAnalytics Data Manager OverviewEventsEvent PropertiesUser PropertiesRevenue MappingExport DataUTM GuideQuery BuilderData DictionaryQuery Builder OverviewModify Filters With And/Or ClausesQuery-time SamplingQuery NotesFilter Where ClausesEvent vs. User PropertiesGroup By ClausesAnnotationsCross-tool CompatibilityApply All for Filter Where ClausesDate Range and Time Settings OverviewUser Attributes at Event TimeUnderstanding the Screen View EventAnalysesAnalyses IntroductionSegmentation: BasicsGetting StartedVisualization OptionsFor ClausesDate Range and Time SettingsCalculatorNumerical SettingsSegmentation: AdvancedAssisted AnalysisProperties ExplorerFrequency in SegmentationTrends in SegmentationDid [not] Perform ClausesCumulative vs. Non-Cumulative Analysis in SegmentationTotal Count of vs. Users Who PerformedSave Your Segmentation AnalysisExport Results in SegmentationExplore Users from SegmentationFunnels: BasicsGetting Started with FunnelsGroup By SettingsConversion WindowTracking PropertiesDate Range and Time SettingsVisualization OptionsInterpreting a Funnel AnalysisFunnels: AdvancedGroup ByFiltersConversion over TimeConversion OrderTrendsFunnel DirectionMulti-path FunnelsAnalyze as Cohort from FunnelSave a Funnel AnalysisExplore Users from a FunnelExport Results from a FunnelCohortsGetting Started with CohortsAnalysis ModesSave a Cohort AnalysisExport ResultsExplore UsersSaved AnalysesManage Analyses in DashboardsJourneysGetting StartedEvent MenuVisualizationEnding EventSave a Journey AnalysisUsersGetting StartedUser Activity TimelinesTime SettingsExport ResultsSave A User AnalysisDashboardsDashboards––Getting StartedManage DashboardsDashboard FiltersOrganize DashboardsScheduled ReportsFavoritesTime and Interval Settings in DashboardsQuery Notes in DashboardsUser AliasingAnalytics ResourcesThe Demo EnvironmentKeyboard ShortcutsTutorialsAnalytics for MarketersAnalytics for Product ManagersCompare Conversion Across Acquisition SourcesAnalyze Product Feature UsageIdentify Points of User FrictionTime-based Subscription AnalysisDashboard Tips and TricksUnderstand Product StickinessOptimize User Flow with A/B TestingUser SegmentsAPIsUser Segments Export APIDashboard Filter APIIDSyncIDSync OverviewUse Cases for IDSyncComponents of IDSyncStore and Organize User DataIdentify UsersDefault IDSync ConfigurationProfile Conversion StrategyProfile Link StrategyProfile Isolation StrategyBest Match StrategyAliasingData MasterGroup IdentityOverviewCreate and Manage Group DefinitionsIntroductionCatalogLive StreamData PlansData PlansBlocked Data Backfill GuideWarehouse SyncData Privacy ControlsData Subject RequestsDefault Service LimitsFeedsCross-Account Audience SharingApproved Sub-ProcessorsImport Data with CSV FilesImport Data with CSV FilesCSV File ReferenceGlossaryVideo IndexAnalytics (Deprecated)Identity ProvidersSingle Sign-On (SSO)Setup ExamplesSettingsDebug ConsoleData Warehouse Delay AlertingIntroductionDeveloper DocsIntroductionIntegrationsIntroductionRudderstackGoogle Tag ManagerSegmentData Warehouses and Data LakesAdvanced Data Warehouse SettingsAWS Kinesis (Snowplow)AWS Redshift (Define Your Own Schema)AWS S3 Integration (Define Your Own Schema)AWS S3 (Snowplow Schema)BigQuery (Snowplow Schema)BigQuery Firebase SchemaBigQuery (Define Your Own Schema)GCP BigQuery ExportSnowflake (Snowplow Schema)Snowplow Schema OverviewSnowflake (Define Your Own Schema)APIsREST APIDashboard Filter API (Deprecated)User Segments Export API (Deprecated)SDKsSDKs IntroductionReact NativeiOSAndroidJavaJavaScriptPythonObject APIDeveloper BasicsAliasingProfilesAlthough processing and forwarding event data is a core function of mParticle, we are not just an integration platform. Our goal is to help you develop a complete view of your users, across all of your data sources, and make that view available wherever it is needed. The user profile is central to this goal.
+An mParticle user profile represents a complete picture of what you’ve learned about a given user over time, across all of your channels, continuously updated and maintained in real time as you capture new data.
+Within mParticle, user profiles serve four core functions:
+Enrich event data with information about the user, before it is forwarded to downstream systems
+Calculate Audience memberships and Calculated Attributes
+Display information about a user in the User Activity View
+Offer personalized experiences at any touchpoint via the Profile API
+How Profiles Are Used
+Use profiles in mParticle to understand users and create personalized experiences:
+Inspect the profile of any user in the mParticle UI.
+Enrich a profile with complete and up-to-date information about the user it represents.
+Deliver profiles in JSON format with the Profile API to create personalized experiences based on user attributes or audience memberships.
+Drive real-time calculations and Customer segmentations.
+User Activity View
+Inspect the profile for any user in the mParticle UI via the User Activity View. To find user profiles, you can search by any user identity type you capture, or by the mParticle ID. You can also navigate to the User Activity View for active users in your development environment by inspecting a batch in the Live Stream.
+For more information, see User Activity.
+Profile Enrichment
+Profile enrichment allows mParticle to make sure that each of your downstream systems has the most complete and up-to-date information about each of your users. For example, mParticle receives data as batches from native SDKs, our HTTP API and third-party data feeds. Each batch is a JSON object containing an array of events and contextual information about the user, such as identities, user attributes, and device information. mParticle processes the information in each batch and forwards it to downstream systems through event integrations. Before a batch from a particular source is forwarded, mParticle compares it to the matching user profile and adds additional information.
+If you collect the same user attribute from multiple sources, for example an iOS app and a web app, mParticle accepts the most recent version. For example, if Bob sets his favorite drink to “Beer” in the web app, and then changes it to “Coke” in the iOS app the next day, Bob’s user profile will use the most recent value for enrichment.
+Enrichment ensures that all of your downstream tools can receive complete and accurate information about your users. Remember that you can still use data filters to prevent downstream systems from receiving user attributes that they don’t need.
+Profile API
+The mParticle user profile can be delivered in JSON format by the Profile API, in order to deliver personalized experiences based on user attributes or audience memberships. To request a profile from the API, supply either the corresponding MPID or a specially configured immutable ID (usually the Customer ID).
+For more information, see Profile API.
+Audiences and Calculated Attributes
+Audiences allow you to define segments of users based on rule based criteria of their event behavior and profile data. mParticle builds and maintains these segments of users over time which can then be connected to hundreds of outputs for activation.
+Audiences and Calculated attributes are built from all your profile data, including calculated attributes, and events that have been collected across all your data sources. For real-time audiences, these are within the audience look back window. Standard audiences utilize your extended Data Retention policy. For more information about data retention, see Data Retention.
+For more information, see Audiences and Calculated Attributes.
+Understanding Profile Data
+Two main classes of data provide context about your users and the events they trigger.
+User data
+User data describes the attributes of individual user profiles. It includes information such as what identities they have, device types and IDs, and a number of custom attributes such as membership status and demographic information. An attribute can reflect either current or previous values, depending on its nature and how often it is updated. User data is stored in profiles.
+Event data
+Event data describes actions that your users take. They contain information current for the moment at which the event was triggered. For example, the event “Sign up” could have an event attribute of “membership tier”, which denotes the membership status at time of signing up. Event data is stored in events.
+Profile Schema
+Each profile describes useful details about the user associated with the profile.
+A user profile contains the following elements:
+mParticle ID - a unique identifier for the user within mParticle
+The IDSync API resolves identities like email, customer ID and device IDs to a single mParticle ID.
+Each mParticle ID maps to a single user profile.
+First-seen timestamp
+User responses to Limit Ad Tracking (iOS) and global opt-out
+All known identities for the user
+All Audience memberships for the user
+The most recently seen IP address associated with the user
+The IP address is always updated with the most recent value based on the X-Forwarded-For header for client SDK batches or the ip field for batches ingested from server-to-server connections. The IP address on a user profile is only forwarded to connected outputs if the Enrich IP Address setting is available and enabled for the connection.
+For each workspace the user has been seen in:
+All user attributes captured in the workspace, including Calculated Attributes
+Any consent information captured for the user
+For each device the user has been seen on:
+Device Application Stamp - a unique identifier for a device within a workspace
+Device information, including device identities
+First-seen timestamp
+Apple App Transparency Tracking status
+Install attribution information
+More about the mParticle schema can be found here.
+How a Profile Is Updated
+Most of the time, mParticle automatically keeps user profiles updated as you capture new data with any of the following methods:
+The setUserAttribute SDK method
+Sending a “batch” of user and event data to the HTTP API
+Sending user data from a third-party feed
+However, sometimes it is necessary to make direct updates to your user profiles in bulk. This happens most often when you’re loading large amounts of data from legacy systems.
+To directly update a profile, you can make a standard request to our HTTP API, and leave out the events node. For example:
+{
+"user_identities" : {
+"email": "john.smith@example.com",
+"customerid": "JohnSmith911"
+},
+"user_attributes" : {
+"skill_level": 9,
+},
+"deleted_user_attributes" : [
+"color_preference"
+],
+"environment": "production"
+}
+User attributes updated in this way will not be immediately updated in all downstream event integrations. Most event integrations in mParticle will not process a batch with no events. However, as long as you are sending some event data to each integration, the enrichment process will make sure that user attributes are updated the next time an event is sent for each user.
+If it is important for profile updates to be reflected across all your systems immediately, add an event to the batch. For example:
+{
+"events": [
+{
+"data": {
+"event_name": "Attributes Updated",
+"custom_event_type": "other"
+},
+"event_type": "custom_event"
+}
+],
+"user_identities" : {
+"email": "john.smith@example.com",
+"customerid": "JohnSmith911"
+},
+"user_attributes" : {
+"skill_level": 9,
+},
+"deleted_user_attributes" : [
+"color_preference"
+],
+"environment": "production"
+}
+User attributes and input source priority
+For a given user, attributes are stored at the workspace level, not the device level.
+User attributes are ingested according to the following priority:
+Calculated attributes
+Account-level attributes (a premium feature)
+Custom feed input
+SDK input
+Custom CSV and Warehouse Sync
+Partner data feed (PDF)
+While partner data feeds are considered unique, once a user attribute is set from one partner data feed, it can still be overwritten by another feed. For example, if the Punchh integration sets the $FirstName for a profile, but a different first name is later ingested from AppsFlyer, then the profile’s $FirstName will be set to the value ingested from AppsFlyer.
+Once ingested from one input source, subsequent, lower-prioity source types for that same data won't be ingested. For example, once you set a user attribute key value using the Web SDK, you won't be able to set that same key value from a Custom CSV or partner data feed. However, data from input sources of the same priority will be ingested.
+Input protections
+You can override the default behavior for input feeds, and specify whether data ingested from a feed creates new profiles or updates existing profiles. Choose from one of three input protection levels:
+Create & Update - Allows the input to both create new profiles and update existing profiles. All inputs default to this setting.
+Update Only - Prevents input from creating new profiles, but allows the input to update existing profiles.
+Read Only - Prevents the input from creating or updating profiles.
+The default profile protection level for all input feeds is Create & Update.
+Profile protection levels are specific to each input configuration, providing more granular control over multiple configurations even if they are contained in a single workspace.
+When ingesting user data from an input, mParticle searches for an existing profile that corresponds with any of the user identifiers included with the data. The identity strategy configured for your account determines if a new profile is created when an existing profile can’t be found.
+You can prevent unwanted changes by defining one or more input protections.
+Input protections are only available for data feeds, and are not currently supported for platform inputs like Web, Android, or iOS.
+Configure the profile protection level for an input
+To set the protection level for an existing input:
+Log into your mParticle account and navigate to Setup > Inputs in the left nav bar.
+Click the Feeds tab and expand the list of configurations for your input.
+Select the configuration you want to change the protection level for.
+Use the Input Protection Level dropdown menu to change the protection level for the input.
+When creating a new input feed, you are given the input protection dropdown menu, allowing you to set the protection level for that input from the start.
+Only mParticle users with Admin permissions can modify an input's protection level.
+Create & Update Profiles
+This setting removes all restrictions from an input’s access to a user profile, meaning that new user profiles can be created and modified as data is ingested.
+For example, if mParticle receives data from the input that it can’t associate with an existing profile and your account uses the default identity strategy, then it creates a new profile for the user. If a matching profile was found, the data from the input enriches the found profile.
+Only Update Profiles
+This setting ensures that only data from known, existing users in the workspace is ingested. If IDSync can’t find a matching profile (in other words, if the user is unknown) then the data is discarded. Only existing users within the workspace can be updated, and all other unknown users are ignored.
+For example, if mParticle receives data from the input that it can’t associate with an existing profile and your account uses the default identity strategy, mParticle will not create a new profile for the user and the data will not be associated with an MPID. However, if a matching profile was found, then the user data from the input enriches the found profile.
+If an event batch includes user data with an MPID or user identifiers that don’t resolve to an existing MPID in your mParticle workspace, mParticle will drop the data and it will not be forwarded to any outputs. However, this is still a billable event due to the processing needed when searching for a matching MPID in your workspace.
+Example use case: ingesting data from multiple brands
+Imagine you have a business with a large customer base, but multiple storefronts or customer touch-points. These various touch-points are housed under separate brands and any one customer engages with many of them.
+Furthermore, you have chosen to use a centralized data warehouse to help keep your customer data consolidated.
+However, you want to ingest customer data into mParticle from your warehouse while maintaining a single user profile for each customer. To do this, you must prevent new profiles from being created. This is where the Only Update protection level is useful.
+By setting your data warehouse input feed to Only Update, mParticle ensures that as new data for a known customer is ingested, that data is attributed to a single user profile. Without this protection, it would be possible for a separate user profile to be created for each of your brands a customer engages with. This would prevent you from maintaining a holistic perspective of your customers’ history.
+Only Read Profiles
+Prevents all write access to profiles and IDSync. Event batches are ingested normally, but existing profiles can’t be modified and new profiles can’t be added to protect user profiles and IDsync records from undesired modifications from the input.
+For example, if mParticle receives data from the input that it can’t associate with an existing profile and your account uses the default identity strategy, then it will not create a new profile for the user and the data will not be associated with an MPID. If a matching profile was found, mParticle will not associate the data with the found profile.
+If an event batch includes user data with an MPID or user identifiers that don’t resolve to an existing MPID in your mParticle workspace, mParticle ingests and forwards the event batch to other outputs, but it will not create a new profile for the MPID.
+Example use case: testing new input configurations
+Keeping your customer data clean and uncontaminated is critical. However, it’s also essential to be able to test new connections from your data warehouses to mParticle.
+To configure and test a new input feed from a warehouse without allowing any ingested data to modify your existing customer profiles, you can set the initial protection level for the new feed to Only Read. This allows you to verify that data is ingested properly, without any of that data leading to the modification or creating of new user profiles.
+After you’re confident in your new input configuration, you can change the protection level to allow data from that input to begin enriching profiles.
+Data retention and profiles
+Profiles are available for different periods of time, depending on the data retention policy for your account.
+Advanced Profile Solutions
+Enhance User Profiles with UID2
+The Professional Services team at mParticle provides the following guide for enriching your user profiles with UID2 for more effecive activation through The Trade Desk and others. If you have further questions while implementing the guide, please reach out to your Professional Services contact or account manager.
+This guide references resources that can be found on GitHub. There you will find source code and supporting files for a serverless application that you can deploy with AWS’s serverless Application Model Command Line Interface (SAM CLI). It includes the following files and folders:
+Trade Desk Enrichment - Code for the application’s Lambda function.
+Events - Invocation events that you can use to invoke the function.
+Trade Desk Enrichment/tests - Unit tests for the application code.
+template.yaml - A template that defines the application’s AWS resources.
+Architecture Diagram
+Setting Up the Solution in mParticle
+In mParticle, create an audience with the criteria for all users who haven’t had their user profile enriched in the last n days.
+Connect the audience to the enrichment module. mParticle will then send emails that need a raw UID value. The enrichment service talks to either a private or public UID instance to retrieve the token.
+Once the UID value is obtained, it will send a custom event to mParticle via custom feed input, adding the UID value as a partner ID.
+Was this page helpful?YesNoLast Updated: February 27, 2025© 2025 mParticle, Inc. All rights reserved.mParticle.comPrivacy PolicyCookie PolicyDo Not Sell or Share My Personal Data

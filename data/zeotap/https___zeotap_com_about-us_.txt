@@ -1,0 +1,198 @@
+Zeotap CDP | 360 Degree Customer View | Zeotap
+Solutions
+Zeotap CDP Solutions
+Acquisition & GrowthCustomer Experience and PersonalisationLoyalty & RetentionPredictive Insights and
+Customer AnalyticsData Collection and Privacy
+Industries
+RetailTelcoMediaRetail MediaFinancial ServicesSports & EntertainmentAutomotive
+Platform
+Zeotap CDP Modules
+OverviewIntegrateUnifySegmentOrchestrateAnalyseProtect
+Zeotap CDP Features
+OverviewCustomer 360 ViewPredictive AudiencesOmnichannel JourneyConsent OrchestrationPrivacy & GDPRIntegrations
+Get started
+Subscription PlansDeployment Options
+Partners
+Our PartnersGoogle Cloud PartnershipZeotap Partner Network
+Resources
+AllBlogCase studiesVideosWhitepapersCDP SupportDeveloper Documentation
+Company
+About UsPrivacy and SecurityWhy Zeotap CDPWhy Zeotap DataCareers at ZeotapNewsEventsContact us
+LoginGet A Demo
+close_03
+Hit enter to search or click X to close
+Login
+Get a Demo
+About Us
+Easy, secure andimpactful customer data
+Our vision At Zeotap, we envision a future in which businesses can deliver personalised and data-driven customer experiences while putting customer privacy at the front and centre. We are dedicated to helping brands monetise their customer data and achieve commercial outcomes with ease. To achieve this, we have developed and offer must-have software and data solutions to support our customers in achieving their desired business outcomes across marketing, sales, and customer service. We differentiate ourselves by providing addressability in customer data, an easy-to-use platform that drives faster results with data privacy, and compliance heart supported by best-in-class customer support.
+History
+Zeotap was born in Berlin in 2014 to provide high-quality data to marketers and soon recognised a bigger challenge: brands needed to create multi-channel personalised experiences. But doing so required a means to action customer data in a world that prioritises privacy and compliance. And so, in 2020, we launched our Customer Data Platform (CDP), a natively integrated SaaS suite built on the Google Cloud Platform.
+Today, Zeotap offers two products:
+The easy, secure and impactful Customer Data Platform that empowers brands to integrate, unify, segment and orchestrate customer data.
+It’s people-based, deterministic data composed of over 500 million unique IDs. Zeotap Data is fully-consented, GDPR and ePrivacy compliant.
+Zeotap's history timeline
+2014Zeotap was born to build a business, capitalising on all of the data held by telecom companies. This was achieved by selling said data to advertising agencies by integrating them into DSPs.
+2016The company continued to grow and expand through client acquisition and investment, continually adding new data partners and expanding into new industries beyond.
+2017We achieved higher goals by building a proprietary stitching algorithm, unifying data from different sources, assigning a unique ID to them, and creating a single ‘golden record.’
+2019Most companies realised the value of leveraging their first-party data, and many CDPs emerged. An opportunity arose to use our many years of experience in this market, and expand the Zeotap offering.
+2020We built our Customer Data Platform (CDP), a natively integrated SaaS suite built on the Google Cloud Platform
+2023We have 70+ clients, 180+ employees, the 5 largest telecom companies, over 50+ recurring clients across Europe, and are associated with top brands like Audi, Johnson & Johnson, Mc Donalds, Sky and Virgin Media. We presently have 120 data sources, all real-time and GDPR-audited data.
+Why the name Zeotap?Our name combines two words: “Zeo” and “tap”. “Zeo” comes from “Zeolite,” a mineral that transforms crude oil into everyday essentials, like high-quality fuel which makes crude oil usable and precious which enables societies to develop. It also purifies oxygen from the air by trapping impurities. In our case, our technology transforms customer data to be addressable and actionable the way “Zeolite” transforms crude oil. Hence, the word “Zeo” symbolises our ability to help businesses get the most impactful results from their data at ease and scale, just like opening a tap and letting it flow.
+So, Zeotap means empowering brands to get the best from their data—easily and securely.
+Why a triangle?
+Our Symbol is a triangle with rounded sides. Each side represents a different founding element of our company:
+Customers
+Data
+Privacy
+Our triangle rests on the base side, not the corners; this shows our business’ stability and our customers’ trust.
+Our valuesOur values define who we are and how we work daily with customers, prospects, and team members. We let them come through in all that we do!
+PioneerDare to be different
+We are not afraid to take risks and think outside the box. We are always looking for new and better ways to do things. We want to push boundaries and deliver value through innovation and creativity.
+AdaptiveChange is always an opportunity
+We remain flexible and responsive to changing circumstances. We are open to new ideas and approaches, as well as listen to understand the perspectives of others. We are willing to learn and grow from new experiences.
+Challenger We think, act, and win above our weight class
+We take on challenges that others may consider impossible to solve. A strong sense of ownership and a desire to succeed drive us. We put in the hard work and effort necessary to achieve our goals.
+TrustworthyActions speak louder than words
+We consistently act with integrity and accountability and focus on value creation for our colleagues and customers. We take pride in doing the right thing, even when it may be difficult. We stay true to our word and deliver on commitments.
+Careers
+Join our international team on our mission to revolutionise the world of customer data
+Learn More
+Leadership team
+Elad Simon
+Chief Executive Officer
+Daniel Heer
+Co-Founder & President
+Projjol Banerjea
+Co-Founder & Chief Product Officer
+Sathish KS
+Chief Technology Officer
+Alexander Gebert
+Chief Financial Officer
+Vera Schnabel
+Chief People Officer
+Matt Bennathan
+CCO of Global Data Business
+Our board of directors
+Amir RosentulerChairman
+Chris ScogginsChris Scoggins General Partner at Signalﬁre
+Taylor Barada Venture Partner at Signalﬁre
+Uli BeckmannPartner at Zobito
+Domitille DoatIndependent
+Elad SimonChief Executive Officer
+Daniel HeerCo-Founder & President
+Funding rounds and our investors
+Funding and money raised
+$1.3MillionSeed Level funding 2014
+$6.5MillionA round of funding 2015
+$12MillionB round of funding 2017
+$60MillionC round of funding 2020
+$22MillionC+ round of funding 2022
+Our investors and advisors
+Rob Norman
+Advisor
+Special advisor to GroupM and former Chief Digital Officer
+Mark Grether
+Investor
+Co-founder & former COO at Xaxis (WPP)
+Prof. Alex Pentland
+Advisor
+Professor at MIT, Co-Creator MIT Media lab, Serial Entrepreneur
+Prof. Ann Cavoukian
+Advisor
+Professor at Ryerson University, Creator of Privacy-by-design Principles
+Prof. Dr. Herbert Henzler
+Advisor
+Former European Chairman of McKinsey & Company, Honorary Professor at the University of Munich
+Andreas Kindt
+Investor
+Former Board Member T-Online International AG
+Michael Halbherr
+Investor
+Former CEO Nokia HERE
+Dr. Rainier Deutschmann
+Investor
+COO Dialog Axiata, Former CPIO Reliance Jio and SVP Products & Innovation Deutsche Telekom
+Devin Guan
+Investor
+Founder/CTO Drawbridge, Sequoia & KPCB backed
+Steffen Rohn
+Investor
+Former CIO of Deutsche Telekom AG
+Seth Schuler
+Investor
+MD Accenture US, Former SVP Strategy T-Mobil
+Stefan Schmitgen
+Investor
+Former Sr. Director McKinsey, led Asian telco group
+Thomas Duhr
+Investor
+EVP IP Deutschland
+Dirk Freytag
+Investor
+Former SVPAOL & CEO ADTECH.com
+Zach Coelius
+Investor
+Runs large syndicate on AngelList; Recent lb exit
+Magnus Graf Lambsdorff
+Investor
+Lakestar, formerly Egon Zehnder, Partner, Global Telecommunications Practice
+Peter Zühlsdorff
+Investor
+Former chairman GfK
+Jean-Louis Delamarre
+Senior Advisor
+Global Chief Commercial Officer at HUBLOT
+Thomas Serval
+Senior Advisor
+CEO of Baracoda, Executive Chairman of CareOS
+Success stories and quotes
+"Based on my experience, I can honestly say Zeotap’s platform is without equal. Brands can happily jettison a complex and
+inefficient patchwork of point solutions in favour of their unified stack for all data-related activities."
+Kay SchwabedalChief Digital Officer, Virgin Media O2
+"Zeotap has always set the bar when it comes to quality and security. It is part of their DNA."
+Steffen Roehnformer CIO, Deutsche Telekom
+"Being the data centre for the entire EMEA region, we have found Zeotap to be the right partner to improve our customer data intelligence and the service we provide to our clients."
+Jordi UrbeaChief Revenue Officer, Ogilvy
+"Zeotap is a strategic partner of Google Cloud in EMEA, driving
+additional value and improved experience for our customers with
+GCP. We realise that leveraging first-party data to drive digital
+transformation and omni-channel personalisation is top of mind for
+retailers - while also ensuring the best-possible privacy and
+security. We believe Zeotap - with its roots in Germany - is an
+expert and reliable partner to help navigate the first-party data
+opportunity."
+Adaire Martin-FoxPresident of Google Cloud International and Head of Google Ireland
+Industry recognitions
+Trusted by
+Get a demo
+Step into a new era of marketing possibilities, unleashing the full potential of your customer data. Experience the power of Zeotap CDP.
+GET A DEMO
+Follow us
+Facebook-f
+Twitter
+Linkedin-in
+Sign up for our newsletter
+Be the first to get access to our marketing resources and keep up to date with the latest CDP best practices, privacy standards, marketing, and customer data.
+Get a demo
+Step into a new era of marketing possibilities, unleashing the full potential of your customer data. Experience the power of Zeotap CDP.
+GET A DEMO
+Follow us
+Facebook-f
+Twitter
+Linkedin-in
+©2024 Zeotap All Rights Reserved
+Website Privacy Policy
+Product and Service Privacy Policy
+Vulnerability Disclosure Policy
+Information Security Policy Statement
+Legal Notice
+Legal Hub
+Zeotap Whistleblowing Channel
+Website Privacy Policy
+Product and Service Privacy Policy
+Vulnerability Disclosure Policy
+Information Security Policy Statement
+Legal Notice
+Legal Hub
+Zeotap Whistleblowing Channel

@@ -1,0 +1,144 @@
+DOCSDOCSHomeGuidesDevelopersIntegrationsChangelogSign UpDocumentationDevelopersAPI ReferencesPlatform APIPlatform API OverviewAccountsAppsAudiencesCalculated AttributesData PointsFeedsField TransformationsServicesUsersWorkspacesData Subject Request APIData Subject Request API Version 1 and 2Data Subject Request API Version 3Warehouse Sync APIWarehouse Sync API OverviewWarehouse Sync API TutorialWarehouse Sync API ReferenceData MappingWarehouse Sync SQL ReferenceWarehouse Sync Troubleshooting GuideComposeIDWarehouse Sync API v2 MigrationCalculated Attributes Seeding APIBulk Profile Deletion API ReferenceCustom Access Roles APIData Planning APIGroup Identity API ReferencePixel ServiceProfile APIEvents APImParticle JSON Schema ReferenceIDSyncClient SDKsAMPAMP SDKAndroidInitializationConfigurationNetwork Security ConfigurationEvent TrackingUser AttributesIDSyncScreen EventsCommerce EventsLocation TrackingMediaKitsApplication State and Session ManagementData Privacy ControlsError TrackingOpt OutPush NotificationsWebView IntegrationLoggerPreventing Blocked HTTP Traffic with CNAMELinting Data PlansTroubleshooting the Android SDKAPI ReferenceUpgrade to Version 5CordovaCordova PluginIdentityDirect Url RoutingDirect URL Routing FAQWebAndroidiOSFlutterGetting StartedUsageAPI ReferenceiOSInitializationConfigurationEvent TrackingUser AttributesIDSyncScreen TrackingCommerce EventsLocation TrackingMediaKitsApplication State and Session ManagementData Privacy ControlsError TrackingOpt OutPush NotificationsWebview IntegrationUpload FrequencyApp ExtensionsPreventing Blocked HTTP Traffic with CNAMELinting Data PlansTroubleshooting iOS SDKSocial NetworksiOS 14 GuideiOS 15 FAQiOS 16 FAQiOS 17 FAQiOS 18 FAQAPI ReferenceUpgrade to Version 7RokuGetting StartedIdentityMediaReact NativeGetting StartedIdentityUnityUpload FrequencyGetting StartedOpt OutInitialize the SDKEvent TrackingCommerce TrackingError TrackingScreen TrackingIdentityLocation TrackingSession ManagementXboxGetting StartedIdentityWebInitializationConfigurationContent Security PolicyEvent TrackingUser AttributesIDSyncPage View TrackingCommerce EventsLocation TrackingMediaKitsApplication State and Session ManagementData Privacy ControlsError TrackingOpt OutCustom LoggerPersistenceNative Web ViewsSelf-HostingMultiple InstancesWeb SDK via Google Tag ManagerPreventing Blocked HTTP Traffic with CNAMEFacebook Instant ArticlesTroubleshooting the Web SDKBrowser CompatibilityLinting Data PlansAPI ReferenceUpgrade to Version 2 of the SDKXamarinGetting StartedIdentityWebAlexaMedia SDKsAndroidiOSWebToolsmParticle Command Line InterfaceLinting ToolsSmartypeServer SDKsNode SDKGo SDKPython SDKRuby SDKJava SDKQuickstartAndroidOverviewStep 1. Create an inputStep 2. Verify your inputStep 3. Set up your outputStep 4. Create a connectionStep 5. Verify your connectionStep 6. Track eventsStep 7. Track user dataStep 8. Create a data planStep 9. Test your local appHTTP Quick StartStep 1. Create an inputStep 2. Create an outputStep 3. Verify outputiOS Quick StartOverviewStep 1. Create an inputStep 2. Verify your inputStep 3. Set up your outputStep 4. Create a connectionStep 5. Verify your connectionStep 6. Track eventsStep 7. Track user dataStep 8. Create a data planJava Quick StartStep 1. Create an inputStep 2. Create an outputStep 3. Verify outputNode Quick StartStep 1. Create an inputStep 2. Create an outputStep 3. Verify outputPython Quick StartStep 1. Create an inputStep 2. Create an outputStep 3. Verify outputWebOverviewStep 1. Create an inputStep 2. Verify your inputStep 3. Set up your outputStep 4. Create a connectionStep 5. Verify your connectionStep 6. Track eventsStep 7. Track user dataStep 8. Create a data planGuidesPartnersIntroductionOutbound IntegrationsOutbound IntegrationsFirehose Java SDKInbound IntegrationsKit IntegrationsOverviewAndroid Kit IntegrationJavaScript Kit IntegrationiOS Kit IntegrationCompose IDData Hosting LocationsGlossaryMigrate from Segment to mParticleMigrate from Segment to mParticleMigrate from Segment to Client-side mParticleMigrate from Segment to Server-side mParticleSegment-to-mParticle Migration ReferenceRules Developer GuideAPI Credential ManagementThe Developer's Guided Journey to mParticleGuidesGetting StartedCreate an InputStart capturing dataConnect an Event OutputCreate an AudienceConnect an Audience OutputTransform and Enhance Your DataPersonalizationIntroductionProfilesAudiencesAudiences OverviewCreate an AudienceConnect an AudienceManage AudiencesReal-time Audiences (Legacy)Standard Audiences (Legacy)Calculated AttributesCalculated Attributes OverviewUsing Calculated AttributesCreate with AI AssistanceCalculated Attributes ReferencePredictive AudiencesPredictive Audiences OverviewUsing Predictive AudiencesJourneysJourneys OverviewManage JourneysDownload an audience from a journeyAudience A/B testing from a journeyJourneys 2.0Predictive AttributesWhat are predictive attributes?Predict Future BehaviorCreate Future PredictionUse Future Predictions in CampaignsAssess and Troubleshoot PredictionsNext Best ActionNext Best Action OverviewCreate a Next Best Action (NBA)View and Manage NBAsActivate Next Best Actions in CampaignsPlatform GuideBillingUsage and Billing ReportThe New mParticle ExperienceThe new mParticle ExperienceThe Overview MapObservabilityObservability OverviewObservability User GuideObservability Troubleshooting ExamplesObservability Span GlossaryIntroductionData RetentionConnectionsActivityLive StreamData FilterRulesTiered EventsmParticle Users and RolesAnalytics Free TrialTroubleshooting mParticleUsage metering for value-based pricing (VBP)AnalyticsIntroductionSetupSync and Activate Analytics User Segments in mParticleUser Segment ActivationWelcome Page AnnouncementsSettingsProject SettingsRoles and TeammatesOrganization SettingsGlobal Project FiltersPortfolio AnalyticsAnalytics Data ManagerAnalytics Data Manager OverviewEventsEvent PropertiesUser PropertiesRevenue MappingExport DataUTM GuideQuery BuilderData DictionaryQuery Builder OverviewModify Filters With And/Or ClausesQuery-time SamplingQuery NotesFilter Where ClausesEvent vs. User PropertiesGroup By ClausesAnnotationsCross-tool CompatibilityApply All for Filter Where ClausesDate Range and Time Settings OverviewUser Attributes at Event TimeUnderstanding the Screen View EventAnalysesAnalyses IntroductionSegmentation: BasicsGetting StartedVisualization OptionsFor ClausesDate Range and Time SettingsCalculatorNumerical SettingsSegmentation: AdvancedAssisted AnalysisProperties ExplorerFrequency in SegmentationTrends in SegmentationDid [not] Perform ClausesCumulative vs. Non-Cumulative Analysis in SegmentationTotal Count of vs. Users Who PerformedSave Your Segmentation AnalysisExport Results in SegmentationExplore Users from SegmentationFunnels: BasicsGetting Started with FunnelsGroup By SettingsConversion WindowTracking PropertiesDate Range and Time SettingsVisualization OptionsInterpreting a Funnel AnalysisFunnels: AdvancedGroup ByFiltersConversion over TimeConversion OrderTrendsFunnel DirectionMulti-path FunnelsAnalyze as Cohort from FunnelSave a Funnel AnalysisExplore Users from a FunnelExport Results from a FunnelCohortsGetting Started with CohortsAnalysis ModesSave a Cohort AnalysisExport ResultsExplore UsersSaved AnalysesManage Analyses in DashboardsJourneysGetting StartedEvent MenuVisualizationEnding EventSave a Journey AnalysisUsersGetting StartedUser Activity TimelinesTime SettingsExport ResultsSave A User AnalysisDashboardsDashboards––Getting StartedManage DashboardsDashboard FiltersOrganize DashboardsScheduled ReportsFavoritesTime and Interval Settings in DashboardsQuery Notes in DashboardsUser AliasingAnalytics ResourcesThe Demo EnvironmentKeyboard ShortcutsTutorialsAnalytics for MarketersAnalytics for Product ManagersCompare Conversion Across Acquisition SourcesAnalyze Product Feature UsageIdentify Points of User FrictionTime-based Subscription AnalysisDashboard Tips and TricksUnderstand Product StickinessOptimize User Flow with A/B TestingUser SegmentsAPIsUser Segments Export APIDashboard Filter APIIDSyncIDSync OverviewUse Cases for IDSyncComponents of IDSyncStore and Organize User DataIdentify UsersDefault IDSync ConfigurationProfile Conversion StrategyProfile Link StrategyProfile Isolation StrategyBest Match StrategyAliasingData MasterGroup IdentityOverviewCreate and Manage Group DefinitionsIntroductionCatalogLive StreamData PlansData PlansBlocked Data Backfill GuideWarehouse SyncData Privacy ControlsData Subject RequestsDefault Service LimitsFeedsCross-Account Audience SharingApproved Sub-ProcessorsImport Data with CSV FilesImport Data with CSV FilesCSV File ReferenceGlossaryVideo IndexAnalytics (Deprecated)Identity ProvidersSingle Sign-On (SSO)Setup ExamplesSettingsDebug ConsoleData Warehouse Delay AlertingIntroductionDeveloper DocsIntroductionIntegrationsIntroductionRudderstackGoogle Tag ManagerSegmentData Warehouses and Data LakesAdvanced Data Warehouse SettingsAWS Kinesis (Snowplow)AWS Redshift (Define Your Own Schema)AWS S3 Integration (Define Your Own Schema)AWS S3 (Snowplow Schema)BigQuery (Snowplow Schema)BigQuery Firebase SchemaBigQuery (Define Your Own Schema)GCP BigQuery ExportSnowflake (Snowplow Schema)Snowplow Schema OverviewSnowflake (Define Your Own Schema)APIsREST APIDashboard Filter API (Deprecated)User Segments Export API (Deprecated)SDKsSDKs IntroductionReact NativeiOSAndroidJavaJavaScriptPythonObject APIDeveloper BasicsAliasingGetting StartedThe Roku SDK allows you to use mParticle to track user activity in your Roku app.
+Download
+Navigate to the releases section and download the latest tagged source, or clone the repository.
+Create an mparticle/ directory inside the pkg:/source/ directory.
+Copy mParticleBundle.crt and mParticleCore.brs into the newly created pkg:/source/mparticle directory.
+For Scene Graph support, copy mParticleTask.brs and mParticleTask.xml into your pkg:/components/ directory.
+Initialize
+The mParticle Roku SDK is compatible with both Scene Graph and legacy Roku channels - please reference the section below that applies to your environment.
+Scene Graph Channels
+The Scene Graph SDK allows for running mParticle entirely in a separate thread for better performance, upload batching, and more accurate session management. You should include a single mParticle Task in every scene in your channel.
+1. Configure mParticle
+When creating a new scene, include the mParticle credentials and options as the mparticleOptions field of the scene’s Global Node. mParticleTask.brs will look for this and automatically initialize mParticle for you.
+sub main(args as dynamic)
+screen = CreateObject("roSGScreen")
+m.port = CreateObject("roMessagePort")
+screen.setMessagePort(m.port)
+scene = screen.CreateScene("HelloWorld")
+options = {}
+options.apiKey = "REPLACE WITH API KEY"
+options.apiSecret =
+"REPLACE WITH API SECRET"
+'for deeplinking analytics, pass in your startup args
+options.startupArgs = args
+'you can force the SDK into development or production mode,
+'otherwise the SDK will use roAppInfo's IsDev() API.
+options.environment = mParticleConstants().ENVIRONMENT.FORCE_PRODUCTION
+'If you know the users credentials, supply them here
+'otherwise the SDK will use the last known identities
+identityApiRequest = {userIdentities:{}}
+'Note that you must specifically use the 'userIdentities' key
+identityApiRequest.userIdentities[mparticleConstants().IDENTITY_TYPE.EMAIL] = "user@example.com"
+identityApiRequest.userIdentities[mparticleConstants().IDENTITY_TYPE.CUSTOMER_ID] = "123456"
+'Note that you must specifically use the 'identifyRequest' key
+options.identifyRequest = identityApiRequest
+'REQUIRED: mParticle will look for mParticleOptions in the global node
+screen.getGlobalNode().addFields({mparticleOptions: options})
+screen.show()
+while(true)
+msg = wait(0, m.port)
+msgType = type(msg)
+if msgType = "roSGScreenEvent"
+if msg.isScreenClosed() then return
+end if
+end while
+end sub
+See Identity for more information on the identityApiRequest.
+If you plan to use proxy tools such as Charles Proxy for testing in your development build, you may wish to disable SSL pinning. To do so, insert the following line at the end of the options section (after options.apiSecret = "REPLACE WITH API SECRET"):
+options.enablePinning = false
+2. Include mParticleCore.brs in your Scene
+<?xml version="1.0" encoding="utf-8" ?>
+<component name="HelloWorld" extends="Scene">
+...
+<!-- Replace with correct path if necessary -->
+<script type="text/brightscript" uri="pkg:/source/mparticle/mParticleCore.brs"/>
+</component>
+3. Create the mParticle Task Node:
+Once you’ve added the mParticle Task to your scene, you can use the mParticleSGBridge() helper to make all calls to mParticle.
+sub init()
+'Create the mParticle Task Node
+m.mParticleTask = createObject("roSGNode","mParticleTask")
+'Use the mParticle task node to create an instance an mParticleSGBridge
+mp = mParticleSGBridge(m.mParticleTask)
+end sub
+Legacy Channels
+Initialize the SDK within your main method, or as soon as possible during the startup of your channel. In addition to your mParticle credentials, you must pass a reference to the message port of your main run loop, such that mParticle can make asynchronous network requests.
+Within your main run loop, inspect the source identity and pass roUrlEvent objects to mParticle per the example below.
+sub main(args as dynamic)
+screen = CreateObject("roPosterScreen")
+port = CreateObject("roMessagePort")
+screen.SetMessagePort(port)
+screen.ShowMessage("Hello mParticle!")
+screen.Show()
+options = {}
+options.logLevel = mparticleConstants().LOG_LEVEL.DEBUG
+options.apiKey = "REPLACE WITH API KEY"
+options.apiSecret = "REPLACE WITH API SECRET"
+options.startupArgs = args
+'If you know the users credentials, supply them here
+'otherwise the SDK will use the last known identities
+identityApiRequest = {userIdentities:{}}
+'Note that you must specifically use the 'userIdentities' key
+identityApiRequest.userIdentities[mparticleConstants().IDENTITY_TYPE.EMAIL] = "user@example.com"
+identityApiRequest.userIdentities[mparticleConstants().IDENTITY_TYPE.CUSTOMER_ID] = "123456"
+'Note that you must specifically use the 'identifyRequest' key
+options.identifyRequest = identityApiRequest
+mParticleStart(options, port)
+while true
+msg = Wait(0, port)
+if type(msg) = "roUrlEvent"
+if mparticle().isMparticleEvent(msg.getSourceIdentity())
+mparticle().onUrlEvent(msg)
+end if
+else if type(msg) = "roPosterScreenEvent"
+if msg.isScreenClosed()
+exit while
+end if
+end if
+end while
+screen.Close()
+end sub
+The above will initialize the SDK, creating an mParticle install and user session.
+See Identity for more information on the identityApiRequest.
+Using the SDK
+If using the legacy Roku SDK, you can reference mParticle directly via mParticle() anytime after you’ve called mParticleStart() as shown above. With Scene Graph, you must send messages to the mParticle Task thread over the mParticleSGBridge. mParticleSGBridge provides an API that mirrors the direct mParticle API, and will generate messages for you:
+'For legacy SDK channels
+mp = mparticle()
+'For Scene Graph channels
+mp = mParticleSGBridge(m.mParticleTask)
+'The event APIs are the same for both Legacy and Scene Graph
+mp.logEvent("hello world!")
+Development vs. Production Environment
+All integrations in mParticle can be configured either for development data, production data, or both. The mParticle Roku SDK will automatically detect at runtime whether a channel is a debug channel, and if so will mark data as development data. You may also override this (as well as other settings) via the options associative array referenced in the snippets above. See the DEFAULT_OPTIONS object within mParticleCore.brs for the complete list of customizable settings.
+'generally unnecessary to set either of these, as the SDK will detect automatically
+options.environment = mparticleConstants().ENVIRONMENT.FORCE_PRODUCTION
+options.environment = mparticleConstants().ENVIRONMENT.FORCE_DEVELOPMENT
+Custom Events
+Custom Events represent specific actions that a user has taken in your channel. At minimum they require a name, but can also be associated a type, and a free-form dictionary of key/value pairs:
+' defaults to CUSTOM_EVENT_TYPE.OTHER and no custom attributes
+mp.logEvent("example")
+' or you can specify the custom event type and any custom attributes
+customAttributes = {"example custom attribute" : "example custom attribute value"}
+mp.logEvent("hello world!", mparticleConstants().CUSTOM_EVENT_TYPE.NAVIGATION, customAttributes)
+Screen Events
+Screen events are a special case of event specifically designed to represent the viewing of a screen. Several mParticle integrations support special functionality (e.g. funnel analysis) based on screen events.
+mp.logScreenEvent("hello screen!")
+eCommerce Events
+The CommerceEvent is central to mParticle’s eCommerce measurement. CommerceEvents can contain many data points but it’s important to understand that there are 3 core variations:
+Product-based: Used to measure measured datapoints associated with one or more products, such as a purchase.
+Promotion-based: Used to measure datapoints associated with internal promotions or campaigns
+Impression-based: Used to measure interactions with impressions of products and product-listings
+The SDK provides a series of helpers and builders to create CommerceEvents. One of the simplest and most common scenarios would be to log a PURCHASE product action event:
+mpConstants = mparticleConstants()
+product = mpConstants.Product.build("foo-product-sku", "foo-product-name", 123.45)
+productAction = mpConstants.ProductAction.build(actionApi.ACTION_TYPE.PURCHASE, 123.45, [product])
+mp.logCommerceEvent(productAction)
+Setting Integration Attributes
+Occasionally certain integrations will require data that can only be provided client side. The ‘setIntegrationAttribute’ method allows clients to provide this data.
+' This code would set the "app_instance_id" for integration 160 which is our Integration ID for Google Analytics 4
+mp.setIntegrationAttribute("160", "app_instance_id", "your_app_instance_id")
+Sample Channels
+To help you get started, we’ve created a sample channel for both Legacy and Scene Graph.
+Hello World Legacy
+Hello World Scene Graph
+Was this page helpful?YesNoLast Updated: February 27, 2025© 2025 mParticle, Inc. All rights reserved.mParticle.comPrivacy PolicyCookie PolicyDo Not Sell or Share My Personal Data

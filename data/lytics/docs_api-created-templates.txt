@@ -1,0 +1,114 @@
+Creating Templates using Lytics API
+Jump to ContentHomeDocumentationAPI ReferenceProduct UpdatesCommunityv2.0v2.1v3.0Log InDocumentationLog Inv3.0HomeDocumentationAPI ReferenceProduct UpdatesCommunityCreating Templates using Lytics APISearchQuick StartDeveloper Quickstart1. Install the Lytics Tag2. Content Setup3. Surface Personalized MessageBuilding ProfilesDefault AttributesDefault SegmentsGuides & InspirationLead CaptureContent RecommendationsAccount ManagementWhat is Vault?Accessing AccountsMonitoring Metrics and AlertsJob AlertsMonitoring Audit LogsExporting Audit Logs or Alert JobsMonitoring MetricsUsage MetricsManaging UsersSingle Sign-OnAccount SettingsAccount DetailsJavaScript Tag ConfigPersonalization APIContent ServicesSecurityAI & Modeling ControlsSchema ControlsData PoliciesPlatform LimitsPrivacy and Data ProtectionImpact of Browser Tracking ChangesComplianceAuthorizationsAccess TokensKey ConceptsIdentity ResolutionConsent & PrivacyComplying with the Digital Markets Act (DMA)Client & Server Side CookiesContent AffinityContent CurationTopic TaxonomyArchitectureIntegration PatternsJob ProcessingLytics Platform Data Flow and AccessCDI and CDP Implementation StrategyLytics Zero Copy with Cloud ConnectPipeline & ProfilesData PipelineJobs (Data Sources and Exports)Data StreamsStream Routing APITemplatesCreating Templates Using the UICreating Templates using Lytics APIUsing the Jsonnet LibraryTemplate ExamplesSchema ManagementFields & MappingsAdvanced Mapping FunctionsMeta FieldsQueries & LQLIdentity Key RanksSchema VersionsPlanning & TroubleshootingLytics Profile SchemaSchema CopilotIdentityMerge StatisticsIdentity ExplorerIdentity RulesWarehouse AccessWhat is Cloud Connect?Connecting WarehousesData Models & QueriesActivating Data ModelsCloud Connect Troubleshooting and FAQsAudiences & ActivationUser ProfilesUnderstanding Profile HealthFinding a UserAudiencesAudience GroupsPrebuilt AudiencesReportsWhat are Reports?ComponentsManaging ReportsDashboard ReportContentTopics & AffinitiesTopicsAffinitiesUsing Topics & AffinitiesClassificationEnrichmentRecommendationsDocumentsContent CollectionsCreating Content CollectionsViewing, Using & Managing CollectionsInterest EnginesDefault Interest EngineCustom Interest EnginesCollaborative FiltersLookalike Models & AudiencesGetting StartedBuilding Lookalike ModelsEvaluating Lookalike ModelsCreating Lookalike AudiencesImproving Lookalike ModelsActivationDestinationsGoalsExperiencesBehavioral ScoresTutorialsLeveraging User ProfilesAccessing Profiles Client SideAccessing Profiles Server SideWorking with Anonymous ProfilesGet Started with Lytics SegmentsInline Content RecommendationsData Collection & OnboardingWorking with Custom DataWorking with Web DataCollect Mobile Data with Firebase + GTMData ManagementProfile Stitching Best PracticesMigrating from Queries to Conductor SchemaLQL & Data Import BasicsUse CasesAcquire New Customers with LyticsBest Practices for Personalizing Your Ad or Search Landing PageCapture More Information from Qualified LeadsContent Modularization in Email with Lytics AudiencesCustomize your Web Experiences with Branded ImagesDeliver Targeted ContentDrive Email Capture & Engagement with ContentDrive Mobile App Downloads With LyticsEngage Qualified Users with Targeted AdsEnhance Personalized Messaging with User Profile FieldsGrow Your Email Marketing ListImport an Audience from your Data WarehouseImprove Ad Campaign Metrics with Predictive TargetingIncrease Conversions with Lytics and Facebook LookalikeKeep Visitors Engaged with Content Recommendation ExperiencesLeverage Lookalike Models and Predictive AudiencesLookalike Models: Conserve marketing spend on engaged usersLookalike Models: Convert anonymous users to known usersLookalike Models: Convert single purchasers to multi-purchasersLookalike Models: Determine which subscribers are likely to churnMobile Messaging with Lytics Webhooks and Serverless FunctionsOptimize Remarketing SpendPersonalize the Messaging of your Website Based on AudiencePopulate Your Website With One-to-One Content RecommendationsPromote Relevant Content to Users based on their InterestsReach the Right People Using LyticsRetain Existing Customers With LyticsPersonalize your Iterable emails With Lytics content recommendationsBuild a Custom Personalized Experience With Video ContentUnlock Additional Web Personalization Features with Lytics API OverridesHow to Use GTM Tags to Modify Lytics Pathfora Widget BehaviorStyle your Lytics Web Experiences to Fit Your Brand GuidelinesSDKs & ToolsWebJavaScriptOn-site PersonalizationSubresource Integrity (SRI)MobileiOSReact NativeAndroidChrome ExtensionIntegrationsLytics Integration OptionsAcousticAdobeAdRollAirshipAmplitudeAmazon AdsAmazon KinesisAmazon PinpointAmazon RedshiftAmazon S3Amazon SQSAnsiraBigCommerceBlueKaiBlueshiftBrazeBrevoCampaign MonitorCheetah DigitalClearbitContentfulCordialCriteoCustomer.ioDatabricksDotdigitalDriftEpiserverFullContactGIGYAGoogle OptimizeGoogle Ad Manager (DFP)Google AdsGoogle BigQueryGoogle Cloud Pub/SubGoogle Cloud StorageGoogle DriveGoogle Marketing: Analytics, DV360, CM360Google Cloud OperationsGoogle Tag ManagerHubSpotiContactInsiderIterableJebbitKlaviyoLeadsquaredLinkedInLiveRampLocalyticsLookerLotameLytics File ServiceLytics MonitoringMailchimpMailgunMandrillMappMapp: BlueHornetMarketoMaropostMediaMathMetaMicrosoftMicrosoft AzureMicrosoft TeamsMixpanelNetSuiteNew RelicOmedaOneSignalOneTrustOracle Marketing Cloud: EloquaPinterestPostUpRadarRedditResponsysRetention ScienceSailthruSalesforceSalesforce DMP (Krux)Salesforce Marketing CloudSalesforce PardotSegment.comSelligentSendGridShopifySitecoreSlackSnapchatSnowflakeSparkPostSurveyMonkeySwrveTaboolaTealiumTikTokThe Trade DeskUnified ID 2.0VersiumWebhooksWebhook TemplatesWistiaX AdsYahoo AdsZapierZendeskZuoraContentstackPartnersPartner TypesLytics CommunicationLegacyInsightsImporting External ExperiencesIDP-initiated SSO (legacy)Web PersonalizationIntroductionDrive Traffic CampaignCollect Leads CampaignPresent a Message CampaignRecommend Content CampaignCampaign ReportingCampaign ManagementBuilding Audiences with Campaign DataCreating Templates using Lytics API Suggest EditsCreating Templates
+Templates can be created, tested, and managed using the Lytics Template APIs. Full API documentation can be found here. To create a template, simply submit a Jsonnet or Handlebars file to the /v2/template endpoint like this (see below for more information on using the lytemplates.libsonnet library in Jsonnet templates):
+Write to template file$ echo "local event = (import 'lytemplates.libsonnet');
+local emailField = event.jobConfGet('email_field', 'email');
+local userEmail = event.get(emailField);
+local errorMsg = if userEmail == '' then 'Profile missing email';
+{
+email_address: userEmail,
+email_address_sha256: event.sha256(userEmail),
+[if event.isEnter() then 'lytics_audience']: event.segSlug(),
+[if event.has('first_name') then 'first_name']: event.get('first_name'),
+}" > test.jsonnet
+Create template request$ http POST $LIOAPI/v2/template name==test-template type==jsonnet \
+description=="A test template for demos" Authorization:$LIOTOKEN \
+account_id==$LIOACCTID < test.jsonnet
+Create template responseHTTP/1.1 200 OK
+Content-Encoding: gzip
+Content-Length: 228
+Content-Type: application/json
+Date: Wed, 20 Sep 2023 21:10:45 GMT
+Request-Id: 2a42314b-57fa-11ee-bc0f-0242ac110039
+Server: lytics.io
+{
+"data": {
+"created": "2023-09-20T20:38:24.579029236Z",
+"description": "A test template for demos",
+"id": "83d1439ff457ab94377e697180e8f8f1",
+"name": "test-template",
+"type": "jsonnet",
+"updated": "2023-09-20T20:38:24.579029236Z"
+},
+"request_id": "2a42314b-57fa-11ee-bc0f-0242ac110039",
+"status": 200
+}
+The endpoint requires name and type query parameters. An optional description can also be included.
+Testing Templates
+Once templates have been created, the /v2/template/:id/test endpoint makes it easy to test the template's behavior given a particular job configuration and outgoing user profile. A configuration can be included in your request, as well as a custom entity profile. If no entity is included in the request, the API will auto-generate one from your Lytics user table schema:
+Request$ echo '{
+"job_config": {
+"email_field": "email"
+},
+"entity": {
+"email": "[email protected]",
+"first_name": "Tester",
+"segment_events": [
+{
+"id": "e4c8ef6712fc40d76d8202394095f3a6",
+"slug": "test_audience",
+"event": "enter",
+"enter": "2017-10-15T19:12:00.661749884Z"
+}
+]
+}
+}' | http POST $LIOAPI/v2/template/83d1439ff457ab94377e697180e8f8f1/test Authorization:$LIOTOKEN
+ResponseHTTP/1.1 200 OK
+Content-Encoding: gzip
+Content-Length: 222
+Content-Type: application/json
+Date: Wed, 20 Sep 2023 20:53:16 GMT
+Request-Id: b8cd77f4-57f7-11ee-bc0f-0242ac110039
+Server: lytics.io
+{
+"data": "{\n
+\"email_address\": \"[email protected]\",\n
+\"email_address_sha256\": \"e43763399e5318f14cd7473c4902a6b319343d577ec8283898a5edf9dbc6d711\",\n
+\"first_name\": \"Tester\",\n
+\"lytics_audience\": \"test_audience\"\n}\n",
+"request_id": "b8cd77f4-57f7-11ee-bc0f-0242ac110039",
+"status": 200
+}
+Template Examples
+Simple webhook payloads
+One of the primary use-cases for templates is for shaping the request payload for outgoing Webhook Exports from Lytics. For example, say you are exporting a Lytics audience called frequent_visitors to a service that expects the following JSON in the request body:
+JSON{
+"first_name": "Bob",
+"last_name": "Smith",
+"email_address": "[email protected]",
+"marketing_list": "frequent_visitors"
+}
+We could create the following template in Lytics, and select it in our Webhook Export job configuration to send the correct request, using the first_name, last_name, and email fields on your Lytics profiles (see here for details on using the lytemplates.libsonnet library):
+local event = (import 'lytemplates.libsonnet');
+{
+first_name: event.get("first_name", "")
+last_name:
+event.get("last_name", ""),
+email_address: event.get("email", ""),
+marketing_list: event.segSlug()
+}
+Once created, this template can be selected from the Lytics Template dropdown menu in the webhook job configuration.
+Using assert to skip events that have empty required fields
+Many times when sending webhook events, certain fields must be set or the webhook endpoint will respond with an HTTP error, causing the webhook job to fail.
+This simple template uses the Jsonnet assert function to signal that email must be set before sending. These events will be omitted from sending and will be logged with the included assertion message email must be set.
+JSONlocal event = (import "lytemplates.libsonnet");
+local email() =
+local email = event.get("email", "");
+assert email != "" : 'email must be set';
+email;
+{
+"email": email()
+}
+Using templates for dynamic URLs
+You can also use a template to dynamically generate URLs for webhook requests instead of hard-coding one in your job configuration. Say you are exporting Lytics profiles to a service that expects requests to the following endpoint where {email} is the user's email address:
+https://test.com/users/{email}/subscribe
+We could create the following template, which extracts the email from each Lytics profile and includes it in the URL:
+local event = (import 'lytemplates.libsonnet');
+'https://www.test.com/users/' + event.get("email", "") + '/subscribe'
+Once created, this template can be selected from the Webhook URL dropdown menu in the webhook job configuration.Updated 2 months ago Table of Contents
+Creating Templates
+Testing Templates
+Template Examples
+Simple webhook payloads
+Using assert to skip events that have empty required fields
+Using templates for dynamic URLs

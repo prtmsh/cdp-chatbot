@@ -1,0 +1,104 @@
+Zeotap CDP Solutions for Sports & Entertainment Industry
+Solutions
+Zeotap CDP Solutions
+Acquisition & GrowthCustomer Experience and PersonalisationLoyalty & RetentionPredictive Insights and
+Customer AnalyticsData Collection and Privacy
+Industries
+RetailTelcoMediaRetail MediaFinancial ServicesSports & EntertainmentAutomotive
+Platform
+Zeotap CDP Modules
+OverviewIntegrateUnifySegmentOrchestrateAnalyseProtect
+Zeotap CDP Features
+OverviewCustomer 360 ViewPredictive AudiencesOmnichannel JourneyConsent OrchestrationPrivacy & GDPRIntegrations
+Get started
+Subscription PlansDeployment Options
+Partners
+Our PartnersGoogle Cloud PartnershipZeotap Partner Network
+Resources
+AllBlogCase studiesVideosWhitepapersCDP SupportDeveloper Documentation
+Company
+About UsPrivacy and SecurityWhy Zeotap CDPWhy Zeotap DataCareers at ZeotapNewsEventsContact us
+LoginGet A Demo
+close_03
+Hit enter to search or click X to close
+Login
+Get a Demo
+Industries
+Sports and Entertainment
+Unify data across channels to deliver personalised experiences your fans will love
+The challenges in the industry
+Sports clubs have always brought together the masses. Today, a sports team can have a global audience of millions of fans connected through many channels – in-stadium, online, app, social, email, live streaming, and on-demand TV. Today’s sports fan is a multi-channel individual who can live anywhere in the world. The immediate challenge for clubs is to understand each fan completely—stitch together the data residing in each channel in order to deliver the best possible omnichannel experience. Secondly, the marketer must be able to remove existing ticket holders from any promotions to optimise budget spend. For example, if a fan viewed a ticket online but bought it from the ticket office at the stadium. Finally, clubs must understand the very best fans to fill the stadium for significant events and promote matchday hospitality packages.
+Success stories and quotes
+"Based on my experience, I can honestly say Zeotap’s platform is without equal. Brands can happily jettison a complex and
+inefficient patchwork of point solutions in favour of their unified stack for all data-related activities."
+Kay SchwabedalChief Digital Officer, Virgin Media O2
+"Zeotap has always set the bar when it comes to quality and security. It is part of their DNA."
+Steffen Roehnformer CIO, Deutsche Telekom
+"Being the data centre for the entire EMEA region, we have found Zeotap to be the right partner to improve our customer data intelligence and the service we provide to our clients."
+Jordi UrbeaChief Revenue Officer, Ogilvy
+"Zeotap is a strategic partner of Google Cloud in EMEA, driving
+additional value and improved experience for our customers with
+GCP. We realise that leveraging first-party data to drive digital
+transformation and omni-channel personalisation is top of mind for
+retailers - while also ensuring the best-possible privacy and
+security. We believe Zeotap - with its roots in Germany - is an
+expert and reliable partner to help navigate the first-party data
+opportunity."
+Adaire Martin-FoxPresident of Google Cloud International and Head of Google Ireland
+USE CASE 1
+Combine data for merger
+In order for marketers to drive a true personalised omnichannel experience for fans, browsing and in-stadium purchase data must be combined. By linking online and offline data relating to the same fan, marketers gain a better understanding of their fans’ behaviour and preferences to tailor their marketing strategies accordingly, and better measure the impact of cross-channel promotions. Through a process of matching, standardising and validating data, the attributes of the same fan are linked under a unique ID, enabling a 360-degree view of each fan.
+USE CASE 2
+Audience suppresion
+Exclude previous buyers
+Marketers can take advantage of unified customer records to exclude fans from campaigns based on their previous purchases made across all channels. Excluding previous buyers helps to reduce waste, increase conversion rates, impact on return on ad spend (ROAS), and avoid a poor customer experience. Plus, fans are not bombarded with irrelevant or duplicate messages. By excluding fans from promotions, marketers’ campaigns are more effective and efficient, increasing the lifetime value of removed customers to maximise the return on investment for each campaign and ensures that customers are receiving the most relevant messages.
+USE CASE 3
+Find high-value customers
+Marketers have the challenge of identifying individual fans who have returned high value and are likely to return continued high value in the future. Using Zeotap CDP, Marketers can define criteria for high-value fans to ensure they are targeting the right audience for messages and promotions. High-value fans make multiple purchases in-stadium and online, have a high average order value, or have been loyal fans for a long time. Once the criteria are established, marketers can assemble a list of fans who meet them and create special programs tailored to them. These programs could include special offers, rewards, recognition, referrals, and advocacy to encourage continued loyalty.
+Dive into our case study
+Ready to embark on a journey of data-driven success?
+Dive into our case studies and discover the extraordinary results achieved by businesses like yours with Zeotap CDP.
+Read More
+Why Zeotap CDP?
+IMMEDIATE VALUE4+4 FrameworkSpecialised in prioritising simple use cases that drive commercial outcomes in 8 weeks
+EASY DEPLOYMENT GCP NativeFrictionless deployment make existing tools and investment better with latency and
+cost advantages
+INTUITIVE INTERFACE Built for MarketersDesigned for hands-on marketers with no need for technical coding skills
+360 IDENTITYIncluding Cookieless IDPatented identity stitching strategies for discriminatory digital marketing use cases
+PRIVACY ABOVE ALL From Europe for EuropeConceived in Germany and developed for stringent European regulation
+TRUSTED PARTNERWe will be your trusted partner, not just a software vendor, that will make your CDP project successful.
+Industry recognitions
+Trusted by
+Schedule a demo
+It is simple to deliver amazing customer experiences without compromising user privacy. Complete the short form, and we’ll be in touch to schedule your demo.
+Get a demo
+Step into a new era of marketing possibilities, unleashing the full potential of your customer data. Experience the power of Zeotap CDP.
+GET A DEMO
+Follow us
+Facebook-f
+Twitter
+Linkedin-in
+Sign up for our newsletter
+Be the first to get access to our marketing resources and keep up to date with the latest CDP best practices, privacy standards, marketing, and customer data.
+Get a demo
+Step into a new era of marketing possibilities, unleashing the full potential of your customer data. Experience the power of Zeotap CDP.
+GET A DEMO
+Follow us
+Facebook-f
+Twitter
+Linkedin-in
+©2024 Zeotap All Rights Reserved
+Website Privacy Policy
+Product and Service Privacy Policy
+Vulnerability Disclosure Policy
+Information Security Policy Statement
+Legal Notice
+Legal Hub
+Zeotap Whistleblowing Channel
+Website Privacy Policy
+Product and Service Privacy Policy
+Vulnerability Disclosure Policy
+Information Security Policy Statement
+Legal Notice
+Legal Hub
+Zeotap Whistleblowing Channel

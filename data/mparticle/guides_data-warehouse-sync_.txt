@@ -1,0 +1,410 @@
+DOCSDOCSHomeGuidesDevelopersIntegrationsChangelogSign UpDocumentationDevelopersAPI ReferencesPlatform APIPlatform API OverviewAccountsAppsAudiencesCalculated AttributesData PointsFeedsField TransformationsServicesUsersWorkspacesData Subject Request APIData Subject Request API Version 1 and 2Data Subject Request API Version 3Warehouse Sync APIWarehouse Sync API OverviewWarehouse Sync API TutorialWarehouse Sync API ReferenceData MappingWarehouse Sync SQL ReferenceWarehouse Sync Troubleshooting GuideComposeIDWarehouse Sync API v2 MigrationCalculated Attributes Seeding APIBulk Profile Deletion API ReferenceCustom Access Roles APIData Planning APIGroup Identity API ReferencePixel ServiceProfile APIEvents APImParticle JSON Schema ReferenceIDSyncClient SDKsAMPAMP SDKAndroidInitializationConfigurationNetwork Security ConfigurationEvent TrackingUser AttributesIDSyncScreen EventsCommerce EventsLocation TrackingMediaKitsApplication State and Session ManagementData Privacy ControlsError TrackingOpt OutPush NotificationsWebView IntegrationLoggerPreventing Blocked HTTP Traffic with CNAMELinting Data PlansTroubleshooting the Android SDKAPI ReferenceUpgrade to Version 5CordovaCordova PluginIdentityDirect Url RoutingDirect URL Routing FAQWebAndroidiOSFlutterGetting StartedUsageAPI ReferenceiOSInitializationConfigurationEvent TrackingUser AttributesIDSyncScreen TrackingCommerce EventsLocation TrackingMediaKitsApplication State and Session ManagementData Privacy ControlsError TrackingOpt OutPush NotificationsWebview IntegrationUpload FrequencyApp ExtensionsPreventing Blocked HTTP Traffic with CNAMELinting Data PlansTroubleshooting iOS SDKSocial NetworksiOS 14 GuideiOS 15 FAQiOS 16 FAQiOS 17 FAQiOS 18 FAQAPI ReferenceUpgrade to Version 7RokuGetting StartedIdentityMediaReact NativeGetting StartedIdentityUnityUpload FrequencyGetting StartedOpt OutInitialize the SDKEvent TrackingCommerce TrackingError TrackingScreen TrackingIdentityLocation TrackingSession ManagementXboxGetting StartedIdentityWebInitializationConfigurationContent Security PolicyEvent TrackingUser AttributesIDSyncPage View TrackingCommerce EventsLocation TrackingMediaKitsApplication State and Session ManagementData Privacy ControlsError TrackingOpt OutCustom LoggerPersistenceNative Web ViewsSelf-HostingMultiple InstancesWeb SDK via Google Tag ManagerPreventing Blocked HTTP Traffic with CNAMEFacebook Instant ArticlesTroubleshooting the Web SDKBrowser CompatibilityLinting Data PlansAPI ReferenceUpgrade to Version 2 of the SDKXamarinGetting StartedIdentityWebAlexaMedia SDKsAndroidiOSWebToolsmParticle Command Line InterfaceLinting ToolsSmartypeServer SDKsNode SDKGo SDKPython SDKRuby SDKJava SDKQuickstartAndroidOverviewStep 1. Create an inputStep 2. Verify your inputStep 3. Set up your outputStep 4. Create a connectionStep 5. Verify your connectionStep 6. Track eventsStep 7. Track user dataStep 8. Create a data planStep 9. Test your local appHTTP Quick StartStep 1. Create an inputStep 2. Create an outputStep 3. Verify outputiOS Quick StartOverviewStep 1. Create an inputStep 2. Verify your inputStep 3. Set up your outputStep 4. Create a connectionStep 5. Verify your connectionStep 6. Track eventsStep 7. Track user dataStep 8. Create a data planJava Quick StartStep 1. Create an inputStep 2. Create an outputStep 3. Verify outputNode Quick StartStep 1. Create an inputStep 2. Create an outputStep 3. Verify outputPython Quick StartStep 1. Create an inputStep 2. Create an outputStep 3. Verify outputWebOverviewStep 1. Create an inputStep 2. Verify your inputStep 3. Set up your outputStep 4. Create a connectionStep 5. Verify your connectionStep 6. Track eventsStep 7. Track user dataStep 8. Create a data planGuidesPartnersIntroductionOutbound IntegrationsOutbound IntegrationsFirehose Java SDKInbound IntegrationsKit IntegrationsOverviewAndroid Kit IntegrationJavaScript Kit IntegrationiOS Kit IntegrationCompose IDData Hosting LocationsGlossaryMigrate from Segment to mParticleMigrate from Segment to mParticleMigrate from Segment to Client-side mParticleMigrate from Segment to Server-side mParticleSegment-to-mParticle Migration ReferenceRules Developer GuideAPI Credential ManagementThe Developer's Guided Journey to mParticleGuidesGetting StartedCreate an InputStart capturing dataConnect an Event OutputCreate an AudienceConnect an Audience OutputTransform and Enhance Your DataPersonalizationIntroductionProfilesAudiencesAudiences OverviewCreate an AudienceConnect an AudienceManage AudiencesReal-time Audiences (Legacy)Standard Audiences (Legacy)Calculated AttributesCalculated Attributes OverviewUsing Calculated AttributesCreate with AI AssistanceCalculated Attributes ReferencePredictive AudiencesPredictive Audiences OverviewUsing Predictive AudiencesJourneysJourneys OverviewManage JourneysDownload an audience from a journeyAudience A/B testing from a journeyJourneys 2.0Predictive AttributesWhat are predictive attributes?Predict Future BehaviorCreate Future PredictionUse Future Predictions in CampaignsAssess and Troubleshoot PredictionsNext Best ActionNext Best Action OverviewCreate a Next Best Action (NBA)View and Manage NBAsActivate Next Best Actions in CampaignsPlatform GuideBillingUsage and Billing ReportThe New mParticle ExperienceThe new mParticle ExperienceThe Overview MapObservabilityObservability OverviewObservability User GuideObservability Troubleshooting ExamplesObservability Span GlossaryIntroductionData RetentionConnectionsActivityLive StreamData FilterRulesTiered EventsmParticle Users and RolesAnalytics Free TrialTroubleshooting mParticleUsage metering for value-based pricing (VBP)AnalyticsIntroductionSetupSync and Activate Analytics User Segments in mParticleUser Segment ActivationWelcome Page AnnouncementsSettingsProject SettingsRoles and TeammatesOrganization SettingsGlobal Project FiltersPortfolio AnalyticsAnalytics Data ManagerAnalytics Data Manager OverviewEventsEvent PropertiesUser PropertiesRevenue MappingExport DataUTM GuideQuery BuilderData DictionaryQuery Builder OverviewModify Filters With And/Or ClausesQuery-time SamplingQuery NotesFilter Where ClausesEvent vs. User PropertiesGroup By ClausesAnnotationsCross-tool CompatibilityApply All for Filter Where ClausesDate Range and Time Settings OverviewUser Attributes at Event TimeUnderstanding the Screen View EventAnalysesAnalyses IntroductionSegmentation: BasicsGetting StartedVisualization OptionsFor ClausesDate Range and Time SettingsCalculatorNumerical SettingsSegmentation: AdvancedAssisted AnalysisProperties ExplorerFrequency in SegmentationTrends in SegmentationDid [not] Perform ClausesCumulative vs. Non-Cumulative Analysis in SegmentationTotal Count of vs. Users Who PerformedSave Your Segmentation AnalysisExport Results in SegmentationExplore Users from SegmentationFunnels: BasicsGetting Started with FunnelsGroup By SettingsConversion WindowTracking PropertiesDate Range and Time SettingsVisualization OptionsInterpreting a Funnel AnalysisFunnels: AdvancedGroup ByFiltersConversion over TimeConversion OrderTrendsFunnel DirectionMulti-path FunnelsAnalyze as Cohort from FunnelSave a Funnel AnalysisExplore Users from a FunnelExport Results from a FunnelCohortsGetting Started with CohortsAnalysis ModesSave a Cohort AnalysisExport ResultsExplore UsersSaved AnalysesManage Analyses in DashboardsJourneysGetting StartedEvent MenuVisualizationEnding EventSave a Journey AnalysisUsersGetting StartedUser Activity TimelinesTime SettingsExport ResultsSave A User AnalysisDashboardsDashboards––Getting StartedManage DashboardsDashboard FiltersOrganize DashboardsScheduled ReportsFavoritesTime and Interval Settings in DashboardsQuery Notes in DashboardsUser AliasingAnalytics ResourcesThe Demo EnvironmentKeyboard ShortcutsTutorialsAnalytics for MarketersAnalytics for Product ManagersCompare Conversion Across Acquisition SourcesAnalyze Product Feature UsageIdentify Points of User FrictionTime-based Subscription AnalysisDashboard Tips and TricksUnderstand Product StickinessOptimize User Flow with A/B TestingUser SegmentsAPIsUser Segments Export APIDashboard Filter APIIDSyncIDSync OverviewUse Cases for IDSyncComponents of IDSyncStore and Organize User DataIdentify UsersDefault IDSync ConfigurationProfile Conversion StrategyProfile Link StrategyProfile Isolation StrategyBest Match StrategyAliasingData MasterGroup IdentityOverviewCreate and Manage Group DefinitionsIntroductionCatalogLive StreamData PlansData PlansBlocked Data Backfill GuideWarehouse SyncData Privacy ControlsData Subject RequestsDefault Service LimitsFeedsCross-Account Audience SharingApproved Sub-ProcessorsImport Data with CSV FilesImport Data with CSV FilesCSV File ReferenceGlossaryVideo IndexAnalytics (Deprecated)Identity ProvidersSingle Sign-On (SSO)Setup ExamplesSettingsDebug ConsoleData Warehouse Delay AlertingIntroductionDeveloper DocsIntroductionIntegrationsIntroductionRudderstackGoogle Tag ManagerSegmentData Warehouses and Data LakesAdvanced Data Warehouse SettingsAWS Kinesis (Snowplow)AWS Redshift (Define Your Own Schema)AWS S3 Integration (Define Your Own Schema)AWS S3 (Snowplow Schema)BigQuery (Snowplow Schema)BigQuery Firebase SchemaBigQuery (Define Your Own Schema)GCP BigQuery ExportSnowflake (Snowplow Schema)Snowplow Schema OverviewSnowflake (Define Your Own Schema)APIsREST APIDashboard Filter API (Deprecated)User Segments Export API (Deprecated)SDKsSDKs IntroductionReact NativeiOSAndroidJavaJavaScriptPythonObject APIDeveloper BasicsAliasingWarehouse SyncWarehouse Sync is mParticle’s reverse-ETL solution, allowing you to use an external warehouse as a data source for your mParticle account. By ingesting data from your warehouse using either one-time, on-demand, or recurring syncs, you can benefit from mParticle’s data governance, personalization, and prediction features without having to modify your existing data infrastructure.
+Supported warehouse providers
+You can use Warehouse Sync to ingest both user and event from the following warehouse providers:
+Amazon Redshift
+Google BigQuery
+Snowflake
+Databricks
+This guide explains how to ingest data into mParticle from an external data warehouse. If you want to forward data from mParticle to your data warehouse, refer to the outbound integration documentation for Amazon Redshift, Google BigQuery, Snowflake or Databricks.
+You must have an mParticle user role with either "Admin", "Admin & Compliance", or "Support Access" permissions to create and modify Warehouse Sync configurations. Custom Access Rolesdoes not currently support Warehouse Sync inbound integrations.
+Warehouse Sync setup overview
+Prepare your data warehouse before connecting it to mParticle
+Create an input feed in your mParticle account for your warehouse
+Connect your warehouse to your new mParticle input feed
+Specify the data you want to ingest into mParticle by creating a SQL data model
+Map your warehouse data to fields in mParticle
+For user data pipelines, this mapping is done by your data model
+For event data pipelines, you must complete an additional data mapping step
+Configure when and how often data is ingested from your warehouse
+Observability for Warehouse Sync
+mParticle’s Observability offers support for tracing data ingested into your account through a Warehouse Sync pipeline. Simply select the pipeline feed you want to trace from the list of Feeds when creating a new trace configuration.
+Trace configurations for Warehouse Sync pipelines will generate a new unique trace for each event batch generated by your pipeline within the timeframe you specify in your configuration. Like other trace configurations, pipeline traces display spans for each processing stage your data passes through once it’s ingested into mParticle.
+Warehouse Sync traces do not currently provide row-specific details from your source database or details for diagnosing errors encountered during data ingestion. The current version of Warehouse Sync tracing is intended to help diagnose and troubleshoot issues encountered post-ingestion.
+Warehouse Sync API
+All functionality of Warehouse Sync is also available from an API. To learn how to create and manage syncs between mParticle and your data warehouse using the API, visit the mParticle developer documentation.
+Warehouse Sync setup tutorial
+Prerequisites
+Before beginning the warehouse sync setup, obtain the following information for your mParticle account. Depending on which warehouse you plan to use, you will need some or all of these values:
+Your mParticle region ID, or pod: either US1, US2, AU1, or EU1
+Your Pod AWS Account ID that correlates with your mParticle region ID:
+US1: 338661164609
+US2: 386705975570
+AU1: 526464060896
+EU1: 583371261087
+Your mParticle Org ID
+Your mParticle Account ID
+How to find your mParticle Org, Account, Region, and Pod AWS Account IDs
+To find your Org ID, Account ID, Pod ID, and Pod AWS Account ID:
+Log into the mParticle app at app.mparticle.com
+From your web browser’s toolbar, navigate to view the page source for the mParticle app.
+For example, in Google Chrome: Navigate to View > Developer > View Page Source in the toolbar. In the resulting source for the page, find and save the values for accountId, orgId, podName, and podId, as shown in the screenshot below.
+1 Prepare your data warehouse
+Work with your warehouse administrator or IT team to ensure your warehouse is reachable and accessible by mParticle.
+Whitelist the mParticle IP address range so your warehouse will be able to accept inbound API requests from mParticle.
+Ask your database administrator to perform the following steps in your warehouse to create a new role that mParticle can use to access your database. Select the correct tab for your warehouse (Snowflake, Google BigQuery, Amazon Redshift, or Databricks) below.
+Snowflake
+1.1 Create a new user
+First, you must create a user in your Snowflake account that mParticle can use to access your warehouse.
+Log into your Snowflake account at app.snowflake.com
+Click + Create in the left hand navigation, and select SQL Worksheet.
+You must create your new user for mParticle using SQL statements so you can set the user type as legacy service. This exempts your new user from Snowflake's
+Multi-factor authentication (MFA) requirement. Creating a new user in Snowflake's UI does not provide this option.
+Select the database you want to connect to mParticle, and run the following SQL statement from the console:
+// Mark your new user as a legacy service user to exclude it from Snowflake's multifactor authentication policy
+CREATE OR REPLACE USER {{user_name}} PASSWORD = "{{unique_secure_password}}" TYPE = LEGACY_SERVICE;
+Where:
+{{user_name}}: The ID of the user that mParticle will log in as while executing SQL commands on your Snowflake instance.
+{{unique_secure_password}}: a unique, strong password for your new user.
+Beginning September 30th, 2024, Snowflake is enforcing Multi-factor authentication (MFA) for all human users (as opposed to service users) that authenticate with a username and password in new Snowflake accounts, created after Snowflake's BCR 2024_08 bundle release. Service user accounts, which are often accounts designed for system-to-system or application-to-application communication, are exempted from Snowflake's MFA policy.
+To prevent issues with your Snowflake configuration, make sure to set your new Snowflake user type as legacy service to exclude it from Snowflake's MFA policy by adding TYPE = LEGACY_SERVICE to the CREATE USER statement in your SQL statement. Alternatively, you can run the ALTER USER {{user_name}} SET TYPE = LEGACY_SERVICE; SQL statement to modify existing users.
+1.2 Create a new role
+mParticle recommends creating a dedicated role for your mParticle warehouse sync user created in step 1.1 above.
+From the Users & Roles page of your Snowflake account’s Admin settings, select the Roles tab.
+Click the + Role button.
+Enter a name for your new role, and select the set of permissions to assign to the role using the under Grant to role dropdown.
+Enter an optional description under Comment, and click Create Role.
+Select your new role from the list of roles, and click the Grant to User button.
+Under User to receive grant, select the new user you created in step 1.1, and click Grant.
+Before continuing, make sure to save the following information, as you will need to refer to this when connecting Data Warehouse to your Snowflake account:
+Role name: The role mParticle will use while executing SQL commands on your Snowflake instance. mParticle recommends creating a unique role for warehouse sync.
+Warehouse name: The ID of the Snowflake virtual warehouse compute cluster where SQL commands will be executed.
+Database name: The ID of the database in your Snowflake instance from which you want to sync data.
+Schema name: The ID of the schema in your Snowflake instance containing the tables you want to sync data from.
+Table name: The ID of the table containing data you want to sync. Grant SELECT privileges on any tables/views mParticle needs to access.
+Google BigQuery
+The Google BigQuery connector uses the enterprise grade Google Cloud Platform infrastructure. Safeguarding customer data is our highest priority, and Data Warehouse Sync employs the same SOC2 best practices as the rest of the mParticle platform. mParticle expects to include Data Warehouse Sync in the upcoming annual SOC2 audit.
+1.1 Create a new service account for mParticle
+Go to console.cloud.google.com, log in, and navigate to IAM & Admin > Service Accounts.
+Select Create Service Account.
+Enter a new identifier for mParticle in Service account ID. In the example below, the email address is the service account ID. Save this value for your Postman setup.
+Under Grant this service account access to project, select BigQuery Job User under the Role dropdown menu, and click DONE.
+Select your new service account and navigate to the Keys tab.
+Click ADD KEY and select Create new key. The value for service_account_key will be the contents of the generated JSON file. Save this value for your Postman setup.
+1.2 Identify your BigQuery warehouse details
+Navigate to your BigQuery instance from console.cloud.google.com.
+Your project_id is the first portion of Dataset ID (the portion before the .). In the example above, it is mp-project.
+Your dataset_id is the second portion of Dataset ID (the portion immediately after the .) In the example above, it is mp-dataset.
+Your region is the Data location. This is us-east4 in the example above.
+1.3 Grant access to the dataset in BigQuery
+From your BigQuery instance in console.cloud.google.com, click Sharing and select Permissions.
+Click Add Principle.
+Assign two Roles, one for BigQuery Data Viewer, and one for BigQuery User.
+Click Save.
+Amazon Redshift
+Items in {{Curly Braces}} are placeholders and should be replaced with values based on your environment and/or determined by you.
+Navigate to your AWS Console, log in with your administrator account, and navigate to your Redshift cluster details.
+Run the following SQL statements to create a new user for mParticle, grant the necessary schema permissions to the new user, and grant the necessary access to your tables/views.
+-- Create a unique user for mParticle
+CREATE USER {{user_name}} WITH PASSWORD '{{unique_secure_password}}'
+-- Grant schema usage permissions to the new user
+GRANT USAGE ON SCHEMA {{schema_name}} TO {{user_name}}
+-- Grant SELECT privilege on any tables/views mP needs to access to the new user
+GRANT SELECT ON TABLE {{schema_name}}.{{table_name}} TO {{user_name}}
+Navigate to the Identity And Access Management (IAM) dashboard, select Roles under the left hand nav bar, and click Create role.
+In Step 1 Select trusted entity, click AWS service under Trusted entity
+Select Redshift from the dropdown menu titled “Use cases for other AWS services”, and select Redshift - Customizable. Click Next.
+In Step 2 Add permissions, click Create Policy.
+Click JSON in the policy editor, and enter the following permissions before clicking Next.
+Replace {mp_pod_aws_account_id} with one of the following values according to your mParticle instance’s location:
+US1 = 338661164609
+US2 = 386705975570
+AU1 = 526464060896
+EU1 = 583371261087
+{
+"Statement": [
+{
+"Action": "sts:AssumeRole",
+"Effect": "Allow",
+"Resource": "arn:aws:iam::{{mp_pod_aws_account_id}}:role/ingest-pipeline-data-external-{{mp_org_id}}-{{mp_acct_id}}",
+"Sid": ""
+}
+],
+"Version": "2012-10-17"
+}
+Enter a meaningful name for your new policy, such as mparticle_redshift_assume_role_policy, and click Create policy.
+Return to the Create role tab, click the refresh button, and select your new policy. Click Next.
+Enter a meaningful name for your new role, such as mparticle_redshift_role, and click Create role.
+Your configuration will differ between Amazon Redshift and Amazon Redshift Serverless. To complete your configuration, follow the appropriate steps for your use case below.
+Make sure to save the value of your new role’s ARN. You will need to use this when setting up Postman in the next section.
+Amazon Redshift (not serverless)
+Navigate to your AWS Console, then navigate to Redshift cluster details. Select the Properties tab.
+Scroll to Associated IAM roles, and select Associate IAM Roles from the Manage IAM roles dropdown menu.
+Select the new role you just created. The name for the role in this example is mparticle_redshift_role.
+Amazon Redshift Serverless
+Navigate to your AWS Console, then navigate to your Redshift namespace configuration. Select the Security & Encryption tab, and click Manage IAM roles.
+Select Associate IAM roles from the Manage IAM roles dropdown menu.
+Select the new role you just created. The name for the role in this example is mparticle_redshift_role.
+Databricks
+Warehouse Sync uses the Databricks-to-Databricks Delta Sharing protocol to ingest data from Databricks into mParticle.
+Due to a limitation with Delta Sharing, Warehouse Sync does not support ingesting views from Databricks. Learn more.
+Complete the following steps to prepare your Databricks instance for Warehouse Sync.
+1. Enable Delta Sharing
+Log into your Databricks account and navigate to the Account Admin Console. You must have Account Admin user privileges.
+Click Catalog from the left hand nav bar, and select the metastore you want to ingest data from.
+Select the Configuration tab. Under Delta Sharing, check the box labeled “Allow Delta Sharing with parties outside your organization”.
+Find and save your Databricks provider name: the value displayed under Organization name. You will use this value for your provider name when creating the connection between mParticle Warehouse Sync and Databricks.
+2. Configure a Delta Sharing recipient for mParticle
+From the Unity Catalog Explorer in your Databricks account, click the Delta Sharing button, and select Shared by me.
+Click New Recipient in the top right corner.
+Within the Create a new recipient window, enter mParticle_{YOUR-DATA-POD} under Recipient name where {YOUR-DATA-POD} is either us1, us2, eu1, or au1 depending on the location of the data pod configured for your mParticle account.
+In Sharing identifier, enter one of the following identifiers below, depending on the location of your mParticle account’s data pod:
+US1: aws:us-east-1:e92fd7c1-5d24-4113-b83d-07e0edbb787b
+US2: aws:us-east-1:e92fd7c1-5d24-4113-b83d-07e0edbb787b
+EU1: aws:eu-central-1:2b8d9413-05fe-43ce-a570-3f6bc5fc3acf
+AU1: aws:ap-southeast-2:ac9a9fc4-22a2-40cc-a706-fef8a4cd554e
+3. Share your Databricks tables and schema with your new Delta Sharing recipient
+From the Unity Catalog Explorer in your Databricks account, click the Delta Sharing button.
+Click Share data in the top right.
+Within the Create share window, enter mparticle_{YOUR-MPARTICLE-ORG-ID}_{YOUR-MPARTICLE-ACCOUNT-ID} under Share name where {YOUR-MPARTICLE-ORG-ID} and {YOUR-MPARTICLE-ACCOUNT-ID} are your mParticle Org and Account IDs.
+To find your Org ID, log into the mParticle app. View the page source. For example, in Google Chrome, go to View > Developer > View Page Source. In the resulting source for the page, look for “orgId”:xxx. This number is your Org ID.
+Follow a similar process to find your Account ID (“accountId”:yyy) and Workspace ID (“workspaceId”:zzz).
+Click Save and continue at the bottom right.
+In the Add data assets section, select the assets to add to the schemas and tables you want to send to mParticle. Make sure to remember your schema name: you will need this value when configuring your Databricks feed in mParticle.
+Click Save and continue at the bottom right until you reach the Add recipients step. (You can skip the Add notebooks step.)
+In the Add recipients step, make sure to add the new mParticle recipient you created in Step 2.
+Finally, click the Share data button at the bottom right.
+Unsupported data types between mParticle and Databricks
+Databricks Delta Sharing does not currently support the TIMESTAMP_NTZ data type.
+Other data types that are not currently supported by the Databricks integration for Warehouse Sync (for both user and events data) include:
+Intervals
+If you are ingesting events data through Warehouse Sync, the following data types are unsupported:
+Maps
+Multi-dimensional arrays
+While multi-dimensional, or nested, arrays are unsupported, you can still ingest simple arrays with events data.
+2 Create a new warehouse input
+Log into your mParticle account
+Navigate to Setup > Inputs in the left-hand nav bar and select the Feeds tab
+Under Add Feed Input, search for and select your data warehouse provider.
+You can also create a new warehouse input from the Integrations Directory:
+Log into your mParticle account, and click Directory in the left hand nav.
+Search for either Google BigQuery, Snowflake, Amazon Redshift, or Databricks.
+For Google BigQuery, make sure to select the tile labeled "Data Warehouse", not "Audience".
+After selecting your warehouse provider, the Warehouse Sync setup wizard will open where you will:
+Enter your warehouse details
+Create your data model
+Create any necessary mappings between your warehouse data and mParticle fields
+Enter your sync schedule settings
+3 Connect warehouse
+The setup wizard presents different configuration options depending on the warehouse provider you select. Use the tabs below to view the specific setup instructions for Amazon Redshift, Google BigQuery, and Snowflake.
+Amazon Redshift
+Connect to Amazon Redshift
+3.1 Enter a configuration name
+The configuration name is specific to mParticle and will appear in your list of warehouse inputs. You can use any configuration name, but it must be unique since this name is used when configuring the rest of your sync settings.
+3.2 Enter your Amazon Redshift database name
+The database name identifies your database in Amazon Redshift. This must be a valid Amazon Redshift name, and it must exactly match the name for the database you want to connect to.
+3.3 Enter your Redshift AWS IAM Role ARN
+This is the unique string used to identify an IAM (Identity and Access Management) role within your AWS account. AWS IAM Role ARNs follow the format arn:aws:iam::account:role/role-name-with-path where account is replaced with your AWS account number, role is replaced with the role type in AWS, and role-name-with-path is replaced with the name and location for the role in your AWS account.
+Learn more about AWS identifiers in IAM identifiers in the AWS documentation.
+3.4 Enter your warehouse host and port
+mParticle uses the host name and port number when connecting to, and ingesting data from, your warehouse.
+3.5 Enter your Amazon Redshift credentials
+Provide the username and password associated with the AWS IAM Role you entered in step 1.4. mParticle will use these credentials when logging into AWS before syncing data.
+Google BigQuery
+Connect to Google BigQuery
+3.1 Enter a configuration name
+The configuration name is specific to mParticle and will appear in your list of warehouse inputs. You can use any configuration name, but it must be unique since this name is used when configuring the rest of your sync settings.
+3.2 Enter your BigQuery project ID
+Enter the ID for the project in BigQuery containing the dataset. You can find your Project ID from the Google BigQuery Console.
+3.3 Enter your BigQuery Dataset ID
+Enter the ID for the dataset you’re connecting to. You can find your Dataset ID from the Google BigQuery Console.
+3.4 Enter the region
+Enter the region where your dataset is localized. For example, aws-us-east-1 or aws-us-west-2. You can find the region for your data set from the Google BigQuery Console.
+3.5 Add your BigQuery credentials
+Finally, enter the service account ID and upload a JSON file containing your source account key associated with the Project ID you entered in step 1.3. mParticle uses this information to log into BigQuery on your behalf when syncing data.
+Your service account ID must match the source account key.
+Snowflake
+Connect to Snowflake
+3.1 Enter a configuration name
+The configuration name is specific to mParticle and will appear in your list of warehouse inputs. You can use any configuration name, but it must be unique since this name is used when configuring the rest of your sync settings.
+3.2 Select the environment type where your data originates
+Select either Prod or Dev depending on whether your want your warehouse data sent to the mParticle development or production environments. This setting determines how mParticle processes ingested data.
+3.3 Enter your Snowflake account ID
+Your Snowflake account ID uniquely identifies your Snowflake account. You can find your Snowflake account ID by logging into your Snowflake account and finding your account_locator, cloud_region_id, and cloud. More details here and here.
+3.4 Enter your Snowflake warehouse name
+The Snowflake warehouse name is used to find the specific database you are connecting to. Each Snowflake warehouse can contain multiple databases.
+3.5 Enter your Snowflake database name
+The specific database you want to sync data from.
+3.6 Enter the region
+Enter the region identifier corresponding to where your Snowflake data is localized following the format <cloud_region_id> or <cloud_region_id>.<cloud>, where <cloud> is an additional cloud provider ID, depending on the region your data is localized. To determine if you need to include the additional cloud provider ID:
+First, refer to Snowflake’s list of region IDs to find the cloud region ID for your account. At the least, you will enter this value for your region ID.
+Next, refer to Snowflake’s documentation on account locator formats by cloud platform and region to see if you need to include an additional cloud identifier by looking for your region in the left-most column and looking to see if a cloud ID is appended in the second column (e.g. aws, gcp, azure, etc.)
+For example, if your data is localized in the US West (Oregon) region, you only need to enter us-west-2 as your cloud region ID. However, if your data is localized in US East (Ohio), you must enter us-east-2.aws, making sure to append .aws to your cloud region ID (us-east-2).
+Do not include your account identifier (Snowflake uses the example account identifier xy12345 in their documentation linked above) when entering your region ID. You should only enter your cloud region ID and cloud provider ID (if necessary).
+3.7 Add your Snowflake credentials
+Finally, you must provide the username, password, and role specific to the database in Snowflake you are connecting to. These credentials are independent from the username and password you use to access the main Snowflake portal. If you don’t have these credentials, contact the Snowflake database administrator on your team.
+Databricks
+Connect to Databricks
+3.1 Enter a configuration name
+The configuration name is specific to mParticle and will appear in your list of warehouse inputs. You can use any configuration name, but it must be unique since this name is used when configuring the rest of your sync settings.
+3.2 Enter your Databricks provider
+The value you enter for your Databricks provider must match the value of the Databricks organization that contains the schema you want to ingest data from. This is the same value that you saved when following Step 4 of the Data Warehouse setup, Find and save your Databricks provider name, prior to creating your warehouse connection.
+3.3 Enter your Databricks schema
+Enter the name of the schema in your Databricks account that you want to ingest data from. Databricks uses the terms database and schema interchangeably, so in this situation the schema is the specific collection of tables and views that mParticle will access through this Warehouse Sync connection.
+4 Create data model
+Your data model describes which columns from your warehouse to ingest into mParticle, and which mParticle fields each column should map to. While mParticle data models are written in SQL, all warehouse providers process SQL slightly differently so it is important to use the correct SQL syntax for the warehouse provider you select.
+For a detailed reference of all SQL commands Warehouse Sync supports alongside real-world example SQL queries, see Warehouse Sync SQL reference.
+Steps to create a data model
+Write a SQL query following the guidelines outlined below and the Warehouse Sync SQL reference. Make sure to use SQL commands supported by your warehouse provider.
+Enter the SQL query in the SQL query text box, and click Run Query.
+Click Next.
+mParticle submits the SQL query you provide to your warehouse to retrieve specific columns of data. Depending on the SQL operators and functions you use, the columns selected from your database are transformed, or mapped, to user profile attributes in your mParticle account.
+If you use an attribute name in your SQL query that doesn’t exist in your mParticle account, mParticle creates an attribute with the same name and maps this data to the new attribute.
+mParticle automatically maps matching column names in your warehouse to reserved mParticle user attributes and device ids. For example, if your database contains a column named customer_id, it is automatically mapped to the customer_id user identifier in mParticle. For a complete list of reserved attribute names, see Reserved mParticle user or device identity column names.
+Example database and SQL query
+Below is an example of a simple table and SQL query to create a data model:
+Table name: mp.demo.userdata
+Column names:
+first_name
+last_name
+email
+John
+Doe
+john@example.com
+Example SQL query:
+SELECT
+first_name,
+last_name,
+email
+FROM mp.demo.userdata
+This SQL query selects the first_name, last_name, and email columns from the table called mp.demo.userdata. In the next step, we will set up the mappings for this user data.
+5 Create data mapping
+After creating a data model that specifies which columns in your warehouse you want to ingest, you must map each column to its respective field within mParticle with a data mapping.
+If a field name within your destination contains a period (.) character, then the field name must be escaped using curly braces and single quotes. For example: {{'field.name'}}. This is due to how Warehouse Sync parses through nested objects and fields when creating your mappings. If a period is found that doesn't indicate a nested object or field, you will receive an error.
+This is commonly encountered when mapping to an mParticle custom flag, such as TikTok.URL. Because URL isn't a field nested within an object called TikTok, Warehouse sync will return an error unless you enclose the entire field within curly braces: {{'TikTok.URL'}}.
+To create a data mapping, first use the dropdown menu titled Type of data to sync to select either User Attributes & Identities Only or Events, depending on whether you want to ingest user data or event data.
+To continue with our example user data table and SQL query from above, we’ll select User Attributes & Identities Only:
+User Attributes & Identities Only
+When mapping attributes and identities from your warehouse to fields in mParticle, you must always create a user_identities or user_attributes object first. You can then create the individual mappings for your identities and attributes within these entities, as shown in the next two sections.
+Warehouse Sync supports the same user identifiers as other input methods and adheres to the identity strategy you've configured.
+Map user identities
+To map your user identities:
+Click Add Mapping.
+Under Mapping Type, select Object.
+Under Field in mParticle, select user_identites.
+Click Save.
+Within your new user_identities object, click the + button.
+Under Mapping Type, select Column.
+Under Column in warehouse enter the name of the column containing the identities you want to ingest. In this example, we’ll use a column called email.
+Under Field in mParticle use the dropdown menu to select the correct user identity in mParticle you want to map your identities to. In this example, we’ll select Email Address.
+Click Save.
+Map user attributes
+To map your user attributes:
+Click Add Mapping.
+Under Mapping Type, select Object.
+Under Field in mParticle, select user_attributes.
+Click Save.
+Within your new user_attributes object, click the + button.
+Under Mapping Type, select Column.
+Under Column in warehouse, enter the name of the column you want to map to mParticle. You can enter a specific column name, or $unmapped to select all currently unmapped columns.
+Entering $unmapped selects all columns that are not already mapped to mParticle. In our example, because we’ve already mapped the email column to the Email Address field in mParticle, it will be excluded.
+Under Field in mParticle enter the name of the field in mParticle that you want to map your column to.
+If you entered $unmapped for your warehouse column selection, you can enter an asterisk (*) for Field in mParticle to use each unmapped column name in your warehouse as the respective field name in mParticle. This allows you to map all of your attributes at once so you don’t have to create a separate mapping for each individual attribute.
+Click Save.
+In addition to the user identities and attributes mappings, it's recommended that you also create a separate mapping for timestamp_unixtime, if your data model ingests that field.
+Events
+If you are ingesting event data instead of user data (as shown above), select Events under Type of data to sync once you reach the Review Mapping step.
+Click Add Mapping.
+Under Mapping Type, select Object.
+Under Field in mParticle, select events.
+Click Save.
+Within the new events object, click the + button to add a new mapping.
+Select the type of mapping you want to use from the Mapping Type dropdown:
+Column - maps a column from your database to a field in mParticle
+Static - maps a static value that you define to a field in mParticle
+Ignore - prevents a field that you specify from being ingested into mParticle
+The next steps will vary depending on the data you are ingesting and the mapping type you select. Following are several examples of how to use each mapping type.
+Column mapping
+Under Column in warehouse, select the name of the column in your database you are mapping fields from.
+Under Field in mParticle, select the field in mParticle you are mapping fields to.
+Click Save.
+Static mapping
+Under Input Value select either String, Number, or Boolean for the data type of the static value you are mapping.
+In the entry box, enter the static value you are mapping.
+Under Field in mParticle, select the field you want to map your static value to.
+Click Save.
+Ignore mapping
+Under Column in warehouse, select the name of the column that you want your pipeline to ignore when ingesting data.
+Click Save.
+To add additional mappings, click Add Mapping. You must create a mapping for every column you selected in your data model.
+For event data pipelines, you should always create mappings for any of the following event attributes you plan to ingest within an events object:
+event_type
+timestamp_unixtime_ms
+If you are ingesting custom events, you should also create mappings for:
+event_name
+custom_event_type
+When you have finished creating your mappings, click Next.
+6 Set sync settings
+The sync frequency settings determine when the initial sync with your database will occur, and how frequently any subsequent syncs will be executed.
+6.1 Select environment
+Select either Prod or Dev depending on whether you want your warehouse data sent to the mParticle development or production environments. This setting determines how mParticle processes ingested data.
+6.2 Select input protection level
+Input protection levels determine how data ingested from your warehouse can contribute to new or existing user profiles in mParticle:
+Create & Update: the default setting for all inputs in mParticle. This setting allows ingested user data to initiate the creation of a new profile or to be added to an existing profile.
+Update Only: allows ingested data to be added to existing profiles, but not initiate the creation of new profiles.
+Read Only: prevents ingested data from updating or creating user profiles.
+To learn more about these settings and how they can be used in different scenarios, see Input protections.
+6.3 Select sync mode and schedule
+There are two sync modes: incremental and full.
+Incremental: Use this sync mode to only ingest data that has changed or been added between sync runs as indicated by your warehouse column you use as an iterator. The first run for incremental sync modes is always be a full sync.
+Full: Use this sync mode to sync all data from your warehouse each time you execute a sync run. Use caution when selecting this sync mode, as it can incur to very high costs due to the volume of data ingested.
+The remaining setting options change depending on the mode you select from the Sync mode dropdown menu. Navigate between the two configuration options using the tabs below:
+Incremental Sync
+Following are the sync settings for incremental syncs:
+The main difference between full and incremental sync configurations is the use of an iterator field for incremental syncs. Both full and incremental syncs support all three sync modes (Interval, Once, and On Demand).
+Iterator
+Select the column name from your warehouse using the Iterator dropdown menu. The options are generated from the SQL query you ran when creating your data model.
+mParticle uses the iterator to determine which data to include and exclude during each incremental sync.
+Iterator data type
+Select the iterator data type using the Iterator data type dropdown. This value must match the datatype of the iterator as it exists in your warehouse.
+Sync schedule type
+Select one of the following schedule types:
+Interval: for recurring syncs that are run automatically based on a set frequency.
+Once: for a single sync between a warehouse and mParticle that will not be repeated.
+On Demand: for a sync that can run multiple times, but must be triggered manually.
+Frequency of sync
+The sync frequency setting is only applicable to interval syncs.
+Sync frequencies can be either Hourly, Daily, Weekly, or Monthly.
+The date and time you select for your initial sync is used to calculate the date and time for the next sync. For example, if you select Hourly for your frequency and 11/15/2023 07:00 PM UTC for your initial sync, then the next sync will occur at 11/15/2023 08:00 PM UTC.
+Date & time of sync
+Use the date and time picker to select the calendar date and time (in UTC) for your initial sync. Subsequent interval syncs will be scheduled based on this initial date and time.
+Full Sync
+Following are the sync settings for full syncs:
+The main difference between full and incremental sync configurations is the use of an iterator field for incremental syncs. Both full and incremental syncs support all three sync modes (Interval, Once, and On Demand).
+Sync schedule type
+Select one of the following schedule types:
+Interval: for recurring syncs that is run automatically based on a set frequency.
+Once: for a single sync between a warehouse and mParticle that will not be repeated.
+On Demand: for a sync that can run multiple times, but must be triggered manually.
+Frequency of sync
+Sync frequencies can be either Hourly, Daily, Weekly, or Monthly.
+The date and time you select for your initial sync is used to calculate the date and time for the next sync. For example, if you select Hourly for your frequency and 11/15/2023 07:00 PM UTC for your initial sync, then the next sync will occur at 11/15/2023 08:00 PM UTC.
+Date & time of initial sync
+Use the date and time picker to select the calendar date and time (in UTC) for your initial sync. Subsequent interval syncs will be scheduled based on this initial date and time.
+6.4 Sync historical data
+The value you select for Sync Start Date determines how much old, historical data mParticle ingests from your warehouse in your initial sync. When determining how much historical data to ingest, mParticle uses to the column in your database you selected as the Timestamp field in the Create Data Model step.
+After your initial sync begins, mParticle begins ingesting any historical data. If mParticle hasn’t finished ingesting historical data before the time a subsequent sync is due to start, the subsequent sync is still executed, and the historical data continues syncing in the background.
+Historical data syncing doesn’t contribute to any rate limiting on subsequent syncs.
+The "Sync Historical Data" option for Warehouse Sync does not have the same limitations as the /bulkevents/historical API endpoint. All data (including historical data) ingested using Warehouse Sync is treated similarly to data ingested using the Events API /events endpoint.
+After entering your sync settings, click Next.
+7 Review
+mParticle generates a preview for Data Warehouse syncs that have been configured, but not yet activated. Use this page and the sample enriched user profiles to confirm the following:
+Your data model correctly maps columns from your database to mParticle attributes
+Your sync is scheduled to occur at the correct interval
+Your initial sync is scheduled to occur at the correct time
+Your initial sync includes any desired historical data in your warehouse
+Carefully review your entire sync configuration before clicking Activate. Even small mistakes in your SQL query and data mapping can lead to the ingestion of large quantities of incorrectly formatted data which can be costly and time consuming to remedy.
+After reviewing your sync configuration, click Activate to activate your sync.
+View and manage existing warehouse syncs
+Log into your mParticle account.
+Navigate to Setup > Inputs in the left hand nav bar and select the Feeds tab.
+Any configured warehouse syncs are listed on this page, grouped by warehouse provider. Expand a warehouse provider to view and manage a sync.
+To edit an existing sync, select it from the list under a warehouse provider. This loads the Warehouse Sync setup wizard, where you can modify your sync settings.
+Connect a sync to an output by clicking the green + icon under Connected Outputs.
+Configure rules for a sync by clicking the + Setup button under Rules Applied.
+Delete a sync configuration by clicking the trash icon under Actions.
+To add a new sync for a warehouse provider, click the + icon next to the provider.
+Manage a sync
+To view details for an existing sync, select it from the list of syncs. A summary page is displayed, showing the current status (Active or Paused), sync frequency, and a list of recent or in-progress syncs.
+To pause a sync, click Pause Sync. Paused syncs will only resume running on their configured schedule after you click Resume.
+To run an on-demand sync, click Run Sync under Sync Frequency.
+Use the Data Model, Mapping, and Settings tabs to view and edit your sync configuration details. Clicking Edit from any of these tabs opens the respective step of the setup wizard where you can make and save your changes.Was this page helpful?YesNoLast Updated: February 27, 2025© 2025 mParticle, Inc. All rights reserved.mParticle.comPrivacy PolicyCookie PolicyDo Not Sell or Share My Personal Data

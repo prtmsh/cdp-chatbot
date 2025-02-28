@@ -1,0 +1,206 @@
+DOCSDOCSHomeGuidesDevelopersIntegrationsChangelogSign UpDocumentationDevelopersAPI ReferencesPlatform APIPlatform API OverviewAccountsAppsAudiencesCalculated AttributesData PointsFeedsField TransformationsServicesUsersWorkspacesData Subject Request APIData Subject Request API Version 1 and 2Data Subject Request API Version 3Warehouse Sync APIWarehouse Sync API OverviewWarehouse Sync API TutorialWarehouse Sync API ReferenceData MappingWarehouse Sync SQL ReferenceWarehouse Sync Troubleshooting GuideComposeIDWarehouse Sync API v2 MigrationCalculated Attributes Seeding APIBulk Profile Deletion API ReferenceCustom Access Roles APIData Planning APIGroup Identity API ReferencePixel ServiceProfile APIEvents APImParticle JSON Schema ReferenceIDSyncClient SDKsAMPAMP SDKAndroidInitializationConfigurationNetwork Security ConfigurationEvent TrackingUser AttributesIDSyncScreen EventsCommerce EventsLocation TrackingMediaKitsApplication State and Session ManagementData Privacy ControlsError TrackingOpt OutPush NotificationsWebView IntegrationLoggerPreventing Blocked HTTP Traffic with CNAMELinting Data PlansTroubleshooting the Android SDKAPI ReferenceUpgrade to Version 5CordovaCordova PluginIdentityDirect Url RoutingDirect URL Routing FAQWebAndroidiOSFlutterGetting StartedUsageAPI ReferenceiOSInitializationConfigurationEvent TrackingUser AttributesIDSyncScreen TrackingCommerce EventsLocation TrackingMediaKitsApplication State and Session ManagementData Privacy ControlsError TrackingOpt OutPush NotificationsWebview IntegrationUpload FrequencyApp ExtensionsPreventing Blocked HTTP Traffic with CNAMELinting Data PlansTroubleshooting iOS SDKSocial NetworksiOS 14 GuideiOS 15 FAQiOS 16 FAQiOS 17 FAQiOS 18 FAQAPI ReferenceUpgrade to Version 7RokuGetting StartedIdentityMediaReact NativeGetting StartedIdentityUnityUpload FrequencyGetting StartedOpt OutInitialize the SDKEvent TrackingCommerce TrackingError TrackingScreen TrackingIdentityLocation TrackingSession ManagementXboxGetting StartedIdentityWebInitializationConfigurationContent Security PolicyEvent TrackingUser AttributesIDSyncPage View TrackingCommerce EventsLocation TrackingMediaKitsApplication State and Session ManagementData Privacy ControlsError TrackingOpt OutCustom LoggerPersistenceNative Web ViewsSelf-HostingMultiple InstancesWeb SDK via Google Tag ManagerPreventing Blocked HTTP Traffic with CNAMEFacebook Instant ArticlesTroubleshooting the Web SDKBrowser CompatibilityLinting Data PlansAPI ReferenceUpgrade to Version 2 of the SDKXamarinGetting StartedIdentityWebAlexaMedia SDKsAndroidiOSWebToolsmParticle Command Line InterfaceLinting ToolsSmartypeServer SDKsNode SDKGo SDKPython SDKRuby SDKJava SDKQuickstartAndroidOverviewStep 1. Create an inputStep 2. Verify your inputStep 3. Set up your outputStep 4. Create a connectionStep 5. Verify your connectionStep 6. Track eventsStep 7. Track user dataStep 8. Create a data planStep 9. Test your local appHTTP Quick StartStep 1. Create an inputStep 2. Create an outputStep 3. Verify outputiOS Quick StartOverviewStep 1. Create an inputStep 2. Verify your inputStep 3. Set up your outputStep 4. Create a connectionStep 5. Verify your connectionStep 6. Track eventsStep 7. Track user dataStep 8. Create a data planJava Quick StartStep 1. Create an inputStep 2. Create an outputStep 3. Verify outputNode Quick StartStep 1. Create an inputStep 2. Create an outputStep 3. Verify outputPython Quick StartStep 1. Create an inputStep 2. Create an outputStep 3. Verify outputWebOverviewStep 1. Create an inputStep 2. Verify your inputStep 3. Set up your outputStep 4. Create a connectionStep 5. Verify your connectionStep 6. Track eventsStep 7. Track user dataStep 8. Create a data planGuidesPartnersIntroductionOutbound IntegrationsOutbound IntegrationsFirehose Java SDKInbound IntegrationsKit IntegrationsOverviewAndroid Kit IntegrationJavaScript Kit IntegrationiOS Kit IntegrationCompose IDData Hosting LocationsGlossaryMigrate from Segment to mParticleMigrate from Segment to mParticleMigrate from Segment to Client-side mParticleMigrate from Segment to Server-side mParticleSegment-to-mParticle Migration ReferenceRules Developer GuideAPI Credential ManagementThe Developer's Guided Journey to mParticleGuidesGetting StartedCreate an InputStart capturing dataConnect an Event OutputCreate an AudienceConnect an Audience OutputTransform and Enhance Your DataPersonalizationIntroductionProfilesAudiencesAudiences OverviewCreate an AudienceConnect an AudienceManage AudiencesReal-time Audiences (Legacy)Standard Audiences (Legacy)Calculated AttributesCalculated Attributes OverviewUsing Calculated AttributesCreate with AI AssistanceCalculated Attributes ReferencePredictive AudiencesPredictive Audiences OverviewUsing Predictive AudiencesJourneysJourneys OverviewManage JourneysDownload an audience from a journeyAudience A/B testing from a journeyJourneys 2.0Predictive AttributesWhat are predictive attributes?Predict Future BehaviorCreate Future PredictionUse Future Predictions in CampaignsAssess and Troubleshoot PredictionsNext Best ActionNext Best Action OverviewCreate a Next Best Action (NBA)View and Manage NBAsActivate Next Best Actions in CampaignsPlatform GuideBillingUsage and Billing ReportThe New mParticle ExperienceThe new mParticle ExperienceThe Overview MapObservabilityObservability OverviewObservability User GuideObservability Troubleshooting ExamplesObservability Span GlossaryIntroductionData RetentionConnectionsActivityLive StreamData FilterRulesTiered EventsmParticle Users and RolesAnalytics Free TrialTroubleshooting mParticleUsage metering for value-based pricing (VBP)AnalyticsIntroductionSetupSync and Activate Analytics User Segments in mParticleUser Segment ActivationWelcome Page AnnouncementsSettingsProject SettingsRoles and TeammatesOrganization SettingsGlobal Project FiltersPortfolio AnalyticsAnalytics Data ManagerAnalytics Data Manager OverviewEventsEvent PropertiesUser PropertiesRevenue MappingExport DataUTM GuideQuery BuilderData DictionaryQuery Builder OverviewModify Filters With And/Or ClausesQuery-time SamplingQuery NotesFilter Where ClausesEvent vs. User PropertiesGroup By ClausesAnnotationsCross-tool CompatibilityApply All for Filter Where ClausesDate Range and Time Settings OverviewUser Attributes at Event TimeUnderstanding the Screen View EventAnalysesAnalyses IntroductionSegmentation: BasicsGetting StartedVisualization OptionsFor ClausesDate Range and Time SettingsCalculatorNumerical SettingsSegmentation: AdvancedAssisted AnalysisProperties ExplorerFrequency in SegmentationTrends in SegmentationDid [not] Perform ClausesCumulative vs. Non-Cumulative Analysis in SegmentationTotal Count of vs. Users Who PerformedSave Your Segmentation AnalysisExport Results in SegmentationExplore Users from SegmentationFunnels: BasicsGetting Started with FunnelsGroup By SettingsConversion WindowTracking PropertiesDate Range and Time SettingsVisualization OptionsInterpreting a Funnel AnalysisFunnels: AdvancedGroup ByFiltersConversion over TimeConversion OrderTrendsFunnel DirectionMulti-path FunnelsAnalyze as Cohort from FunnelSave a Funnel AnalysisExplore Users from a FunnelExport Results from a FunnelCohortsGetting Started with CohortsAnalysis ModesSave a Cohort AnalysisExport ResultsExplore UsersSaved AnalysesManage Analyses in DashboardsJourneysGetting StartedEvent MenuVisualizationEnding EventSave a Journey AnalysisUsersGetting StartedUser Activity TimelinesTime SettingsExport ResultsSave A User AnalysisDashboardsDashboards––Getting StartedManage DashboardsDashboard FiltersOrganize DashboardsScheduled ReportsFavoritesTime and Interval Settings in DashboardsQuery Notes in DashboardsUser AliasingAnalytics ResourcesThe Demo EnvironmentKeyboard ShortcutsTutorialsAnalytics for MarketersAnalytics for Product ManagersCompare Conversion Across Acquisition SourcesAnalyze Product Feature UsageIdentify Points of User FrictionTime-based Subscription AnalysisDashboard Tips and TricksUnderstand Product StickinessOptimize User Flow with A/B TestingUser SegmentsAPIsUser Segments Export APIDashboard Filter APIIDSyncIDSync OverviewUse Cases for IDSyncComponents of IDSyncStore and Organize User DataIdentify UsersDefault IDSync ConfigurationProfile Conversion StrategyProfile Link StrategyProfile Isolation StrategyBest Match StrategyAliasingData MasterGroup IdentityOverviewCreate and Manage Group DefinitionsIntroductionCatalogLive StreamData PlansData PlansBlocked Data Backfill GuideWarehouse SyncData Privacy ControlsData Subject RequestsDefault Service LimitsFeedsCross-Account Audience SharingApproved Sub-ProcessorsImport Data with CSV FilesImport Data with CSV FilesCSV File ReferenceGlossaryVideo IndexAnalytics (Deprecated)Identity ProvidersSingle Sign-On (SSO)Setup ExamplesSettingsDebug ConsoleData Warehouse Delay AlertingIntroductionDeveloper DocsIntroductionIntegrationsIntroductionRudderstackGoogle Tag ManagerSegmentData Warehouses and Data LakesAdvanced Data Warehouse SettingsAWS Kinesis (Snowplow)AWS Redshift (Define Your Own Schema)AWS S3 Integration (Define Your Own Schema)AWS S3 (Snowplow Schema)BigQuery (Snowplow Schema)BigQuery Firebase SchemaBigQuery (Define Your Own Schema)GCP BigQuery ExportSnowflake (Snowplow Schema)Snowplow Schema OverviewSnowflake (Define Your Own Schema)APIsREST APIDashboard Filter API (Deprecated)User Segments Export API (Deprecated)SDKsSDKs IntroductionReact NativeiOSAndroidJavaJavaScriptPythonObject APIDeveloper BasicsAliasingIntegrations24iEventAarkiAudienceAbakusEventAdChemixEventABTastyAudienceActableFeedAdikteevAudienceEventAdjustFeedEventAdobe Marketing CloudCookie SyncPlatform SDK EventsServer-to-Server EventsAdobe Audience ManagerAudienceAdobe Campaign ManagerAudienceAdobe TargetAudienceAgilOneEventAdMediaAudienceAirshipAudienceEventFeedAdPredictiveFeedAlgoliaEventAlgoLiftEventFeedAloomaEventAmazon KinesisEventAmazon AdvertisingAudienceAmazon RedshiftData WarehouseAmazon S3EventAmazon Kinesis FirehoseAudienceEventAmazon SNSEventAmazon SQSEventAmobeeAudienceAmplitudeEventForwarding Data Subject RequestsAmpushAudienceEventAnalyticsAudienceEventForwarding Data Subject RequestsAnodotEventAntavoFeedApptentiveEventAppsFlyerEventForwarding Data Subject RequestsFeedApptimizeEventApteligentEventAttentiveEventFeedMicrosoft Azure Blob StorageEventAttractorEventBatchAudienceEventBideaseAudienceBing AdsEventBluecoreEventBluedotFeedBlueshiftEventFeedForwarding Data Subject RequestsBranchEventForwarding Data Subject RequestsFeedBranch S2S EventEventBrazeAudienceFeedForwarding Data Subject RequestsEventBugsnagEventButtonAudienceEventCadentAudienceCensusFeedciValueEventFeedCleverTapAudienceEventFeedcomScoreEventConversantEventCordialAudienceFeedCortexEventFeedForwarding Data Subject RequestsCrossing MindsEventCriteoAudienceEventCustom FeedCustom FeedCustomerGluEventFeedCustomer.ioAudienceEventFeedDatabricksData WarehouseDidomiEventDatadogEventDynamic YieldEventAudienceDynalystAudienceEdge226AudienceEmarsysAudienceEpsilonEventEverflowAudienceFacebook Offline ConversionsEventFacebookAudienceEventFiksuAudienceEventGoogle Analytics for FirebaseEventFlurryEventFlybitsEventForeSeeEventFormationEventFeedFoursquareFeedAudienceFreeWheel Data SuiteAudienceGoogle Ad ManagerAudienceGoogle AdsAudienceEventGoogle AnalyticsEventGoogle Analytics 4EventGoogle Cloud StorageAudienceEventGoogle BigQueryAudienceData WarehouseGoogle Enhanced ConversionsEventGoogle Marketing PlatformCookie SyncAudienceEventGoogle Marketing Platform Offline ConversionsEventGoogle Pub/SubEventGoogle Tag ManagerEventHeapEventHerowFeedHightouchFeedHyperlocologyEventIbottaEventImpactEventInMobiAudienceEventIndicativeAudienceEventInMarketAudienceIntercomEventInsiderEventAudienceFeedInspectletEventiPostAudienceFeedIterableAudienceFeedEventironSourceAudienceJamppAudienceEventKafkaEventKayzenAudienceEventKissmetricsEventKlaviyoEventAudienceKubitEventKochavaEventForwarding Data Subject RequestsFeedLaunchDarklyFeedLeanplumEventFeedAudienceLifeStreetAudienceLiftoffEventAudienceLiveLikeEventLiverampAudienceLocalyticsEventmAdme TechnologiesEventMadHiveAudienceMailchimpFeedAudienceEventMauticEventAudienceMarigoldAudienceMediaMathAudienceMediasmartAudienceMicrosoft Azure Event HubsEventMintegralAudienceMixpanelAudienceEventForwarding Data Subject RequestsMolocoAudienceEventMoEngageAudienceEventFeedMonetateEventMovable InkEventMovable Ink - V2EventmyTargetAudienceEventNami MLFeedMultipliedEventNanigansEventNarrativeAudienceEventFeedNCR AlohaEventNeuraEventOneTrustEventOptimizelyAudienceEventOracle BlueKaiEventOracle ResponsysAudienceEventPaytronixFeedPersona.lyAudiencePieEyeInbound Data Subject RequestsPersonify XPEventPilgrimEventFeedPlarinEventPinterestAudienceEventPostieAudienceEventPunchhAudienceEventFeedAppLovinAudienceEventPrimerEventQuantcastEventPushwooshEventAudienceRadarEventFeedRedditAudienceEventRegalEventRemergeAudienceEventRetina AIEventFeedReveal MobileEventRevenueCatFeedRoktAudienceEventRTB HouseAudienceEventSalesforce EmailAudienceFeedEventSailthruAudienceEventSalesforce Mobile PushEventSamba TVAudienceEventScalarrEventSessionMEventFeedSendGridAudienceFeedShareThisAudienceFeedShopifyCustom PixelFeedSignalEventSingularFeedEventSimpleReachEventSingular-DEPRECATEDEventSkyhookEventSmadexAudienceSlackEventSmarterHQEventSnapchatAudienceEventSnapchat ConversionsEventSnowplowEventSplitEventFeedSplunk MINTEventSnowflakeData WarehouseSprigEventAudienceStartAppAudienceStatsigFeedEventStormlyAudienceEventTalon.OneAudienceEventFeedLoyalty FeedSwrveEventFeedTapadAudienceTapjoyAudienceTaplyticsEventTapticaAudienceTeakAudienceThe Trade DeskAudienceCookie SyncEventTicketureFeedTikTok EventAudienceAudience (Deprecated)EventAudience MigrationTreasure DataAudienceEventTUNEEventTriton DigitalAudienceValidEventTwitterAudienceEventVkontakteAudienceVoucherifyAudienceEventVungleAudienceWebhookEventWebtrendsEventWhite Label LoyaltyEventWootricEventXandrCookie SyncAudienceYahoo (formerly Verizon Media)AudienceCookie SyncYotpoFeedYouAppiAudienceZendeskEventFeedQuadratic LabsEventZ2A DigitalEventAudienceQualtricsEventAudienceThe mParticle Facebook Audiences integration allows you to forward mParticle audience data directly to a Facebook Ads Manager account for use with Facebook Custom Audiences, making it easy to target existing or prospective customers.
+Prerequisites
+Access to a Facebook Ad account
+You must have Full Access to the Facebook Ads account you want to forward your audience data to. To check if you have Full Access:
+Log into the Meta Business Suite at business.facebook.com
+Select the Meta business portfolio you want to send your audience data to.
+Go to Settings > Accounts > Ad Accounts, and select the Ad account you want to use. Click Ad account access.
+Under “People with full control”, look for the Facebook account you plan to use when setting up the mParticle integration.
+To assign full access to someone, click Manage next to their name. You can also assign a new account access by clicking Assign people and selecting their name from the list of people with access to your Meta Business portfolio.
+Accept the Facebook Audiences Terms of Service
+The Facebook Ads account you are connecting to must have accepted the following terms of service:
+Custom Audiences Terms of Service
+Value Based Custom Audience Terms of Service
+Web Custom Audience Terms of Service
+To see if you’ve accepted the terms of service:
+Log into your Facebook Ad account at adsmanager.facebook.com and click Audiences in the left nav bar.
+Make sure that you have the correct ad account selected using the dropdown menu in the top right.
+You should be prompted to accept the Facebook Audience terms of service. If you already have accepted these terms of service, you will be presented with the options to create new audiences:
+Access to your Facebook Application ID
+If you want to forward users’ Facebook IDs with your audience data, you must have the Facebook Application ID number for your app or integration. To find your Facebook Application ID, you need to access the Facebook Developer Dashboard. To find your Facebook App ID:
+Visit the Meta for Developers website at https://developers.facebook.com/ and log in with your Facebook account credentials.
+Click My Apps in the top nav bar.
+Under the list of apps on your dashboard, you can find your App ID listed under the name of your app:
+Once you have satisfied the prerequisites described above, follow the steps below to set up the mParticle Facebook audience integration.
+Facebook audience integration setup instructions
+Setting up and using the audience integration for Facebook includes three stages:
+Creating a Facebook audience output in mParticle.
+Connecting an audience in mParticle to Facebook.
+Finding your new mParticle audiences in Facebook for use in a campaign.
+1) Create Facebook audience output
+Log into your mParticle account at app.mparticle.com, and navigate to the Integrations Directory.
+Search for “Facebook”, hover your cursor over the Facebook tile, and click Setup.
+Check the box labeled Audience, and click Configure.
+Under Account Credentials, click Log In. This opens a separate window where you can connect your Facebook account to mParticle. Click Connect.
+Enter a descriptive name under Configuration Name.
+Use the Facebook Account ID dropdown menu to select the Facebook account that is tied to the Facebook Ads account you want to forward your audiences to.
+Click Save & Open in Connections.
+2) Connect an audience to Facebook
+If you just completed step 1.7, then you will be brought to Audiences > Real-time in mParticle. Otherwise, from your mParticle account, navigate to Audiences in the left-hand navigation and select either Real-time or Standard.
+From the list of audiences, find the one you want to forward to Facebook and click the “plus sign” + button under Connected Outputs.
+Click Connect Output.
+Select Facebook, and use the Configuration Name dropdown menu to select the new configuration you want to send your audience to. Click Next.
+Toggle the Connection Status to either Inactive or Active. Only active connections will forward audiences. After completing the setup process, it may take up to 24 hours for your audience data to fully populate in Facebook.
+Enter your Facebook Application ID. This is only required if you intend to forward Facebook IDs in the next step.
+Check the box next to each of the following user identities you want to forward to Facebook with your audience:
+Email address (hashed as SHA256)
+Phone number (hashed as SHA256)
+Facebook ID
+Apple IDFA
+Google GAID
+Email addresses and Facebook IDs result in higher match rates with Facebook users because they are more unique across the Facebook platform, so it’s recommended to use these identities whenever they are available.
+Check Enable Multi-Key Audience to have an additional audience forwarded to Facebook that includes all of the user identities you selected in the previous step.
+mParticle creates a new custom audience in your Facebook Ads Manager for each identity that you select. For example, if you select both phone and email, you will see two new custom audiences added: one using user phone numbers and one using their email addresses. If you enable Multi-Key Audiences, you will still see a separate audience for each identity, but you will also see an additional audience that includes all of the identities you selected.
+Check Match on User Attributes to have mParticle forward all available attributes from the following list for each user. This can increase the match rate for your audience. All user attributes are hashed as SHA256 before being forwarded to Facebook.
+Gender
+First name
+Last name
+City
+State
+Country
+To create a value-based lookalike audience, check Is Value Based Audience, and use the User Attribute Representing Value dropdown menu to select an mParticle user attribute to forward to Facebook.
+The attribute you select is what Facebook refers to when determining the relative value of a user, and whether or not to include it in the audience. Users with higher values for this attribute are considered more valuable.
+To allow attributes with a value of 0 to be forwarded, check Allow Zero Values. Negative values are never forwarded.
+Under Customer File Source, select one of the following as the source of your audience data:
+Directly from customers: all audience data was collected directly from the audience members
+Customers and partners: the audience data was collected both from audience members and from a partner, like a third-party agency
+Directly from partners: the audience data was collected only from third-party partners
+Starting on July 2, 2018, Facebook requires the disclosure of the origin of audience data. You can read more about this requirement from Facebook.
+Select the identity you want to forward to Facebook as an external email address from the External Email Identity Type dropdown.
+Including an external email address can help improve your match rate in Facebook.
+Select the identity you want to be hashed and forwarded to Facebook for use as an external unique ID from the Multi-Key External ID Type dropdown.
+This can be any unique ID, like an advertising ID, loyalty membership ID, user ID, or even a cookie ID, and can help increase your audience’s match rate.
+Click Add Connection.
+3) Find your new mParticle audience in Facebook
+To find your new custom audience(s):
+Navigate to your Facebook Ads Manager at adsmanager.facebook.com and log in.
+Select the business portfolio containing the ad account that you used when setting up your audience connection using the left-hand navigation.
+In the left-hand navigation, click Audiences.
+After creating and activating your audience connection between mParticle and Facebook, you will see one or more (depending on your configuration settings) custom audiences added to your Audience list in Facebook Ads Manager.
+It can take up to 24 hours for an mParticle audience to completely sync to Facebook.
+To edit, share, or create an ad for one of your custom audiences, click the audience name from the list to view the details panel. From the details panel, click the Actions dropdown menu. Certain actions may be unavailable due to missing payment info or a compliance requirement that hasn’t been configured yet for your Ads account.
+Deleting an audience
+mParticle deletes the downstream audience when you delete an audience from mParticle.
+Supported identities
+Following are the user identities and device identities that can be forwarded to Facebook. Identities that are hashed as SHA256 are noted.
+Facebook ID
+Email address (SHA256)
+Phone number (SHA256)
+Apple IDFA (SHA256)
+Google Advertising ID (SHA256)
+Android Device ID (SHA256)
+Understanding your match rate
+The “match rate” for a Facebook audience refers to the percentage of your forwarded user data that Facebook successfully matches to active Facebook users.
+When you connect an mParticle audience with Facebook, several user identifiers are included for each audience member (such as email addresses, phone numbers, Facebook user IDs, or mobile advertiser IDs). After you send an audience from mParticle to Facebook, Facebook attempts to match these identifiers to user profiles on Facebook. The match rate indicates how successful Facebook is in finding corresponding user profiles for the identifiers you provided.
+There are several factors that can impact your match rate:
+Data quality: more accurate, up-to-date, and complete user data leads to a higher match rate.
+Privacy settings: Facebook users with stricter privacy or data sharing settings may also impact your match rate.
+Identifiers used: certain identifiers, like email addresses and Facebook user IDs, have higher match rates due to their uniqueness.
+Audience size: larger audiences have higher match rates because of the increased chance in finding matches within the set of Facebook users. Facebook suggests a minimum audience size of 1,000 people for best results.
+A higher match rate means that more of your user data was successfully matched to Facebook users, allowing you to reach a larger audience with your ads or other marketing efforts. However, it’s important to keep in mind that not all of your user data may match with Facebook users, and the match rate may vary from one audience to another.
+Value-based audiences
+You can use the mParticle audiences integration to create value-based lookalike audiences. These audiences target users who share similar characteristics and behaviors with your existing high-value customers.
+However, unlike traditional lookalike audiences, which are based solely on demographic or interest similarities, value-based lookalike audiences are generated using an attribute that reflects the monetary value or profitability of your customers. For example, if you select a lifetime value attribute, Facebook will create a lookalike audience composed of users that have a higher lifetime value.
+By default, mParticle only forwards users in a value-based audience to Facebook if the value of their “value reprepresenting attribute” is greater than 0. You can include values equaling zero by checking Allow Zero Values when creating your value-based audience.
+Value-based audiences can only be created during the process of first connecting an mParticle audience with Facebook. Audiences that have already been connected to Facebook can’t be turned into value-based audiences.
+You can learn more about value-based lookalike audiences in Facebook’s documentation.
+Customer File Source Requirements
+As of July 2, 2018, Facebook requires that all new audiences disclose whether their data was collected from customers directly, collected from partners, or both. You can provide this information in the connection settings when connecting an audience to Facebook via the Customer File Source setting.
+You can learn more about the Customer File Source Requirement in Facebook’s documentation.
+Data forwarding
+Limits
+Facebook does not allow more than 500 custom audiences to be created per Facebook Ads account. If you attempt to forward more than 500 audiences to Facebook, an error will be returned.
+Upload frequency
+The Facebook Audience integration uses bulk forwarding. This means that instead of forwarding audience data in real time, mParticle adds updates to a queue. By default, mParticle forwards data to Facebook from this queue whenever one of the following conditions is met:
+3 hours have passed since the last update
+At least 75,000 messages are in the queue
+Verify and troubleshoot your connection
+Before activating your new connection, or when troubleshooting issues, please be aware of the following:
+Are you forwarding audience data to the correct Facebook Ads account?
+During steps 4-5 of the first stage of the setup process, you connect your Facebook account to mParticle. Make sure that you use a Facebook account that has been granted access to the Facebook Ads account you will forward your audiences to, and make sure that after connecting your Facebook account that you use the Facebook Account ID dropdown menu to select the Facebook Ads account.
+It is possible to have access to multiple Ads accounts, so make sure that you selected the correct Ads account when creating your output.
+Read Access to a Facebook Ads account for instructions on how to make sure your Facebook account has the correct access. If you do not have the correct access, reach out to your Facebook Ads account administrator.
+If you are forwarding Facebook IDs, did you add the correct Facebook app ID?
+If you are trying to forward Facebook IDs from mParticle to Facebook, you must provide your Facebook application ID.
+Often referred to as an app ID, a Facebook Application ID is a unique ID assigned to your application when you register it on the Facebook Developers platform. This App ID is required to integrate your application with various Facebook functions, such as logging in through Facebook, accessing Facebook’s Graph API, or incorporating social plugins like the Like button.
+See Access to your Facebook Application ID for instructions on how to find your application ID.
+Data latency
+While you may see your forwarded mParticle audiences listed in Facebook Ads right away, it can take up to 24 hours before your audience data begins to fully populate. This time can vary depending on how large your audiences are.
+When looking for your audience data in Facebook, select the correct Business Portfolio
+After logging into Facebook Ads Manager, make sure that you select the correct Business Portfolio from the left-hand navbar. You should select the Business Portfolio containing the Ads Account you chose to forward your audiences to.
+Forwarding multi-key audiences to Facebook creates multiple audiences
+When you select more than one user identity to forward to Facebook, a separate audience will be created in Facebook for each identity you select. If you want to have a single audience containing all of the identities you selected, make sure that you check Enable Multi-Key Audiences when connecting your audience to Facebook.
+However, even with multi-key audiences enabled, you will still see an additional audience in Facebook for each identity selected.
+Settings reference
+Configuration Settings
+Setting Name
+Data Type
+Default Value
+Description
+Facebook Account ID
+string
+This setting is your Facebook account id. You can find it in the Ads Powertool.
+Facebook AccessToken
+string
+The Facebook access token used to make Graph API calls.
+Connection Settings
+Setting Name
+Data Type
+Default Value
+Description
+Forward Emails
+bool
+True
+If enabled, and the user’s e-mail address is available, the SHA-256 hash of that e-mail address will be added to the audience ”<Audience Name> (email)“.
+Forward Facebook IDs
+bool
+True
+If enabled, the user’s Facebook ID is available, and the Facebook Application ID property is set, it will be added to the audience ”<Audience Name> (fb id)“.
+Forward IDFAs
+bool
+True
+If enabled, and the user’s IDFA is available, it will be added to the audience ”<Audience Name> (IDFA/GAID)“.
+Forward Google Advertising IDs
+bool
+True
+If enabled, and the user’s Google Advertising ID is available, it will be added to the audience ”<Audience Name> (IDFA/GAID)“.
+Forward Phones
+bool
+True
+If enabled, and the user’s phone number is available, it will be added to the audience ”<Audience Name> (phone)“.
+Enable Multi-Key Audience
+bool
+False
+If enabled, all selected identities will also be sent to a single audience for higher match rates.
+Match on User Attributes
+bool
+False
+If enabled, mParticle will send all possible user attribute values to Facebook for multi-key matching. See user identity matching for more details.
+Facebook Application ID
+string
+The App ID found on your Facebook application’s dashboard.
+Is Audience Value Based
+bool
+False
+If enabled, the audiences created in Facebook will be value-based.
+User Attribute Representing Value
+string
+The user attribute to be used as the basis for setting value in Facebook. Only non-negative numbers will be forwarded to Facebook. This setting only applies to value-based audiences.
+Allow Zero Values
+bool
+False
+If enabled, user data either missing the above user attribute, or having a user attribute value of zero, will be forwarded to Facebook. This setting only applies to value based audiences.
+Customer File Source
+enum
+UNSELECTED
+Indicates whether the information was collected directly from customers, provided by partners or a combination of the two. Starting July 2, 2018, Facebook requires this setting on all new audiences created.
+External Email Identity Type
+enum
+Email
+The mParticle User Identity type to forward as an External Email to Facebook.
+Multi-Key External ID Type
+enum
+None
+The user identity to be sent to Facebook as the external identity. Note: this identity’s value will have whitespace trimmed, be converted to lowercase, and be hashed prior to sending to Facebook.
+The Facebook Application ID setting is required if you enable the Forward Facebook IDs setting.Last Updated: February 27, 2025DOCSLast Updated:
+2/27/2025, 7:45:31 PMCDPmParticle DocsHomeGuidesDevelopersIntegrationsAnalyticsAnalytics DocsOverviewGetting StartedDevelopersExpert TrainingPredictive AICortex DocsOverviewGetting StartedDevelopersUsing CortexLearn MoreBlogPodcastResourcesCommunityChange logGet in TouchHelp CenterDemoBecome a Partner© 2025 mParticle, Inc. All rights reserved.mParticle.comPrivacy PolicyCookie PolicyDo Not Sell or Share My Personal Data

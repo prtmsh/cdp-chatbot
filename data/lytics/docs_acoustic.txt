@@ -1,0 +1,200 @@
+Acoustic
+Jump to ContentHomeDocumentationAPI ReferenceProduct UpdatesCommunityv2.0v2.1v3.0Log InDocumentationLog Inv3.0HomeDocumentationAPI ReferenceProduct UpdatesCommunityAcousticSearchQuick StartDeveloper Quickstart1. Install the Lytics Tag2. Content Setup3. Surface Personalized MessageBuilding ProfilesDefault AttributesDefault SegmentsGuides & InspirationLead CaptureContent RecommendationsAccount ManagementWhat is Vault?Accessing AccountsMonitoring Metrics and AlertsJob AlertsMonitoring Audit LogsExporting Audit Logs or Alert JobsMonitoring MetricsUsage MetricsManaging UsersSingle Sign-OnAccount SettingsAccount DetailsJavaScript Tag ConfigPersonalization APIContent ServicesSecurityAI & Modeling ControlsSchema ControlsData PoliciesPlatform LimitsPrivacy and Data ProtectionImpact of Browser Tracking ChangesComplianceAuthorizationsAccess TokensKey ConceptsIdentity ResolutionConsent & PrivacyComplying with the Digital Markets Act (DMA)Client & Server Side CookiesContent AffinityContent CurationTopic TaxonomyArchitectureIntegration PatternsJob ProcessingLytics Platform Data Flow and AccessCDI and CDP Implementation StrategyLytics Zero Copy with Cloud ConnectPipeline & ProfilesData PipelineJobs (Data Sources and Exports)Data StreamsStream Routing APITemplatesCreating Templates Using the UICreating Templates using Lytics APIUsing the Jsonnet LibraryTemplate ExamplesSchema ManagementFields & MappingsAdvanced Mapping FunctionsMeta FieldsQueries & LQLIdentity Key RanksSchema VersionsPlanning & TroubleshootingLytics Profile SchemaSchema CopilotIdentityMerge StatisticsIdentity ExplorerIdentity RulesWarehouse AccessWhat is Cloud Connect?Connecting WarehousesData Models & QueriesActivating Data ModelsCloud Connect Troubleshooting and FAQsAudiences & ActivationUser ProfilesUnderstanding Profile HealthFinding a UserAudiencesAudience GroupsPrebuilt AudiencesReportsWhat are Reports?ComponentsManaging ReportsDashboard ReportContentTopics & AffinitiesTopicsAffinitiesUsing Topics & AffinitiesClassificationEnrichmentRecommendationsDocumentsContent CollectionsCreating Content CollectionsViewing, Using & Managing CollectionsInterest EnginesDefault Interest EngineCustom Interest EnginesCollaborative FiltersLookalike Models & AudiencesGetting StartedBuilding Lookalike ModelsEvaluating Lookalike ModelsCreating Lookalike AudiencesImproving Lookalike ModelsActivationDestinationsGoalsExperiencesBehavioral ScoresTutorialsLeveraging User ProfilesAccessing Profiles Client SideAccessing Profiles Server SideWorking with Anonymous ProfilesGet Started with Lytics SegmentsInline Content RecommendationsData Collection & OnboardingWorking with Custom DataWorking with Web DataCollect Mobile Data with Firebase + GTMData ManagementProfile Stitching Best PracticesMigrating from Queries to Conductor SchemaLQL & Data Import BasicsUse CasesAcquire New Customers with LyticsBest Practices for Personalizing Your Ad or Search Landing PageCapture More Information from Qualified LeadsContent Modularization in Email with Lytics AudiencesCustomize your Web Experiences with Branded ImagesDeliver Targeted ContentDrive Email Capture & Engagement with ContentDrive Mobile App Downloads With LyticsEngage Qualified Users with Targeted AdsEnhance Personalized Messaging with User Profile FieldsGrow Your Email Marketing ListImport an Audience from your Data WarehouseImprove Ad Campaign Metrics with Predictive TargetingIncrease Conversions with Lytics and Facebook LookalikeKeep Visitors Engaged with Content Recommendation ExperiencesLeverage Lookalike Models and Predictive AudiencesLookalike Models: Conserve marketing spend on engaged usersLookalike Models: Convert anonymous users to known usersLookalike Models: Convert single purchasers to multi-purchasersLookalike Models: Determine which subscribers are likely to churnMobile Messaging with Lytics Webhooks and Serverless FunctionsOptimize Remarketing SpendPersonalize the Messaging of your Website Based on AudiencePopulate Your Website With One-to-One Content RecommendationsPromote Relevant Content to Users based on their InterestsReach the Right People Using LyticsRetain Existing Customers With LyticsPersonalize your Iterable emails With Lytics content recommendationsBuild a Custom Personalized Experience With Video ContentUnlock Additional Web Personalization Features with Lytics API OverridesHow to Use GTM Tags to Modify Lytics Pathfora Widget BehaviorStyle your Lytics Web Experiences to Fit Your Brand GuidelinesSDKs & ToolsWebJavaScriptOn-site PersonalizationSubresource Integrity (SRI)MobileiOSReact NativeAndroidChrome ExtensionIntegrationsLytics Integration OptionsAcousticAdobeAdRollAirshipAmplitudeAmazon AdsAmazon KinesisAmazon PinpointAmazon RedshiftAmazon S3Amazon SQSAnsiraBigCommerceBlueKaiBlueshiftBrazeBrevoCampaign MonitorCheetah DigitalClearbitContentfulCordialCriteoCustomer.ioDatabricksDotdigitalDriftEpiserverFullContactGIGYAGoogle OptimizeGoogle Ad Manager (DFP)Google AdsGoogle BigQueryGoogle Cloud Pub/SubGoogle Cloud StorageGoogle DriveGoogle Marketing: Analytics, DV360, CM360Google Cloud OperationsGoogle Tag ManagerHubSpotiContactInsiderIterableJebbitKlaviyoLeadsquaredLinkedInLiveRampLocalyticsLookerLotameLytics File ServiceLytics MonitoringMailchimpMailgunMandrillMappMapp: BlueHornetMarketoMaropostMediaMathMetaMicrosoftMicrosoft AzureMicrosoft TeamsMixpanelNetSuiteNew RelicOmedaOneSignalOneTrustOracle Marketing Cloud: EloquaPinterestPostUpRadarRedditResponsysRetention ScienceSailthruSalesforceSalesforce DMP (Krux)Salesforce Marketing CloudSalesforce PardotSegment.comSelligentSendGridShopifySitecoreSlackSnapchatSnowflakeSparkPostSurveyMonkeySwrveTaboolaTealiumTikTokThe Trade DeskUnified ID 2.0VersiumWebhooksWebhook TemplatesWistiaX AdsYahoo AdsZapierZendeskZuoraContentstackPartnersPartner TypesLytics CommunicationLegacyInsightsImporting External ExperiencesIDP-initiated SSO (legacy)Web PersonalizationIntroductionDrive Traffic CampaignCollect Leads CampaignPresent a Message CampaignRecommend Content CampaignCampaign ReportingCampaign ManagementBuilding Audiences with Campaign DataAcoustic Suggest EditsOverview
+Acoustic (previously known as Silverpop) is a marketing platform that enables email, SMS, and mobile campaigns, among other marketing analytics and automation solutions.
+Integrating Lytics with Acoustic allows you to import users and their activity data to build behavioral audiences and gain Insights in Lytics. You can then export Lytics audiences back to Acoustic to refine your targeting and deliver personalized messaging.
+Authorization
+If you have not done so already, you will need to set up an Acoustic account before you begin the process described below. Your Acoustic account user must have permission to create Application Access via the API.
+Select Acoustic from the list of providers.
+Select the Full Auth method for authorization.
+Enter a Label to identify your authorization.
+(Optional) Enter a Description for further context on your authorization.
+Enter your Client ID for the application that you have created in your Acoustic account. For more information, please refer to Acoustic Documentation.
+Enter the Client Secret for your entered Client ID.
+Enter the Pod number of your Acoustic Campaign. You can find the Pod information in Account Setting page of your Acoustic account. For example, if it is Pod 2 then just enter 2.
+Enter Refresh Token that you have created to grant Lytics access. For more information, please refer to Acoustic Documentation.
+Enter your SFTP Username for the Acoustic Account.
+Enter your SFTP Password for the above SFTP User. You can use your own credentials here, or create a new user for this integration.
+Click Save Authorization.
+📘For this integration, it is recommended to create a new Acoustic User specific for Lytics with the option Do not enforce password expiration policies for this user selected so the authentication is long lasting, and can be revoked on an account by account basis.
+Import Audiences & Activity
+Import Acoustic users and their activity information into Lytics so you can leverage that data to build behavioral audiences and gain Insights powered by Lytics data science.
+Integration Details
+Implementation Type: Server-side Integration.
+Implementation Technique: XML API Integration to download CSV formatted data.
+Frequency:
+Data is imported as a Batch Integration; imported once, or every 8 hours on a continuous basis.
+Resulting Data: Full Lytics user profiles for all Acoustic users complete with activity data.
+This integration utilizes the Acoustic XML API to import Acoustic users and their activity to Lytics. Each run of the job will proceed as follows:
+Exports users from the selected Acoustic Database as a CSV file to an Acoustic-manged SFTP server. The CSV files are then read and imported to the silverpop_users stream in Lytics.
+Exports email activity from users in the selected Acoustic Database as a CSV file to an Acoustic-manged SFTP server. The CSV files are then read and imported to the silverpop_activity stream in Lytics.
+After successful completion, the job will import new/updated users with their updated activity every 8 hours if configured to run continuously.
+Fields
+The following fields are included in the default mapping for the silverpop_users stream. Note this integration was formerly named Silverpop, hence the data stream name, but this job will receive your current Acoustic data.
+Source FieldLytics User FieldDescriptionTypeemailemail unique_idEmail AddressstringFirst Namefirst_nameFirst NamestringLast Namelast_nameLast NamestringEmail Typesp_email_typeAcoustic Email Typestringmap(list, Opted Out)sp_list_optout_statusAcoustic Optout Status by Listmap[string]stringmap(list, todate(Opted Out Date))sp_list_opt_out_dateAcoustic Opt Out Date by Listmap[string]timemap(list, todate(Opt In Date))sp_list_opt_in_dateAcoustic Opt In Date by Listmap[string]timemap(list, Opt In Details)sp_list_opt_in_detailsAcoustic Opt In Detailsmap[string]stringemaildomain(email)emaildomainEmail Domainstring
+Similarly, the following fields are included in the default mapping for the silverpop_activity stream:
+Source FieldLytics User FieldDescriptionTypeEmailemail unique idstringemailemaildomainEmail DomainstringUrlhashedurlsHashed Urls Visitedmap[string]intsummax(epochms())last_active_tsLast Active on Any ChanneldateCampaign Idsv_campaign_idsAcoustic Campaign the send originated from[]stringeventsv_clickctAcoustic Click countintEvent Typesv_email_eventAcoustic Eventsmap[string]intsumUrlsv_email_urlsAcoustic URLs[]stringmin(epochms())sv_firstclick_tsAcoustic First Clickdatemin(epochms())sv_firstopen_tsAcoustic First Opendatemin(epochms())sv_firstsent_tsAcoustic First Sentnumberhourofday()sv_hourlyopenAcoustic Hourly Eventsmap[string]intsumhourofweek()sv_hourofweekAcoustic Hour of Week Eventsmap[string]intsummax(epochms())sv_lastclick_tsAcoustic Last Clickdatemax(epochms())sv_lastopen_tsAcoustic Last Opendatemax(epochms())sv_lastsent_tsAcoustic Last Sentdatelist_idsv_list_idsAcoustic List the send originated from[]stringMailing Idsv_mailing_idsAcoustic Mailing the send originated from[]stringMailing Namesv_mailing_namesAcoustic Mailing Names[]stringMailing Namesv_mailing_names_click_countAcoustic Mailing Names Click Countmap[string]intsumMailing Namesv_mailing_names_clickedAcoustic Mailing Names Clicked[]stringMailing Namesv_mailing_names_open_countAcoustic Mailing Names Open Countmap[string]intsumMailing Namesv_mailing_names_openedAcoustic Mailing Names Opened[]stringMailing Namesv_mailing_names_sentAcoustic Mailing Names Sent[]stringMailing Namesv_mailing_names_sent_countAcoustic Mailing Name Sent Countmap[string]intsumyymm()sv_monthlyAcoustic Opens By Monthmap[string]intsumeventsv_openctAcoustic Open countintProgram Idsv_program_idsAcoustic Program Ids[]stringmin(epochms())sv_subscribe_tsAcoustic Subscribe Timedatemin(epochms())sv_unsubscribe_tsAcoustic Unsubscribe Timedate
+Configuration
+Follow these steps to set up an Import Audiences and Activity Data job for Acoustic.
+Select Acoustic from the list of providers.
+Select the Import Audiences and Activity Data job type from the list.
+Select the Authorization you would like to use or create a new one.
+Enter a Label to identify this job you are creating in Lytics.
+(Optional) Enter a Description for further context on your job.
+From the Type dropdown, select the Acoustic source type: database, list, or query.
+From the Source dropdown, select the Acoustic source to import user data from.
+Click on the Show Advanced Options tab to expand the advanced configuration.
+Check the Keep Updated checkbox to update the list every 8 hours.
+In the Activity Start field, enter the date to import activity from. The default is to retrieve one year of activity.
+Click Start Import.
+Export Audiences
+Send Lytics user profiles and audience membership to your Acoustic Database to refine your targeting and deliver personalized messaging across channels. All existing users and new users of the selected Lytics audiences are exported.
+Integration Details
+Implementation Type: Server-side Integration.
+Implementation Technique: API Integration , Audience Trigger Integration .
+Frequency: Real-time Integration.
+Resulting data: Lytics users are exported to Acoustic Database.
+This integration utilizes the Acoustic Import List API to export user data from Lytics to the Acoustic Database. Once the export is started, the job:
+Creates the column mapping file according to the fields selected during configuration and uploads to the Acoustic Campaign SFTP server.
+Writes the users that are part of selected Lytics audiences to the CSV file and initiates the CSV Import job in Acoustic.
+The updates will be sent to Acoustic every 8 minute or a batch of 10000 users, whichever occurs first.
+Fields
+You can export any Lytics user fields to Acoustic Database columns that are present in the selected Acoustic Database. Lytics allows you to map user fields with the corresponding Acoustic Database columns as part of the job configuration described below.
+To export using the Acoustic Recipient ID as the sync field use the Acoustic Export Audience with Recipient ID export.
+Configuration
+Follow these steps to set up an Export Audiences job for Acoustic.
+Select Acoustic from the list of providers.
+Select the Export Audiences job type from the list.
+Select the Authorization you would like to use or create a new one create a new one.
+Enter a
+Label to identify this job you are creating in Lytics.
+(Optional) Enter a Description for further context on your job.
+From the Acoustic Database dropdown, select the Acoustic database to populate with Lytics users.
+Using the Audience list, select the Lytics audiences to export. As users enter or exit the selected audience(s) their record will be sent to Acoustic.
+From the Sync Fields mapping, choose the sync fields that are used to match and identify users like unique ID or email. At least one sync field must be specified.
+From the Additional Map Fields, map additional fields that you would like to send from Lytics to Acoustic by selecting the Lytics field on the left, and its Acoustic destination on the right.
+From Fields to Trigger, select up to 75 user fields to trigger user change events. For any user in the exported audience, if any of the selected field values change, then the user will be updated in Acoustic.
+Check the Create New Contacts checkbox to create new contacts in Acoustic if they do not already exist.
+Check the Update Contacts checkbox to update fields of existing contacts in Acoustic.
+In the Single Audience Field text field, select a field or enter a name to create a field to write the additional Lytics audiences to. If the field is left empty, a Yes/No field is created for each selected Lytics audience.
+(Optional) In the Single Audience File Empty String text field, specify this to a value like "null" to represent an empty audience. Otherwise, an empty string is sent by default.
+Check the Keep Updated checkbox to continuously export users as they enter the audience.
+From the Time of Day dropdown, select a time of day to complete export each day. Export will sync every hour if left empty.
+From the Timezone dropdown, select the timezone for time of day specified above.
+Click Start Export.
+Export Audiences with Recipient ID
+Send Lytics user profiles and audience membership to your Acoustic Database to refine your targeting and deliver personalized messaging across channels. All existing users and new users of the selected Lytics audiences are exported.
+📘This export is specifically used for exporting using the Acoustic Recipient ID as the sync field. It will only update users already in Acoustic with a Recipient ID. In order to add users to Acoustic or if you would like to use other sync fields use the standard Acoustic Export Audience export.
+Integration Details
+Implementation Type: Server-side Integration.
+Implementation Technique: API Integration , Audience Trigger Integration .
+Frequency: Real-time Integration.
+Resulting data: Lytics users are exported to Acoustic Database.
+This integration utilizes the Acoustic Import List API to export user data from Lytics to the Acoustic Database. Once the export is started, the job:
+Creates the column mapping file according to the fields selected during configuration and uploads to the Acoustic Campaign SFTP server.
+Writes the users that are part of selected Lytics audiences to the CSV file and initiates the CSV Import job in Acoustic.
+The updates will be sent to Acoustic every 5 minutes or a batch of 10000 users, whichever occurs first.
+Fields
+You can export any Lytics user fields to Acoustic Database columns that are present in the selected Acoustic Database. Lytics allows you to map user fields with the corresponding Acoustic Database columns as part of the job configuration described below.
+Configuration
+Follow these steps to set up an Export Audiences job for Acoustic.
+Select Acoustic from the list of providers.
+Select the Export Audiences job type from the list.
+Select the Authorization you would like to use or create a new one.
+Enter a
+Label to identify this job you are creating in Lytics.
+(Optional) Enter a Description for further context on your job.
+From the Acoustic Database dropdown, select the Acoustic database to populate with Lytics users.
+Using the Audience list, select the Lytics audiences to export. As users enter or exit the selected audience(s) their record will be sent to Acoustic.
+From the Recipient ID field, choose the field that contains the Acoustic Recipient ID in Lytics.
+From the Additional Map Fields, map additional fields that you would like to send from Lytics to Acoustic by selecting the Lytics field on the left, and its Acoustic destination on the right.
+From Fields to Trigger, select up to 75 user fields to trigger user change events. For any user in the exported audience, if any of the selected field values change, then the user will be updated in Acoustic.
+In the Single Audience Field text field, select a field or enter a name to create a field to write the additional Lytics audiences to. If the field is left empty, a Yes/No field is created for each selected Lytics audience.
+(Optional) In the Single Audience File Empty String text field, specify this to a value like "null" to represent an empty audience. Otherwise, an empty string is sent by default.
+Check the Keep Updated checkbox to continuously export users as they enter the audience.
+From the Time of Day dropdown, select a time of day to complete export each day. Export will sync every hour if left empty.
+From the Timezone dropdown, select the timezone for time of day specified above.
+Click Start Export.
+Export Audiences to Relational Tables
+Send Lytics user profile data and audience membership to your Acoustic Relational tables.
+All existing and new users of the selected audience are exported in real-time.
+Integration Details
+Implementation Type: Server-side Integration.
+Implementation Technique: API Integration , Audience Trigger Integration .
+Frequency: Real-time Integration.
+Resulting data: Lytics users are exported to Acoustic Relational Table.
+This integration utilizes the Acoustic Relational Table Management api to export user data from Lytics to the Acoustic Relational Table. Once the export is started, the job:
+Creates or writes to the following tables depending on the configuration of the job (see the example below for a visual example),
+User table - the user identifier plus all scalar fields will be written to this table.
+Audience table - the user identifier plus a boolean (Yes/No) column for each Lytics audience exported. Users that belong to the audience will have true as value in the respective audience column, and similarly, will have false if the user does not belong to the audience.
+Non-scalar tables - for each non-scalar field exported a separate table will be created.
+For sets, the table will have a column for the user identifier plus a column called lytics_value with a row written for each value in the set.
+For maps, the table will have a column for the user identifier plus two columns, lytics_key and lytics_value with a row written for each key/value pair in the map.
+As users enter or exit the audience, rows will added or updated in the tables above
+The updates will be sent to Acoustic every 5 minutes or a batch of 1000 users, whichever occurs first.
+Fields
+You can export any Lytics user fields to Acoustic Relational Table. Lytics allows you to map user fields with the corresponding table columns as part of job configuration. The job also has option to create column in Acoustic table for Lytics user field.
+Configuration
+Follow these steps to set up an Export Audiences job for Acoustic.
+Select Acoustic from the list of providers.
+Select the Export Audience to Acoustic Relational Table job type from the list.
+Select the Authorization you would like to use or create a new one.
+Enter a
+Label to identify this job you are creating in Lytics.
+(Optional) Enter a Description for further context on your job.
+Using the Audiences list, select the Lytics audiences to export. As users enter or exit the selected audience(s) their record will be sent to Acoustic.
+From the Acoustic User Table dropdown, select the Acoustic relational table to populate with user profile data. Select Create New Table to create new user table with name lytics_user_table_{timestamp}. {timestamp} is replaced with current timestamp in format YYYYMMDDHHmmss.
+If Create New Table is selected, from the User Table Key Field dropdown, select the Lytics user field to be used as primary key for new user table. Should be left blank if writing to an existing table.
+If writing to an existing table, from the Acoustic User Table Mapping, map Lytics user fields that you would like to send from Lytics to corresponding Acoustic field. NOTE: All the key column for the selected Acoustic user table must be mapped.
+For either exporting to a new table or writing an existing table, from the Extra Fields list, select the additional Lytics user fields to export. These are extra scalar fields to be sent to Acoustic user table. Each field will be added as a separate column in the table.
+From the Acoustic Audience Membership Table dropdown, either select the Acoustic relational table to populate with audience information or select Create New Table. If the creation of a new audience table is selected, a table will be created with the name lytics_audiences_table_{timestamp}. {timestamp} is replaced with current timestamp in format YYYYMMDDHHmmss.
+If Create New Table is selected for the Acoustic audience membership table, in the Audience Membership Table Key Field dropdown, select the Lytics user field to be used as primary key for new audience membership table. Should be left blank if writing to an existing table.
+If writing to an existing audience table, from the Acoustic Audience Membership Table Key Mapping, map the keys from Lytics to the key columns in Acoustic. The primary key in Acoustic must be mapped.
+Using the Non-Scalar User Fields list, select any Lytics non-scalar user field to export. An Acoustic relational table with name lytics_{field-name}_table_{timestamp} will be created for each selected non-scalar field.
+If exporting non-scalar fields, from the Non-Scalar Field Table Key Field dropdown, select Lytics user field to be used as primary key for all new non-scalar field table.
+Select Existing Users to send users currently in the Lytics audience to Acoustic.
+Click Complete to create the job.
+Example
+Below is an example of a user exported and how they may look in Acoustic.
+TextSample User
+{
+"email": "[email protected]",
+"first_name": "James",
+"last_name": "McDermott",
+"channels": [ "web", "email" ],
+"hourly": {
+"17": 1,
+"21": 1,
+"23": 2
+},
+"segments": {
+"all",
+"highly_engaged"
+}
+}
+User Table: lytics_user_table_20240408220715
+emailfirst_namelast_name[email protected]JamesMcDermott
+Audience Table: lytics_audiences_table_20240408220715
+emailallhighly_engagedlow_engagement[email protected]truetruefalse
+Non-scalar table for channels: lytics_channels_table_20240408220715
+emaillytics_value[email protected]web[email protected]email
+Non-scalar table for hourly: lytics_hourly_table_20240408220715
+emaillytics_keylytics_value[email protected]171[email protected]211[email protected]232Updated 28 days ago Table of Contents
+Overview
+Authorization
+Import Audiences & Activity
+Integration Details
+Fields
+Configuration
+Export Audiences
+Integration Details
+Fields
+Configuration
+Export Audiences with Recipient ID
+Integration Details
+Fields
+Configuration
+Export Audiences to Relational Tables
+Integration Details
+Fields
+Configuration
+Example

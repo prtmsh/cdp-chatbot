@@ -1,0 +1,240 @@
+DOCSDOCSHomeGuidesDevelopersIntegrationsChangelogSign UpDocumentationDevelopersAPI ReferencesPlatform APIPlatform API OverviewAccountsAppsAudiencesCalculated AttributesData PointsFeedsField TransformationsServicesUsersWorkspacesData Subject Request APIData Subject Request API Version 1 and 2Data Subject Request API Version 3Warehouse Sync APIWarehouse Sync API OverviewWarehouse Sync API TutorialWarehouse Sync API ReferenceData MappingWarehouse Sync SQL ReferenceWarehouse Sync Troubleshooting GuideComposeIDWarehouse Sync API v2 MigrationCalculated Attributes Seeding APIBulk Profile Deletion API ReferenceCustom Access Roles APIData Planning APIGroup Identity API ReferencePixel ServiceProfile APIEvents APImParticle JSON Schema ReferenceIDSyncClient SDKsAMPAMP SDKAndroidInitializationConfigurationNetwork Security ConfigurationEvent TrackingUser AttributesIDSyncScreen EventsCommerce EventsLocation TrackingMediaKitsApplication State and Session ManagementData Privacy ControlsError TrackingOpt OutPush NotificationsWebView IntegrationLoggerPreventing Blocked HTTP Traffic with CNAMELinting Data PlansTroubleshooting the Android SDKAPI ReferenceUpgrade to Version 5CordovaCordova PluginIdentityDirect Url RoutingDirect URL Routing FAQWebAndroidiOSFlutterGetting StartedUsageAPI ReferenceiOSInitializationConfigurationEvent TrackingUser AttributesIDSyncScreen TrackingCommerce EventsLocation TrackingMediaKitsApplication State and Session ManagementData Privacy ControlsError TrackingOpt OutPush NotificationsWebview IntegrationUpload FrequencyApp ExtensionsPreventing Blocked HTTP Traffic with CNAMELinting Data PlansTroubleshooting iOS SDKSocial NetworksiOS 14 GuideiOS 15 FAQiOS 16 FAQiOS 17 FAQiOS 18 FAQAPI ReferenceUpgrade to Version 7RokuGetting StartedIdentityMediaReact NativeGetting StartedIdentityUnityUpload FrequencyGetting StartedOpt OutInitialize the SDKEvent TrackingCommerce TrackingError TrackingScreen TrackingIdentityLocation TrackingSession ManagementXboxGetting StartedIdentityWebInitializationConfigurationContent Security PolicyEvent TrackingUser AttributesIDSyncPage View TrackingCommerce EventsLocation TrackingMediaKitsApplication State and Session ManagementData Privacy ControlsError TrackingOpt OutCustom LoggerPersistenceNative Web ViewsSelf-HostingMultiple InstancesWeb SDK via Google Tag ManagerPreventing Blocked HTTP Traffic with CNAMEFacebook Instant ArticlesTroubleshooting the Web SDKBrowser CompatibilityLinting Data PlansAPI ReferenceUpgrade to Version 2 of the SDKXamarinGetting StartedIdentityWebAlexaMedia SDKsAndroidiOSWebToolsmParticle Command Line InterfaceLinting ToolsSmartypeServer SDKsNode SDKGo SDKPython SDKRuby SDKJava SDKQuickstartAndroidOverviewStep 1. Create an inputStep 2. Verify your inputStep 3. Set up your outputStep 4. Create a connectionStep 5. Verify your connectionStep 6. Track eventsStep 7. Track user dataStep 8. Create a data planStep 9. Test your local appHTTP Quick StartStep 1. Create an inputStep 2. Create an outputStep 3. Verify outputiOS Quick StartOverviewStep 1. Create an inputStep 2. Verify your inputStep 3. Set up your outputStep 4. Create a connectionStep 5. Verify your connectionStep 6. Track eventsStep 7. Track user dataStep 8. Create a data planJava Quick StartStep 1. Create an inputStep 2. Create an outputStep 3. Verify outputNode Quick StartStep 1. Create an inputStep 2. Create an outputStep 3. Verify outputPython Quick StartStep 1. Create an inputStep 2. Create an outputStep 3. Verify outputWebOverviewStep 1. Create an inputStep 2. Verify your inputStep 3. Set up your outputStep 4. Create a connectionStep 5. Verify your connectionStep 6. Track eventsStep 7. Track user dataStep 8. Create a data planGuidesPartnersIntroductionOutbound IntegrationsOutbound IntegrationsFirehose Java SDKInbound IntegrationsKit IntegrationsOverviewAndroid Kit IntegrationJavaScript Kit IntegrationiOS Kit IntegrationCompose IDData Hosting LocationsGlossaryMigrate from Segment to mParticleMigrate from Segment to mParticleMigrate from Segment to Client-side mParticleMigrate from Segment to Server-side mParticleSegment-to-mParticle Migration ReferenceRules Developer GuideAPI Credential ManagementThe Developer's Guided Journey to mParticleGuidesGetting StartedCreate an InputStart capturing dataConnect an Event OutputCreate an AudienceConnect an Audience OutputTransform and Enhance Your DataPersonalizationIntroductionProfilesAudiencesAudiences OverviewCreate an AudienceConnect an AudienceManage AudiencesReal-time Audiences (Legacy)Standard Audiences (Legacy)Calculated AttributesCalculated Attributes OverviewUsing Calculated AttributesCreate with AI AssistanceCalculated Attributes ReferencePredictive AudiencesPredictive Audiences OverviewUsing Predictive AudiencesJourneysJourneys OverviewManage JourneysDownload an audience from a journeyAudience A/B testing from a journeyJourneys 2.0Predictive AttributesWhat are predictive attributes?Predict Future BehaviorCreate Future PredictionUse Future Predictions in CampaignsAssess and Troubleshoot PredictionsNext Best ActionNext Best Action OverviewCreate a Next Best Action (NBA)View and Manage NBAsActivate Next Best Actions in CampaignsPlatform GuideBillingUsage and Billing ReportThe New mParticle ExperienceThe new mParticle ExperienceThe Overview MapObservabilityObservability OverviewObservability User GuideObservability Troubleshooting ExamplesObservability Span GlossaryIntroductionData RetentionConnectionsActivityLive StreamData FilterRulesTiered EventsmParticle Users and RolesAnalytics Free TrialTroubleshooting mParticleUsage metering for value-based pricing (VBP)AnalyticsIntroductionSetupSync and Activate Analytics User Segments in mParticleUser Segment ActivationWelcome Page AnnouncementsSettingsProject SettingsRoles and TeammatesOrganization SettingsGlobal Project FiltersPortfolio AnalyticsAnalytics Data ManagerAnalytics Data Manager OverviewEventsEvent PropertiesUser PropertiesRevenue MappingExport DataUTM GuideQuery BuilderData DictionaryQuery Builder OverviewModify Filters With And/Or ClausesQuery-time SamplingQuery NotesFilter Where ClausesEvent vs. User PropertiesGroup By ClausesAnnotationsCross-tool CompatibilityApply All for Filter Where ClausesDate Range and Time Settings OverviewUser Attributes at Event TimeUnderstanding the Screen View EventAnalysesAnalyses IntroductionSegmentation: BasicsGetting StartedVisualization OptionsFor ClausesDate Range and Time SettingsCalculatorNumerical SettingsSegmentation: AdvancedAssisted AnalysisProperties ExplorerFrequency in SegmentationTrends in SegmentationDid [not] Perform ClausesCumulative vs. Non-Cumulative Analysis in SegmentationTotal Count of vs. Users Who PerformedSave Your Segmentation AnalysisExport Results in SegmentationExplore Users from SegmentationFunnels: BasicsGetting Started with FunnelsGroup By SettingsConversion WindowTracking PropertiesDate Range and Time SettingsVisualization OptionsInterpreting a Funnel AnalysisFunnels: AdvancedGroup ByFiltersConversion over TimeConversion OrderTrendsFunnel DirectionMulti-path FunnelsAnalyze as Cohort from FunnelSave a Funnel AnalysisExplore Users from a FunnelExport Results from a FunnelCohortsGetting Started with CohortsAnalysis ModesSave a Cohort AnalysisExport ResultsExplore UsersSaved AnalysesManage Analyses in DashboardsJourneysGetting StartedEvent MenuVisualizationEnding EventSave a Journey AnalysisUsersGetting StartedUser Activity TimelinesTime SettingsExport ResultsSave A User AnalysisDashboardsDashboards––Getting StartedManage DashboardsDashboard FiltersOrganize DashboardsScheduled ReportsFavoritesTime and Interval Settings in DashboardsQuery Notes in DashboardsUser AliasingAnalytics ResourcesThe Demo EnvironmentKeyboard ShortcutsTutorialsAnalytics for MarketersAnalytics for Product ManagersCompare Conversion Across Acquisition SourcesAnalyze Product Feature UsageIdentify Points of User FrictionTime-based Subscription AnalysisDashboard Tips and TricksUnderstand Product StickinessOptimize User Flow with A/B TestingUser SegmentsAPIsUser Segments Export APIDashboard Filter APIIDSyncIDSync OverviewUse Cases for IDSyncComponents of IDSyncStore and Organize User DataIdentify UsersDefault IDSync ConfigurationProfile Conversion StrategyProfile Link StrategyProfile Isolation StrategyBest Match StrategyAliasingData MasterGroup IdentityOverviewCreate and Manage Group DefinitionsIntroductionCatalogLive StreamData PlansData PlansBlocked Data Backfill GuideWarehouse SyncData Privacy ControlsData Subject RequestsDefault Service LimitsFeedsCross-Account Audience SharingApproved Sub-ProcessorsImport Data with CSV FilesImport Data with CSV FilesCSV File ReferenceGlossaryVideo IndexAnalytics (Deprecated)Identity ProvidersSingle Sign-On (SSO)Setup ExamplesSettingsDebug ConsoleData Warehouse Delay AlertingIntroductionDeveloper DocsIntroductionIntegrationsIntroductionRudderstackGoogle Tag ManagerSegmentData Warehouses and Data LakesAdvanced Data Warehouse SettingsAWS Kinesis (Snowplow)AWS Redshift (Define Your Own Schema)AWS S3 Integration (Define Your Own Schema)AWS S3 (Snowplow Schema)BigQuery (Snowplow Schema)BigQuery Firebase SchemaBigQuery (Define Your Own Schema)GCP BigQuery ExportSnowflake (Snowplow Schema)Snowplow Schema OverviewSnowflake (Define Your Own Schema)APIsREST APIDashboard Filter API (Deprecated)User Segments Export API (Deprecated)SDKsSDKs IntroductionReact NativeiOSAndroidJavaJavaScriptPythonObject APIDeveloper BasicsAliasingGetting StartedWith React Native, use a single code base to deploy features to multiple platforms. The mParticle React Native library helps you leverage a single API to deploy your data to hundreds of integrations from your iOS and Android apps.
+Android and iOS support methods for custom events, page views, identity, commerce events, and consent.
+Installation
+First, download the library from npm:
+$ npm install react-native-mparticle --save
+For clients using the react-native-tvos library you must add the force flag to the install code as shown below. This tells the installer to ignore using the core React Native repository and instead use the tvOS-specific library instead.
+$ npm install react-native-mparticle --save --force
+Next, copy your mParticle key and secret from your app’s dashboard and then follow the OS-specific instructions below.
+iOS
+The NPM install step above will automatically include our React framework and the core iOS framework in your project. However depending on your app and its other dependencies you must integrate it in 1 of 2 ways:
+Static Libraries are the React Native default, but because the mParticle iOS SDK contains Swift code you need to add an exception for it in the from of a pre-install command in the Podfile.
+pre_install do |installer|
+installer.pod_targets.each do |pod|
+if pod.name == 'mParticle-Apple-SDK'
+def pod.build_type;
+Pod::BuildType.new(:linkage => :dynamic, :packaging => :framework)
+end
+end
+end
+end
+Then run the following command
+bundle exec pod install
+Frameworks are the default for Swift development and while it isn’t preferred by React Native it is supported. Additionally you can define whether the frameworks are built statically or dynamically.
+Update your Podfile to be ready to use dynamically linked frameworks by commenting out the following line
+# :flipper_configuration => flipper_config,
+Then run either of the following commands
+$ USE_FRAMEWORKS=static bundle exec pod install
+or
+$ USE_FRAMEWORKS=dynamic bundle exec pod install
+Initialize the mParticle SDK by calling the startWithOptions method within the application:didFinishLaunchingWithOptions: delegate call. Preferably the location of the initialization method call should be one of the last statements in the application:didFinishLaunchingWithOptions:. The startWithOptions method requires an options argument containing your key and secret and an initial Identity request.
+The SDK must be initialized in the application:didFinishLaunchingWithOptions: method. Other parts of the SDK rely on the UIApplicationDidBecomeActiveNotification notification to function properly. Failing to start the SDK as indicated results in errors. Also, don’t use GCD’s dispatch_async to start the SDK.
+Import and start the mParticle Apple SDK into Swift or Objective-C.
+Swift example
+import mParticle_Apple_SDK
+func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
+// Override point for customization after application launch.
+let mParticleOptions = MParticleOptions(key: "<<<App Key Here>>>", secret: "<<<App Secret Here>>>")
+/* Optional - Please see the Identity page for more information on building this object
+let request = MPIdentityApiRequest()
+request.email = "email@example.com"
+mParticleOptions.identifyRequest = request
+mParticleOptions.onIdentifyComplete = { (apiResult, error) in
+NSLog("Identify complete. userId = %@ error = %@", apiResult?.user.userId.stringValue ?? "Null User ID", error?.localizedDescription ?? "No Error Available")
+}
+/* Optional
+mParticleOptions.onAttributionComplete = { (attributionResult, error) in
+NSLog(@"Attribution Complete. attributionResults = %@", attributionResult.linkInfo)
+//Start the SDK
+MParticle.sharedInstance().start(with: mParticleOptions)
+return true
+}
+Objective-C example
+#if defined(__has_include) && __has_include(<mParticle_Apple_SDK/mParticle.h>)
+#import <mParticle_Apple_SDK/mParticle.h>
+#elif defined(__has_include) && __has_include(<mParticle_Apple_SDK_NoLocation/mParticle.h>)
+#import <mParticle_Apple_SDK_NoLocation/mParticle.h>
+#else
+#import "mParticle.h"
+#endif
+Then, start the SDK:
+- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+MParticleOptions *mParticleOptions = [MParticleOptions optionsWithKey:@"REPLACE ME" secret:@"REPLACE ME"];
+/* Optional - Please see the Identity page for more information on building this object
+MPIdentityApiRequest *request = [MPIdentityApiRequest requestWithEmptyUser];
+request.email = @"email@example.com";
+mParticleOptions.identifyRequest = request;
+mParticleOptions.onIdentifyComplete = ^(MPIdentityApiResult * _Nullable apiResult, NSError * _Nullable error) {
+NSLog(@"Identify complete. userId = %@ error = %@", apiResult.user.userId, error);
+};
+*/
+[[MParticle sharedInstance] startWithOptions:mParticleOptions];
+return YES;
+}
+See Identity for more information about supplying an MPIdentityApiRequest object during SDK initialization.
+Remember to start Metro with:
+$ npm start
+and build your workspace from Xcode.
+Android
+Use the mParticle key and secret from you copied and construct an MParticleOptions object.
+Call start from the onCreate method of your app’s Application class. It’s crucial that the SDK be started here for proper session management. If you don’t already have an Application class, create it and then specify its fully-qualified name in the <application> tag of your app’s AndroidManifest.xml.
+package com.example.myapp;
+import android.app.Application;
+import com.mparticle.MParticle;
+public class MyApplication extends Application {
+@Override
+public void onCreate() {
+super.onCreate();
+MParticleOptions options = MParticleOptions.builder(this)
+.credentials("REPLACE ME WITH KEY","REPLACE ME WITH SECRET")
+.setLogLevel(MParticle.LogLevel.VERBOSE)
+//.identify(identifyRequest)
+.identifyTask(
+new BaseIdentityTask()
+.addFailureListener(this)
+.addSuccessListener(this)
+)
+.build();
+MParticle.start(options);
+}
+}
+Warning: It’s generally not a good idea to log events in Application.onCreate(). Android may instantiate your Application class for a lot of reasons, in the background, while the user isn’t even using their device.
+Usage
+After you install and initialize the SDK, you can log events. You can also set, remove, or get user details with User or Identity methods.
+Import the mParticle module
+Import the module:
+import MParticle from 'react-native-mparticle'
+Events
+Log events:
+MParticle.logEvent('Test event', MParticle.EventType.Other, { 'Test key': 'Test value' })
+Log commerce events:
+const product = new MParticle.Product('Test product for cart', '1234', 19.99)
+const transactionAttributes = new MParticle.TransactionAttributes('Test transaction id')
+const event = MParticle.CommerceEvent.createProductActionEvent(MParticle.ProductActionType.AddToCart, [product], transactionAttributes)
+MParticle.logCommerceEvent(event)
+const promotion = new MParticle.Promotion('Test promotion id', 'Test promotion name', 'Test creative', 'Test position')
+const event = MParticle.CommerceEvent.createPromotionEvent(MParticle.PromotionActionType.View, [promotion])
+MParticle.logCommerceEvent(event)
+const product = new MParticle.Product('Test product that was viewed', '5678', 29.99)
+const impression = new MParticle.Impression('Test impression list name', [product])
+const event = MParticle.CommerceEvent.createImpressionEvent([impression])
+MParticle.logCommerceEvent(event)
+Log screen events:
+MParticle.logScreenEvent('Test screen', { 'Test key': 'Test value' })
+Exclude App and Commerce Events from mParticle Server Upload
+If you have a high-volume event that you would like to forward to kits but exclude from uploading to mParticle, set a boolean flag per event.
+By default, all events upload to the mParticle server unless explicitly set not to.
+// Events
+var event = new MParticle.Event()
+.setName('Test event')
+.setType(MParticle.EventType.Other)
+.setInfo({ 'Test key': 'Test value' })
+.setShouldUploadEvent(false) // Set false to prevent uploading, true or omit to upload
+MParticle.logMPEvent(event)
+// Commerce Events
+const product = new MParticle.Product('Test product for cart', '1234', 19.99)
+const transactionAttributes = new MParticle.TransactionAttributes('Test transaction id')
+var commerceEvent = MParticle.CommerceEvent.createProductActionEvent(MParticle.ProductActionType.AddToCart, [product], transactionAttributes)
+commerceEvent.setShouldUploadEvent(false) // Set false to prevent uploading, true or omit to upload
+const customFlags = {
+'GA4.CommerceEventType': 'add_shipping_info',
+'GA4.ShippingTier': 'overnight'
+}
+commerceEvent.customFlags = customFlags
+MParticle.logCommerceEvent(commerceEvent)
+User
+To set, remove, and get user details, call the User or Identity methods as follows:
+MParticle.setUserAttribute('Test key', 'Test value')
+MParticle.setUserAttribute(MParticle.UserAttributeType.FirstName, 'Test first name')
+MParticle.setUserAttributeArray('Test key', ['Test value 1', 'Test value 2'])
+MParticle.setUserTag('Test key')
+MParticle.removeUserAttribute('Test key')
+IdentityRequest
+var request = new MParticle.IdentityRequest()
+Run a user alias anytime the user identity changes
+request.onUserAlias = (previousUser, newUser) => {
+console.debug(previousUser.userID);
+console.debug(newUser.userID);
+};
+Set a user identity:
+var request = new MParticle.IdentityRequest();
+request.setUserIdentity('example@example.com', MParticle.UserIdentityType.Email);
+Identity
+MParticle.Identity.getCurrentUser((currentUser) => {
+console.debug(currentUser.userID);
+});
+var request = new MParticle.IdentityRequest();
+MParticle.Identity.identify(request, (error, userId) => {
+if (error) {
+console.debug(error); //error is an MParticleError
+} else {
+console.debug(userId);
+}
+});
+var request = new MParticle.IdentityRequest();
+request.email = 'test email';
+MParticle.Identity.login(request, (error, userId) => {
+if (error) {
+console.debug(error); //error is an MParticleError
+} else {
+console.debug(userId);
+}
+});
+var request = new MParticle.IdentityRequest();
+MParticle.Identity.logout(request, (error, userId) => {
+if (error) {
+console.debug(error);
+} else {
+console.debug(userId);
+}
+});
+var request = new MParticle.IdentityRequest();
+request.email = 'test email 2';
+MParticle.Identity.modify(request, (error, userId) => {
+if (error) {
+console.debug(error); //error is an MParticleError
+} else {
+console.debug(userId);
+}
+});
+Attribution
+var attributions = MParticle.getAttributions();
+In order to listen for attributions asynchronously, set the proper field in MParticleOptions as shown in the previous Android or the iOS SDK installation examples.
+Kits
+Check if a kit is active:
+var isKitActive = MParticle.isKitActive(kitId);
+Check and set the SDK opt-out status:
+var isOptedOut = MParticle.getOptOut();
+MParticle.setOptOut(!isOptedOut);
+Push registration
+The method MParticle.logPushRegistration() accepts two parameters. For Android, provide both pushToken and senderId. For iOS, provide the push token in the first parameter, and simply pass null for the second parameter.
+Android
+MParticle.logPushRegistration(pushToken, senderId);
+iOS
+MParticle.logPushRegistration(pushToken, null);
+GDPR consent
+Add GDPR consent:
+var gdprConsent = GDPRConsent()
+.setConsented(true)
+.setDocument("the document")
+.setTimestamp(new Date().getTime())
+// optional, native SDK will automatically set current timestamp if omitted
+.setLocation("the location")
+.setHardwareId("the hardwareId");
+MParticle.addGDPRConsentState(gdprConsent, "the purpose");
+Remove GDPR consent:
+MParticle.removeGDPRConsentStateWithPurpose("the purpose");
+CCPA consent
+Add CCPA consent:
+var ccpaConsent = CCPAConsent()
+.setConsented(true)
+.setDocument("the document")
+.setTimestamp(new Date().getTime())
+// optional, native SDK will automatically set current timestamp if omitted
+.setLocation("the location")
+.setHardwareId("the hardwareId");
+MParticle.addCCPAConsentState(ccpaConsent);
+Remove CCPA consent:
+MParticle.removeCCPAConsentState();
+License
+Apache 2.0Was this page helpful?YesNoLast Updated: February 27, 2025© 2025 mParticle, Inc. All rights reserved.mParticle.comPrivacy PolicyCookie PolicyDo Not Sell or Share My Personal Data

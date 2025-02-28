@@ -1,0 +1,94 @@
+Consent & Privacy
+Jump to ContentHomeDocumentationAPI ReferenceProduct UpdatesCommunityv2.0v2.1v3.0Log InDocumentationLog Inv3.0HomeDocumentationAPI ReferenceProduct UpdatesCommunityConsent & PrivacySearchQuick StartDeveloper Quickstart1. Install the Lytics Tag2. Content Setup3. Surface Personalized MessageBuilding ProfilesDefault AttributesDefault SegmentsGuides & InspirationLead CaptureContent RecommendationsAccount ManagementWhat is Vault?Accessing AccountsMonitoring Metrics and AlertsJob AlertsMonitoring Audit LogsExporting Audit Logs or Alert JobsMonitoring MetricsUsage MetricsManaging UsersSingle Sign-OnAccount SettingsAccount DetailsJavaScript Tag ConfigPersonalization APIContent ServicesSecurityAI & Modeling ControlsSchema ControlsData PoliciesPlatform LimitsPrivacy and Data ProtectionImpact of Browser Tracking ChangesComplianceAuthorizationsAccess TokensKey ConceptsIdentity ResolutionConsent & PrivacyComplying with the Digital Markets Act (DMA)Client & Server Side CookiesContent AffinityContent CurationTopic TaxonomyArchitectureIntegration PatternsJob ProcessingLytics Platform Data Flow and AccessCDI and CDP Implementation StrategyLytics Zero Copy with Cloud ConnectPipeline & ProfilesData PipelineJobs (Data Sources and Exports)Data StreamsStream Routing APITemplatesCreating Templates Using the UICreating Templates using Lytics APIUsing the Jsonnet LibraryTemplate ExamplesSchema ManagementFields & MappingsAdvanced Mapping FunctionsMeta FieldsQueries & LQLIdentity Key RanksSchema VersionsPlanning & TroubleshootingLytics Profile SchemaSchema CopilotIdentityMerge StatisticsIdentity ExplorerIdentity RulesWarehouse AccessWhat is Cloud Connect?Connecting WarehousesData Models & QueriesActivating Data ModelsCloud Connect Troubleshooting and FAQsAudiences & ActivationUser ProfilesUnderstanding Profile HealthFinding a UserAudiencesAudience GroupsPrebuilt AudiencesReportsWhat are Reports?ComponentsManaging ReportsDashboard ReportContentTopics & AffinitiesTopicsAffinitiesUsing Topics & AffinitiesClassificationEnrichmentRecommendationsDocumentsContent CollectionsCreating Content CollectionsViewing, Using & Managing CollectionsInterest EnginesDefault Interest EngineCustom Interest EnginesCollaborative FiltersLookalike Models & AudiencesGetting StartedBuilding Lookalike ModelsEvaluating Lookalike ModelsCreating Lookalike AudiencesImproving Lookalike ModelsActivationDestinationsGoalsExperiencesBehavioral ScoresTutorialsLeveraging User ProfilesAccessing Profiles Client SideAccessing Profiles Server SideWorking with Anonymous ProfilesGet Started with Lytics SegmentsInline Content RecommendationsData Collection & OnboardingWorking with Custom DataWorking with Web DataCollect Mobile Data with Firebase + GTMData ManagementProfile Stitching Best PracticesMigrating from Queries to Conductor SchemaLQL & Data Import BasicsUse CasesAcquire New Customers with LyticsBest Practices for Personalizing Your Ad or Search Landing PageCapture More Information from Qualified LeadsContent Modularization in Email with Lytics AudiencesCustomize your Web Experiences with Branded ImagesDeliver Targeted ContentDrive Email Capture & Engagement with ContentDrive Mobile App Downloads With LyticsEngage Qualified Users with Targeted AdsEnhance Personalized Messaging with User Profile FieldsGrow Your Email Marketing ListImport an Audience from your Data WarehouseImprove Ad Campaign Metrics with Predictive TargetingIncrease Conversions with Lytics and Facebook LookalikeKeep Visitors Engaged with Content Recommendation ExperiencesLeverage Lookalike Models and Predictive AudiencesLookalike Models: Conserve marketing spend on engaged usersLookalike Models: Convert anonymous users to known usersLookalike Models: Convert single purchasers to multi-purchasersLookalike Models: Determine which subscribers are likely to churnMobile Messaging with Lytics Webhooks and Serverless FunctionsOptimize Remarketing SpendPersonalize the Messaging of your Website Based on AudiencePopulate Your Website With One-to-One Content RecommendationsPromote Relevant Content to Users based on their InterestsReach the Right People Using LyticsRetain Existing Customers With LyticsPersonalize your Iterable emails With Lytics content recommendationsBuild a Custom Personalized Experience With Video ContentUnlock Additional Web Personalization Features with Lytics API OverridesHow to Use GTM Tags to Modify Lytics Pathfora Widget BehaviorStyle your Lytics Web Experiences to Fit Your Brand GuidelinesSDKs & ToolsWebJavaScriptOn-site PersonalizationSubresource Integrity (SRI)MobileiOSReact NativeAndroidChrome ExtensionIntegrationsLytics Integration OptionsAcousticAdobeAdRollAirshipAmplitudeAmazon AdsAmazon KinesisAmazon PinpointAmazon RedshiftAmazon S3Amazon SQSAnsiraBigCommerceBlueKaiBlueshiftBrazeBrevoCampaign MonitorCheetah DigitalClearbitContentfulCordialCriteoCustomer.ioDatabricksDotdigitalDriftEpiserverFullContactGIGYAGoogle OptimizeGoogle Ad Manager (DFP)Google AdsGoogle BigQueryGoogle Cloud Pub/SubGoogle Cloud StorageGoogle DriveGoogle Marketing: Analytics, DV360, CM360Google Cloud OperationsGoogle Tag ManagerHubSpotiContactInsiderIterableJebbitKlaviyoLeadsquaredLinkedInLiveRampLocalyticsLookerLotameLytics File ServiceLytics MonitoringMailchimpMailgunMandrillMappMapp: BlueHornetMarketoMaropostMediaMathMetaMicrosoftMicrosoft AzureMicrosoft TeamsMixpanelNetSuiteNew RelicOmedaOneSignalOneTrustOracle Marketing Cloud: EloquaPinterestPostUpRadarRedditResponsysRetention ScienceSailthruSalesforceSalesforce DMP (Krux)Salesforce Marketing CloudSalesforce PardotSegment.comSelligentSendGridShopifySitecoreSlackSnapchatSnowflakeSparkPostSurveyMonkeySwrveTaboolaTealiumTikTokThe Trade DeskUnified ID 2.0VersiumWebhooksWebhook TemplatesWistiaX AdsYahoo AdsZapierZendeskZuoraContentstackPartnersPartner TypesLytics CommunicationLegacyInsightsImporting External ExperiencesIDP-initiated SSO (legacy)Web PersonalizationIntroductionDrive Traffic CampaignCollect Leads CampaignPresent a Message CampaignRecommend Content CampaignCampaign ReportingCampaign ManagementBuilding Audiences with Campaign DataConsent & PrivacyFor more information on Lytics' security and privacy program, please visit Lytics' trust center at https://trust.lytics.com/ Suggest EditsIntroduction
+As businesses continue to collect and utilize customer data to power their marketing efforts, obtaining, managing, and enforcing proper consent is crucial. This is important for complying with various privacy laws and regulations and maintaining trust with customers. This document will explore the importance of granularity in a consent strategy and how Lytics can assist in the consent management process. We will cover best practices to consider and provide guidance on where to get started. The following four steps will be outlined:
+Data Collection: How to collect consent adequately from disparate sources consistently.
+Profile Materialization: How to flexibly surface the state of consent to individual user profiles.
+Segmentation: How can the required consent rules be enforced when driving downstream campaigns?
+Maintenance: How to ensure that your consent strategy scales and flexes to your ongoing market conditions without fail?
+By following these steps, businesses can establish a solid and effective consent management strategy that respects customer privacy and builds trust.
+Data Collection
+To maintain compliance with data privacy regulations, businesses need a clear and flexible path for collecting consent data. Lytics offers a range of SDKs and data collection APIs to support this effort. When approaching consent data collection, it is essential to consider the following:
+The source of the data and any inherent limitations. Can it be real-time, or does it need to be batch?
+The granularity of the consent. Is this a simple boolean, on or off, or is this something more granular, like opting into a particular communication method?
+Additional context related to the consent that may be important for your needs. Are there specific forms that are being consented to or a unique source?
+To address these considerations, Lytics has developed a suggested schema to get you started. Of course, this can always be customized via Conductor to meet your specific needs.
+Data Structure
+Effective consent management requires a comprehensive set of properties that can be deployed to ensure compliance and maintain customer trust. These properties should cover various aspects of data collection, storage, and usage and provide businesses with the tools to manage consent-related data effectively.
+Schema PropertyDescriptionEvent NameUsing a standardized event name for consent collection provides crucial context that can be utilized through if/else rules for individual mappings. By leveraging different event names, such as "consent-type-1" versus "consent-type-2," it becomes easier to differentiate between multiple types of consent on a single profile as events stream in and is subsequently mapped. This approach enables businesses to maintain a more granular and organized record of consent-related data.ConsentedA clear and concise confirmation, or lack thereof, reduces the possibility of accidentally mapping consent when consent has been denied or not yet collected.LocationAn optional parameter to build context around a user's location that may become important. Are they consenting to something location specific?DateAn optional parameter to build context around when consent was most recently given. Date may be important if consent is valid for a specified length of time and may help support efforts to gather consent in the event that the consent timeframe has lapsed.DocumentsThe "documents" array within the default schema represents additional context that can be used to specify the source of consent. For instance, this field can indicate whether the consent was given via a global site-wide agreement or a specific call to action during a purchase. While the data manager determines the values and format of this field, including this information helps ensure that critical context is not lost during execution.
+Examples
+📘We are here to help!Consent is not a one size fits all scenario. Each customers data and business goals are unique. Before deploying any of the following examples it is always recommended to consult with your Technical Account Manager or a Solutions Architect.
+Lytics deploys a flexible data model, and though the following is not representative of every method of collection, we've highlighted two working examples leveraging our available SDKs as a baseline:
+Collecting Consent via the Web: Lytics JavaScriptTag
+JavaScriptjstag.send({
+"event": "form-submit",
+"consent": {
+"purpose": "global",
+"location": "Portland, OR",
+"documents": ["generic-submit-form"],
+"consented": true
+}
+})
+Collecting Consent via Mobile: Lytics iOS SDK
+Lytics.shared.consent(
+name: "consent-1",
+identifiers: AnyCodable([
+"userid": "my-fake-userid-1234"
+]),
+attributes: AnyCodable([
+"firstName": "Kevin",
+"lastName": "McCalister"
+]),
+consent: AnyCodable([
+"documents": [
+"terms_jan_2023",
+"sharing_policy_jan_2023"
+],
+"location": "Chicago, IL",
+"consented": true
+])
+)
+📘When using Lytics SDKs, you do not have to include date within the data passed in the consent event. The timestamp of the consent event can be used to create the field and mapping for the date of consent.
+Profile Materialization
+Building from the collection strategy outlined in Collecting Consent Data, we must determine how to materialize the consent-related data we've just collected to user profiles for segmentation. This can be achieved in a variety of ways. Regardless of the approach, however, it is essential to consider the level of granularity of the consent.
+Granularity
+When collecting consent from users, obtaining granular consent for each specific use of a customer's personal data is an important consideration. Granular consent means that customers are provided with a clear understanding of the exact purposes for which their personal data will be used and can choose to consent or withhold consent for each specific use case.
+For example, a business may seek granular consent from a customer to collect their email address and use it to send them promotional emails but not to share the email address with third-party partners for advertising purposes. This approach allows customers to make more informed decisions about how their personal data is used and provides greater control over their privacy.
+Obtaining granular consent not only requires careful planning and clear communication with customers about the specific use cases for their personal data but also a rock-solid means for enforcing an individual's consent wishes across all future touchpoints.
+Schema
+Enforcement begins by ensuring consent wishes are accurately materialized on each user's profile. This is done by first defining consent-related attributes to be used in segmentation.
+Field Definition
+When defining profile fields, there are two primary considerations. What type of field should be used, such as a string or a map and how do you want to handle data merging when profiles are stitched?
+Field Type
+TypeBenefitsDrawbacksMap (Recommended)A map is the most straightforward approach, allowing you to add additional context with minimum overhead. You create one field and map multiple data points to that field.During segmentation, maps may be slightly more challenging to navigate. Because the keys that are nested under the map are not part of the top-level schema, you'll need to drill into the field to build segments vs. searching at the top level.StringWhen building segments, because all consent fields would be at the top level of the schema, it may be easier to find and select the contextual data.When using a string, you can only store a single value. This represents a heavier lift during the initial setup, as you'll need to create many fields to facilitate a single consent use case.
+Merge Operator
+Type String
+Because consent is something that may change for a consumer over time, the values must represent the most recent data. As such, the latest merge operator is always recommended. This means that as additional data is stitched to a user profile, the most recent events that are mapped to a field will win.
+Example String
+Type Map
+For a more complex or granular consent strategy, the map field type can be very helpful in accurately managing consent. As such, the merge merge operator is always recommended when trying to keep the key-value pairs up to date to the most recent consent state. This means that as additional data is stitched to a user profile, the most recent events that are mapped to a key-value pair will win.
+Example Map
+Mapping Definition
+Mappings are then leveraged to determine how data from any number of streams map to the defined field. In the example below, we take a simple approach to map the boolean value of true or false to the consent field if the consent is related to marketing-consent.
+Though this is one elementary example, the same practice can be replicated to ensure a consent attribute has the status, timestamp, and context of any important policies or sources for segmentation.
+Example
+Segmentation
+Businesses can better understand their customers and create more effective campaigns by breaking down audiences into smaller, more targeted segments. Here we will discuss best practices for constructing "building block" audiences related to consent that can then be leveraged in campaign audiences. This progressive approach ensures consent rules are enforced while minimizing ongoing maintenance overhead.
+Building Blocks
+Building Block Audiences provide the perfect means to maintain consent-related rules and extend the ruleset to all campaign audiences. The number and these audiences will depend on the granularity of your consent strategy. Still, as a basic example, we recommend creating both a "has consented" and "has not consented" counterpart for each level of consent.
+This can be done simply through the GUI for our powerful segmentation engine, as shown below:
+Campaign Segments
+Once you have the necessary building blocks constructed, you can quickly integrate that rule set into your campaign audiences again through the GUI for our segmentation engine. The example below outlines a use case where you want to target high-value users who have opted in.
+Global Job Segment Filter (Consent)
+Configure a segment to prevent profiles from being sent to downstream destinations based on consent status or another relevant filter. This ensures that individuals who should be excluded will not be activated downstream.
+API documentation can be found here.Updated 7 months ago Table of Contents
+Introduction
+Data Collection
+Data Structure
+Examples
+Profile Materialization
+Granularity
+Schema
+Segmentation
+Building Blocks
+Campaign Segments
+Global Job Segment Filter (Consent)

@@ -1,0 +1,84 @@
+MetaRouter and Zeotap Partner to Deliver an End-to-End, Europe-Centric Customer Data Solution That Puts Privacy and Security At the Forefront | Zeotap
+Solutions
+Zeotap CDP Solutions
+Acquisition & GrowthCustomer Experience and PersonalisationLoyalty & RetentionPredictive Insights and
+Customer AnalyticsData Collection and Privacy
+Industries
+RetailTelcoMediaRetail MediaFinancial ServicesSports & EntertainmentAutomotive
+Platform
+Zeotap CDP Modules
+OverviewIntegrateUnifySegmentOrchestrateAnalyseProtect
+Zeotap CDP Features
+OverviewCustomer 360 ViewPredictive AudiencesOmnichannel JourneyConsent OrchestrationPrivacy & GDPRIntegrations
+Get started
+Subscription PlansDeployment Options
+Partners
+Our PartnersGoogle Cloud PartnershipZeotap Partner Network
+Resources
+AllBlogCase studiesVideosWhitepapersCDP SupportDeveloper Documentation
+Company
+About UsPrivacy and SecurityWhy Zeotap CDPWhy Zeotap DataCareers at ZeotapNewsEventsContact us
+LoginGet A Demo
+close_03
+Hit enter to search or click X to close
+Login
+Get a Demo
+MetaRouter and Zeotap Partner to Deliver an End-to-End, Europe-Centric Customer Data Solution That Puts Privacy and Security At the Forefront
+[Denver CO, August 8, 2024] We are thrilled to announce a new partnership between MetaRouter, the trailblazers in server-side tag management and real-time event routing, and Zeotap CDP, the Customer Data Platform for EMEA’s most innovative brands. This collaboration brings together two industry innovators dedicated to enhancing and centralising customer data management and privacy specifically tailored for the European market. By combining MetaRouter’s robust data routing infrastructure with Zeotap’s advanced CDP capabilities, enterprises can now harness the full potential of their customer data securely and efficiently.Traditional customer data solutions require users to either set up and maintain their own private cloud infrastructure or present consumption-based licensing that is cost-prohibitive at scale. MetaRouter and Zeotap’s joint solution is privacy-centric by design, alleviating this challenge with a fully managed, private deployment option and event-based commercial agreements designed to align with customer demands. By collecting customer data in the first-party context and self-hosting it in a single-tenant, private environment, companies can completely control third-party access to sensitive user data. Users can even restrict MetaRouter and Zeotap from sensitive information. This is counter to other event capture solutions designed as multi-tenant SaaS operations whose single-tenant offerings are extensions or separate codebases that lack feature parity and aligned upgrade schedules.
+How It Works: Reducing Friction Between Data Collection and Activation
+MetaRouter’s data collection capabilities seamlessly integrate with Zeotap’s segmentation and activation features, creating a streamlined path from data collection to actionable insights and personalized customer experiences.Specifically, MetaRouter collects and translates identifiers and feeds enriched behavioral data into Zeotap. This information can then be stitched to other data points for a single customer view.This results in:30-40% more behavioral data collected60% audience increase with more addressable IDs for campaign activation Stronger historical user information with cookies that persist for up to 12 monthsAdditionally, built-in consent management and enforcement practices ensure that all user data is collected with explicit and implicit consent. MetaRouter’s advanced tools for consent enforcement complement Zeotap’s CDP capabilities, providing a robust solution that prioritizes user privacy and regulatory compliance, meaning no data is sent to Zeotap without being compliant.
+“Your customer data should live where your customers are. The combined strengths of MetaRouter and Zeotap CDP offer a resilient and future-proof customer data management solution that ensures your consumers’ data is protected,” said Greg Brunk, Head of Product at MetaRouter. “As a privacy-first company, we believe in integrating a layer of control and compliance that doesn’t stifle business performance, but rather instills confidence that customer data is being collected consistently and securely. By centralizing data onto a single platform and deploying it on your private cloud, we offer ownership and true data control back to your organization.”
+“This partnership marks a significant advancement in customer data management, offering businesses a powerful combination of advanced data collection, robust ID resolution and seamless activation capabilities,” said Projjol Banerjea, founder and Chief Product Officer of Zeotap. “Together, MetaRouter and Zeotap are committed to empowering businesses to thrive in a privacy-first/cookieless digital ecosystem.”
+The power of this partnership:Europe-Centric Data Storage and Compliance: By deploying data clusters within Europe, MetaRouter and Zeotap CDP ensure that customer data lives wherever organizations prefer, fully compliant with stringent European data privacy regulations like GDPR. Private deployments and load-balancing features enable organizations to maintain data sovereignty in transit.Enhanced Data Quality and Control: By consolidating customer data collection into a single, transparent event stream, companies can better understand and control vendor and third-party data usage, resolving inconsistencies and empowering confident marketing investment decisions.Seamless Data Integration: This partnership provides a unified and complete view of customer data, while also offering a comprehensive integrations library that is developed and maintained in-house for faster and better deployment.Better ID Resolution: The partnership facilitates seamless ID resolution and management, enabling businesses to maintain persistent identifiers across various touchpoints for 12+ months. This persistent ID capability enhances the ability to track and understand customer behavior accurately.Enterprise-Level Data Governance: Controlled role-based access to web event streams allows efficient data allocation to marketing campaigns, enhancing focus and effectiveness, avoiding information overload, and optimizing marketing strategies within compliance boundaries.In the face of evolving privacy regulations, current tracking methods may struggle to adapt, risking non-compliance and legal consequences. The lack of agility in addressing regulatory changes poses a significant threat to digital marketing strategies.  This partnership marks a significant step forward in customer data management, offering businesses a powerful and compliant solution that enhances data quality, privacy and control. Together, MetaRouter and Zeotap CDP are committed to empowering European brands to navigate the complexities of modern data management with confidence and ease.
+About MetaRouterMetaRouter is a next-generation server-side tag management solution tailored for enterprise organizations. By targeting the core challenges commonly associated with server-side tag management, such as implementation complexity, infrastructure maintenance and costs, adaptable payload control, operational governance, and data privacy enforcement, MetaRouter endeavors to set a new standard in the industry. This commitment to innovation and excellence aims to make MetaRouter the go-to choice for enterprises seeking to optimize their digital footprints and prepare for the privacy-centric, cookieless web domain of the future.
+Share this post
+Industry recognitions
+Trusted By
+What our customers say
+"Based on my experience, I can honestly say Zeotap’s platform is without equal. Brands can happily jettison a complex and
+inefficient patchwork of point solutions in favour of their unified stack for all data-related activities."
+Kay SchwabedalChief Digital Officer, Virgin Media O2
+"Zeotap has always set the bar when it comes to quality and security. It is part of their DNA."
+Steffen Roehnformer CIO, Deutsche Telekom
+"Being the data centre for the entire EMEA region, we have found Zeotap to be the right partner to improve our customer data intelligence and the service we provide to our clients."
+Jordi UrbeaChief Revenue Officer, Ogilvy
+"Zeotap is a strategic partner of Google Cloud in EMEA, driving
+additional value and improved experience for our customers with
+GCP. We realise that leveraging first-party data to drive digital
+transformation and omni-channel personalisation is top of mind for
+retailers - while also ensuring the best-possible privacy and
+security. We believe Zeotap - with its roots in Germany - is an
+expert and reliable partner to help navigate the first-party data
+opportunity."
+Adaire Martin-FoxPresident of Google Cloud International and Head of Google Ireland
+Get a demo
+Step into a new era of marketing possibilities, unleashing the full potential of your customer data. Experience the power of Zeotap CDP.
+GET A DEMO
+Follow us
+Facebook-f
+Twitter
+Linkedin-in
+Sign up for our newsletter
+Be the first to get access to our marketing resources and keep up to date with the latest CDP best practices, privacy standards, marketing, and customer data.
+Get a demo
+Step into a new era of marketing possibilities, unleashing the full potential of your customer data. Experience the power of Zeotap CDP.
+GET A DEMO
+Follow us
+Facebook-f
+Twitter
+Linkedin-in
+©2024 Zeotap All Rights Reserved
+Website Privacy Policy
+Product and Service Privacy Policy
+Vulnerability Disclosure Policy
+Information Security Policy Statement
+Legal Notice
+Legal Hub
+Zeotap Whistleblowing Channel
+Website Privacy Policy
+Product and Service Privacy Policy
+Vulnerability Disclosure Policy
+Information Security Policy Statement
+Legal Notice
+Legal Hub
+Zeotap Whistleblowing Channel

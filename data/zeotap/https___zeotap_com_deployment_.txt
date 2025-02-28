@@ -1,0 +1,87 @@
+Zeotap CDP Deployment Options
+Solutions
+Zeotap CDP Solutions
+Acquisition & GrowthCustomer Experience and PersonalisationLoyalty & RetentionPredictive Insights and
+Customer AnalyticsData Collection and Privacy
+Industries
+RetailTelcoMediaRetail MediaFinancial ServicesSports & EntertainmentAutomotive
+Platform
+Zeotap CDP Modules
+OverviewIntegrateUnifySegmentOrchestrateAnalyseProtect
+Zeotap CDP Features
+OverviewCustomer 360 ViewPredictive AudiencesOmnichannel JourneyConsent OrchestrationPrivacy & GDPRIntegrations
+Get started
+Subscription PlansDeployment Options
+Partners
+Our PartnersGoogle Cloud PartnershipZeotap Partner Network
+Resources
+AllBlogCase studiesVideosWhitepapersCDP SupportDeveloper Documentation
+Company
+About UsPrivacy and SecurityWhy Zeotap CDPWhy Zeotap DataCareers at ZeotapNewsEventsContact us
+LoginGet A Demo
+close_03
+Hit enter to search or click X to close
+Login
+Get a Demo
+Industries
+Zeotap Deployment Options
+Tailored solutions for every need
+Zeotap CDP offers flexible deployment options to meet your needs for maximum flexibility, security, and scalability of your data infrastructure. Whether you prefer a classic SaaS model with minimal overhead and efficient data processing, connection, and management, or require maximum data protection to meet stringent needs, we’ve got you covered.
+Managed SaaS OfferingAre you looking for a top-tier solution that delivers exceptional performance without the need for extensive customisation? Our Managed SaaS Offering is recommended for you.
+LEARN MORE
+Client-Hosted CDPAre you seeking the utmost in data protection alongside a best-in-class solution that's intuitive and user-friendly?
+Look no further than our Client-Hosted CDP.
+LEARN MORE
+Managed SaaS Offering
+Streamline Experience for Data Connection and Management
+The managed Software as a Service (SaaS) model minimises overhead while maximising efficiency in data processing, connection and management. Our user-friendly interface empowers you to effortlessly navigate and harness the power of Zeotap CDP’s out-of-the-box platform, with minimal technical support.
+Key features
+Exclusively Dedicated Instance on GCP: Ensures security by isolating your data from other customers’ environments, adding an extra layer of protection.Region Reach: All regions supported by the GCP cloud, including additional region control to comply with local regulations such as GDPR in the EU. Data Processing, Access and Storage: Zeotap hosted GCP takes care of the entire maintenance around data processing, access and storage of customer profiles and information.Resources Management: Entirely provisioned and managed by Zeotap.Recommended for: Organisations with strict compliance requirements seeking a reliable and efficient Customer Data Platform.
+3 ways our Managed SaaS Offering benefits you
+Rapid ResultsExperience swift and impactful outcomes with targeted use case deployments.
+User-Friendly InterfaceOur marketer-centric interface simplifies campaign management for efficient navigation.
+Seamless Ecosystem IntegrationCollaborate effortlessly within Google Marketing Platform (GMP) and the broader Adtech & Martech landscape for enhanced flexibility.
+Client-Hosted CDP
+Maximum Data Protection through User-Friendly Interface
+Zeotap CDP’s exclusive offering on Google Cloud Platform (GCP) serves as the ultimate solution for clients with stringent data protection needs, especially in highly regulated industries such as Fintech and Medical. This deployment option emphasises maximum data protection by minimising data duplication to almost zero, empowering clients with full control over their data. Deploying within the client’s private GCP tenant guarantees a secure environment with all Zeotap CDP features on a user-friendly platform, while offering seamless connectivity through connectors and comprehensive data control.
+Key features
+Private Instance for Customers on GCP: Assume control as your own data processor and controller, merging the advantages of cloud hosting to ensure complete data access control.Region Reach: All regions supported by the GCP cloud, including additional region control to comply with local regulations such as GDPR in the EU.  Data Processing, Access and Storage: Client hosted GCP takes care of the data processing, access and storage for customer profiles and information within an environment hosted on the customer’s GCP instance.Resources Management: Entirely provisioned and managed by the Client with support from Zeotap. We have automated the provisioning system, which can be deployed in one click.Recommended for: Highly regulated industries such as Medical, Fintech and DoD with stringent security and compliance requirements.
+3 ways our Client-Hosted CDP benefits you
+Maximum Data ProtectionNear zero data duplication ensures that stringent data protection needs are met.
+Secure DeploymentEnsures secure environment in client's private GCP with seamless connectivity and comprehensive data control.
+Customisation & FlexibilitySeamless integration with existing systems, optimising operational efficiency and enabling smoother transitions.
+Industry recognitions
+Trusted by
+Schedule a demo
+It is simple to deliver amazing customer experiences without compromising user privacy. Complete the short form, and we’ll be in touch to schedule your demo.
+Get a demo
+Step into a new era of marketing possibilities, unleashing the full potential of your customer data. Experience the power of Zeotap CDP.
+GET A DEMO
+Follow us
+Facebook-f
+Twitter
+Linkedin-in
+Sign up for our newsletter
+Be the first to get access to our marketing resources and keep up to date with the latest CDP best practices, privacy standards, marketing, and customer data.
+Get a demo
+Step into a new era of marketing possibilities, unleashing the full potential of your customer data. Experience the power of Zeotap CDP.
+GET A DEMO
+Follow us
+Facebook-f
+Twitter
+Linkedin-in
+©2024 Zeotap All Rights Reserved
+Website Privacy Policy
+Product and Service Privacy Policy
+Vulnerability Disclosure Policy
+Information Security Policy Statement
+Legal Notice
+Legal Hub
+Zeotap Whistleblowing Channel
+Website Privacy Policy
+Product and Service Privacy Policy
+Vulnerability Disclosure Policy
+Information Security Policy Statement
+Legal Notice
+Legal Hub
+Zeotap Whistleblowing Channel

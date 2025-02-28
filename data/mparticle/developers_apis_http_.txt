@@ -1,0 +1,198 @@
+DOCSDOCSHomeGuidesDevelopersIntegrationsChangelogSign UpDocumentationDevelopersAPI ReferencesPlatform APIPlatform API OverviewAccountsAppsAudiencesCalculated AttributesData PointsFeedsField TransformationsServicesUsersWorkspacesData Subject Request APIData Subject Request API Version 1 and 2Data Subject Request API Version 3Warehouse Sync APIWarehouse Sync API OverviewWarehouse Sync API TutorialWarehouse Sync API ReferenceData MappingWarehouse Sync SQL ReferenceWarehouse Sync Troubleshooting GuideComposeIDWarehouse Sync API v2 MigrationCalculated Attributes Seeding APIBulk Profile Deletion API ReferenceCustom Access Roles APIData Planning APIGroup Identity API ReferencePixel ServiceProfile APIEvents APImParticle JSON Schema ReferenceIDSyncClient SDKsAMPAMP SDKAndroidInitializationConfigurationNetwork Security ConfigurationEvent TrackingUser AttributesIDSyncScreen EventsCommerce EventsLocation TrackingMediaKitsApplication State and Session ManagementData Privacy ControlsError TrackingOpt OutPush NotificationsWebView IntegrationLoggerPreventing Blocked HTTP Traffic with CNAMELinting Data PlansTroubleshooting the Android SDKAPI ReferenceUpgrade to Version 5CordovaCordova PluginIdentityDirect Url RoutingDirect URL Routing FAQWebAndroidiOSFlutterGetting StartedUsageAPI ReferenceiOSInitializationConfigurationEvent TrackingUser AttributesIDSyncScreen TrackingCommerce EventsLocation TrackingMediaKitsApplication State and Session ManagementData Privacy ControlsError TrackingOpt OutPush NotificationsWebview IntegrationUpload FrequencyApp ExtensionsPreventing Blocked HTTP Traffic with CNAMELinting Data PlansTroubleshooting iOS SDKSocial NetworksiOS 14 GuideiOS 15 FAQiOS 16 FAQiOS 17 FAQiOS 18 FAQAPI ReferenceUpgrade to Version 7RokuGetting StartedIdentityMediaReact NativeGetting StartedIdentityUnityUpload FrequencyGetting StartedOpt OutInitialize the SDKEvent TrackingCommerce TrackingError TrackingScreen TrackingIdentityLocation TrackingSession ManagementXboxGetting StartedIdentityWebInitializationConfigurationContent Security PolicyEvent TrackingUser AttributesIDSyncPage View TrackingCommerce EventsLocation TrackingMediaKitsApplication State and Session ManagementData Privacy ControlsError TrackingOpt OutCustom LoggerPersistenceNative Web ViewsSelf-HostingMultiple InstancesWeb SDK via Google Tag ManagerPreventing Blocked HTTP Traffic with CNAMEFacebook Instant ArticlesTroubleshooting the Web SDKBrowser CompatibilityLinting Data PlansAPI ReferenceUpgrade to Version 2 of the SDKXamarinGetting StartedIdentityWebAlexaMedia SDKsAndroidiOSWebToolsmParticle Command Line InterfaceLinting ToolsSmartypeServer SDKsNode SDKGo SDKPython SDKRuby SDKJava SDKQuickstartAndroidOverviewStep 1. Create an inputStep 2. Verify your inputStep 3. Set up your outputStep 4. Create a connectionStep 5. Verify your connectionStep 6. Track eventsStep 7. Track user dataStep 8. Create a data planStep 9. Test your local appHTTP Quick StartStep 1. Create an inputStep 2. Create an outputStep 3. Verify outputiOS Quick StartOverviewStep 1. Create an inputStep 2. Verify your inputStep 3. Set up your outputStep 4. Create a connectionStep 5. Verify your connectionStep 6. Track eventsStep 7. Track user dataStep 8. Create a data planJava Quick StartStep 1. Create an inputStep 2. Create an outputStep 3. Verify outputNode Quick StartStep 1. Create an inputStep 2. Create an outputStep 3. Verify outputPython Quick StartStep 1. Create an inputStep 2. Create an outputStep 3. Verify outputWebOverviewStep 1. Create an inputStep 2. Verify your inputStep 3. Set up your outputStep 4. Create a connectionStep 5. Verify your connectionStep 6. Track eventsStep 7. Track user dataStep 8. Create a data planGuidesPartnersIntroductionOutbound IntegrationsOutbound IntegrationsFirehose Java SDKInbound IntegrationsKit IntegrationsOverviewAndroid Kit IntegrationJavaScript Kit IntegrationiOS Kit IntegrationCompose IDData Hosting LocationsGlossaryMigrate from Segment to mParticleMigrate from Segment to mParticleMigrate from Segment to Client-side mParticleMigrate from Segment to Server-side mParticleSegment-to-mParticle Migration ReferenceRules Developer GuideAPI Credential ManagementThe Developer's Guided Journey to mParticleGuidesGetting StartedCreate an InputStart capturing dataConnect an Event OutputCreate an AudienceConnect an Audience OutputTransform and Enhance Your DataPersonalizationIntroductionProfilesAudiencesAudiences OverviewCreate an AudienceConnect an AudienceManage AudiencesReal-time Audiences (Legacy)Standard Audiences (Legacy)Calculated AttributesCalculated Attributes OverviewUsing Calculated AttributesCreate with AI AssistanceCalculated Attributes ReferencePredictive AudiencesPredictive Audiences OverviewUsing Predictive AudiencesJourneysJourneys OverviewManage JourneysDownload an audience from a journeyAudience A/B testing from a journeyJourneys 2.0Predictive AttributesWhat are predictive attributes?Predict Future BehaviorCreate Future PredictionUse Future Predictions in CampaignsAssess and Troubleshoot PredictionsNext Best ActionNext Best Action OverviewCreate a Next Best Action (NBA)View and Manage NBAsActivate Next Best Actions in CampaignsPlatform GuideBillingUsage and Billing ReportThe New mParticle ExperienceThe new mParticle ExperienceThe Overview MapObservabilityObservability OverviewObservability User GuideObservability Troubleshooting ExamplesObservability Span GlossaryIntroductionData RetentionConnectionsActivityLive StreamData FilterRulesTiered EventsmParticle Users and RolesAnalytics Free TrialTroubleshooting mParticleUsage metering for value-based pricing (VBP)AnalyticsIntroductionSetupSync and Activate Analytics User Segments in mParticleUser Segment ActivationWelcome Page AnnouncementsSettingsProject SettingsRoles and TeammatesOrganization SettingsGlobal Project FiltersPortfolio AnalyticsAnalytics Data ManagerAnalytics Data Manager OverviewEventsEvent PropertiesUser PropertiesRevenue MappingExport DataUTM GuideQuery BuilderData DictionaryQuery Builder OverviewModify Filters With And/Or ClausesQuery-time SamplingQuery NotesFilter Where ClausesEvent vs. User PropertiesGroup By ClausesAnnotationsCross-tool CompatibilityApply All for Filter Where ClausesDate Range and Time Settings OverviewUser Attributes at Event TimeUnderstanding the Screen View EventAnalysesAnalyses IntroductionSegmentation: BasicsGetting StartedVisualization OptionsFor ClausesDate Range and Time SettingsCalculatorNumerical SettingsSegmentation: AdvancedAssisted AnalysisProperties ExplorerFrequency in SegmentationTrends in SegmentationDid [not] Perform ClausesCumulative vs. Non-Cumulative Analysis in SegmentationTotal Count of vs. Users Who PerformedSave Your Segmentation AnalysisExport Results in SegmentationExplore Users from SegmentationFunnels: BasicsGetting Started with FunnelsGroup By SettingsConversion WindowTracking PropertiesDate Range and Time SettingsVisualization OptionsInterpreting a Funnel AnalysisFunnels: AdvancedGroup ByFiltersConversion over TimeConversion OrderTrendsFunnel DirectionMulti-path FunnelsAnalyze as Cohort from FunnelSave a Funnel AnalysisExplore Users from a FunnelExport Results from a FunnelCohortsGetting Started with CohortsAnalysis ModesSave a Cohort AnalysisExport ResultsExplore UsersSaved AnalysesManage Analyses in DashboardsJourneysGetting StartedEvent MenuVisualizationEnding EventSave a Journey AnalysisUsersGetting StartedUser Activity TimelinesTime SettingsExport ResultsSave A User AnalysisDashboardsDashboards––Getting StartedManage DashboardsDashboard FiltersOrganize DashboardsScheduled ReportsFavoritesTime and Interval Settings in DashboardsQuery Notes in DashboardsUser AliasingAnalytics ResourcesThe Demo EnvironmentKeyboard ShortcutsTutorialsAnalytics for MarketersAnalytics for Product ManagersCompare Conversion Across Acquisition SourcesAnalyze Product Feature UsageIdentify Points of User FrictionTime-based Subscription AnalysisDashboard Tips and TricksUnderstand Product StickinessOptimize User Flow with A/B TestingUser SegmentsAPIsUser Segments Export APIDashboard Filter APIIDSyncIDSync OverviewUse Cases for IDSyncComponents of IDSyncStore and Organize User DataIdentify UsersDefault IDSync ConfigurationProfile Conversion StrategyProfile Link StrategyProfile Isolation StrategyBest Match StrategyAliasingData MasterGroup IdentityOverviewCreate and Manage Group DefinitionsIntroductionCatalogLive StreamData PlansData PlansBlocked Data Backfill GuideWarehouse SyncData Privacy ControlsData Subject RequestsDefault Service LimitsFeedsCross-Account Audience SharingApproved Sub-ProcessorsImport Data with CSV FilesImport Data with CSV FilesCSV File ReferenceGlossaryVideo IndexAnalytics (Deprecated)Identity ProvidersSingle Sign-On (SSO)Setup ExamplesSettingsDebug ConsoleData Warehouse Delay AlertingIntroductionDeveloper DocsIntroductionIntegrationsIntroductionRudderstackGoogle Tag ManagerSegmentData Warehouses and Data LakesAdvanced Data Warehouse SettingsAWS Kinesis (Snowplow)AWS Redshift (Define Your Own Schema)AWS S3 Integration (Define Your Own Schema)AWS S3 (Snowplow Schema)BigQuery (Snowplow Schema)BigQuery Firebase SchemaBigQuery (Define Your Own Schema)GCP BigQuery ExportSnowflake (Snowplow Schema)Snowplow Schema OverviewSnowflake (Define Your Own Schema)APIsREST APIDashboard Filter API (Deprecated)User Segments Export API (Deprecated)SDKsSDKs IntroductionReact NativeiOSAndroidJavaJavaScriptPythonObject APIDeveloper BasicsAliasingEvents APImParticle provides an HTTP-based Events API that can be used to collect data from your backend systems.
+If you are a partner looking to integrate with mParticle, please follow these instructions.
+Base URL
+The base URL for the Events API varies depending on the data localization region for your mParticle account:
+Region
+Pod
+URL
+United States
+US1
+https://s2s.mparticle.com/v2,
+https://s2s.us1.mparticle.com/v2
+United States
+US2
+https://s2s.us2.mparticle.com/v2
+Europe
+EU1
+https://s2s.eu1.mparticle.com/v2
+Australia
+AU1
+https://s2s.au1.mparticle.com/v2
+Authentication
+The mParticle Events API can be authenticated with basic authentication in either of two ways:
+If your HTTP client supports basic authentication, use your API key for “username” and your secret for “password”.
+You can manually set the Authorization header in calls to the Events API by including your key and secret encoded together:
+2.1 Concatenate your key and secret together using a colon (:) separating the two: example-api-key:example-api-secret
+2.2 Base64 with UTF-8 encode the result: ZXhhbXBsZS1hcGkta2V5OmV4YW1wbGUtYXBpLXNlY3JldA==
+2.3 Prefix the encoded string with the authorization method, including a space: Basic ZXhhbXBsZS1hcGkta2V5OmV4YW1wbGUtYXBpLXNlY3JldA==
+2.4 Set the resulting string as the authorization header in your HTTP requests: Authorization: Basic ZXhhbXBsZS1hcGkta2V5OmV4YW1wbGUtYXBpLXNlY3JldA==
+JSON format
+The following examples demonstrate how to execute a general request to the Events API, however, the size of an example request body exercising every available property and parameter is too large to include. For a complete reference of the Events API schema that lists each property and parameter, see the JSON reference.
+Open API spec
+Use the Open API (previously known as Swagger) specification or similar tools to generate helper SDKs (using Swagger Codegen or OpenAPI Generator) for the Events API:
+Events API Open API Spec
+Rate limits
+mParticle imposes default service limits on server-to-server data transfers using the Events API. For the specific limits, see Default Service Limits.
+Maximizing performance
+When sending large amounts of data to the Events API, use efficient batching strategies to prevent drops in performance.
+Remember that one event batch includes an array than can contain one or more events. If you are tracking a large number of events that are all triggered by a single user, combine as many events as possible in a single batch based on a predetermined rate, such as a set number of events per timespan or a set number of events per user. Sending one batch for each event incurs a noticeable drop in performance.
+You can further reduce your number of requests by grouping up to 100 event batches for multiple users and sending them to the /bulkevents endpoint.
+Event batches require the following:
+Each batch must contain data for only one user
+Each batch must not exceed 128kb
+A request to /bulkevents must contain no more than 100 batches
+Exceeding these limits results in throttling.
+Upload event data
+Upload an event batch
+POST https://s2s.{pod}.mparticle.com/v2/events
+Example cURL request
+curl --location --request POST 'https://s2s.{pod}.mparticle.com/v2/events' \
+--header 'Authorization: Basic {your-api-key}:{your-api-secret}' --data-raw '{ your-event-batch }'
+Example JSON request body
+{
+"events" : [
+{
+"data" : {},
+"event_type" : "custom_event"
+}
+],
+"device_info" : {},
+"user_attributes" : {},
+"deleted_user_attributes" : [],
+"user_identities" : {},
+"application_info" : {},
+"schema_version": 2,
+"environment": "production",
+"context" : {},
+"ip" : "172.217.12.142"
+}
+Response
+A successful request receives a 200 Accepted response.
+Upload multiple event batches
+POST https://s2s.{pod}.mparticle.com/v2/bulkevents
+This path accepts a JSON array of event batches.
+See our JSON documentation for additional information.
+You may not send more than 100 EVENT DATA items per request.
+If some event batches succeed and some event batches fail, you still receive a 202 Accepted response.
+Don’t use this URL to upload historical data older than 30 days, as this could impact downstream processes such as audience calculation. To upload historical data older than 30 days, use the historical endpoint.
+Example cURL request
+curl --location --request POST 'https://s2s.{pod}.mparticle.com/v2/bulkevents' \
+--header 'Authorization: Basic {your-api-key}:{your-api-secret}' --data-raw '{ array-of-event-batches }'
+Example JSON request body
+[
+{
+"events" : [
+{
+"data" : {},
+"event_type" : "custom_event"
+}
+],
+"device_info" : {},
+"user_attributes" : {},
+"deleted_user_attributes" : [],
+"user_identities" : {},
+"application_info" : {},
+"schema_version": 2,
+"environment" : "production",
+"context" : {},
+"ip" : "172.217.12.142"
+},
+{
+"events" : [
+{
+"data" : {},
+"event_type" : "custom_event"
+}
+],
+"device_info" : {},
+"user_attributes" : {},
+"deleted_user_attributes" : [],
+"user_identities" : {},
+"application_info" : {},
+"schema_version" : 2,
+"environment" : "production",
+"context" : {},
+"ip" : "172.217.12.142"
+}
+]
+Response
+A successful request receives a 202 Accepted response.
+Upload a historical event batch
+POST https://s2s.{pod}.mparticle.com/v2/bulkevents/historical
+This path accepts the same JSON payload as /v2/bulkevents and should be used to upload historical data more than 30 days old. Data forwarded to the historical endpoint is subject to special requirements and is processed differently.
+Historical data requirements
+A batch received by the historical data endpoint will not be processed if any of the following are true:
+The batch contains no events,
+Any event in the batch does not contain the timestamp_unixtime_ms property,
+The value of any timestamp_unixtime_ms is less than 72 hours old.
+Historical data processing
+The historical API endpoint behaves nearly identically to the events and bulkevents endpoints with one key difference: data is not forwarded to connected event and data warehouses.
+mParticle Feature
+Effect of historical data
+Event and Data Warehouse Outputs
+Not forwarded downstream.
+Audience
+No change to Real-time or Standard Audiences. Data is subject to existing date-range retention limits. Real-time audiences have a 30 day look-back for most customers.
+User Activity
+No change; Events visible in date order.
+Identity and Profiles
+No change
+Example cURL request
+curl --location --request POST 'https://s2s.{pod}.mparticle.com/v2/bulkevents/historical' \
+--header 'Authorization: Basic {your-api-key}:{your-api-secret}' --data-raw '{ historical-event-batch }'
+Example JSON request body
+{
+"events" : [
+{
+"data" : {},
+"event_type" : "custom_event"
+}
+],
+"device_info" : {},
+"user_attributes" : {},
+"deleted_user_attributes" : [],
+"user_identities" : {},
+"application_info" : {},
+"schema_version": 2,
+"environment": "production",
+"context" : {},
+"ip" : "172.217.12.142"
+}
+Response
+A successful request receives a 202 Accepted response.
+Error handling
+Status
+Code
+Notes
+202
+Accepted
+The POST was accepted.
+400
+Bad Request
+The request JSON was malformed JSON or had missing fields.
+401
+Unauthorized
+The authentication header is missing.
+403
+Forbidden
+The authentication header is present, but invalid.
+429
+Too Many Requests
+You have exceeded your provisioned limit. The v2/events and v2/bulkevents endpoints may return a Retry-After response header with a value containing a non-negative decimal integer indicating the number of seconds to delay. If the header is not present, we recommend retrying your request with exponential backoff and random jitter.. Learn more about API throttling in Default Service Limits.
+503
+Service Unavailable
+We recommend retrying your request in an exponential backoff pattern
+5xx
+Server Error
+A server-side error has occurred, please try your request again.
+In some cases, the server provides additional information in the response body. If no additional information is available, the response body will be omitted and you will only receive the status code and message.
+Example response body for an unsuccessful request
+{
+"errors" :
+[
+{
+"code" : "BAD_REQUEST",
+"message" : "Required event field \"event_type\" is missing or empty."
+}
+]
+}Was this page helpful?YesNoLast Updated: February 27, 2025© 2025 mParticle, Inc. All rights reserved.mParticle.comPrivacy PolicyCookie PolicyDo Not Sell or Share My Personal Data

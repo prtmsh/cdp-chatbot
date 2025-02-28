@@ -1,0 +1,98 @@
+Zeotap CDP Solutions for Acquisition and Growth Strategies
+Solutions
+Zeotap CDP Solutions
+Acquisition & GrowthCustomer Experience and PersonalisationLoyalty & RetentionPredictive Insights and
+Customer AnalyticsData Collection and Privacy
+Industries
+RetailTelcoMediaRetail MediaFinancial ServicesSports & EntertainmentAutomotive
+Platform
+Zeotap CDP Modules
+OverviewIntegrateUnifySegmentOrchestrateAnalyseProtect
+Zeotap CDP Features
+OverviewCustomer 360 ViewPredictive AudiencesOmnichannel JourneyConsent OrchestrationPrivacy & GDPRIntegrations
+Get started
+Subscription PlansDeployment Options
+Partners
+Our PartnersGoogle Cloud PartnershipZeotap Partner Network
+Resources
+AllBlogCase studiesVideosWhitepapersCDP SupportDeveloper Documentation
+Company
+About UsPrivacy and SecurityWhy Zeotap CDPWhy Zeotap DataCareers at ZeotapNewsEventsContact us
+LoginGet A Demo
+close_03
+Hit enter to search or click X to close
+Login
+Get a Demo
+ZEOTAP CDP SOLUTIONS
+CDP for Customer Acquisition and Growth
+Suppress audiences, cross-sell & upsell, and use abandoned cart campaigns to increase conversions and lower customer acquisition costs.
+International brands using Zeotap CDP to create GDPR-compliant campaigns
+How Zeotap CDP will lower your customer acquisition cost
+Reduce Customer Acquisition CostExclude existing customers from marketing campaigns based on purchases made across all channels.
+Improve Conversion RateSelect the next best product or action for existing customers based on their previous behaviour.
+Lower Cost of UpsellingSend promotions to customers who abandon shopping carts and stop when it is no longer relevant.
+How customer acquisition and growth impact business growth
+It typically costs 5 to 25 times more to acquire a new customer than to retain an existing one. For marketers, a strategic acquisition and growth strategy allows their business to:Attract customers for lifeNew customer acquisitions provide opportunities for repeat business and upselling, maximising long-term revenue growth. Build trust for increased engagementCustomers who trust your brand make additional purchases and interact more frequently, driving sustained growth. Convert existing customers into brand advocatesHappy customers are more likely to promote your brand, saving you time and money on new customer acquisition.
+USE CASE 1
+Audience suppression
+A unified customer database like Zeotap CDP lets marketers exclude customers from campaigns based on past purchases across all channels. This strategy increases conversion rates, boosts return on ad spend (ROAS), and prevents customers from receiving irrelevant or duplicate messages. Together with 360-degree customer views and automated audience segmentation, marketers can ensure customers receive only the most relevant messages. One Zeotap client saw a 38% higher click-through rate (CTR) and a 20% lower cost per order (CPO) across channels after suppressing audience segments.
+Popular features
+Unify Onsite and Offsite Data Customer 360° ViewAudience Segmentation
+USE CASE 2
+Cross-sell and upsell campaigns
+Marketers can track visitor behaviour and IDs in real-time from downstream activation platforms. They can apply rules to touch points across the customer journey to select the best product based on profile data, which is then sent to the advertising or marketing platform. By monitoring customer behaviour, marketers can adjust selections as needed. Meanwhile, predictive audiences provide even deeper customer insights. With cross-sell and upsell campaigns, marketers can now provide their customers with a more personalised experience to increase customer lifetime value and sales.
+Popular features
+Omnichannel Journey Orchestration Predictive AudiencesCustomer Journey Orchestration
+USE CASE 3
+Abandoned cart campaigns
+Marketers can leverage abandoned cart lists from advertising platforms to boost sales. By analysing profile data, they can determine the best approach for each customer, retargeting them with offers through email, mobile, social, web, and onsite channels. Customers are removed from the abandoned cart segment once they purchase, ensuring they no longer receive irrelevant offers and ads. This targeted strategy increases the chances of making a sale. One Zeotap client saw a 15% increase in conversion rates with personalised email reminders, and 42% of inactive users returned after receiving personalised offers.
+Popular features
+Predictive AudiencesCustomer Journey Orchestration
+How Virgin Media O2 accelerated acquisition and growth with Zeotap CDP
+Virgin Media O2 aimed to reduce cost per order (CPO) and increase conversion rates in its digital advertising campaigns by refining its paid acquisition strategy. To achieve this, they used Zeotap CDP to exclude irrelevant audiences (such as existing customers and those who cannot purchase), acquire new customers more effectively to drive growth, and upsell or cross-sell additional products to existing customers.
+Positive business outcomes
+£1 million saved on paid acquisition campaigns+43% more conversions and 37% lower cost per order+38% higher click rate
+“Based on my experience, I can honestly say Zeotap’s platform is without equal. Brands can happily jettison a complex and inefficient patchwork of point solutions in favour of their unified stack for all data-related activities.”
+Kay SchwabedalChief Digital Officer, Virgin Media
+Why Zeotap is the perfect partner for you
+IMMEDIATE VALUE We are specialised in prioritising simple use cases that drive commercial outcomes in just 8 weeks.
+EASY DEPLOYMENT Thanks to one-click deployment and simple configuration, Zeotap CDP has a lower latency and a faster time to value.
+Ease of UseZeotap CDP offers an intuitive interface designed for practical marketers that can be used without technical skills.
+Data Extension & Cookieless IDZeotap uses patented identity stitching strategies and ID extensions for a higher match rate in digital marketing.
+Top-tier privacyEngineered in Germany, our product complies with strict EU regulations to guarantee the highest privacy standards.
+Trusted PartnerWe are your trusted partner, not just a software vendor. Our comprehensive customer support package ensures your success.
+Industry recognitions
+Trusted by
+Schedule a demo
+It is simple to deliver amazing customer experiences without compromising user privacy. Complete the short form, and we’ll be in touch to schedule your demo.
+Get a demo
+Step into a new era of marketing possibilities, unleashing the full potential of your customer data. Experience the power of Zeotap CDP.
+GET A DEMO
+Follow us
+Facebook-f
+Twitter
+Linkedin-in
+Sign up for our newsletter
+Be the first to get access to our marketing resources and keep up to date with the latest CDP best practices, privacy standards, marketing, and customer data.
+Get a demo
+Step into a new era of marketing possibilities, unleashing the full potential of your customer data. Experience the power of Zeotap CDP.
+GET A DEMO
+Follow us
+Facebook-f
+Twitter
+Linkedin-in
+©2024 Zeotap All Rights Reserved
+Website Privacy Policy
+Product and Service Privacy Policy
+Vulnerability Disclosure Policy
+Information Security Policy Statement
+Legal Notice
+Legal Hub
+Zeotap Whistleblowing Channel
+Website Privacy Policy
+Product and Service Privacy Policy
+Vulnerability Disclosure Policy
+Information Security Policy Statement
+Legal Notice
+Legal Hub
+Zeotap Whistleblowing Channel

@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>CDP Support Agent</title>
+        <link
+            href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css"
+            rel="stylesheet"
+        />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+        />
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/4.0.2/marked.min.js"></script>
+        <style>
+            /* Custom styles */
+            .chat-container {
+                height: calc(100vh - 200px);
+                overflow-y: auto;
+            }
+
+            .loading-dots:after {
+                content: ".";
+                animation: dots 1.5s steps(5, end) infinite;
+            }
+
+            @keyframes dots {
+                0%,
+                20% {
+                    content: ".";
+                }
+                40% {
+                    content: "..";
+                }
+                60% {
+                    content: "...";
+                }
+                80%,
+                100% {
+                    content: "";
+                }
+            }
+
+            .message-content {
+                white-space: pre-wrap;
+            }
+
+            /* Markdown styling */
+            .markdown h1 {
+                font-size: 1.5rem;
+                font-weight: bold;
+                margin-top: 1rem;
+                margin-bottom: 0.5rem;
+            }
+            .markdown h2 {
+                font-size: 1.25rem;
+                font-weight: bold;
+                margin-top: 1rem;
+                margin-bottom: 0.5rem;
+            }
+            .markdown h3 {
+                font-size: 1.1rem;
+                font-weight: bold;
+                margin-top: 1rem;
+                margin-bottom: 0.5rem;
+            }
+            .markdown p {
+                margin-bottom: 0.75rem;
+            }
+            .markdown ul {
+                list-style-type: disc;
+                margin-left: 1.5rem;
+                margin-bottom: 0.75rem;
+            }
+            .markdown ol {
+                list-style-type: decimal;
+                margin-left: 1.5rem;
+                margin-bottom: 0.75rem;
+            }
+            .markdown code {
+                background-color: #f0f0f0;
+                padding: 0.1rem 0.2rem;
+                border-radius: 0.2rem;
+            }
+            .markdown pre {
+                background-color: #f0f0f0;
+                padding: 0.5rem;
+                border-radius: 0.3rem;
+                overflow-x: auto;
+                margin-bottom: 0.75rem;
+            }
+            .markdown a {
+                color: #3182ce;
+                text-decoration: underline;
+            }
+        </style>
+    </head>
+    <body class="bg-gray-100 font-sans">
+        <!-- Header -->
+        <header class="bg-blue-600 text-white py-4">
+            <div class="container mx-auto px-4">
+                <div class="flex items-center justify-between">
+                    <h1 class="text-2xl font-bold">CDP Support Agent</h1>
+                    <div class="flex items-center space-x-2">
+                        <span
+                            id="status-indicator"
+                            class="inline-block h-3 w-3 rounded-full bg-gray-400"
+                        ></span>
+                        <span id="status-text" class="text-sm"
+                            >Initializing...</span
+                        >
+                    </div>
+                </div>
+                <p class="mt-1 text-sm">
+                    Ask questions about Segment, mParticle, Lytics, and Zeotap
+                </p>
+            </div>
+        </header>
+
+        <!-- Main Content -->
+        <main class="container mx-auto px-4 py-8">
+            <div class="bg-white rounded-lg shadow overflow-hidden">
+                <!-- Chat messages will appear here -->
+                <div id="chat-container" class="chat-container p-4 bg-gray-50">
+                    <div class="chat-message mb-4">
+                        <div class="flex items-start">
+                            <div
+                                class="bg-blue-500 text-white rounded-full w-8 h-8 flex items-center justify-center mr-3 flex-shrink-0"
+                            >
+                                <i class="fas fa-robot"></i>
+                            </div>
+                            <div
+                                class="message-bubble bg-blue-100 p-3 rounded-lg shadow-sm max-w-3xl"
+                            >
+                                <div class="markdown">
+                                    <h2>Welcome to the CDP Support Agent!</h2>
+                                    <p>
+                                        I can help you with "how-to" questions
+                                        related to the following Customer Data
+                                        Platforms:
+                                    </p>
+                                    <ul>
+                                        <li>
+                                            <strong>Segment</strong>: Setting up
+                                            sources, destinations, and tracking
+                                            events
+                                        </li>
+                                        <li>
+                                            <strong>mParticle</strong>: Creating
+                                            user profiles, managing data, and
+                                            integrations
+                                        </li>
+                                        <li>
+                                            <strong>Lytics</strong>: Building
+                                            audience segments, data collection,
+                                            and analytics
+                                        </li>
+                                        <li>
+                                            <strong>Zeotap</strong>: Data
+                                            integration, unifying customer data,
+                                            and activation
+                                        </li>
+                                    </ul>
+                                    <p>
+                                        You can also ask comparison questions
+                                        between platforms, such as "How does
+                                        Segment's audience creation process
+                                        compare to Lytics?"
+                                    </p>
+                                    <p>
+                                        Try asking a question like "How do I set
+                                        up a new source in Segment?" to get
+                                        started.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Input area -->
+                <div class="bg-white border-t border-gray-200 p-4">
+                    <form id="question-form" class="flex items-center">
+                        <input
+                            type="text"
+                            id="question-input"
+                            placeholder="Ask a CDP question..."
+                            class="flex-grow px-4 py-2 border rounded-l-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
+                        />
+                        <button
+                            type="submit"
+                            id="send-button"
+                            class="bg-blue-600 text-white px-4 py-2 rounded-r-lg hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 flex items-center"
+                        >
+                            <span>Send</span>
+                            <i class="fas fa-paper-plane ml-2"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+
+            <!-- Example questions -->
+            <div class="mt-6">
+                <h3 class="text-lg font-semibold mb-2">Example questions:</h3>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-2">
+                    <button
+                        class="example-question bg-white p-2 rounded border hover:bg-gray-50 text-left"
+                    >
+                        How do I set up a new source in Segment?
+                    </button>
+                    <button
+                        class="example-question bg-white p-2 rounded border hover:bg-gray-50 text-left"
+                    >
+                        How can I create a user profile in mParticle?
+                    </button>
+                    <button
+                        class="example-question bg-white p-2 rounded border hover:bg-gray-50 text-left"
+                    >
+                        How do I build an audience segment in Lytics?
+                    </button>
+                    <button
+                        class="example-question bg-white p-2 rounded border hover:bg-gray-50 text-left"
+                    >
+                        How does Segment's audience creation process compare to
+                        Lytics?
+                    </button>
+                </div>
+            </div>
+        </main>
+
+        <!-- Footer -->
+        <footer class="bg-gray-200 py-4 mt-8">
+            <div
+                class="container mx-auto px-4 text-center text-gray-600 text-sm"
+            >
+                <p>
+                    CDP Support Agent - A chatbot for answering CDP
+                    documentation questions
+                </p>
+            </div>
+        </footer>
+
+        <script>
+            document.addEventListener("DOMContentLoaded", function () {
+                const chatContainer = document.getElementById("chat-container");
+                const questionForm = document.getElementById("question-form");
+                const questionInput = document.getElementById("question-input");
+                const sendButton = document.getElementById("send-button");
+                const statusIndicator =
+                    document.getElementById("status-indicator");
+                const statusText = document.getElementById("status-text");
+
+                // Example question buttons
+                const exampleQuestions =
+                    document.querySelectorAll(".example-question");
+
+                // Check system status
+                function checkStatus() {
+                    fetch("/api/status")
+                        .then((response) => response.json())
+                        .then((data) => {
+                            if (data.status === "ready") {
+                                statusIndicator.classList.remove("bg-gray-400");
+                                statusIndicator.classList.add("bg-green-500");
+                                statusText.textContent = "Ready";
+                                questionInput.disabled = false;
+                                sendButton.disabled = false;
+                            } else {
+                                statusIndicator.classList.remove(
+                                    "bg-green-500"
+                                );
+                                statusIndicator.classList.add("bg-gray-400");
+                                statusText.textContent = "Initializing...";
+                                questionInput.disabled = true;
+                                sendButton.disabled = true;
+                                // Check again in 5 seconds
+                                setTimeout(checkStatus, 5000);
+                            }
+                        })
+                        .catch((error) => {
+                            console.error("Error checking status:", error);
+                            statusIndicator.classList.remove("bg-green-500");
+                            statusIndicator.classList.add("bg-red-500");
+                            statusText.textContent = "Error";
+                            // Try again in 10 seconds
+                            setTimeout(checkStatus, 10000);
+                        });
+                }
+
+                // Initial status check
+                checkStatus();
+
+                // Add a user message to the chat
+                function addUserMessage(message) {
+                    const messageElement = document.createElement("div");
+                    messageElement.className = "chat-message mb-4";
+                    messageElement.innerHTML = `
+                    <div class="flex items-start justify-end">
+                        <div class="message-bubble bg-blue-500 text-white p-3 rounded-lg shadow-sm max-w-3xl">
+                            <div class="message-content">${message}</div>
+                        </div>
+                        <div class="bg-gray-700 text-white rounded-full w-8 h-8 flex items-center justify-center ml-3 flex-shrink-0">
+                            <i class="fas fa-user"></i>
+                        </div>
+                    </div>
+                `;
+                    chatContainer.appendChild(messageElement);
+                    chatContainer.scrollTop = chatContainer.scrollHeight;
+                }
+
+                // Add a bot message to the chat
+                function addBotMessage(message, isLoading = false) {
+                    const messageElement = document.createElement("div");
+                    messageElement.className = "chat-message mb-4";
+
+                    if (isLoading) {
+                        messageElement.innerHTML = `
+                        <div class="flex items-start">
+                            <div class="bg-blue-500 text-white rounded-full w-8 h-8 flex items-center justify-center mr-3 flex-shrink-0">
+                                <i class="fas fa-robot"></i>
+                            </div>
+                            <div class="message-bubble bg-blue-100 p-3 rounded-lg shadow-sm">
+                                <div class="loading-dots">Thinking</div>
+                            </div>
+                        </div>
+                    `;
+                    } else {
+                        messageElement.innerHTML = `
+                        <div class="flex items-start">
+                            <div class="bg-blue-500 text-white rounded-full w-8 h-8 flex items-center justify-center mr-3 flex-shrink-0">
+                                <i class="fas fa-robot"></i>
+                            </div>
+                            <div class="message-bubble bg-blue-100 p-3 rounded-lg shadow-sm max-w-3xl">
+                                <div class="markdown">${marked.parse(
+                                    message
+                                )}</div>
+                            </div>
+                        </div>
+                    `;
+                    }
+
+                    chatContainer.appendChild(messageElement);
+                    chatContainer.scrollTop = chatContainer.scrollHeight;
+                    return messageElement;
+                }
+
+                // Send a question to the API
+                async function askQuestion(question) {
+                    // Disable the input and button
+                    questionInput.disabled = true;
+                    sendButton.disabled = true;
+
+                    // Add the user's question to the chat
+                    addUserMessage(question);
+
+                    // Add a loading message
+                    const loadingMessage = addBotMessage("", true);
+
+                    try {
+                        const response = await fetch("/api/ask", {
+                            method: "POST",
+                            headers: {
+                                "Content-Type": "application/json",
+                            },
+                            body: JSON.stringify({ question }),
+                        });
+
+                        const data = await response.json();
+
+                        // Remove the loading message
+                        loadingMessage.remove();
+
+                        // Add the bot's response
+                        addBotMessage(data.answer);
+                    } catch (error) {
+                        console.error("Error asking question:", error);
+
+                        // Remove the loading message
+                        loadingMessage.remove();
+
+                        // Add an error message
+                        addBotMessage(
+                            "Sorry, an error occurred while processing your question. Please try again."
+                        );
+                    } finally {
+                        // Re-enable the input and button
+                        questionInput.disabled = false;
+                        sendButton.disabled = false;
+                        questionInput.focus();
+                    }
+                }
+
+                // Handle form submission
+                questionForm.addEventListener("submit", function (event) {
+                    event.preventDefault();
+
+                    const question = questionInput.value.trim();
+                    if (question) {
+                        askQuestion(question);
+                        questionInput.value = "";
+                    }
+                });
+
+                // Handle example question clicks
+                exampleQuestions.forEach((button) => {
+                    button.addEventListener("click", function () {
+                        const question = this.textContent.trim();
+                        questionInput.value = question;
+                        askQuestion(question);
+                    });
+                });
+            });
+        </script>
+    </body>
+</html>

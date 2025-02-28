@@ -1,0 +1,2 @@
+huggingface-hub==0.26.2
+frozenlist==1.4.0
